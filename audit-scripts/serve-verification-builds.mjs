@@ -1,0 +1,4 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+for(const [port,root] of [[5180,'/tmp/shomoukh-ui-fixes-build'],[5181,'/tmp/shomoukh-ui-fixes-mock-build']]){
+ http.createServer((req,res)=>{const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);const file=path.resolve(root,'.'+(pathname==='/'?'/index.html':pathname));if(!file.startsWith(root+'/')){res.writeHead(403).end();return;}fs.readFile(file,(error,body)=>{if(error){res.writeHead(404).end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.png':'image/png','.jpg':'image/jpeg','.mp4':'video/mp4','.ico':'image/x-icon'})[path.extname(file)]||'application/octet-stream');res.end(body);});}).listen(port,'127.0.0.1',()=>console.log('Serving verification build on '+port));
+}
