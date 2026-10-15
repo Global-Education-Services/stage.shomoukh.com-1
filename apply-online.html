@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Apply Online | Shomoukh Early Childhood Education</title>
-  <meta name="description" content="Complete the online enrollment form for Shomoukh Nursery School. Ongoing admissions for ages 6 months to 6 years in Muscat, Oman." />
+  <meta name="description" content="Complete the online enrollment form for Shomoukh Nursery School. Contact admissions for program availability and placement in Muscat, Oman." />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +13,10 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/design.css">
 </head>
-<body>
+<body class="design-subpage">
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -28,6 +28,8 @@
       <a href="/" class="brand-logo" aria-label="Shomoukh Nursery School Homepage">
         <img src="/shomoukh-logo.png" alt="Shomoukh Nursery School" class="brand-logo-img">
       </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/about.html">Our school</a><a href="/programs.html">Learning</a><a href="/spaces.html">Our spaces</a><a href="/book-a-visit.html" class="nav-visit">Book a visit <span aria-hidden="true">↗</span></a></nav>
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
@@ -238,12 +240,6 @@
             <a href="/parents.html">Parents Portal</a>
             <a href="/contact.html">Contact Us</a>
           </div>
-          <div class="drawer-social-row">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
         </div>
 
       </div>
@@ -265,7 +261,7 @@
       </div>
       <h1 class="subpage-hero-title">Online Enrollment Application</h1>
       <p class="subpage-hero-subtitle">
-        Complete the online enrollment form to apply for the academic year. Admissions are processed on an ongoing basis for ages 6 months to 6 years across both our Al Mouj and Al Qurm campuses.
+        Complete the online enrollment form to apply for the academic year. Contact your preferred Al Mouj or Al Qurm campus to confirm eligibility and placement before completing your application.
       </p>
     </div>
   </section>
@@ -287,7 +283,7 @@
       </div>
 
       <div class="application-card-wrapper">
-        <form id="online-enrollment-form" novalidate>
+        <form id="online-enrollment-form">
           
           <!-- Fieldset 1: Academic Year & Campus Selection -->
           <fieldset class="form-fieldset-block">
@@ -297,7 +293,6 @@
                 <label for="app-academic-year" class="form-label">Academic Year Selection <span class="required">*</span></label>
                 <select id="app-academic-year" name="academic_year" class="form-select" required>
                   <option value="2026–2027 Academic Year" selected>2026–2027 Academic Year</option>
-                  <option value="Summer Camp 2026">Summer Camp 2026</option>
                   <option value="Immediate Enrollment">Immediate Term Enrollment (Ongoing)</option>
                 </select>
               </div>
@@ -313,7 +308,8 @@
 
               <div class="form-group full-width">
                 <label for="app-attendance-schedule" class="form-label">Attendance Schedule Selection <span class="required">*</span></label>
-                <select id="app-attendance-schedule" name="schedule" class="form-select" required>
+                <p id="schedule-help" class="form-help">Published age bands are shown with each program. Admissions will confirm eligibility and placement for your intended start date.</p>
+                <select aria-describedby="schedule-help" id="app-attendance-schedule" name="schedule" class="form-select" required>
                   <option value="" disabled selected>Select child age group / program schedule</option>
                   <option value="Infants (3–11 months) | 8:30 AM – 1:30 PM">Infants (3–11 months) | 8:30 AM – 1:30 PM</option>
                   <option value="Toddlers (12–35 months) | 8:30 AM – 1:30 PM">Toddlers (12–35 months) | 8:30 AM – 1:30 PM</option>
@@ -428,23 +424,23 @@
           <fieldset class="form-fieldset-block">
             <legend class="fieldset-legend"><i class="fa-solid fa-list-check"></i> 5. Required Documents Checklist</legend>
             <p style="font-size: 0.92rem; color: var(--shomoukh-text-muted); margin-bottom: 12px;">
-              Please check the documents you are prepared to submit to complete your child's registration:
+              Mark the documents you have ready. These boxes do not upload documents. Contact your selected campus to arrange document delivery; do not send passports or health records through the general inquiry form.
             </p>
             <div class="checklist-grid">
               <label class="checkbox-label">
-                <input type="checkbox" name="doc_birth_cert" checked>
+                <input type="checkbox" name="doc_birth_cert">
                 <span>Child's Birth Certificate Copy</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="doc_immunization" checked>
+                <input type="checkbox" name="doc_immunization">
                 <span>Child's Immunization / Health Card</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="doc_passport" checked>
+                <input type="checkbox" name="doc_passport">
                 <span>Child &amp; Parents Passport Copies</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="doc_photos" checked>
+                <input type="checkbox" name="doc_photos">
                 <span>4 Recent Passport-size Photographs</span>
               </label>
             </div>
@@ -467,7 +463,7 @@
     <div class="content-wrapper">
       <div style="background: var(--shomoukh-white); border-radius: 20px; padding: 36px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px; box-shadow: var(--shadow-sm); border: 1px solid var(--shomoukh-border-light);">
         <div>
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 6px;">Need Help With Your Application?</h3>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 6px;">Need Help With Your Application?</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-body); margin: 0;">Our admissions officers are available Sunday to Thursday, 7:00 AM – 4:00 PM to assist you.</p>
         </div>
         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
@@ -529,12 +525,6 @@
             <img src="/shomoukh-logo.png" alt="Shomoukh Early Childhood Education" class="footer-logo-img">
           </a>
         </div>
-        <div class="footer-social-links">
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
       </div>
 
       <div class="footer-grid">
@@ -592,9 +582,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20privacy%20policy.#contact-inquiry-form">Request Privacy Policy</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20terms%20of%20service.#contact-inquiry-form">Request Terms of Service</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -614,10 +604,11 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search site pages" aria-controls="search-results" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
+      <div id="search-results" class="search-results" role="status" aria-live="polite" aria-atomic="true"></div>
       <div class="search-quick-tags">
         <span>Quick searches:</span>
         <a href="/about.html" class="quick-tag">About</a>
@@ -631,7 +622,7 @@
   <!-- Floating Toast Notification for Form Submissions -->
   <div id="toast-feedback" class="toast-feedback" role="alert" aria-live="assertive">
     <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
-    <div class="toast-message" id="toast-message">Thank you! Your submission has been received.</div>
+    <div class="toast-message" id="toast-message"></div>
   </div>
 
   <!-- Scroll to top button -->

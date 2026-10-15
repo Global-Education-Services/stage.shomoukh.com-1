@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Enrichments & Ateliers | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Discover Reggio Emilia ateliers, clay studio, digital light lab, and sensory play enrichments at Shomoukh Nursery School, Muscat." />
 
@@ -13,11 +13,10 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-BeSDKxuP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-DDX1gDGU.css">
 </head>
-<body>
+<body class="design-subpage ui-compact-page">
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -29,6 +28,8 @@
       <a href="/" class="brand-logo" aria-label="Shomoukh Nursery School Homepage">
         <img src="/shomoukh-logo.png" alt="Shomoukh Nursery School" class="brand-logo-img">
       </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/about.html">Our school</a><a href="/programs.html">Learning</a><a href="/spaces.html">Our spaces</a><a href="/book-a-visit.html" class="nav-visit">Book a visit <span aria-hidden="true">↗</span></a></nav>
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
@@ -231,12 +232,6 @@
             <a href="/parents.html">Parents Portal</a>
             <a href="/contact.html">Contact Us</a>
           </div>
-          <div class="drawer-social-row">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
         </div>
 
       </div>
@@ -396,7 +391,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-winterim" tabindex="0" role="button" aria-label="Open Tiny Town details">
+        <div class="pursue-item-card" id="tiny-town" data-modal-target="modal-winterim" tabindex="0" role="button" aria-label="Open Tiny Town details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-tinytown.jpg" alt="Tiny Town">
             <div class="pursue-overlay">
@@ -408,7 +403,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-clubs" tabindex="0" role="button" aria-label="Open Sensory Play details">
+        <div class="pursue-item-card" id="sensory-play" data-modal-target="modal-clubs" tabindex="0" role="button" aria-label="Open Sensory Play details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-sensory.jpg" alt="Sensory Play">
             <div class="pursue-overlay">
@@ -420,7 +415,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-laureate" tabindex="0" role="button" aria-label="Open Music & Movement details">
+        <div class="pursue-item-card" id="music-drama" data-modal-target="modal-laureate" tabindex="0" role="button" aria-label="Open Music & Movement details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-music.jpg" alt="Music & Movement">
             <div class="pursue-overlay">
@@ -460,7 +455,7 @@
       </button>
       <div class="detail-modal-body">
         <div class="detail-modal-image-col">
-          <img id="detail-modal-img" src="" alt="Atelier detail preview">
+          <img id="detail-modal-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Atelier detail preview">
         </div>
         <div class="detail-modal-text-col">
           <span id="detail-modal-category" class="detail-modal-badge">CATEGORY</span>
@@ -530,12 +525,6 @@
           <a href="/" aria-label="Shomoukh Homepage">
             <img src="/shomoukh-logo.png" alt="Shomoukh Early Childhood Education" class="footer-logo-img">
           </a>
-        </div>
-        <div class="footer-social-links">
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
       </div>
       <div class="footer-divider-line"></div>
@@ -614,10 +603,11 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search site pages" aria-controls="search-results" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
+      <div id="search-results" class="search-results" role="status" aria-live="polite" aria-atomic="true"></div>
       <div class="search-quick-tags">
         <span>Quick searches:</span>
         <a href="/admissions.html" class="quick-tag">Admissions</a>

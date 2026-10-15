@@ -1,5 +1,8 @@
+import { createDialogController } from './ui-dialogs.js';
+
 // Shomoukh Nursery School Interactivity & Modal Handlers
 document.addEventListener('DOMContentLoaded', () => {
+  const dialogs = createDialogController();
 
   /* ============================================================
      1. STICKY HEADER TRANSITION ON SCROLL
@@ -40,33 +43,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openOffcanvas() {
     if (!offcanvasDrawer) return;
-    offcanvasDrawer.classList.add('open');
-    offcanvasDrawer.setAttribute('aria-hidden', 'false');
+    dialogs.open(offcanvasDrawer, menuCloseBtn);
     if (menuToggleBtn) menuToggleBtn.setAttribute('aria-expanded', 'true');
-    document.body.style.overflow = 'hidden';
   }
 
   function closeOffcanvas() {
     if (!offcanvasDrawer) return;
     offcanvasDrawer.classList.remove('open');
     offcanvasDrawer.setAttribute('aria-hidden', 'true');
+    dialogs.close(offcanvasDrawer);
     if (menuToggleBtn) menuToggleBtn.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
   }
 
   if (menuToggleBtn) menuToggleBtn.addEventListener('click', openOffcanvas);
   if (menuCloseBtn) menuCloseBtn.addEventListener('click', closeOffcanvas);
 
   // Submenu Accordions inside Drawer
+  // Measure the existing links so wrapping and touch targets are never clipped.
+  function sizeSubmenus() {
+    document.querySelectorAll('.submenu-dropdown').forEach(menu => {
+      menu.style.setProperty('--submenu-height', `${menu.scrollHeight}px`);
+    });
+  }
+  sizeSubmenus();
+  window.addEventListener('resize', sizeSubmenus, { passive: true });
+  document.fonts?.ready.then(sizeSubmenus);
+  document.querySelectorAll('.submenu-dropdown').forEach(menu => { menu.inert = !menu.closest('.drawer-menu-item').classList.contains('active'); });
   const submenuToggles = document.querySelectorAll('.submenu-toggle-btn');
   submenuToggles.forEach(toggle => {
     toggle.addEventListener('click', () => {
       const parentItem = toggle.closest('.drawer-menu-item');
       const isCurrentlyActive = parentItem.classList.contains('active');
+      const submenu = parentItem.querySelector('.submenu-dropdown');
 
       document.querySelectorAll('.drawer-menu-item.active').forEach(item => {
         if (item !== parentItem) {
           item.classList.remove('active');
+          const otherMenu = item.querySelector('.submenu-dropdown');
+          if (otherMenu) otherMenu.inert = true;
           const btn = item.querySelector('.submenu-toggle-btn');
           if (btn) btn.setAttribute('aria-expanded', 'false');
         }
@@ -74,9 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (isCurrentlyActive) {
         parentItem.classList.remove('active');
+        if (submenu) submenu.inert = true;
         toggle.setAttribute('aria-expanded', 'false');
       } else {
+        sizeSubmenus();
         parentItem.classList.add('active');
+        if (submenu) submenu.inert = false;
         toggle.setAttribute('aria-expanded', 'true');
       }
     });
@@ -93,19 +110,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openSearch() {
     if (!searchModal) return;
-    searchModal.classList.add('open');
-    searchModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-    setTimeout(() => {
-      if (searchInput) searchInput.focus();
-    }, 100);
+    dialogs.open(searchModal, searchInput);
   }
 
   function closeSearch() {
     if (!searchModal) return;
     searchModal.classList.remove('open');
     searchModal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    dialogs.close(searchModal);
   }
 
   if (searchOpenBtn) searchOpenBtn.addEventListener('click', openSearch);
@@ -118,35 +130,46 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const searchForm = document.getElementById('search-form');
-  if (searchForm) {
-    searchForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const term = (searchInput?.value || '').toLowerCase().trim();
-      if (!term) return;
-      closeSearch();
-      if (term.includes('tour') || term.includes('book') || term.includes('visit')) {
-        window.location.href = '/book-a-visit.html';
-      } else if (term.includes('apply') || term.includes('enroll') || term.includes('register')) {
-        window.location.href = '/apply-online.html';
-      } else if (term.includes('parent') || term.includes('portal') || term.includes('app')) {
-        window.location.href = '/parents.html';
-      } else if (term.includes('program') || term.includes('curriculum') || term.includes('eyfs')) {
-        window.location.href = '/programs.html';
-      } else if (term.includes('age') || term.includes('infant') || term.includes('toddler') || term.includes('hour')) {
-        window.location.href = '/programs.html#ages';
-      } else if (term.includes('atelier') || term.includes('art') || term.includes('clay') || term.includes('enrich')) {
-        window.location.href = '/enrichments.html';
-      } else if (term.includes('space') || term.includes('facility') || term.includes('piazza') || term.includes('garden')) {
-        window.location.href = '/spaces.html';
-      } else if (term.includes('contact') || term.includes('mouj') || term.includes('qurm') || term.includes('phone') || term.includes('email')) {
-        window.location.href = '/contact.html';
-      } else if (term.includes('admission')) {
-        window.location.href = '/admissions.html';
-      } else {
-        window.location.href = '/about.html';
-      }
-    });
-  }
+  const searchResults = document.getElementById('search-results');
+  const searchPages = [
+    { title: 'About Shomoukh', href: '/about.html', words: 'about philosophy mission vision values safety' },
+    { title: 'Programs & Curriculum', href: '/programs.html', words: 'program programs curriculum eyfs reggio teacher learning' },
+    { title: 'Ages & Schedules', href: '/programs.html#ages', words: 'age ages infant infants toddler toddlers preschool preschoolers hours schedule schedules flex care' },
+    { title: 'Ateliers & Enrichments', href: '/enrichments.html', words: 'atelier ateliers enrichments enrichment art clay music drama sensory' },
+    { title: 'Learning Spaces', href: '/spaces.html', words: 'space spaces facility facilities piazza garden playground' },
+    { title: 'Admissions', href: '/admissions.html', words: 'admission admissions fees payment documents registration' },
+    { title: 'Book a Visit', href: '/book-a-visit.html', words: 'tour book booking visit' },
+    { title: 'Apply Online', href: '/apply-online.html', words: 'apply application enrollment enrolment enroll register' },
+    { title: 'Parents Portal', href: '/parents.html', words: 'parent parents portal app ios android login' },
+    { title: 'Contact & Campuses', href: '/contact.html', words: 'contact campus campuses mouj qurm qurum phone email location inquiry' }
+  ];
+  searchForm?.addEventListener('submit', event => {
+    event.preventDefault();
+    const query = searchInput.value.trim();
+    const tokens = query.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+    const matches = tokens.length ? searchPages.filter(page => {
+      const words = page.words.split(' ');
+      return tokens.every(token => words.includes(token));
+    }) : [];
+    if (matches.length > 0) {
+      window.location.href = matches[0].href;
+      return;
+    }
+    searchResults.replaceChildren();
+    const message = document.createElement('p');
+    message.textContent = !tokens.length ? 'Enter a topic to search.' : `No matching pages for “${query}”. Try admissions, ages, programs or contact.`;
+    searchResults.append(message);
+    const list = document.createElement('ul');
+    for (const match of matches) {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = match.href;
+      link.textContent = match.title;
+      link.addEventListener('click', closeSearch);
+      item.append(link); list.append(item);
+    }
+    searchResults.append(list);
+  });
 
   /* ============================================================
      4. VIDEO LIGHTBOX MODAL
@@ -159,9 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openVideoModal() {
     if (!videoModal) return;
-    videoModal.classList.add('open');
-    videoModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    dialogs.open(videoModal, videoModalClose);
     if (lightboxVideo) {
       lightboxVideo.currentTime = 0;
       lightboxVideo.play().catch(e => console.log('Video play interrupted:', e));
@@ -172,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!videoModal) return;
     videoModal.classList.remove('open');
     videoModal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    dialogs.close(videoModal);
     if (lightboxVideo) lightboxVideo.pause();
   }
 
@@ -201,15 +222,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (heroVideoToggleBtn && heroBgVideo) {
+    const syncVideoButton = () => {
+      const paused = heroBgVideo.paused;
+      heroVideoToggleBtn.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
+      heroVideoToggleBtn.innerHTML = paused
+        ? '<i class="fa-solid fa-play" aria-hidden="true"></i> <span>PLAY VIDEO</span>'
+        : '<i class="fa-solid fa-pause" aria-hidden="true"></i> <span>PAUSE VIDEO</span>';
+    };
+    heroBgVideo.addEventListener('play', syncVideoButton);
+    heroBgVideo.addEventListener('pause', syncVideoButton);
     heroVideoToggleBtn.addEventListener('click', () => {
-      if (heroBgVideo.paused) {
-        heroBgVideo.play();
-        heroVideoToggleBtn.innerHTML = '<i class="fa-solid fa-pause"></i> <span>PAUSE VIDEO</span>';
-      } else {
-        heroBgVideo.pause();
-        heroVideoToggleBtn.innerHTML = '<i class="fa-solid fa-play"></i> <span>PLAY VIDEO</span>';
-      }
+      if (heroBgVideo.paused) heroBgVideo.play().catch(syncVideoButton);
+      else heroBgVideo.pause();
+      syncVideoButton();
     });
+    syncVideoButton();
   }
 
   /* ============================================================
@@ -344,16 +371,14 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    detailModal.classList.add('open');
-    detailModal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    dialogs.open(detailModal, detailModalClose);
   }
 
   function closeDetailModal() {
     if (!detailModal) return;
     detailModal.classList.remove('open');
     detailModal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    dialogs.close(detailModal);
   }
 
   document.querySelectorAll('.pursue-item-card').forEach(card => {
@@ -380,6 +405,8 @@ document.addEventListener('DOMContentLoaded', () => {
   function showToast(message, isSuccess = true) {
     if (!toastFeedback || !toastMessage) return;
     toastMessage.textContent = message;
+    const icon = toastFeedback.querySelector('i');
+    if (icon) icon.className = isSuccess ? 'fa-solid fa-circle-check' : 'fa-solid fa-circle-info';
     toastFeedback.classList.add('show');
     if (toastTimer) clearTimeout(toastTimer);
     toastTimer = setTimeout(() => {
@@ -390,50 +417,38 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ============================================================
      9. TOUR BOOKING FORM HANDLER
      ============================================================ */
-  const tourForm = document.getElementById('tour-booking-form');
-  if (tourForm) {
-    tourForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const parentName = document.getElementById('tour-parent-name')?.value;
-      showToast(`Thank you, ${parentName || 'Parent'}! Your tour visit request has been sent to Shomoukh Admissions.`);
-      tourForm.reset();
+  // This static site has no submission service. Validate without claiming delivery
+  // or discarding the visitor's information.
+  document.querySelectorAll('#tour-booking-form, #online-enrollment-form, #contact-inquiry-form').forEach(form => {
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      showToast('Online submission is currently unavailable. Nothing has been sent. Please contact your selected campus; your entries have been kept.', false);
     });
-  }
-
-  /* ============================================================
-     10. ONLINE ENROLLMENT FORM HANDLER
-     ============================================================ */
-  const enrollmentForm = document.getElementById('online-enrollment-form');
-  if (enrollmentForm) {
-    enrollmentForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const childName = document.getElementById('app-child-name')?.value;
-      showToast(`Online enrollment for ${childName || 'your child'} has been submitted successfully! We will contact you soon.`);
-      enrollmentForm.reset();
-    });
-  }
+  });
 
   /* ============================================================
      11. CONTACT INQUIRY FORM & 180-CHAR COUNTER
      ============================================================ */
   const contactForm = document.getElementById('contact-inquiry-form');
-  const contactMsgInput = document.getElementById('contact-message');
-  const contactCharCount = document.getElementById('contact-char-count');
+  const contactMsg = document.getElementById('contact-message');
+  const charCounter = document.getElementById('contact-char-count');
 
-  if (contactMsgInput && contactCharCount) {
-    contactMsgInput.addEventListener('input', () => {
-      contactCharCount.textContent = contactMsgInput.value.length;
+  if (contactMsg && charCounter) {
+    contactMsg.addEventListener('input', () => {
+      charCounter.textContent = contactMsg.value.length;
     });
   }
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const contactName = document.getElementById('contact-name')?.value;
-      showToast(`Thank you, ${contactName || 'Parent'}! Your message has been received by Shomoukh Nursery School.`);
-      contactForm.reset();
-      if (contactCharCount) contactCharCount.textContent = '0';
-    });
+  if (contactForm && contactMsg) {
+    const params = new URLSearchParams(window.location.search);
+    const subject = params.get('subject')?.trim();
+    const inquiry = params.get('inquiry')?.trim();
+    const message = subject || inquiry;
+    if (message) {
+      contactMsg.value = message.slice(0, contactMsg.maxLength);
+      if (charCounter) charCounter.textContent = contactMsg.value.length;
+    }
   }
 
   /* ============================================================

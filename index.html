@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Shomoukh Nursery School | Reggio Emilia Inspired Early Childhood Education</title>
-  <meta name="description" content="Shomoukh Early Childhood Education is an International Early Years Nursery School inspired by the Reggio Emilia approach, serving children ages 6 months to 4 years in Muscat, Sultanate of Oman.">
+  <meta name="description" content="Shomoukh Early Childhood Education is an International Early Years Nursery School inspired by the Reggio Emilia approach, offering infant, toddler and preschool programs in Muscat, Sultanate of Oman.">
   <meta name="keywords" content="Shomoukh Nursery School, Early Childhood Education Oman, Reggio Emilia nursery Muscat, Al Mouj nursery, Al Qurm nursery, EYFS Oman">
   
   <!-- Favicon -->
@@ -17,10 +17,10 @@
   
   <!-- FontAwesome Icons for UI -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/design.css">
 </head>
-<body>
+<body class="design-home">
 
   <!-- ============================================================ -->
   <!-- TOP UTILITY & MAIN STICKY HEADER                             -->
@@ -32,6 +32,8 @@
       <a href="/" class="brand-logo" aria-label="Shomoukh Nursery School Homepage">
         <img src="/shomoukh-logo.png" alt="Shomoukh Nursery School" class="brand-logo-img">
       </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="/" aria-current="page">Home</a><a href="/about.html">Our school</a><a href="/programs.html">Learning</a><a href="/spaces.html">Our spaces</a><a href="/book-a-visit.html" class="nav-visit">Book a visit <span aria-hidden="true">↗</span></a></nav>
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
@@ -228,12 +230,6 @@
             <a href="/parents.html">Parents Portal</a>
             <a href="/contact.html">Contact Us</a>
           </div>
-          <div class="drawer-social-row">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
         </div>
 
       </div>
@@ -256,10 +252,11 @@
       <form id="search-form" class="search-form" onsubmit="event.preventDefault();">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="search" id="search-input" placeholder="What are you looking for?" autocomplete="off" autofocus>
+          <input type="search" id="search-input" aria-label="Search site pages" aria-controls="search-results" placeholder="What are you looking for?" autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
+      <div id="search-results" class="search-results" role="status" aria-live="polite" aria-atomic="true"></div>
       <div class="search-quick-tags">
         <span>Popular Searches:</span>
         <a href="/about.html" class="quick-tag">About</a>
@@ -299,7 +296,7 @@
     <!-- Video Background -->
     <div class="hero-video-wrapper">
       <video id="hero-bg-video" autoplay muted loop playsinline poster="/hero-poster.jpg" preload="auto">
-        <source src="/Final%202%20.mp4" type="video/mp4">
+        <source src="/Final 2 .mp4" type="video/mp4">
         <source src="/Final 2 .mp4" type="video/mp4">
       </video>
       <div class="hero-overlay-gradient"></div>
@@ -309,22 +306,25 @@
     <div class="hero-inner-container">
       <div class="hero-text-content">
         <h1 class="hero-title">
-          THE FIRST &amp; ONLY <span class="script-accent-gold">Reggio Emilia</span> INSPIRED NURSERY SCHOOL
+          <span class="hero-title-top">The first &amp; only</span>
+          <span class="script-accent-gold">Reggio Emilia</span><br>inspired nursery school.
         </h1>
         <p class="hero-subtitle">In the Sultanate of Oman, education is a right and all children have potential.</p>
 
         <div class="hero-cta-group">
           <a href="/book-a-visit.html" class="btn-play-video">
             <span class="play-icon-circle"><i class="fa-solid fa-calendar-check"></i></span>
-            <span class="play-btn-text">BOOK A VISIT</span>
+            <span class="play-btn-text">Book a visit</span>
           </a>
           <a href="/apply-online.html" class="btn-play-video btn-hero-secondary">
             <span class="play-icon-circle"><i class="fa-solid fa-file-signature"></i></span>
-            <span class="play-btn-text">APPLY ONLINE</span>
+            <span class="play-btn-text">Apply online</span>
           </a>
         </div>
       </div>
     </div>
+
+    <div class="hero-campus-note"><span>OUR MUSCAT CAMPUSES</span><strong>Al Mouj &amp; Al Qurm</strong><a href="/contact.html">Find your campus <span aria-hidden="true">↗</span></a></div>
 
     <!-- Video Play/Pause Control -->
     <div class="hero-bottom-bar">
@@ -334,14 +334,6 @@
       </button>
 
       <div class="hero-bottom-actions">
-        <!-- Language dropdown -->
-        <div class="language-selector-pill">
-          <i class="fa-solid fa-globe"></i>
-          <select aria-label="Select language">
-            <option value="en">English</option>
-            <option value="ar">العربية</option>
-          </select>
-        </div>
 
         <!-- Chat pill -->
         <a href="/contact.html" class="chat-widget-pill" aria-label="Contact Shomoukh Admissions" style="text-decoration: none;">
@@ -359,7 +351,7 @@
     <div class="content-wrapper">
       <div class="section-header text-center" style="margin-bottom: 28px;">
         <span class="badge-pill">OUR SIGNATURE PILLARS</span>
-        <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--shomoukh-primary); margin-top: 8px;">Key Features of Shomoukh</h2>
+        <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--shomoukh-primary); margin-top: 8px;">Key Features of Shomoukh</h2>
       </div>
       <div class="key-features-grid">
         <div class="key-feature-card">
@@ -419,7 +411,7 @@
         <!-- Card 1: Philosophy -->
         <article class="explore-card" id="philosophy">
           <div class="card-img-wrap">
-            <img src="/images/philosophy-lego.jpg" alt="Shomoukh Philosophy" loading="lazy">
+            <img src="/images/philosophy-lego.jpg" alt="Shomoukh Philosophy">
             <div class="card-tag">ETHOS &amp; CULTURE</div>
           </div>
           <div class="card-body">
@@ -433,7 +425,7 @@
         <!-- Card 2: Mission -->
         <article class="explore-card" id="mission">
           <div class="card-img-wrap">
-            <img src="/images/mission-graduation.jpg" alt="Shomoukh Mission" loading="lazy">
+            <img src="/images/mission-graduation.jpg" alt="Shomoukh Mission">
             <div class="card-tag">PURPOSE &amp; PROMISE</div>
           </div>
           <div class="card-body">
@@ -447,7 +439,7 @@
         <!-- Card 3: Vision & Values -->
         <article class="explore-card" id="vision">
           <div class="card-img-wrap">
-            <img src="/images/vision-toddler.jpg" alt="Shomoukh Vision &amp; Values" loading="lazy">
+            <img src="/images/vision-toddler.jpg" alt="Shomoukh Vision &amp; Values">
             <div class="card-tag">VISION &amp; VALUES</div>
           </div>
           <div class="card-body">
@@ -491,24 +483,24 @@
       <div class="cards-grid-three mb-40">
         
         <div style="background: var(--shomoukh-white); border-radius: 20px; padding: 32px; border: 1px solid var(--shomoukh-border-light); box-shadow: var(--shadow-sm);" id="reggio-pillar">
-          <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-shapes"></i></div>
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Reggio Emilia</h3>
+          <div style="font-size: 1.7rem; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-shapes"></i></div>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Reggio Emilia</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-text); line-height: 1.6;">
             Thoughtfully and carefully designed nursery schools, programs, and schedules – all created with the needs of both children and parents in mind.
           </p>
         </div>
 
         <div style="background: var(--shomoukh-white); border-radius: 20px; padding: 32px; border: 1px solid var(--shomoukh-border-light); box-shadow: var(--shadow-sm);" id="inspired-teachers">
-          <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-chalkboard-user"></i></div>
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Inspired Teachers</h3>
+          <div style="font-size: 1.7rem; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Inspired Teachers</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-text); line-height: 1.6;">
             Dedicated early childhood professionals fully engaged in teaching careers, who benefit from our continuous training and ongoing support.
           </p>
         </div>
 
         <div style="background: var(--shomoukh-white); border-radius: 20px; padding: 32px; border: 1px solid var(--shomoukh-border-light); box-shadow: var(--shadow-sm);">
-          <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-graduation-cap"></i></div>
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Proven Approach to Education</h3>
+          <div style="font-size: 1.7rem; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 12px;">Proven Approach to Education</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-text); line-height: 1.6;">
             UK Early Years Foundation Stage (EYFS) integrated with Reggio Emilia project inquiry, inspiring children to think critically on their own.
           </p>
@@ -538,34 +530,34 @@
           We Meet Kids <span class="script-cursive-yellow">Where They Are</span>
         </h2>
         <p class="hold-lede-text">
-          Shomoukh Early Childhood Education accommodates children aged 6 months to 4 years. Operating 12 months per year following a 3-term academic year and a fun-filled summer camp.
+          Shomoukh Early Childhood Education offers infant, toddler and preschool programs. Contact your campus to confirm entry requirements and placement. Operating 12 months per year following a 3-term academic year and a fun-filled summer camp.
         </p>
       </div>
 
       <div class="stats-grid-card">
         
         <div class="stat-box" id="infants">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-baby"></i> Infants (3–11 months)</div>
-          <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Providing your baby's brain with a strong foundation for learning and growing.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-cream); font-size: 0.9rem;">Hours: 8:30 AM – 1:30 PM</div>
+          <div class="stat-title"><i class="fa-solid fa-baby"></i> Infants (3–11 months)</div>
+          <p class="stat-detail">Providing your baby's brain with a strong foundation for learning and growing.</p>
+          <div class="stat-hours">Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="toddlers">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-child-reaching"></i> Toddlers (12–35 months)</div>
-          <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Exploring the world around them and forming positive relationships with peers and adults.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-cream); font-size: 0.9rem;">Hours: 8:30 AM – 1:30 PM</div>
+          <div class="stat-title"><i class="fa-solid fa-child-reaching"></i> Toddlers (12–35 months)</div>
+          <p class="stat-detail">Exploring the world around them and forming positive relationships with peers and adults.</p>
+          <div class="stat-hours">Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="preschoolers">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-children"></i> Preschoolers (36–48 months)</div>
-          <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Developing confidence and problem-solving skills to meet complex future challenges.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-cream); font-size: 0.9rem;">Hours: 8:30 AM – 1:30 PM</div>
+          <div class="stat-title"><i class="fa-solid fa-children"></i> Preschoolers (36–48 months)</div>
+          <p class="stat-detail">Developing confidence and problem-solving skills to meet complex future challenges.</p>
+          <div class="stat-hours">Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="flexcare">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-clock"></i> Flex-Care (6–48 months)</div>
-          <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Pre-Care &amp; After-Care services to meet individual working family schedules.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-cream); font-size: 0.9rem;">Extended Hours: 7:00 AM – 4:00 PM</div>
+          <div class="stat-title"><i class="fa-solid fa-clock"></i> Flex-Care (6–48 months)</div>
+          <p class="stat-detail">Pre-Care &amp; After-Care services to meet individual working family schedules.</p>
+          <div class="stat-hours">Extended Hours: 7:00 AM – 4:00 PM</div>
         </div>
 
       </div>
@@ -603,7 +595,7 @@
         <!-- Card 1: Clay Atelier -->
         <div class="pursue-item-card" id="clay-atelier" data-modal-target="modal-arts" tabindex="0" role="button" aria-label="Clay Atelier">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-clay.jpg" alt="Clay Atelier at Shomoukh" loading="lazy">
+            <img src="/images/atelier-clay.jpg" alt="Clay Atelier at Shomoukh">
             <div class="pursue-overlay">
               <span class="pursue-category">RESEARCH ATELIER</span>
               <h3 class="pursue-name">Clay Atelier</h3>
@@ -616,7 +608,7 @@
         <!-- Card 2: Art Atelier -->
         <div class="pursue-item-card" id="art-atelier" data-modal-target="modal-athletics" tabindex="0" role="button" aria-label="Art Atelier">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-art.jpg" alt="Art Atelier at Shomoukh" loading="lazy">
+            <img src="/images/atelier-art.jpg" alt="Art Atelier at Shomoukh">
             <div class="pursue-overlay">
               <span class="pursue-category">EXPRESSION</span>
               <h3 class="pursue-name">Art Atelier</h3>
@@ -629,7 +621,7 @@
         <!-- Card 3: Digital & Light Atelier -->
         <div class="pursue-item-card" id="digital-atelier" data-modal-target="modal-gole" tabindex="0" role="button" aria-label="Digital & Light Atelier">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-digital.jpg" alt="Digital Atelier" loading="lazy">
+            <img src="/images/atelier-digital.jpg" alt="Digital Atelier">
             <div class="pursue-overlay">
               <span class="pursue-category">INNOVATION</span>
               <h3 class="pursue-name">Digital &amp; Light Atelier</h3>
@@ -642,7 +634,7 @@
         <!-- Card 4: Project Approach -->
         <div class="pursue-item-card" data-modal-target="modal-coed" tabindex="0" role="button" aria-label="Project-Based Approach">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-project.jpg" alt="Project-Based Learning" loading="lazy">
+            <img src="/images/atelier-project.jpg" alt="Project-Based Learning">
             <div class="pursue-overlay">
               <span class="pursue-category">EXPLORATION</span>
               <h3 class="pursue-name">Project Approach</h3>
@@ -655,7 +647,7 @@
         <!-- Card 5: Tiny Town -->
         <div class="pursue-item-card" id="tiny-town" data-modal-target="modal-winterim" tabindex="0" role="button" aria-label="Tiny Town Pretend Play">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-tinytown.jpg" alt="Tiny Town Pretend Play" loading="lazy">
+            <img src="/images/atelier-tinytown.jpg" alt="Tiny Town Pretend Play">
             <div class="pursue-overlay">
               <span class="pursue-category">PRETEND PLAY</span>
               <h3 class="pursue-name">Tiny Town</h3>
@@ -668,7 +660,7 @@
         <!-- Card 6: Sensory Play -->
         <div class="pursue-item-card" id="sensory-play" data-modal-target="modal-clubs" tabindex="0" role="button" aria-label="Sensory Play">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-sensory.jpg" alt="Sensory Play" loading="lazy">
+            <img src="/images/atelier-sensory.jpg" alt="Sensory Play">
             <div class="pursue-overlay">
               <span class="pursue-category">DEVELOPMENT</span>
               <h3 class="pursue-name">Sensory Play</h3>
@@ -681,7 +673,7 @@
         <!-- Card 7: Music & Movement -->
         <div class="pursue-item-card" id="music-drama" data-modal-target="modal-laureate" tabindex="0" role="button" aria-label="Music & Movement">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-music.jpg" alt="Music & Movement" loading="lazy">
+            <img src="/images/atelier-music.jpg" alt="Music & Movement">
             <div class="pursue-overlay">
               <span class="pursue-category">HARMONY</span>
               <h3 class="pursue-name">Music &amp; Movement</h3>
@@ -694,7 +686,7 @@
         <!-- Card 8: Drama & ECA -->
         <div class="pursue-item-card" data-modal-target="modal-advisory" tabindex="0" role="button" aria-label="Drama & Extracurriculars">
           <div class="pursue-card-inner">
-            <img src="/images/atelier-sports.jpg" alt="Drama & ECA" loading="lazy">
+            <img src="/images/atelier-sports.jpg" alt="Drama & ECA">
             <div class="pursue-overlay">
               <span class="pursue-category">CONFIDENCE</span>
               <h3 class="pursue-name">Drama &amp; ECA / PE</h3>
@@ -725,7 +717,7 @@
       </button>
       <div class="detail-modal-body">
         <div class="detail-modal-image-col">
-          <img id="detail-modal-img" src="" alt="">
+          <img id="detail-modal-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Atelier detail preview">
         </div>
         <div class="detail-modal-text-col">
           <span id="detail-modal-category" class="detail-badge">CATEGORY</span>
@@ -829,7 +821,7 @@
           Admissions to Shomoukh Nursery School are offered on an ongoing basis, preferably at the start of the academic year. While most families complete registration during the fall and winter months, we continue to keep our programs open as long as space is available.
         </p>
         <p class="drone-description admissions-welcome">
-          <strong>Join Our Diverse Community of Learners:</strong> Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. We offer quality education from ages 6 months to 6 years.
+          <strong>Join Our Diverse Community of Learners:</strong> Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. Contact admissions to confirm program eligibility and availability.
         </p>
         
         <div class="steps-enrollment-grid">
@@ -875,19 +867,19 @@
       <div class="campuses-2col-grid">
         
         <div class="campus-preview-card" style="background: var(--shomoukh-white); padding: 32px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-primary);">
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-location-dot"></i> Al Mouj Campus</h3>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-location-dot"></i> Al Mouj Campus</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-body); line-height: 1.6; margin-bottom: 12px;">Al Mouj Main Street, Main Community Hub, Muscat</p>
           <div style="font-size: 0.92rem; color: var(--shomoukh-teal); font-weight: 700;">Phone: +968 24555515</div>
           <div style="font-size: 0.92rem; color: var(--shomoukh-body); margin-top: 4px;">Email: info.almouj@shomoukh.com</div>
-          <a href="/contact.html#almouj" style="display: inline-block; margin-top: 16px; color: var(--shomoukh-coral); font-weight: 700; text-decoration: none;">View Campus Details →</a>
+          <a href="/contact.html#almouj" style="display: inline-block; margin-top: 16px; color: var(--shomoukh-coral-ink); font-weight: 700; text-decoration: none;">View Campus Details →</a>
         </div>
 
         <div class="campus-preview-card" style="background: var(--shomoukh-white); padding: 32px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-coral);">
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-location-dot"></i> Al Qurm Campus</h3>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-location-dot"></i> Al Qurm Campus</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-body); line-height: 1.6; margin-bottom: 12px;">Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat</p>
           <div style="font-size: 0.92rem; color: var(--shomoukh-teal); font-weight: 700;">Phone: +968 24600610</div>
           <div style="font-size: 0.92rem; color: var(--shomoukh-body); margin-top: 4px;">Email: info.alqurum@shomoukh.com</div>
-          <a href="/contact.html#alqurm" style="display: inline-block; margin-top: 16px; color: var(--shomoukh-coral); font-weight: 700; text-decoration: none;">View Campus Details →</a>
+          <a href="/contact.html#alqurm" style="display: inline-block; margin-top: 16px; color: var(--shomoukh-coral-ink); font-weight: 700; text-decoration: none;">View Campus Details →</a>
         </div>
 
       </div>
@@ -955,12 +947,6 @@
         </div>
 
         <!-- Social Icons -->
-        <div class="footer-social-links">
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
       </div>
 
       <div class="footer-divider-line"></div>
@@ -972,7 +958,7 @@
         <div class="footer-col">
           <h4 class="footer-heading">Shomoukh Nursery School</h4>
           <p style="font-size: 0.92rem; line-height: 1.6; color: var(--shomoukh-body); margin-bottom: 12px;">
-            The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman. Quality education for ages 6 months to 6 years.
+            The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman. Infant, toddler and preschool education. Contact admissions to confirm eligibility.
           </p>
           <div style="font-size: 0.85rem; color: var(--shomoukh-teal); font-weight: 700;">
             <i class="fa-solid fa-award"></i> UK EYFS &amp; Reggio Emilia Inspired
@@ -1023,9 +1009,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-legal-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20privacy%20policy.#contact-inquiry-form">Request Privacy Policy</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20terms%20of%20service.#contact-inquiry-form">Request Terms of Service</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>

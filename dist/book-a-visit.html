@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Book a Visit | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Schedule a personalized tour of Shomoukh Nursery School at Al Mouj or Al Qurm campuses in Muscat. Visit with your child during working hours." />
 
@@ -13,11 +13,10 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-BeSDKxuP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-DDX1gDGU.css">
 </head>
-<body>
+<body class="design-subpage">
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -29,6 +28,8 @@
       <a href="/" class="brand-logo" aria-label="Shomoukh Nursery School Homepage">
         <img src="/shomoukh-logo.png" alt="Shomoukh Nursery School" class="brand-logo-img">
       </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/about.html">Our school</a><a href="/programs.html">Learning</a><a href="/spaces.html">Our spaces</a><a href="/book-a-visit.html" class="nav-visit">Book a visit <span aria-hidden="true">↗</span></a></nav>
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
@@ -239,12 +240,6 @@
             <a href="/parents.html">Parents Portal</a>
             <a href="/contact.html">Contact Us</a>
           </div>
-          <div class="drawer-social-row">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
         </div>
 
       </div>
@@ -266,6 +261,7 @@
       <p class="subpage-hero-subtitle">
         Our Shomoukh team is eager to welcome you and your child. Experience our learning ateliers, meet our educators, and explore our Reggio Emilia inspired nursery schools during working hours.
       </p>
+      <a class="page-task-link" href="#tour-booking-form">Book your visit <span aria-hidden="true">↓</span></a>
     </div>
   </section>
 
@@ -279,11 +275,11 @@
         
         <!-- Left Column: Guidance & Info -->
         <div class="booking-info-box">
-          <span class="badge-pill" style="background: rgba(242, 143, 121, 0.2); color: var(--shomoukh-coral); border-color: var(--shomoukh-coral); margin-bottom: 16px;">CAMPUS EXPERIENCE</span>
-          <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 16px; line-height: 1.3;">
+          <span class="badge-pill" style="background: rgba(242, 143, 121, 0.2); color: var(--shomoukh-white); border-color: var(--shomoukh-coral); margin-bottom: 16px;">CAMPUS EXPERIENCE</span>
+          <h2 style="font-size: clamp(1.35rem, 2.2vw, 1.55rem); font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 16px; line-height: 1.25;">
             Our Shomoukh Team is Eager to Welcome You
           </h2>
-          <p style="font-size: 1rem; color: var(--shomoukh-body); line-height: 1.6; margin-bottom: 24px;">
+          <p style="font-size: 0.95rem; color: var(--shomoukh-white); line-height: 1.6; margin-bottom: 24px;">
             Schedule a tour at your convenience. Book a tour and visit Shomoukh nursery school together with your child during working hours to explore our learning ateliers, meet educators, and experience our Reggio Emilia environment firsthand.
           </p>
 
@@ -301,13 +297,13 @@
         </div>
 
         <!-- Right Column: Booking Form -->
-        <div class="form-panel-card">
+        <div class="form-panel-card booking-form-panel">
           <div class="form-panel-header">
             <h3 class="form-panel-title">Book Your Visit</h3>
             <p class="form-panel-sub">Please fill out the form below and our admissions team will confirm your appointment.</p>
           </div>
 
-          <form id="tour-booking-form" novalidate>
+          <form id="tour-booking-form">
             <div class="form-grid-two">
               
               <div class="form-group">
@@ -355,7 +351,8 @@
 
               <div class="form-group">
                 <label for="tour-visit-datetime" class="form-label">Preferred Visit Date & Time <span class="required">*</span></label>
-                <input type="datetime-local" id="tour-visit-datetime" name="visit_datetime" class="form-control" required>
+                <input type="datetime-local" id="tour-visit-datetime" name="visit_datetime" class="form-control" aria-describedby="tour-time-help" required>
+                <p id="tour-time-help" class="form-help">Muscat time (GMT+4). Campus hours: Sunday–Thursday, 7:00 AM–4:00 PM. Admissions will confirm availability.</p>
               </div>
 
               <div class="form-group full-width">
@@ -394,24 +391,24 @@
 
       <div class="features-3col-grid">
         <div style="background: var(--shomoukh-white); padding: 32px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-teal);">
-          <div style="font-size: 2rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-stopwatch"></i></div>
-          <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">45-Minute Guided Tour</h4>
+          <div style="font-size: 1.65rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-stopwatch"></i></div>
+          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">45-Minute Guided Tour</h4>
           <p style="font-size: 0.92rem; color: var(--shomoukh-body); line-height: 1.6;">
             A thorough walk through active learning spaces, gymnasiums, and ateliers conducted during working school hours.
           </p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 32px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-coral);">
-          <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-child-reaching"></i></div>
-          <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--shomoukh-coral); margin-bottom: 8px;">Bring Your Child</h4>
+          <div style="font-size: 1.65rem; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-child-reaching"></i></div>
+          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin-bottom: 8px;">Bring Your Child</h4>
           <p style="font-size: 0.92rem; color: var(--shomoukh-body); line-height: 1.6;">
             We encourage children to explore materials in our ateliers so they feel comfortable, excited, and welcome from day one.
           </p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 32px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-yellow);">
-          <div style="font-size: 2rem; color: #b8982a; margin-bottom: 12px;"><i class="fa-solid fa-comments"></i></div>
-          <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Q&amp;A With Educators</h4>
+          <div style="font-size: 1.65rem; color: #b8982a; margin-bottom: 12px;"><i class="fa-solid fa-comments"></i></div>
+          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Q&amp;A With Educators</h4>
           <p style="font-size: 0.92rem; color: var(--shomoukh-body); line-height: 1.6;">
             Discuss developmental milestones, language learning, schedule flexibility, and enrollment availability with our heads of school.
           </p>
@@ -471,12 +468,6 @@
             <img src="/shomoukh-logo.png" alt="Shomoukh Early Childhood Education" class="footer-logo-img">
           </a>
         </div>
-        <div class="footer-social-links">
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
       </div>
 
       <div class="footer-grid">
@@ -534,9 +525,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20privacy%20policy.#contact-inquiry-form">Request Privacy Policy</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20terms%20of%20service.#contact-inquiry-form">Request Terms of Service</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -556,10 +547,11 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search site pages" aria-controls="search-results" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
+      <div id="search-results" class="search-results" role="status" aria-live="polite" aria-atomic="true"></div>
       <div class="search-quick-tags">
         <span>Quick searches:</span>
         <a href="/about.html" class="quick-tag">About</a>
@@ -573,7 +565,7 @@
   <!-- Floating Toast Notification for Form Submissions -->
   <div id="toast-feedback" class="toast-feedback" role="alert" aria-live="assertive">
     <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
-    <div class="toast-message" id="toast-message">Thank you! Your submission has been received.</div>
+    <div class="toast-message" id="toast-message"></div>
   </div>
 
   <!-- Scroll to top button -->

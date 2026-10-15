@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Admissions & Enrollment | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Join our diverse community of learners at Shomoukh Nursery School. Discover our 3 simple steps to enrollment, admission timelines, and documentation requirements." />
 
@@ -13,10 +13,10 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/design.css">
 </head>
-<body>
+<body class="design-subpage">
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -28,6 +28,8 @@
       <a href="/" class="brand-logo" aria-label="Shomoukh Nursery School Homepage">
         <img src="/shomoukh-logo.png" alt="Shomoukh Nursery School" class="brand-logo-img">
       </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/about.html">Our school</a><a href="/programs.html">Learning</a><a href="/spaces.html">Our spaces</a><a href="/book-a-visit.html" class="nav-visit">Book a visit <span aria-hidden="true">↗</span></a></nav>
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
@@ -238,12 +240,6 @@
             <a href="/parents.html">Parents Portal</a>
             <a href="/contact.html">Contact Us</a>
           </div>
-          <div class="drawer-social-row">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
         </div>
 
       </div>
@@ -263,7 +259,7 @@
       </div>
       <h1 class="subpage-hero-title">Admissions &amp; Enrollment</h1>
       <p class="subpage-hero-subtitle">
-        Join our diverse community of learners. Admissions to Shomoukh Nursery School are offered on an ongoing basis for children aged 6 months to 6 years.
+        Join our diverse community of learners. Contact admissions for current program eligibility and availability at your preferred campus.
       </p>
     </div>
   </section>
@@ -284,11 +280,11 @@
             Admissions to Shomoukh Nursery School are offered on an ongoing basis, preferably at the start of the academic year. While most families complete registration during the fall and winter months, we continue to keep our programs open as long as space is available.
           </p>
           <div style="margin-top: 24px; padding: 24px; background: var(--shomoukh-warm-bg); border-radius: 16px; border-left: 4px solid var(--shomoukh-teal);">
-            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">
+            <h4 style="font-size: 1.08rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">
               Join Our Diverse Community of Learners
             </h4>
             <p style="font-size: 0.95rem; color: var(--shomoukh-body); line-height: 1.6;">
-              Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. We offer quality education from ages 6 months to 6 years across both our Al Mouj and Al Qurm campuses.
+              Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. Contact our Al Mouj or Al Qurm campus to confirm program eligibility and availability.
             </p>
           </div>
         </div>
@@ -306,14 +302,14 @@
   <!-- ============================================================ -->
   <!-- THREE STEPS TO ENROLLMENT                                    -->
   <!-- ============================================================ -->
-  <section id="steps" class="section-padding frame-call-home-section" style="padding: 90px 0;">
+  <section id="steps" class="section-padding" style="background: linear-gradient(135deg, #132832 0%, #1C3A47 100%); color: #fff; padding: 90px 0;">
     <div class="content-wrapper text-center">
       
       <span class="badge-pill" style="background: rgba(242, 214, 117, 0.2); color: var(--shomoukh-yellow); border-color: var(--shomoukh-yellow);">SIMPLE & TRANSPARENT</span>
-      <h2 style="font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 800; margin-bottom: 16px; color: #fff;">
+      <h2 style="font-size: clamp(1.85rem, 3.2vw, 2.35rem); font-weight: 800; margin-bottom: 16px; color: #fff;">
         Three Steps to <span class="script-cursive-gold">Enrollment</span>
       </h2>
-      <p style="max-width: 680px; margin: 0 auto 48px auto; font-size: 1.1rem; color: var(--shomoukh-cream); line-height: 1.6;">
+      <p style="max-width: 680px; margin: 0 auto 48px auto; font-size: clamp(0.95rem, 1.15vw, 1.05rem); color: var(--shomoukh-cream); line-height: 1.6;">
         We have designed our enrollment process to be clear, supportive, and welcoming at every touchpoint.
       </p>
 
@@ -321,12 +317,12 @@
         
         <!-- Step 1 -->
         <div style="background: rgba(255, 255, 255, 0.12); padding: 32px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.2);" id="step1">
-          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 1.2rem; margin-bottom: 8px;">STEP 1</div>
-          <h3 style="font-size: 1.35rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Book a Tour</h3>
+          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">STEP 1</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Book a Tour</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-cream); line-height: 1.6;">
             Book a tour and visit Shomoukh nursery school together with your child during working hours. Meet our educators, see the ateliers in action, and get your questions answered.
           </p>
-          <a href="/book-a-visit.html" style="display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; color: var(--shomoukh-coral); font-weight: 800; font-size: 0.95rem; text-decoration: none;">
+          <a href="/book-a-visit.html" style="display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; color: var(--shomoukh-yellow); font-weight: 800; font-size: 0.95rem; text-decoration: none;">
             <span>Schedule Campus Tour</span>
             <i class="fa-solid fa-arrow-right"></i>
           </a>
@@ -334,10 +330,10 @@
 
         <!-- Step 2 -->
         <div style="background: rgba(255, 255, 255, 0.12); padding: 32px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.2);" id="step2">
-          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 1.2rem; margin-bottom: 8px;">STEP 2</div>
-          <h3 style="font-size: 1.35rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Submit Details</h3>
+          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">STEP 2</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Submit Details</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-cream); line-height: 1.6;">
-            Upon tour confirmation, complete our online enrollment application submitting your child's information, health records, emergency contacts, and required documentation.
+            Upon tour confirmation, complete our online enrollment application providing your child's information and emergency contacts. Contact your selected campus to arrange delivery of the required documents and health records.
           </p>
           <a href="/apply-online.html" style="display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; color: var(--shomoukh-yellow); font-weight: 800; font-size: 0.95rem; text-decoration: none;">
             <span>Complete Enrollment Form</span>
@@ -347,14 +343,15 @@
 
         <!-- Step 3 -->
         <div style="background: rgba(255, 255, 255, 0.12); padding: 32px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.2);" id="step3">
-          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 1.2rem; margin-bottom: 8px;">STEP 3</div>
-          <h3 style="font-size: 1.35rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Secure Your Place</h3>
+          <div style="font-weight: 800; color: var(--shomoukh-yellow); font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">STEP 3</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 12px;">Secure Your Place</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-cream); line-height: 1.6;">
-            Proceed to term fee payments within the given time frame to secure your child's place in our classrooms. We will provide full onboarding materials and parent app access.
+            Contact your selected campus to confirm your offer, current fees, payment instructions and the deadline for securing your child's place. Admissions can also explain onboarding and parent app access.
           </p>
           <span style="display: inline-block; margin-top: 20px; color: var(--shomoukh-cream); font-size: 0.9rem; font-weight: 600;">
             <i class="fa-solid fa-check-circle" style="color: var(--shomoukh-yellow); margin-right: 6px;"></i> Ongoing Admissions
           </span>
+          <a class="admissions-fee-link" href="/contact.html?inquiry=Fees&amp;subject=Please%20send%20the%20current%20fee%20schedule%20and%20payment%20instructions.#contact-inquiry-form">Ask about fees &amp; payment <span aria-hidden="true">→</span></a>
         </div>
 
       </div>
@@ -381,25 +378,25 @@
       <div class="checklist-4col-grid">
         
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-teal);">
-          <div style="font-size: 2rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-file-lines"></i></div>
+          <div style="font-size: 1.65rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-file-lines"></i></div>
           <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--shomoukh-teal); margin-bottom: 6px;">Birth Certificate</h4>
           <p style="font-size: 0.88rem; color: var(--shomoukh-text-muted); line-height: 1.5;">Clear copy of child's birth certificate</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-coral);">
-          <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-syringe"></i></div>
-          <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--shomoukh-coral); margin-bottom: 6px;">Health &amp; Vaccine Card</h4>
+          <div style="font-size: 1.65rem; color: var(--shomoukh-coral-ink); margin-bottom: 12px;"><i class="fa-solid fa-syringe"></i></div>
+          <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--shomoukh-coral-ink); margin-bottom: 6px;">Health &amp; Vaccine Card</h4>
           <p style="font-size: 0.88rem; color: var(--shomoukh-text-muted); line-height: 1.5;">Updated child immunization record</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-yellow);">
-          <div style="font-size: 2rem; color: #b8982a; margin-bottom: 12px;"><i class="fa-solid fa-passport"></i></div>
+          <div style="font-size: 1.65rem; color: #b8982a; margin-bottom: 12px;"><i class="fa-solid fa-passport"></i></div>
           <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--shomoukh-teal); margin-bottom: 6px;">Passport Copies</h4>
           <p style="font-size: 0.88rem; color: var(--shomoukh-text-muted); line-height: 1.5;">Child and parents passport &amp; visa pages</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-teal);">
-          <div style="font-size: 2rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-image"></i></div>
+          <div style="font-size: 1.65rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-image"></i></div>
           <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--shomoukh-teal); margin-bottom: 6px;">4 Photographs</h4>
           <p style="font-size: 0.88rem; color: var(--shomoukh-text-muted); line-height: 1.5;">Recent passport-sized child photos</p>
         </div>
@@ -460,12 +457,6 @@
             <img src="/shomoukh-logo.png" alt="Shomoukh Early Childhood Education" class="footer-logo-img">
           </a>
         </div>
-        <div class="footer-social-links">
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
       </div>
 
       <div class="footer-grid">
@@ -523,9 +514,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20privacy%20policy.#contact-inquiry-form">Request Privacy Policy</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html?inquiry=Policies&amp;subject=Please%20send%20your%20terms%20of%20service.#contact-inquiry-form">Request Terms of Service</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -545,10 +536,11 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search site pages" aria-controls="search-results" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
+      <div id="search-results" class="search-results" role="status" aria-live="polite" aria-atomic="true"></div>
       <div class="search-quick-tags">
         <span>Quick searches:</span>
         <a href="/about.html" class="quick-tag">About</a>
