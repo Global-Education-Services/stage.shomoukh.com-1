@@ -75,13 +75,14 @@ try {
   assert.equal(await form.evaluate(element=>element.checkValidity()),false);
   for(const field of await form.locator('[required]').all()){
    const type=await field.getAttribute('type'),tag=await field.evaluate(element=>element.tagName);
-   if(tag==='SELECT')await field.selectOption(await field.locator('option').evaluateAll(options=>options.find(option=>option.value&&!option.disabled).value));
+   if(type==='radio'||type==='checkbox'){if(!await field.isChecked())await field.check();}
+   else if(tag==='SELECT')await field.selectOption(await field.locator('option').evaluateAll(options=>options.find(option=>option.value&&!option.disabled).value));
    else await field.fill(type==='email'?'audit@example.com':type==='date'?'2024-01-01':type==='datetime-local'?'2027-01-05T10:00':type==='tel'?'+968 90000000':'Audit sample');
   }
   const dob=form.locator('input[type=date][id*=dob]');
   if(await dob.count()){await dob.fill('2099-01-01');assert.equal(await dob.evaluate(element=>element.validity.rangeOverflow),true);await dob.fill('2024-01-01');}
-  const visit=form.locator('input[type=datetime-local]');
-  if(await visit.count()){await visit.fill('2000-01-01T10:00');assert.equal(await visit.evaluate(element=>element.validity.rangeUnderflow),true);await visit.fill('2027-01-05T10:00');}
+  const visit=form.locator('input[type=date][id*=visit]');
+  if(await visit.count()){await visit.fill('2000-01-01');assert.equal(await visit.evaluate(element=>element.validity.rangeUnderflow),true);await visit.fill('2099-01-05');}
   let submissions=0;const onRequest=request=>{if(request.method()==='POST')submissions++;};page.on('request',onRequest);
   await form.getByRole('button',{name:'Check request details'}).click();
   await page.waitForSelector('#toast-feedback.show');assert.match(await page.locator('#toast-message').innerText(),/not been sent/);

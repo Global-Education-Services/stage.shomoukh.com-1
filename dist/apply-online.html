@@ -30,8 +30,8 @@
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-CbB3rcVZ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-Di13WBaR.css">
+  <script type="module" crossorigin src="/assets/main-BuuMOYX8.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-_R3PJj-4.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -315,171 +315,715 @@
       <div class="application-card-wrapper">
         <form id="online-enrollment-form" method="post">
             <p class="form-delivery-note">Online delivery is unavailable on this website. Your details will not be sent. Please <a href="/contact.html#almouj">contact a campus</a> to complete your request.</p>
-          
-          <!-- Fieldset 1: Academic Year & Campus Selection -->
+
           <fieldset class="form-fieldset-block">
-            <legend class="fieldset-legend"><i class="fa-solid fa-school"></i> 1. Academic Year &amp; Campus Selection</legend>
+            <legend class="fieldset-legend"><i class="fa-solid fa-school" aria-hidden="true"></i> 1. Enrolment Form</legend>
             <div class="form-grid-two">
               <div class="form-group">
-                <label for="app-academic-year" class="form-label">Academic Year Selection <span class="required">*</span></label>
+                <label for="app-academic-year" class="form-label">Applying for Academic Year <span class="required">*</span></label>
                 <select id="app-academic-year" name="academic_year" class="form-select" required>
-                  <option value="2026–2027 Academic Year" selected>2026–2027 Academic Year</option>
-                  <option value="Summer Camp 2026">Summer Camp 2026</option>
-                  <option value="Immediate Enrollment">Immediate Term Enrollment (Ongoing)</option>
+                  <option value="" disabled selected>Academic Year</option>
+                  <option value="2025 / 2026">2025 / 2026</option>
+                  <option value="2026 / 2027">2026 / 2027</option>
+                  <option value="2027 / 2028">2027 / 2028</option>
                 </select>
               </div>
 
-              <div class="form-group">
-                <label for="app-campus" class="form-label">Campus Selection <span class="required">*</span></label>
-                <select id="app-campus" name="campus" class="form-select" required>
-                  <option value="" disabled selected>Select campus</option>
-                  <option value="Al Mouj Campus">Al Mouj Campus (Muscat)</option>
-                  <option value="Al Qurm Campus">Al Qurm Campus (Muscat)</option>
-                </select>
-              </div>
-
-              <div class="form-group full-width">
-                <label for="app-attendance-schedule" class="form-label">Attendance Schedule Selection <span class="required">*</span></label>
-                <select id="app-attendance-schedule" name="schedule" class="form-select" required>
-                  <option value="" disabled selected>Select child age group / program schedule</option>
-                  <option value="Infants (3–11 months) | 8:30 AM – 1:30 PM">Infants (3–11 months) | 8:30 AM – 1:30 PM</option>
-                  <option value="Toddlers (12–35 months) | 8:30 AM – 1:30 PM">Toddlers (12–35 months) | 8:30 AM – 1:30 PM</option>
-                  <option value="Preschoolers (36–48 months) | 8:30 AM – 1:30 PM">Preschoolers (36–48 months) | 8:30 AM – 1:30 PM</option>
-                  <option value="Flex-Care Extended (6–48 months) | 7:00 AM – 4:00 PM">Flex-Care Extended (6–48 months) | Pre &amp; After Care: 7:00 AM – 4:00 PM</option>
-                </select>
-              </div>
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Please Choose Your Campus <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="campus" value="Al Mouj Campus" required> <span>Shomoukh Campus Al Mouj</span></label>
+                  <label class="choice-pill"><input type="radio" name="campus" value="Al Qurm Campus" required> <span>Shomoukh Campus Al Qurum</span></label>
+                </div>
+              </fieldset>
             </div>
           </fieldset>
 
-          <!-- Fieldset 2: Child Information -->
           <fieldset class="form-fieldset-block">
-            <legend class="fieldset-legend"><i class="fa-solid fa-child"></i> 2. Child Information</legend>
+            <legend class="fieldset-legend"><i class="fa-solid fa-child" aria-hidden="true"></i> 2. Child Information</legend>
             <div class="form-grid-two">
               <div class="form-group">
-                <label for="app-child-name" class="form-label">Child Full Name <span class="required">*</span></label>
-                <input type="text" id="app-child-name" name="child_name" class="form-control" placeholder="Full name as in passport" required>
+                <label for="app-child-name" class="form-label">Child’s Full Name (as per passport) <span class="required">*</span></label>
+                <input type="text" id="app-child-name" name="child_name" class="form-control" placeholder="E.g. Alex" required>
               </div>
 
               <div class="form-group">
-                <label for="app-child-dob" class="form-label">Child's Date of Birth <span class="required">*</span></label>
+                <label for="app-child-preferred-name" class="form-label">Preferred Name <span class="required">*</span></label>
+                <input type="text" id="app-child-preferred-name" name="child_preferred_name" class="form-control" placeholder="E.g. Alex" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-child-nationality" class="form-label">Nationality (as per passport) <span class="required">*</span></label>
+                <input type="text" id="app-child-nationality" name="nationality" class="form-control" placeholder="E.g. British" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-child-dob" class="form-label">Date of Birth <span class="required">*</span></label>
                 <input type="date" id="app-child-dob" name="child_dob" class="form-control" required>
               </div>
 
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Gender <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="child_gender" value="Male" required> <span>Male</span></label>
+                  <label class="choice-pill"><input type="radio" name="child_gender" value="Female" required> <span>Female</span></label>
+                </div>
+              </fieldset>
+
               <div class="form-group">
-                <label for="app-child-gender" class="form-label">Child Gender <span class="required">*</span></label>
-                <select id="app-child-gender" name="child_gender" class="form-select" required>
-                  <option value="" disabled selected>Select gender</option>
-                  <option value="Boy">Boy</option>
-                  <option value="Girl">Girl</option>
-                </select>
+                <label for="app-child-native-language" class="form-label">Native Language <span class="required">*</span></label>
+                <input type="text" id="app-child-native-language" name="child_native_language" class="form-control" placeholder="E.g. Arabic" required>
               </div>
 
               <div class="form-group">
-                <label for="app-child-nationality" class="form-label">Nationality <span class="required">*</span></label>
-                <input type="text" id="app-child-nationality" name="nationality" class="form-control" placeholder="e.g. Omani, British, etc." required>
+                <label for="app-child-other-languages" class="form-label">Other Languages</label>
+                <input type="text" id="app-child-other-languages" name="child_other_languages" class="form-control" placeholder="Other Languages">
               </div>
 
               <div class="form-group">
-                <label for="app-prev-schools" class="form-label">Previous Nurseries / Schools Information</label>
-                <input type="text" id="app-prev-schools" name="previous_schools" class="form-control" placeholder="Name of previous nursery or 'None'">
-              </div>
-
-              <div class="form-group">
-                <label for="app-siblings" class="form-label">Siblings Information</label>
-                <input type="text" id="app-siblings" name="siblings" class="form-control" placeholder="Siblings names, ages, and schools attended">
+                <label for="app-child-religion" class="form-label">Religion <span class="required">*</span></label>
+                <input type="text" id="app-child-religion" name="child_religion" class="form-control" required>
               </div>
 
               <div class="form-group full-width">
-                <label for="app-additional-info" class="form-label">Additional Information (Special Needs, Interventions, Accommodations)</label>
-                <textarea id="app-additional-info" name="additional_info" class="form-textarea" placeholder="Please mention any special learning requirements, therapy, speech development, or sensitivities..."></textarea>
+                <label for="app-child-address" class="form-label">Address <span class="required">*</span></label>
+                <input type="text" id="app-child-address" name="child_address" class="form-control" autocomplete="street-address" required>
               </div>
             </div>
           </fieldset>
 
-          <!-- Fieldset 3: Parent / Guardian Information -->
           <fieldset class="form-fieldset-block">
-            <legend class="fieldset-legend"><i class="fa-solid fa-users"></i> 3. Parents / Guardian Information</legend>
+            <legend class="fieldset-legend"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> 3. Previous Nurseries/Schools Information</legend>
             <div class="form-grid-two">
               <div class="form-group">
-                <label for="app-parent1-name" class="form-label">Primary Parent / Guardian Name <span class="required">*</span></label>
-                <input type="text" id="app-parent1-name" name="parent1_name" class="form-control" placeholder="Parent 1 full name" required>
+                <label for="app-prev-school-1-name" class="form-label">First Nursery/School Name</label>
+                <input type="text" id="app-prev-school-1-name" name="prev_school_1_name" class="form-control" placeholder="Nursery Name">
               </div>
 
               <div class="form-group">
-                <label for="app-parent1-phone" class="form-label">Primary Phone Number <span class="required">*</span></label>
-                <input type="tel" id="app-parent1-phone" name="parent1_phone" class="form-control" placeholder="+968 9XXXXXXX" required>
+                <label for="app-prev-school-1-country" class="form-label">Country</label>
+                <input type="text" id="app-prev-school-1-country" name="prev_school_1_country" class="form-control" placeholder="Country">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-prev-school-1-years" class="form-label">Academic Years</label>
+                <input type="text" id="app-prev-school-1-years" name="prev_school_1_years" class="form-control" placeholder="E.g. 2024 – 2025">
               </div>
 
               <div class="form-group">
-                <label for="app-parent1-email" class="form-label">Primary Email Address <span class="required">*</span></label>
-                <input type="email" id="app-parent1-email" name="parent1_email" class="form-control" placeholder="parent@example.com" required>
+                <label for="app-prev-school-2-name" class="form-label">Second Nursery/School Name</label>
+                <input type="text" id="app-prev-school-2-name" name="prev_school_2_name" class="form-control" placeholder="Nursery Name">
               </div>
 
               <div class="form-group">
-                <label for="app-parent2-name" class="form-label">Secondary Parent / Guardian Name</label>
-                <input type="text" id="app-parent2-name" name="parent2_name" class="form-control" placeholder="Parent 2 full name">
+                <label for="app-prev-school-2-country" class="form-label">Country</label>
+                <input type="text" id="app-prev-school-2-country" name="prev_school_2_country" class="form-control" placeholder="Country">
               </div>
 
-              <div class="form-group">
-                <label for="app-transportation" class="form-label">Transportation Details <span class="required">*</span></label>
-                <select id="app-transportation" name="transportation" class="form-select" required>
-                  <option value="Private Transportation (Parents Drop-off & Pick-up)" selected>Private Drop-off &amp; Pick-up</option>
-                  <option value="Request Shomoukh Nursery Bus Service">Request Shomoukh Nursery Bus Service</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="app-emergency-contact" class="form-label">Emergency Contacts (Name &amp; Phone) <span class="required">*</span></label>
-                <input type="text" id="app-emergency-contact" name="emergency_contact" class="form-control" placeholder="Emergency contact name, relation &amp; phone" required>
+              <div class="form-group full-width">
+                <label for="app-prev-school-2-years" class="form-label">Academic Years</label>
+                <input type="text" id="app-prev-school-2-years" name="prev_school_2_years" class="form-control" placeholder="E.g. 2024 – 2025">
               </div>
             </div>
           </fieldset>
 
-          <!-- Fieldset 4: Medical Form & Allergies -->
           <fieldset class="form-fieldset-block">
-            <legend class="fieldset-legend"><i class="fa-solid fa-notes-medical"></i> 4. Medical Form &amp; Health History</legend>
+            <legend class="fieldset-legend"><i class="fa-solid fa-children" aria-hidden="true"></i> 4. Siblings Information</legend>
             <div class="form-grid-two">
               <div class="form-group">
-                <label for="app-allergies" class="form-label">Allergies Information</label>
-                <input type="text" id="app-allergies" name="allergies" class="form-control" placeholder="Food allergies, medicine allergies, or 'None'">
+                <label for="app-sibling-1-name" class="form-label">First Sibling’s Name</label>
+                <input type="text" id="app-sibling-1-name" name="sibling_1_name" class="form-control" placeholder="E.g. John Doe">
               </div>
 
               <div class="form-group">
-                <label for="app-health-history" class="form-label">Health History &amp; Dietary Needs</label>
-                <input type="text" id="app-health-history" name="health_history" class="form-control" placeholder="Chronic conditions, dietary restrictions, medications...">
+                <label for="app-sibling-1-class" class="form-label">Class</label>
+                <input type="text" id="app-sibling-1-class" name="sibling_1_class" class="form-control" placeholder="Class">
+              </div>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">Status</legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="sibling_1_status" value="New"> <span>New</span></label>
+                  <label class="choice-pill"><input type="radio" name="sibling_1_status" value="Enrolled at Shomoukh"> <span>Enrolled at Shomoukh</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="app-sibling-2-name" class="form-label">Second Sibling’s Name</label>
+                <input type="text" id="app-sibling-2-name" name="sibling_2_name" class="form-control" placeholder="E.g. John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="app-sibling-2-class" class="form-label">Class</label>
+                <input type="text" id="app-sibling-2-class" name="sibling_2_class" class="form-control" placeholder="Class">
+              </div>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">Status</legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="sibling_2_status" value="New"> <span>New</span></label>
+                  <label class="choice-pill"><input type="radio" name="sibling_2_status" value="Enrolled at Shomoukh"> <span>Enrolled at Shomoukh</span></label>
+                </div>
+              </fieldset>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> 5. Additional Information</legend>
+            <p class="fieldset-intro">Has your child been identified with or received services in any of the following?</p>
+            <div class="form-grid-two">
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Gifted and Talented <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_gifted_and_talented" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_gifted_and_talented" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Medication to Aid the Learning Process <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_medication_to_aid_the_learning_process" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_medication_to_aid_the_learning_process" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Small Group Learning Support <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_small_group_learning_support" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_small_group_learning_support" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">ADHD/ADD Interventions <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_adhd_add_interventions" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_adhd_add_interventions" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Individual Learning Support <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_individual_learning_support" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_individual_learning_support" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Occupational Therapy <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_occupational_therapy" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_occupational_therapy" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Speech Language Therapy <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_speech_language_therapy" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_speech_language_therapy" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Physical Disabilities <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_physical_disabilities" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_physical_disabilities" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Behaviour Management <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="service_behaviour_management" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="service_behaviour_management" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group full-width">
+                <label for="app-services-details" class="form-label">If yes, please provide details</label>
+                <input type="text" id="app-services-details" name="services_details" class="form-control" placeholder="Provide details">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-other-interventions" class="form-label">List other interventions here (please provide documents)</label>
+                <input type="text" id="app-other-interventions" name="other_interventions" class="form-control" placeholder="Other Interventions">
+              </div>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">For Nursery/School: Full-week attendance (Sunday to Thursday) <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="full_week_program" value="Nursery" required> <span>Nursery</span></label>
+                  <label class="choice-pill"><input type="radio" name="full_week_program" value="KG1" required> <span>KG1</span></label>
+                  <label class="choice-pill"><input type="radio" name="full_week_program" value="KG2" required> <span>KG2</span></label>
+                  <label class="choice-pill"><input type="radio" name="full_week_program" value="Grade 1" required> <span>Grade 1</span></label>
+                  <label class="choice-pill"><input type="radio" name="full_week_program" value="Grade 2" required> <span>Grade 2</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">Choose the attendance schedule for your child <span class="required">*</span></legend>
+                <p class="choice-hint">Please select the option that applies to your child’s nursery program.</p>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="attendance_schedule" value="3 Days a week" required> <span>3 Days a week</span></label>
+                  <label class="choice-pill"><input type="radio" name="attendance_schedule" value="4 Days a week" required> <span>4 Days a week</span></label>
+                  <label class="choice-pill"><input type="radio" name="attendance_schedule" value="5 Days a week" required> <span>5 Days a week</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">Select your preferred days of attendance</legend>
+                <p class="choice-hint">Days must be consecutive. The admission team will confirm the chosen days in the final step of enrolment.</p>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="checkbox" name="preferred_days" value="Sunday"> <span>Sunday</span></label>
+                  <label class="choice-pill"><input type="checkbox" name="preferred_days" value="Monday"> <span>Monday</span></label>
+                  <label class="choice-pill"><input type="checkbox" name="preferred_days" value="Tuesday"> <span>Tuesday</span></label>
+                  <label class="choice-pill"><input type="checkbox" name="preferred_days" value="Wednesday"> <span>Wednesday</span></label>
+                  <label class="choice-pill"><input type="checkbox" name="preferred_days" value="Thursday"> <span>Thursday</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Has your child ever been retained or repeated a grade? <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="retained" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="retained" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="app-retained-grade" class="form-label">If yes, which grade?</label>
+                <input type="text" id="app-retained-grade" name="retained_grade" class="form-control" placeholder="Provide details">
+              </div>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Has your child ever been asked to leave a nursery/school? <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="asked_to_leave" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="asked_to_leave" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="app-asked-to-leave-reason" class="form-label">If yes, please indicate the reason</label>
+                <input type="text" id="app-asked-to-leave-reason" name="asked_to_leave_reason" class="form-control" placeholder="Provide details">
               </div>
             </div>
           </fieldset>
 
-          <!-- Fieldset 5: Required Documents Checklist -->
           <fieldset class="form-fieldset-block">
-            <legend class="fieldset-legend"><i class="fa-solid fa-list-check"></i> 5. Required Documents Checklist</legend>
-            <p style="font-size: 0.92rem; color: var(--shomoukh-text-muted); margin-bottom: 12px;">
-              Please check the documents you are prepared to submit to complete your child's registration:
-            </p>
-            <div class="checklist-grid">
-              <label class="checkbox-label">
-                <input type="checkbox" name="doc_birth_cert" checked>
-                <span>Child's Birth Certificate Copy</span>
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" name="doc_immunization" checked>
-                <span>Child's Immunization / Health Card</span>
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" name="doc_passport" checked>
-                <span>Child &amp; Parents Passport Copies</span>
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" name="doc_photos" checked>
-                <span>4 Recent Passport-size Photographs</span>
-              </label>
+            <legend class="fieldset-legend"><i class="fa-solid fa-users" aria-hidden="true"></i> 6. Parents/Guardian Information</legend>
+            <div class="form-grid-two">
+              <div class="form-group">
+                <label for="app-father-name" class="form-label">Father’s Full Name <span class="required">*</span></label>
+                <input type="text" id="app-father-name" name="father_name" class="form-control" placeholder="E.g. John Doe" autocomplete="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-father-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-father-mobile" name="father_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-father-occupation" class="form-label">Occupation <span class="required">*</span></label>
+                <input type="text" id="app-father-occupation" name="father_occupation" class="form-control" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-father-email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" id="app-father-email" name="father_email" class="form-control" placeholder="E.g. john@doe.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-father-other-phone" class="form-label">Other Phone No.</label>
+                <input type="tel" id="app-father-other-phone" name="father_other_phone" class="form-control" placeholder="E.g. +968 9123 4567">
+              </div>
+
+              <div class="form-group">
+                <label for="app-father-office-phone" class="form-label">Office Phone No.</label>
+                <input type="tel" id="app-father-office-phone" name="father_office_phone" class="form-control" placeholder="E.g. +968 9123 4567">
+              </div>
+
+              <div class="form-group">
+                <label for="app-mother-name" class="form-label">Mother’s Full Name <span class="required">*</span></label>
+                <input type="text" id="app-mother-name" name="mother_name" class="form-control" placeholder="E.g. John Doe" autocomplete="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-mother-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-mother-mobile" name="mother_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-mother-occupation" class="form-label">Occupation <span class="required">*</span></label>
+                <input type="text" id="app-mother-occupation" name="mother_occupation" class="form-control" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-mother-email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" id="app-mother-email" name="mother_email" class="form-control" placeholder="E.g. john@doe.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-mother-other-phone" class="form-label">Other Phone No.</label>
+                <input type="tel" id="app-mother-other-phone" name="mother_other_phone" class="form-control" placeholder="E.g. +968 9123 4567">
+              </div>
+
+              <div class="form-group">
+                <label for="app-guardian-name" class="form-label">Guardian’s Full Name</label>
+                <input type="text" id="app-guardian-name" name="guardian_name" class="form-control" placeholder="E.g. John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="app-guardian-mobile" class="form-label">Mobile No.</label>
+                <input type="tel" id="app-guardian-mobile" name="guardian_mobile" class="form-control" placeholder="E.g. +968 9123 4567">
+              </div>
+
+              <div class="form-group">
+                <label for="app-guardian-email" class="form-label">Email Address</label>
+                <input type="email" id="app-guardian-email" name="guardian_email" class="form-control" placeholder="E.g. john@doe.com">
+              </div>
+
+              <div class="form-group">
+                <label for="app-guardian-relationship" class="form-label">Relationship</label>
+                <input type="text" id="app-guardian-relationship" name="guardian_relationship" class="form-control">
+              </div>
             </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-car" aria-hidden="true"></i> 7. Transportation Details</legend>
+            <p class="fieldset-intro">Name and phone number of the people who will drop off and pick up the child.</p>
+            <div class="form-grid-two">
+              <div class="form-group">
+                <label for="app-dropoff-name" class="form-label">Name of the person who will drop off the child <span class="required">*</span></label>
+                <input type="text" id="app-dropoff-name" name="dropoff_name" class="form-control" placeholder="E.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-dropoff-relationship" class="form-label">Relationship <span class="required">*</span></label>
+                <input type="text" id="app-dropoff-relationship" name="dropoff_relationship" class="form-control" required>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-dropoff-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-dropoff-mobile" name="dropoff_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-pickup-name" class="form-label">Name of the person who will pick up the child <span class="required">*</span></label>
+                <input type="text" id="app-pickup-name" name="pickup_name" class="form-control" placeholder="E.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-pickup-relationship" class="form-label">Relationship <span class="required">*</span></label>
+                <input type="text" id="app-pickup-relationship" name="pickup_relationship" class="form-control" required>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-pickup-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-pickup-mobile" name="pickup_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-user-doctor" aria-hidden="true"></i> 8. Medical Form</legend>
+            <p class="fieldset-intro">To be completed prior to admission. The information will greatly assist us when dealing with any emergencies during nursery/school hours.</p>
+            <div class="form-grid-two">
+              <div class="form-group">
+                <label for="app-doctor-name" class="form-label">Doctor’s Name</label>
+                <input type="text" id="app-doctor-name" name="doctor_name" class="form-control" placeholder="E.g. Dr. Joseph">
+              </div>
+
+              <div class="form-group">
+                <label for="app-doctor-clinic" class="form-label">Clinic/Hospital</label>
+                <input type="text" id="app-doctor-clinic" name="doctor_clinic" class="form-control" placeholder="Clinic’s Name">
+              </div>
+
+              <div class="form-group">
+                <label for="app-doctor-email" class="form-label">Email Address</label>
+                <input type="email" id="app-doctor-email" name="doctor_email" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="app-doctor-mobile" class="form-label">Mobile No.</label>
+                <input type="tel" id="app-doctor-mobile" name="doctor_mobile" class="form-control" placeholder="E.g. +968 9123 4567">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-hand-dots" aria-hidden="true"></i> 9. Allergies</legend>
+            <div class="form-grid-two">
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Does your child have any known allergies? <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="allergies" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="allergies" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <p class="form-group full-width fieldset-intro">Please complete the following. Non-completion is taken as indicating no known allergies.</p>
+
+              <div class="form-group">
+                <label for="app-allergen-1" class="form-label">First Allergen</label>
+                <input type="text" id="app-allergen-1" name="allergen_1" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="app-allergen-1-reaction" class="form-label">Reaction</label>
+                <input type="text" id="app-allergen-1-reaction" name="allergen_1_reaction" class="form-control">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-allergen-1-treatment" class="form-label">Treatment</label>
+                <input type="text" id="app-allergen-1-treatment" name="allergen_1_treatment" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="app-allergen-2" class="form-label">Second Allergen</label>
+                <input type="text" id="app-allergen-2" name="allergen_2" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="app-allergen-2-reaction" class="form-label">Reaction</label>
+                <input type="text" id="app-allergen-2-reaction" name="allergen_2_reaction" class="form-control">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-allergen-2-treatment" class="form-label">Treatment</label>
+                <input type="text" id="app-allergen-2-treatment" name="allergen_2_treatment" class="form-control">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-notes-medical" aria-hidden="true"></i> 10. Health History</legend>
+            <p class="fieldset-intro">Please indicate if your child has experienced any of the following.</p>
+            <div class="form-grid-two">
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Chicken Pox <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_chicken_pox" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_chicken_pox" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Asthma <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_asthma" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_asthma" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Measles <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_measles" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_measles" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Kidney Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_kidney_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_kidney_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Eczema/Skin Conditions <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_eczema_skin_conditions" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_eczema_skin_conditions" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Speech Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_speech_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_speech_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Rubella <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_rubella" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_rubella" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Visual Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_visual_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_visual_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Malaria <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_malaria" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_malaria" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Epilepsy <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_epilepsy" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_epilepsy" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Orthopaedical Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_orthopaedical_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_orthopaedical_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Whooping Cough <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_whooping_cough" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_whooping_cough" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Tuberculosis <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_tuberculosis" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_tuberculosis" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Hearing Related Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_hearing_related_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_hearing_related_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Diabetes <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_diabetes" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_diabetes" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Other Health Difficulties <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="health_other_health_difficulties" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="health_other_health_difficulties" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group full-width">
+                <label for="app-other-health-details" class="form-label">Please provide details of other health difficulties, if any</label>
+                <input type="text" id="app-other-health-details" name="other_health_details" class="form-control" placeholder="E.g. Please specify any other health difficulties">
+              </div>
+
+              <fieldset class="form-group choice-group">
+                <legend class="form-label">Does the child have any medical conditions? <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="medical_conditions" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="medical_conditions" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="app-medical-conditions-details" class="form-label">If yes, please specify medical conditions</label>
+                <input type="text" id="app-medical-conditions-details" name="medical_conditions_details" class="form-control" placeholder="E.g. Please specify medical conditions">
+              </div>
+
+              <fieldset class="form-group choice-group full-width">
+                <legend class="form-label">Permission to administer non-prescription medicines such as Ibuprofen, Paracetamol and insect bite cream <span class="required">*</span></legend>
+                <div class="choice-options">
+                  <label class="choice-pill"><input type="radio" name="permission_medicines" value="Yes" required> <span>Yes</span></label>
+                  <label class="choice-pill"><input type="radio" name="permission_medicines" value="No" required> <span>No</span></label>
+                </div>
+              </fieldset>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-truck-medical" aria-hidden="true"></i> 11. Emergencies</legend>
+            <p class="fieldset-intro">In the event of your child having any illness or an accidental injury whilst at the nursery/school, we reserve the right to administer First Aid and emergency treatment. If the Parent/Guardian cannot be reached, it is at the discretion of the nursery/school to take the child to the hospital of their choice if deemed necessary. Parent/Guardian will be asked to pay all costs incurred and take full responsibility for the treatment required. Please list two people that can be contacted in case of emergencies.</p>
+            <div class="form-grid-two">
+              <div class="form-group">
+                <label for="app-emergency-1-name" class="form-label">First Contact’s Full Name <span class="required">*</span></label>
+                <input type="text" id="app-emergency-1-name" name="emergency_1_name" class="form-control" placeholder="E.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-emergency-1-relationship" class="form-label">Relationship</label>
+                <input type="text" id="app-emergency-1-relationship" name="emergency_1_relationship" class="form-control" placeholder="E.g. Mother/Father">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-emergency-1-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-emergency-1-mobile" name="emergency_1_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-emergency-2-name" class="form-label">Second Contact’s Full Name <span class="required">*</span></label>
+                <input type="text" id="app-emergency-2-name" name="emergency_2_name" class="form-control" placeholder="E.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="app-emergency-2-relationship" class="form-label">Relationship</label>
+                <input type="text" id="app-emergency-2-relationship" name="emergency_2_relationship" class="form-control" placeholder="E.g. Mother/Father">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="app-emergency-2-mobile" class="form-label">Mobile No. <span class="required">*</span></label>
+                <input type="tel" id="app-emergency-2-mobile" name="emergency_2_mobile" class="form-control" placeholder="E.g. +968 9123 4567" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset-block">
+            <legend class="fieldset-legend"><i class="fa-solid fa-list-check" aria-hidden="true"></i> 12. Required Documents</legend>
+            <p class="fieldset-intro">Kindly submit the following documents to the admission department:</p>
+            <ol class="required-documents">
+              <li>Copy of the child’s valid passport (for Omani and non-Omani)</li>
+              <li>Copy of the child’s Omani resident card (both sides)</li>
+              <li>Copy of the father’s valid passport (for Omani and non-Omani)</li>
+              <li>Copy of the mother’s valid passport (for Omani and non-Omani)</li>
+              <li>Copy of the parents’ Omani resident cards (both sides)</li>
+              <li>Recent passport-size photographs of the child and parents</li>
+              <li>Copy of the birth certificate, attested and translated into Arabic or English</li>
+              <li>Copy of the vaccination certificate/records</li>
+              <li>If the child has any medical or health condition, a copy of the doctor’s report</li>
+              <li>Copies of valid passports or Omani resident cards of the people who will drop off and pick up the child</li>
+              <li>If transferring from another school in Oman, the educational portal transfer number/letter issued by the previous school. Registration is provisional until the transfer is completed.</li>
+              <li>If the child is coming from outside Oman, the report must be attested by the Ministry of Education, the Ministry of Foreign Affairs and the Embassy of Oman in that country, or the relevant ministry for GCC countries.</li>
+            </ol>
+            <label class="checkbox-label acknowledgement">
+              <input type="checkbox" id="app-acknowledgement" name="acknowledgement" value="Agreed" required>
+              <span><strong>Acknowledgement <span class="required">*</span></strong> I hereby certify that the information provided on this form is true. I am responsible for any liability arising from any false or missing information. I have read and understood all the information on the Shomoukh enrolment form and I fully agree to be bound by it.</span>
+            </label>
           </fieldset>
 
           <button type="submit" disabled class="btn-form-submit" style="margin-top: 24px;">
             <i class="fa-solid fa-paper-plane"></i>
-            <span>SUBMIT ONLINE APPLICATION</span>
+            <span>SUBMIT APPLICATION</span>
           </button>
         </form>
       </div>

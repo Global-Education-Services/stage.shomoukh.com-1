@@ -429,8 +429,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const localNow = new Date();
   const localDate = `${localNow.getFullYear()}-${String(localNow.getMonth()+1).padStart(2,'0')}-${String(localNow.getDate()).padStart(2,'0')}`;
   document.querySelectorAll('input[type=date][id*=dob]').forEach(field => { field.max = localDate; });
-  const visitTime = document.getElementById('tour-visit-datetime');
-  if (visitTime) visitTime.min = `${localDate}T${String(localNow.getHours()).padStart(2,'0')}:${String(localNow.getMinutes()).padStart(2,'0')}`;
+  const visitDate = document.getElementById('tour-visit-date');
+  if (visitDate) visitDate.min = localDate;
   const contactMsgInput = document.getElementById('contact-message');
   const contactCharCount = document.getElementById('contact-char-count');
   if (contactMsgInput && contactCharCount) contactMsgInput.addEventListener('input', () => { contactCharCount.textContent = contactMsgInput.value.length; });

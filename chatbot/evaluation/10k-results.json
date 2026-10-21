@@ -1,9 +1,9 @@
 {
-  "evaluatedAt": "2026-10-21T12:40:18.621Z",
+  "evaluatedAt": "2026-10-21T12:56:04.459Z",
   "seed": 20261018,
-  "corpusFingerprint": "d04a27e1eea3787f27462eeb9c2dd5a53f59cf70fc51c6345c47250132a2004c",
+  "corpusFingerprint": "252db6cab9b54156989ec225f8a2edc51c633da3acc0b4187c620ecb510c4276",
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "d76e287d290794d9e181a25b07a4300572a383f1c8a1fb86e4815e6aaf29a084",
+  "sourceFingerprint": "a1610f670401cc16b7839a46efec115c2a24287e34c92a73058d589bdb9f6d2f",
   "definitions": {
     "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
     "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
@@ -13,16 +13,16 @@
     "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
     "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
   },
-  "initializationMs": 25.047874999999998,
+  "initializationMs": 23.39716700000001,
   "summary": {
     "cases": 10000,
-    "passed": 9997,
-    "failed": 3,
-    "accuracy": 0.9997,
+    "passed": 9992,
+    "failed": 8,
+    "accuracy": 0.9992,
     "finalTurn": {
-      "correct": 9997,
+      "correct": 9992,
       "total": 10000,
-      "accuracy": 0.9997
+      "accuracy": 0.9992
     },
     "precedingConversation": {
       "correct": 1000,
@@ -30,59 +30,59 @@
       "accuracy": 1
     },
     "precedingTurns": {
-      "passed": 2265,
-      "total": 2265
+      "passed": 2266,
+      "total": 2266
     },
     "answerSelection": {
-      "correct": 9997,
+      "correct": 9992,
       "total": 10000,
-      "accuracy": 0.9997
+      "accuracy": 0.9992
     },
     "sourceAttribution": {
-      "correct": 9297,
+      "correct": 9292,
       "total": 9300,
-      "accuracy": 0.9996774193548387
+      "accuracy": 0.9991397849462366
     },
     "recordSelection": {
-      "correct": 8813,
-      "total": 8816,
-      "accuracy": 0.9996597096188747
+      "correct": 8892,
+      "total": 8900,
+      "accuracy": 0.9991011235955056
     },
     "intentRecognition": {
-      "correct": 2994,
+      "correct": 2995,
       "total": 3000,
-      "accuracy": 0.998
+      "accuracy": 0.9983333333333333
     },
     "entityRecognition": {
-      "correct": 6430,
-      "total": 6432,
-      "accuracy": 0.9996890547263682
+      "correct": 6093,
+      "total": 6094,
+      "accuracy": 0.9998359041680341
     },
     "autocorrection": {
-      "correct": 1482,
+      "correct": 1478,
       "total": 1500,
-      "accuracy": 0.988
+      "accuracy": 0.9853333333333333
     },
     "confidenceRange": {
       "correct": 10000,
       "total": 10000,
       "accuracy": 1
     },
-    "unsupportedCases": 1184,
+    "unsupportedCases": 1100,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 1.0475660602999939,
-    "p95ResponseMs": 2.242208000001483
+    "meanResponseMs": 0.9883407825999986,
+    "p95ResponseMs": 2.045417000000043
   },
   "byCategory": {
     "short": {
       "cases": 1500,
-      "passed": 1500,
-      "failed": 0,
-      "accuracy": 1,
+      "passed": 1498,
+      "failed": 2,
+      "accuracy": 0.9986666666666667,
       "finalTurn": {
-        "correct": 1500,
+        "correct": 1498,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9986666666666667
       },
       "precedingConversation": {
         "correct": 0,
@@ -94,19 +94,19 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 1500,
+        "correct": 1498,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9986666666666667
       },
       "sourceAttribution": {
-        "correct": 1500,
+        "correct": 1498,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9986666666666667
       },
       "recordSelection": {
-        "correct": 1394,
-        "total": 1394,
-        "accuracy": 1
+        "correct": 1403,
+        "total": 1405,
+        "accuracy": 0.998576512455516
       },
       "intentRecognition": {
         "correct": 0,
@@ -114,8 +114,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 856,
-        "total": 856,
+        "correct": 788,
+        "total": 788,
         "accuracy": 1
       },
       "autocorrection": {
@@ -128,20 +128,20 @@
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 106,
+      "unsupportedCases": 95,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8696934846666665,
-      "p95ResponseMs": 1.7313329999999496
+      "meanResponseMs": 0.7739456980000003,
+      "p95ResponseMs": 1.4298749999999245
     },
     "typo": {
       "cases": 1500,
-      "passed": 1497,
-      "failed": 3,
-      "accuracy": 0.998,
+      "passed": 1494,
+      "failed": 6,
+      "accuracy": 0.996,
       "finalTurn": {
-        "correct": 1497,
+        "correct": 1494,
         "total": 1500,
-        "accuracy": 0.998
+        "accuracy": 0.996
       },
       "precedingConversation": {
         "correct": 0,
@@ -153,19 +153,19 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 1497,
+        "correct": 1494,
         "total": 1500,
-        "accuracy": 0.998
+        "accuracy": 0.996
       },
       "sourceAttribution": {
-        "correct": 1497,
+        "correct": 1494,
         "total": 1500,
-        "accuracy": 0.998
+        "accuracy": 0.996
       },
       "recordSelection": {
-        "correct": 1395,
-        "total": 1398,
-        "accuracy": 0.9978540772532188
+        "correct": 1413,
+        "total": 1419,
+        "accuracy": 0.9957716701902748
       },
       "intentRecognition": {
         "correct": 0,
@@ -173,24 +173,24 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 792,
-        "total": 794,
-        "accuracy": 0.9974811083123426
+        "correct": 706,
+        "total": 707,
+        "accuracy": 0.9985855728429985
       },
       "autocorrection": {
-        "correct": 1482,
+        "correct": 1478,
         "total": 1500,
-        "accuracy": 0.988
+        "accuracy": 0.9853333333333333
       },
       "confidenceRange": {
         "correct": 1500,
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 102,
+      "unsupportedCases": 81,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9168040586666657,
-      "p95ResponseMs": 2.0572910000000775
+      "meanResponseMs": 0.8310379213333323,
+      "p95ResponseMs": 1.6257909999999356
     },
     "natural": {
       "cases": 1500,
@@ -222,8 +222,8 @@
         "accuracy": 1
       },
       "recordSelection": {
-        "correct": 1394,
-        "total": 1394,
+        "correct": 1414,
+        "total": 1414,
         "accuracy": 1
       },
       "intentRecognition": {
@@ -232,8 +232,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 825,
-        "total": 825,
+        "correct": 801,
+        "total": 801,
         "accuracy": 1
       },
       "autocorrection": {
@@ -246,10 +246,10 @@
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 106,
+      "unsupportedCases": 86,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9660494293333228,
-      "p95ResponseMs": 1.8579169999998157
+      "meanResponseMs": 0.8828784979999952,
+      "p95ResponseMs": 1.5199999999999818
     },
     "campus": {
       "cases": 1200,
@@ -286,9 +286,9 @@
         "accuracy": 1
       },
       "intentRecognition": {
-        "correct": 1194,
+        "correct": 1195,
         "total": 1200,
-        "accuracy": 0.995
+        "accuracy": 0.9958333333333333
       },
       "entityRecognition": {
         "correct": 1200,
@@ -307,8 +307,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.3951025674999846,
-      "p95ResponseMs": 2.5359999999991487
+      "meanResponseMs": 1.2228054141666602,
+      "p95ResponseMs": 2.1997920000003433
     },
     "leadership": {
       "cases": 800,
@@ -366,8 +366,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.2254514287500025,
-      "p95ResponseMs": 2.342291999999361
+      "meanResponseMs": 1.1145345087499903,
+      "p95ResponseMs": 2.0558750000000146
     },
     "admissions": {
       "cases": 1000,
@@ -399,8 +399,8 @@
         "accuracy": 1
       },
       "recordSelection": {
-        "correct": 881,
-        "total": 881,
+        "correct": 907,
+        "total": 907,
         "accuracy": 1
       },
       "intentRecognition": {
@@ -409,8 +409,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 465,
-        "total": 465,
+        "correct": 364,
+        "total": 364,
         "accuracy": 1
       },
       "autocorrection": {
@@ -423,10 +423,10 @@
         "total": 1000,
         "accuracy": 1
       },
-      "unsupportedCases": 119,
+      "unsupportedCases": 93,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.6777443099999909,
-      "p95ResponseMs": 1.287833999999748
+      "meanResponseMs": 0.7029654579999933,
+      "p95ResponseMs": 1.3415839999997843
     },
     "context": {
       "cases": 1000,
@@ -444,8 +444,8 @@
         "accuracy": 1
       },
       "precedingTurns": {
-        "passed": 2265,
-        "total": 2265
+        "passed": 2266,
+        "total": 2266
       },
       "answerSelection": {
         "correct": 1000,
@@ -484,8 +484,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9299962270000015,
-      "p95ResponseMs": 1.387165999998615
+      "meanResponseMs": 0.8754528340000152,
+      "p95ResponseMs": 1.1652500000000146
     },
     "informal": {
       "cases": 800,
@@ -517,8 +517,8 @@
         "accuracy": 1
       },
       "recordSelection": {
-        "correct": 749,
-        "total": 749,
+        "correct": 755,
+        "total": 755,
         "accuracy": 1
       },
       "intentRecognition": {
@@ -527,8 +527,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 492,
-        "total": 492,
+        "correct": 434,
+        "total": 434,
         "accuracy": 1
       },
       "autocorrection": {
@@ -541,10 +541,10 @@
         "total": 800,
         "accuracy": 1
       },
-      "unsupportedCases": 51,
+      "unsupportedCases": 45,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9650851137500217,
-      "p95ResponseMs": 1.7758749999993597
+      "meanResponseMs": 0.9623204637500044,
+      "p95ResponseMs": 1.8769580000007409
     },
     "negative": {
       "cases": 700,
@@ -602,8 +602,8 @@
       },
       "unsupportedCases": 700,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.875067559999973,
-      "p95ResponseMs": 3.279625000001033
+      "meanResponseMs": 2.063351261428571,
+      "p95ResponseMs": 3.6326669999998558
     }
   },
   "context": {
@@ -622,8 +622,8 @@
       "accuracy": 1
     },
     "precedingTurns": {
-      "passed": 2265,
-      "total": 2265
+      "passed": 2266,
+      "total": 2266
     },
     "answerSelection": {
       "correct": 1000,
@@ -662,104 +662,198 @@
     },
     "unsupportedCases": 0,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 0.9299962270000015,
-    "p95ResponseMs": 1.387165999998615
+    "meanResponseMs": 0.8754528340000152,
+    "p95ResponseMs": 1.1652500000000146
   },
   "failures": [
     {
-      "id": "tenk-02157",
-      "category": "typo",
+      "id": "tenk-00317",
+      "category": "short",
       "pass": false,
       "finalTurn": false,
       "setupCorrect": null,
       "setupTurns": 0,
       "setupTurnsPassed": 0,
-      "status": true,
+      "status": false,
       "facts": false,
       "source": false,
       "selection": false,
       "intent": null,
-      "entity": false,
-      "correction": false,
+      "entity": null,
+      "correction": null,
       "confidence": true,
-      "durationMs": 2.8891669999998157,
+      "durationMs": 3.0440830000000005,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about schedule a camps visit",
+      "question": "please choose your campus overview",
       "setup": [],
       "expected": {
-        "id": "tenk-02157",
-        "category": "typo",
+        "id": "tenk-00317",
+        "category": "short",
         "variation": "short",
-        "question": "tell me about schedule a camps visit",
+        "question": "please choose your campus overview",
         "setup": [],
         "expectedStatuses": [
           "answer"
         ],
         "sourceUrls": [
-          "/book-a-visit.html"
+          "/apply-online.html#online-enrollment-form"
         ],
         "all": [],
         "any": [
-          "Our Shomoukh team is eager to welcome you",
-          "Experience our learning ateliers, meet our educators, and"
+          "The public page lists these please choose your",
+          "Confirm current availability with admissions."
         ],
         "none": [],
-        "sourceRecordId": "book-a-visit-a772764a01",
+        "sourceRecordId": "apply-online-3553db8f6a",
         "expectedRecordIds": [
-          "book-a-visit-a772764a01"
+          "apply-online-3553db8f6a"
         ],
         "expectedIntent": null,
-        "expectedEntity": "service-tour",
-        "expectedRecordOrCategory": "book-a-visit-a772764a01",
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "apply-online-3553db8f6a",
         "expectedBehavior": "answer-from-verified-record",
         "confidenceExpectation": {
           "min": null,
           "max": 1,
           "reason": "Record confidence is engine-calibrated, not a probability of correctness."
         },
-        "expectedCorrection": {
-          "includes": [
-            "schedule a campus visit"
-          ],
-          "excludes": []
-        },
-        "topicCategory": "visit",
-        "variationCategory": "typo",
-        "normalizedKey": "[\"tell me about schedule a camps visit\"]"
+        "expectedCorrection": null,
+        "topicCategory": "application",
+        "variationCategory": "short",
+        "normalizedKey": "[\"please choose your campus overview\"]"
       },
       "actual": {
-        "text": "Schedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.",
-        "status": "answer",
-        "intent": "visit",
-        "confidence": 0.96,
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "search",
+        "confidence": 0,
         "recordIds": [
-          "spaces-4fe9e6c231"
+          "contact-6961fe9399"
         ],
         "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/spaces.html",
-            "title": "Come See Our Spaces in Person"
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
-          "Where are your campuses?",
-          "How can I contact you?"
+          "Can I book a tour?",
+          "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about schedule a camps visit",
-          "interpreted": "tell me about schedule a camps visit",
-          "corrections": []
+          "original": "please choose your campus overview",
+          "interpreted": "choose your campus overview",
+          "corrections": [
+            {
+              "from": "please choose your campus overview",
+              "to": "choose your campus overview",
+              "kind": "wording"
+            }
+          ]
         }
       }
     },
     {
-      "id": "tenk-02398",
+      "id": "tenk-01232",
+      "category": "short",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 2.3182500000000346,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "please choose your campus summary",
+      "setup": [],
+      "expected": {
+        "id": "tenk-01232",
+        "category": "short",
+        "variation": "short",
+        "question": "please choose your campus summary",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/apply-online.html#online-enrollment-form"
+        ],
+        "all": [],
+        "any": [
+          "The public page lists these please choose your",
+          "Confirm current availability with admissions."
+        ],
+        "none": [],
+        "sourceRecordId": "apply-online-3553db8f6a",
+        "expectedRecordIds": [
+          "apply-online-3553db8f6a"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "apply-online-3553db8f6a",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": null,
+        "topicCategory": "application",
+        "variationCategory": "short",
+        "normalizedKey": "[\"please choose your campus summary\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "search",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "please choose your campus summary",
+          "interpreted": "choose your campus summary",
+          "corrections": [
+            {
+              "from": "please choose your campus summary",
+              "to": "choose your campus summary",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01667",
       "category": "typo",
       "pass": false,
       "finalTurn": false,
@@ -774,17 +868,17 @@
       "entity": null,
       "correction": true,
       "confidence": true,
-      "durationMs": 2.5667499999999563,
+      "durationMs": 2.64645900000005,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about shomoukh atelies & enrichments",
+      "question": "tell me about shomoukh ateliesr & enrichments",
       "setup": [],
       "expected": {
-        "id": "tenk-02398",
+        "id": "tenk-01667",
         "category": "typo",
         "variation": "short",
-        "question": "tell me about shomoukh atelies & enrichments",
+        "question": "tell me about shomoukh ateliesr & enrichments",
         "setup": [],
         "expectedStatuses": [
           "answer"
@@ -818,7 +912,7 @@
         },
         "topicCategory": "enrichments",
         "variationCategory": "typo",
-        "normalizedKey": "[\"tell me about shomoukh atelies enrichments\"]"
+        "normalizedKey": "[\"tell me about shomoukh ateliesr enrichments\"]"
       },
       "actual": {
         "text": "The website lists these enrichment areas:\n\n• Clay Atelier\n• Art Atelier\n• Digital & Light Atelier\n• Project-Based Learning\n• Tiny Town\n• Sensory Play\n• Music & Movement\n• Drama, Puppetry & ECA / PE",
@@ -859,11 +953,11 @@
           "Tell me about Music & Movement"
         ],
         "query": {
-          "original": "tell me about shomoukh atelies & enrichments",
+          "original": "tell me about shomoukh ateliesr & enrichments",
           "interpreted": "tell me about shomoukh atelier enrichments",
           "corrections": [
             {
-              "from": "atelies",
+              "from": "ateliesr",
               "to": "atelier",
               "kind": "spelling"
             }
@@ -872,7 +966,191 @@
       }
     },
     {
-      "id": "tenk-02533",
+      "id": "tenk-02039",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 3.1290420000000267,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about please choose your camps",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02039",
+        "category": "typo",
+        "variation": "short",
+        "question": "tell me about please choose your camps",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/apply-online.html#online-enrollment-form"
+        ],
+        "all": [],
+        "any": [
+          "The public page lists these please choose your",
+          "Confirm current availability with admissions."
+        ],
+        "none": [],
+        "sourceRecordId": "apply-online-3553db8f6a",
+        "expectedRecordIds": [
+          "apply-online-3553db8f6a"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "apply-online-3553db8f6a",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "please choose your campus"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "application",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"tell me about please choose your camps\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "location",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "tell me about please choose your camps",
+          "interpreted": "tell me about please choose your camps",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-02076",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.4224999999999,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "choose shomoukh camps",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02076",
+        "category": "typo",
+        "variation": "short",
+        "question": "choose shomoukh camps",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/book-a-visit.html#tour-campus"
+        ],
+        "all": [],
+        "any": [
+          "The public page lists these choose shomoukh campus",
+          "Confirm current availability with admissions."
+        ],
+        "none": [],
+        "sourceRecordId": "book-a-visit-ccfce66462",
+        "expectedRecordIds": [
+          "book-a-visit-ccfce66462"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "book-a-visit-ccfce66462",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "choose shomoukh campus"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "visit",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"choose shomoukh camps\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "location",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "choose shomoukh camps",
+          "interpreted": "choose shomoukh camps",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-02104",
       "category": "typo",
       "pass": false,
       "finalTurn": false,
@@ -884,40 +1162,39 @@
       "source": false,
       "selection": false,
       "intent": null,
-      "entity": false,
-      "correction": false,
+      "entity": null,
+      "correction": true,
       "confidence": true,
-      "durationMs": 1.463333999999577,
+      "durationMs": 1.225458000000117,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "schedule a camps visit",
+      "question": "shomoukh ateliesr & enrichments",
       "setup": [],
       "expected": {
-        "id": "tenk-02533",
+        "id": "tenk-02104",
         "category": "typo",
         "variation": "short",
-        "question": "schedule a camps visit",
+        "question": "shomoukh ateliesr & enrichments",
         "setup": [],
         "expectedStatuses": [
           "answer"
         ],
         "sourceUrls": [
-          "/book-a-visit.html"
+          "/enrichments.html"
         ],
         "all": [],
         "any": [
-          "Our Shomoukh team is eager to welcome you",
-          "Experience our learning ateliers, meet our educators, and"
+          "Smart & innovative learning environments where children research,"
         ],
         "none": [],
-        "sourceRecordId": "book-a-visit-a772764a01",
+        "sourceRecordId": "enrichments-e359ba5685",
         "expectedRecordIds": [
-          "book-a-visit-a772764a01"
+          "enrichments-e359ba5685"
         ],
         "expectedIntent": null,
-        "expectedEntity": "service-tour",
-        "expectedRecordOrCategory": "book-a-visit-a772764a01",
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "enrichments-e359ba5685",
         "expectedBehavior": "answer-from-verified-record",
         "confidenceExpectation": {
           "min": null,
@@ -926,47 +1203,377 @@
         },
         "expectedCorrection": {
           "includes": [
-            "schedule a campus visit"
+            "shomoukh ateliers enrichments"
           ],
           "excludes": []
         },
-        "topicCategory": "visit",
+        "topicCategory": "enrichments",
         "variationCategory": "typo",
-        "normalizedKey": "[\"schedule a camps visit\"]"
+        "normalizedKey": "[\"shomoukh ateliesr enrichments\"]"
       },
       "actual": {
-        "text": "Schedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.",
+        "text": "The website lists these enrichment areas:\n\n• Clay Atelier\n• Art Atelier\n• Digital & Light Atelier\n• Project-Based Learning\n• Tiny Town\n• Sensory Play\n• Music & Movement\n• Drama, Puppetry & ECA / PE",
         "status": "answer",
-        "intent": "visit",
-        "confidence": 0.96,
+        "intent": "enrichment",
+        "confidence": 0.9,
         "recordIds": [
-          "spaces-4fe9e6c231"
+          "main.js-278d99379d",
+          "main.js-2acebaf277",
+          "main.js-8f68b0ad3b",
+          "main.js-70720eb9e8",
+          "main.js-49f7c6d08f",
+          "main.js-619c618978",
+          "main.js-20f139a472",
+          "main.js-ff9c0d0c0f"
+        ],
+        "entityIds": [
+          "atelier-clay",
+          "shomoukh",
+          "atelier-art",
+          "atelier-light",
+          "enrichment-project",
+          "enrichment-tiny-town",
+          "enrichment-sensory",
+          "enrichment-music",
+          "enrichment-drama"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#enrichments",
+            "title": "Clay Atelier"
+          }
+        ],
+        "suggestions": [
+          "Tell me about Art Atelier",
+          "Tell me about Clay Atelier",
+          "Tell me about Music & Movement"
+        ],
+        "query": {
+          "original": "shomoukh ateliesr & enrichments",
+          "interpreted": "shomoukh atelier enrichments",
+          "corrections": [
+            {
+              "from": "ateliesr",
+              "to": "atelier",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02855",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.4664999999999964,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "please choose your camps",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02855",
+        "category": "typo",
+        "variation": "short",
+        "question": "please choose your camps",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/apply-online.html#online-enrollment-form"
+        ],
+        "all": [],
+        "any": [
+          "The public page lists these please choose your",
+          "Confirm current availability with admissions."
+        ],
+        "none": [],
+        "sourceRecordId": "apply-online-3553db8f6a",
+        "expectedRecordIds": [
+          "apply-online-3553db8f6a"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "apply-online-3553db8f6a",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "please choose your campus"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "application",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"please choose your camps\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "location",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
         ],
         "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/spaces.html",
-            "title": "Come See Our Spaces in Person"
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
-          "Where are your campuses?",
+          "Can I book a tour?",
           "How can I contact you?"
         ],
         "query": {
-          "original": "schedule a camps visit",
-          "interpreted": "schedule a camps visit",
-          "corrections": []
+          "original": "please choose your camps",
+          "interpreted": "choose your camps",
+          "corrections": [
+            {
+              "from": "please choose your camps",
+              "to": "choose your camps",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02934",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": false,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 3.622124999999869,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about shomoukh ece al qurum camps — ges listing",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02934",
+        "category": "typo",
+        "variation": "short",
+        "question": "tell me about shomoukh ece al qurum camps — ges listing",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "https://www.ges.om/about.php"
+        ],
+        "all": [],
+        "any": [
+          "GES lists Shomoukh ECE Al Qurum Campus at",
+          "The local Shomoukh contact page supplies its detailed"
+        ],
+        "none": [],
+        "sourceRecordId": "ges-qurum",
+        "expectedRecordIds": [
+          "ges-qurum"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": "campus-qurum",
+        "expectedRecordOrCategory": "ges-qurum",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "shomoukh ece al qurum campus ges listing"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "organization",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"tell me about shomoukh ece al qurum camps ges listing\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "location",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "tell me about shomoukh ece al qurum camps — ges listing",
+          "interpreted": "tell me about shomoukh ece al qurm camps ges listing",
+          "corrections": [
+            {
+              "from": "qurum",
+              "to": "qurm",
+              "kind": "alias"
+            }
+          ]
         }
       }
     }
   ],
   "metricFailures": [
     {
-      "id": "tenk-01572",
+      "id": "tenk-01525",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.7024579999999787,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clnic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clnic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clnic",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01550",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.956292000000076,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about al qurm camps",
+      "actual": {
+        "text": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman +968 24600610 info.alqurum@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "tell me about al qurm camps",
+          "interpreted": "tell me about al qurm camps",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-01574",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -981,7 +1588,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.9461249999999382,
+      "durationMs": 1.0722909999999501,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1027,66 +1634,7 @@
       }
     },
     {
-      "id": "tenk-01624",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.9534590000000662,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "nurse's clniic",
-      "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-        "status": "answer",
-        "intent": "search",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-002f1385fc"
-        ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "nurse's clniic",
-          "interpreted": "nurse clinic",
-          "corrections": [
-            {
-              "from": "clniic",
-              "to": "clinic",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01730",
+      "id": "tenk-01720",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1101,129 +1649,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8949170000000777,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about our school's philsoophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about our school's philsoophy",
-          "interpreted": "tell me about our school philosophy",
-          "corrections": [
-            {
-              "from": "philsoophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about our school philosophy",
-              "to": "tell me about our school philosophy",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01822",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.8709170000001905,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about our school's phiolsophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about our school's phiolsophy",
-          "interpreted": "tell me about our school philosophy",
-          "corrections": [
-            {
-              "from": "phiolsophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about our school philosophy",
-              "to": "tell me about our school philosophy",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01828",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.1166250000001128,
+      "durationMs": 0.46412499999996726,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1264,7 +1690,60 @@
       }
     },
     {
-      "id": "tenk-01853",
+      "id": "tenk-01726",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.4789169999999103,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "al qurm camps",
+      "actual": {
+        "text": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman +968 24600610 info.alqurum@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "al qurm camps",
+          "interpreted": "al qurm camps",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-01873",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1279,11 +1758,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8565409999998792,
+      "durationMs": 0.4862080000000333,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about our school's philosohpy",
+      "question": "our school's philospohy",
       "actual": {
         "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
@@ -1307,11 +1786,67 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about our school's philosohpy",
+          "original": "our school's philospohy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philospohy",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01943",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.9074170000001232,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philsophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philsophy",
           "interpreted": "tell me about our school philosophy",
           "corrections": [
             {
-              "from": "philosohpy",
+              "from": "philsophy",
               "to": "philosophy",
               "kind": "spelling"
             },
@@ -1325,7 +1860,7 @@
       }
     },
     {
-      "id": "tenk-01887",
+      "id": "tenk-01971",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1337,31 +1872,28 @@
       "source": true,
       "selection": true,
       "intent": null,
-      "entity": true,
+      "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.2215419999999995,
+      "durationMs": 0.48708299999998417,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about nurse's clnic",
+      "question": "our school's philosphy",
       "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
-        "intent": "search",
+        "intent": "about",
         "confidence": 0.96,
         "recordIds": [
-          "spaces-002f1385fc"
+          "index-82ea71f621"
         ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
+        "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
           }
         ],
         "suggestions": [
@@ -1371,25 +1903,20 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about nurse's clnic",
-          "interpreted": "tell me about nurse clinic",
+          "original": "our school's philosphy",
+          "interpreted": "our school philosophy",
           "corrections": [
             {
-              "from": "clnic",
-              "to": "clinic",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about nurse clinic",
-              "to": "tell me about nurse clinic",
-              "kind": "wording"
+              "from": "philosphy",
+              "to": "philosophy",
+              "kind": "alias"
             }
           ]
         }
       }
     },
     {
-      "id": "tenk-01996",
+      "id": "tenk-02101",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1404,7 +1931,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.540124999999989,
+      "durationMs": 1.3327500000000327,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1453,7 +1980,7 @@
       }
     },
     {
-      "id": "tenk-02364",
+      "id": "tenk-02142",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1468,64 +1995,11 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.517917000000125,
+      "durationMs": 0.6894170000000486,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "al mouj camps",
-      "actual": {
-        "text": "Al Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman +968 24555515 info.almouj@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-10794d58df"
-        ],
-        "entityIds": [
-          "campus-mouj",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#almouj",
-            "title": "Al Mouj Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "al mouj camps",
-          "interpreted": "al mouj camps",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-02375",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6150830000001406,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "nurse's clinci",
+      "question": "nurse's cliinc",
       "actual": {
         "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
@@ -1552,11 +2026,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "nurse's clinci",
+          "original": "nurse's cliinc",
           "interpreted": "nurse clinic",
           "corrections": [
             {
-              "from": "clinci",
+              "from": "cliinc",
               "to": "clinic",
               "kind": "spelling"
             }
@@ -1565,7 +2039,7 @@
       }
     },
     {
-      "id": "tenk-02588",
+      "id": "tenk-02212",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1580,11 +2054,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.48166700000001583,
+      "durationMs": 0.9317920000000868,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's phiolsophy",
+      "question": "tell me about our school's phiosophy",
       "actual": {
         "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
@@ -1608,67 +2082,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "our school's phiolsophy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "phiolsophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02603",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.9327499999999418,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about our school's philsophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about our school's philsophy",
+          "original": "tell me about our school's phiosophy",
           "interpreted": "tell me about our school philosophy",
           "corrections": [
             {
-              "from": "philsophy",
+              "from": "phiosophy",
               "to": "philosophy",
               "kind": "spelling"
             },
@@ -1682,63 +2100,7 @@
       }
     },
     {
-      "id": "tenk-02626",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.41562500000009095,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "our school's philospohy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's philospohy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "philospohy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02662",
+      "id": "tenk-02350",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1753,11 +2115,11 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6086660000000848,
+      "durationMs": 1.1882920000000468,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "nurse's cliic",
+      "question": "tell me about nurse's clinci",
       "actual": {
         "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
@@ -1784,11 +2146,261 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "nurse's cliic",
-          "interpreted": "nurse clinic",
+          "original": "tell me about nurse's clinci",
+          "interpreted": "tell me about nurse clinic",
+          "corrections": [
+            {
+              "from": "clinci",
+              "to": "clinic",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about nurse clinic",
+              "to": "tell me about nurse clinic",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02354",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.1853329999999005,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about nurse's cliic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about nurse's cliic",
+          "interpreted": "tell me about nurse clinic",
           "corrections": [
             {
               "from": "cliic",
+              "to": "clinic",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about nurse clinic",
+              "to": "tell me about nurse clinic",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02379",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.9328749999999673,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philosopyh",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philosopyh",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philosopyh",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02387",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.0032079999998587,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's phliosophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's phliosophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "phliosophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02400",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6822919999999613,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clniic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clniic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clniic",
               "to": "clinic",
               "kind": "spelling"
             }
@@ -1797,7 +2409,7 @@
       }
     },
     {
-      "id": "tenk-02730",
+      "id": "tenk-02530",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1812,11 +2424,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.5686660000001211,
+      "durationMs": 0.45895800000016607,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's philosopyh",
+      "question": "our school's philoosphy",
       "actual": {
         "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
@@ -1840,11 +2452,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "our school's philosopyh",
+          "original": "our school's philoosphy",
           "interpreted": "our school philosophy",
           "corrections": [
             {
-              "from": "philosopyh",
+              "from": "philoosphy",
               "to": "philosophy",
               "kind": "spelling"
             }
@@ -1853,7 +2465,7 @@
       }
     },
     {
-      "id": "tenk-02814",
+      "id": "tenk-02872",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1868,11 +2480,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4124579999997877,
+      "durationMs": 0.44345800000019153,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's philosphy",
+      "question": "our school's pilosophy",
       "actual": {
         "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
@@ -1896,12 +2508,70 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "our school's philosphy",
+          "original": "our school's pilosophy",
           "interpreted": "our school philosophy",
           "corrections": [
             {
-              "from": "philosphy",
+              "from": "pilosophy",
               "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-04508",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 0.9339999999997417,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find qurum open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find qurum open time",
+          "interpreted": "where can i find qurm open time",
+          "corrections": [
+            {
+              "from": "qurum",
+              "to": "qurm",
               "kind": "alias"
             }
           ]
@@ -1909,7 +2579,7 @@
       }
     },
     {
-      "id": "tenk-04594",
+      "id": "tenk-04757",
       "category": "campus",
       "pass": true,
       "finalTurn": true,
@@ -1924,11 +2594,115 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9529999999995198,
+      "durationMs": 1.0180829999999332,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "where can i find alqurm open time",
+      "question": "where can i find al mouj campus open time",
+      "actual": {
+        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-10794d58df"
+        ],
+        "entityIds": [
+          "campus-mouj"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find al mouj campus open time",
+          "interpreted": "where can i find al mouj campus open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-04791",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 0.9756250000000364,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find mouj campus open time",
+      "actual": {
+        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-10794d58df"
+        ],
+        "entityIds": [
+          "campus-mouj"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find mouj campus open time",
+          "interpreted": "where can i find mouj campus open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05128",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 0.9155419999997321,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find al qurm open time",
       "actual": {
         "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
         "status": "answer",
@@ -1954,282 +2728,74 @@
           "How can I contact you?"
         ],
         "query": {
-          "original": "where can i find alqurm open time",
+          "original": "where can i find al qurm open time",
+          "interpreted": "where can i find al qurm open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05442",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 0.9567079999997077,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find al qurum open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find al qurum open time",
           "interpreted": "where can i find al qurm open time",
           "corrections": [
             {
-              "from": "alqurm",
-              "to": "al qurm",
-              "kind": "spacing"
+              "from": "qurum",
+              "to": "qurm",
+              "kind": "alias"
             }
           ]
         }
       }
-    },
-    {
-      "id": "tenk-04981",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 1.2773750000005748,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find al qurm campus open time",
-      "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-08ee738f40"
-        ],
-        "entityIds": [
-          "campus-qurum"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find al qurm campus open time",
-          "interpreted": "where can i find al qurm campus open time",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-05300",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 1.0847499999999854,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find al mouj nursery open time",
-      "actual": {
-        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-10794d58df"
-        ],
-        "entityIds": [
-          "campus-mouj"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#almouj",
-            "title": "Al Mouj Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find al mouj nursery open time",
-          "interpreted": "where can i find al mouj nursery open time",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-05342",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 0.9437080000006972,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find al mouj open time",
-      "actual": {
-        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-10794d58df"
-        ],
-        "entityIds": [
-          "campus-mouj"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#almouj",
-            "title": "Al Mouj Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find al mouj open time",
-          "interpreted": "where can i find al mouj open time",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-05356",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 1.0644579999998314,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find qurm nursery open time",
-      "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-08ee738f40"
-        ],
-        "entityIds": [
-          "campus-qurum"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find qurm nursery open time",
-          "interpreted": "where can i find qurm nursery open time",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-05686",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 1.2686670000002778,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find shatti al qurm open time",
-      "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-08ee738f40"
-        ],
-        "entityIds": [
-          "campus-qurum"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find shatti al qurm open time",
-          "interpreted": "where can i find shatti al qurm open time",
-          "corrections": []
-        }
-      }
     }
   ],
-  "datasetSha256": "9054a821355acc7a5df157d467194a88362a2e5bb3a9ccb5c5e513361491fc2f",
+  "datasetSha256": "8e7dae9e6a30e72f5c18b73df1b1b8fd0cdba3b898083739e8092cb556f82187",
   "holdout": {
-    "evaluatedAt": "2026-10-21T12:40:18.844Z",
+    "evaluatedAt": "2026-10-21T12:56:04.695Z",
     "corpusFingerprint": "cc5b9df82275df6ced34c753c6189e7e77ee76a639d686082b7d0e39c7768db4",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -2242,16 +2808,16 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 19.68116700000064,
+    "initializationMs": 19.299333999999362,
     "summary": {
       "cases": 100,
-      "passed": 96,
-      "failed": 4,
-      "accuracy": 0.96,
+      "passed": 94,
+      "failed": 6,
+      "accuracy": 0.94,
       "finalTurn": {
-        "correct": 96,
+        "correct": 94,
         "total": 100,
-        "accuracy": 0.96
+        "accuracy": 0.94
       },
       "precedingConversation": {
         "correct": 0,
@@ -2263,14 +2829,14 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 97,
+        "correct": 95,
         "total": 100,
-        "accuracy": 0.97
+        "accuracy": 0.95
       },
       "sourceAttribution": {
-        "correct": 69,
+        "correct": 67,
         "total": 70,
-        "accuracy": 0.9857142857142858
+        "accuracy": 0.9571428571428572
       },
       "recordSelection": {
         "correct": 0,
@@ -2299,8 +2865,8 @@
       },
       "unsupportedCases": 30,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.2122512899999673,
-      "p95ResponseMs": 1.8918340000000171
+      "meanResponseMs": 1.3289479300000493,
+      "p95ResponseMs": 2.125624999998763
     },
     "byCategory": {
       "holdout-campus-contact": {
@@ -2359,8 +2925,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1862500999997792,
-        "p95ResponseMs": 1.8918340000000171
+        "meanResponseMs": 1.2605834000001779,
+        "p95ResponseMs": 1.9699170000003505
       },
       "holdout-leadership": {
         "cases": 10,
@@ -2418,8 +2984,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2015583999998853,
-        "p95ResponseMs": 2.0943330000009155
+        "meanResponseMs": 1.1985583000003317,
+        "p95ResponseMs": 2.0461250000007567
       },
       "holdout-unsupported-leadership": {
         "cases": 10,
@@ -2477,8 +3043,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2296167000002243,
-        "p95ResponseMs": 1.897624999999607
+        "meanResponseMs": 1.220933200000036,
+        "p95ResponseMs": 1.9047499999996944
       },
       "holdout-organization": {
         "cases": 10,
@@ -2536,69 +3102,10 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.017933399999856,
-        "p95ResponseMs": 1.5899160000008123
+        "meanResponseMs": 1.1955832999998166,
+        "p95ResponseMs": 2.260999999998603
       },
       "holdout-admission": {
-        "cases": 10,
-        "passed": 9,
-        "failed": 1,
-        "accuracy": 0.9,
-        "finalTurn": {
-          "correct": 9,
-          "total": 10,
-          "accuracy": 0.9
-        },
-        "precedingConversation": {
-          "correct": 0,
-          "total": 0,
-          "accuracy": null
-        },
-        "precedingTurns": {
-          "passed": 0,
-          "total": 0
-        },
-        "answerSelection": {
-          "correct": 9,
-          "total": 10,
-          "accuracy": 0.9
-        },
-        "sourceAttribution": {
-          "correct": 10,
-          "total": 10,
-          "accuracy": 1
-        },
-        "recordSelection": {
-          "correct": 0,
-          "total": 0,
-          "accuracy": null
-        },
-        "intentRecognition": {
-          "correct": 0,
-          "total": 0,
-          "accuracy": null
-        },
-        "entityRecognition": {
-          "correct": 0,
-          "total": 0,
-          "accuracy": null
-        },
-        "autocorrection": {
-          "correct": 0,
-          "total": 0,
-          "accuracy": null
-        },
-        "confidenceRange": {
-          "correct": 10,
-          "total": 10,
-          "accuracy": 1
-        },
-        "unsupportedCases": 0,
-        "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.3320167000001675,
-        "p95ResponseMs": 1.6700000000000728
-      },
-      "holdout-program-services": {
         "cases": 10,
         "passed": 8,
         "failed": 2,
@@ -2618,9 +3125,9 @@
           "total": 0
         },
         "answerSelection": {
-          "correct": 9,
+          "correct": 8,
           "total": 10,
-          "accuracy": 0.9
+          "accuracy": 0.8
         },
         "sourceAttribution": {
           "correct": 9,
@@ -2654,8 +3161,67 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.4796125999997458,
-        "p95ResponseMs": 3.049250000000029
+        "meanResponseMs": 1.5372917000000599,
+        "p95ResponseMs": 1.9188330000015412
+      },
+      "holdout-program-services": {
+        "cases": 10,
+        "passed": 7,
+        "failed": 3,
+        "accuracy": 0.7,
+        "finalTurn": {
+          "correct": 7,
+          "total": 10,
+          "accuracy": 0.7
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 0.8
+        },
+        "sourceAttribution": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 0.8
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.7354959999998756,
+        "p95ResponseMs": 3.7067499999993743
       },
       "holdout-visit-parents": {
         "cases": 10,
@@ -2713,8 +3279,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1924292000001515,
-        "p95ResponseMs": 1.5513749999990978
+        "meanResponseMs": 1.2579913999998098,
+        "p95ResponseMs": 1.4342079999987618
       },
       "holdout-context": {
         "cases": 10,
@@ -2772,8 +3338,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.8554083999995783,
-        "p95ResponseMs": 1.4950839999983145
+        "meanResponseMs": 0.9285917000002882,
+        "p95ResponseMs": 1.5217499999998836
       },
       "holdout-context-unknown": {
         "cases": 10,
@@ -2831,8 +3397,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.111608300000262,
-        "p95ResponseMs": 1.5598750000008295
+        "meanResponseMs": 1.1494086000002426,
+        "p95ResponseMs": 1.6628749999999854
       },
       "holdout-unknown-conflicting": {
         "cases": 10,
@@ -2890,8 +3456,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.5160791000000244,
-        "p95ResponseMs": 2.21349999999984
+        "meanResponseMs": 1.805041699999856,
+        "p95ResponseMs": 2.4257499999985157
       }
     },
     "context": {
@@ -2950,10 +3516,91 @@
       },
       "unsupportedCases": 10,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.98350834999992,
-      "p95ResponseMs": 1.5598750000008295
+      "meanResponseMs": 1.0390001500002655,
+      "p95ResponseMs": 1.6628749999999854
     },
     "failures": [
+      {
+        "id": "holdout-044",
+        "category": "holdout-admission",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": false,
+        "facts": false,
+        "source": false,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.7488329999996495,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Are the parents' passports required too?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-044",
+          "category": "admission",
+          "variationCategory": "holdout-admission",
+          "question": "Are the parents' passports required too?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "parents",
+            "passport"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/admissions.html",
+            "/apply-online.html#online-enrollment-form"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+          "status": "unknown",
+          "intent": "parents",
+          "confidence": 0,
+          "recordIds": [
+            "contact-6961fe9399"
+          ],
+          "entityIds": [],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/contact.html",
+              "title": "Contact Us & Our Campuses"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Can I book a tour?",
+            "Where are your campuses?"
+          ],
+          "query": {
+            "original": "Are the parents' passports required too?",
+            "interpreted": "are the parents passport required too",
+            "corrections": [
+              {
+                "from": "passports",
+                "to": "passport",
+                "kind": "spelling"
+              }
+            ]
+          }
+        }
+      },
       {
         "id": "holdout-046",
         "category": "holdout-admission",
@@ -2970,7 +3617,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.2704579999990528,
+        "durationMs": 1.305333000000246,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3043,7 +3690,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.1598750000011933,
+        "durationMs": 1.191500000000815,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3121,7 +3768,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.177625000000262,
+        "durationMs": 1.2707090000003518,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3189,6 +3836,79 @@
         }
       },
       {
+        "id": "holdout-060",
+        "category": "holdout-program-services",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": false,
+        "facts": false,
+        "source": false,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 2.125624999998763,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Does the form allow a nursery bus request?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-060",
+          "category": "program-services",
+          "variationCategory": "holdout-program-services",
+          "question": "Does the form allow a nursery bus request?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "Bus Service"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/apply-online.html#app-transportation"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+          "status": "unknown",
+          "intent": "transportation",
+          "confidence": 0,
+          "recordIds": [
+            "contact-6961fe9399"
+          ],
+          "entityIds": [],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/contact.html",
+              "title": "Contact Us & Our Campuses"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Can I book a tour?",
+            "Where are your campuses?"
+          ],
+          "query": {
+            "original": "Does the form allow a nursery bus request?",
+            "interpreted": "does the form allow a nursery bus request",
+            "corrections": []
+          }
+        }
+      },
+      {
         "id": "holdout-063",
         "category": "holdout-visit-parents",
         "pass": false,
@@ -3204,7 +3924,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.1047920000000886,
+        "durationMs": 1.1590829999986454,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3269,7 +3989,7 @@
     "metricFailures": []
   },
   "ambiguity": {
-    "evaluatedAt": "2026-10-21T12:40:18.866Z",
+    "evaluatedAt": "2026-10-21T12:56:04.718Z",
     "corpusFingerprint": "70324a8b9cb5886f3308296c714f78919c9dde803b9f372404a39aa3587ad0a5",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -3282,7 +4002,7 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 17.133874999999534,
+    "initializationMs": 19.423916999998255,
     "summary": {
       "cases": 2,
       "passed": 2,
@@ -3339,8 +4059,8 @@
       },
       "unsupportedCases": 2,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.1286250000002838,
-      "p95ResponseMs": 1.414375000000291
+      "meanResponseMs": 0.8859375000001819,
+      "p95ResponseMs": 0.9388749999998254
     },
     "byCategory": {
       "ambiguous-role": {
@@ -3399,8 +4119,8 @@
         },
         "unsupportedCases": 2,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1286250000002838,
-        "p95ResponseMs": 1.414375000000291
+        "meanResponseMs": 0.8859375000001819,
+        "p95ResponseMs": 0.9388749999998254
       }
     },
     "context": {

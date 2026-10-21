@@ -513,26 +513,6 @@
       "organizationId": "shomoukh"
     },
     {
-      "id": "service-transport",
-      "kind": "service",
-      "name": "Transportation request",
-      "aliases": [
-        "transportation request",
-        "transport",
-        "transportation",
-        "bus",
-        "bus service"
-      ],
-      "recordIds": [
-        "apply-online-f6c4b1ad6b"
-      ],
-      "attributes": {},
-      "sourceUrls": [
-        "/apply-online.html#app-transportation"
-      ],
-      "organizationId": "shomoukh"
-    },
-    {
       "id": "program-eyfs",
       "kind": "curriculum",
       "name": "UK Early Years Foundation Stage (EYFS)",
@@ -589,12 +569,10 @@
         "holiday camp"
       ],
       "recordIds": [
-        "apply-online-3c35482e28",
         "programs-e64ca3424e"
       ],
       "attributes": {},
       "sourceUrls": [
-        "/apply-online.html#app-academic-year",
         "/programs.html#promise"
       ],
       "organizationId": "shomoukh"
@@ -1478,17 +1456,6 @@
       ]
     },
     {
-      "from": "service-transport",
-      "type": "publishedBy",
-      "to": "shomoukh",
-      "recordIds": [
-        "apply-online-f6c4b1ad6b"
-      ],
-      "sourceUrls": [
-        "/apply-online.html#app-transportation"
-      ]
-    },
-    {
       "from": "program-eyfs",
       "type": "publishedBy",
       "to": "shomoukh",
@@ -1523,11 +1490,9 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "apply-online-3c35482e28",
         "programs-e64ca3424e"
       ],
       "sourceUrls": [
-        "/apply-online.html#app-academic-year",
         "/programs.html#promise"
       ]
     },
@@ -2223,11 +2188,11 @@
     }
   ],
   "statistics": {
-    "entities": 46,
-    "relationships": 47,
+    "entities": 45,
+    "relationships": 46,
     "verifiedAttributeAssertions": 31,
     "uniqueAttributeFacts": 23,
-    "knowledgeRecords": 182
+    "knowledgeRecords": 186
   },
   "scopeNotes": [
     "Relationships are publication/listing relationships, not inferred legal ownership.",

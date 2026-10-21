@@ -70,16 +70,28 @@ for(const [file,{html,tree}] of sources) {
   }
   // Static public form labels/options only: never input attributes, values, or placeholders.
   for(const form of nodes.filter(n=>n.tag==='form'&&!/search/.test(n.attrs?.id??''))) {
-    const fields=[...walk(form)].filter(n=>n.tag==='label');
+    const hasClass=(n,name)=>new RegExp(`\\b${name}\\b`).test(n.attrs?.class??'');
+    // Field names come from labels and from the legends of radio/checkbox groups, not from each choice
+    const fields=[...walk(form)].filter(n=>(n.tag==='label'&&!hasClass(n,'choice-pill'))||(n.tag==='legend'&&hasClass(n,'form-label')));
     if(!fields.length)continue;
     const fieldText=fields.map(n=>clean(visible(n)).replace(/\s*\*$/, '')).filter(Boolean);
     const formTitle=`${title} — form requirements`;
     const answer=`The public form lists these fields and document checklist items: ${fieldText.join('; ')}. Asterisks on the page identify required fields.`;
     pageText.push(answer);topics.push(formTitle);
     addRecord({title:formTitle,answer,url:anchor(form,file),file,line:html.slice(0,form.start).split('\n').length,category,language,sourceKind:'public-form-labels'});
-    for(const select of [...walk(form)].filter(n=>n.tag==='select')) {
-      const label=fields.find(n=>n.attrs.for===select.attrs.id);
-      const options=(select.children??[]).filter(n=>n.tag==='option'&&n.attrs.value).map(n=>clean(visible(n))).filter(Boolean);
+    const optionGroups=[...walk(form)].flatMap(n=>{
+      if(n.tag==='select'){
+        const label=fields.find(field=>field.attrs.for===n.attrs.id);
+        return [{node:n,label,options:(n.children??[]).filter(o=>o.tag==='option'&&o.attrs.value).map(o=>clean(visible(o)))}];
+      }
+      if(n.tag!=='fieldset'||!hasClass(n,'choice-group'))return [];
+      const options=[...walk(n)].filter(o=>o.tag==='label'&&hasClass(o,'choice-pill')).map(o=>clean(visible(o)));
+      // Yes/No questions describe the family, not options the school offers
+      if(options.every(option=>/^(yes|no)$/i.test(option)))return [];
+      return [{node:n,label:[...walk(n)].find(o=>o.tag==='legend'),options}];
+    });
+    for(const {node:select,label,options:allOptions} of optionGroups) {
+      const options=allOptions.filter(Boolean);
       if(!options.length)continue;
       const optionTitle=label?clean(visible(label)).replace(/\s*\*$/, ''):'Public form options';
       const qualification=/year|schedule|transportation|campus/i.test(optionTitle)?'Confirm current availability with admissions.':'See the linked form for details.';

@@ -211,43 +211,57 @@
   },
   {
     "question": "Tell me about Online Enrollment Application — form requirements",
-    "expectedRecordId": "apply-online-d90304c2cf",
+    "expectedRecordId": "apply-online-26125b338a",
     "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
     "language": "en",
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Academic Year Selection",
-    "expectedRecordId": "apply-online-3c35482e28",
+    "question": "Tell me about Applying for Academic Year",
+    "expectedRecordId": "apply-online-fad3afeaa8",
     "expectedSourceUrl": "/apply-online.html#app-academic-year",
     "language": "en",
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Campus Selection",
-    "expectedRecordId": "apply-online-de34872f1a",
-    "expectedSourceUrl": "/apply-online.html#app-campus",
+    "question": "Tell me about Please Choose Your Campus",
+    "expectedRecordId": "apply-online-3553db8f6a",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
     "language": "en",
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Attendance Schedule Selection",
-    "expectedRecordId": "apply-online-77443e730d",
-    "expectedSourceUrl": "/apply-online.html#app-attendance-schedule",
-    "language": "en",
-    "requiresQualification": true
-  },
-  {
-    "question": "Tell me about Child Gender",
-    "expectedRecordId": "apply-online-3e5484196a",
-    "expectedSourceUrl": "/apply-online.html#app-child-gender",
+    "question": "Tell me about Gender",
+    "expectedRecordId": "apply-online-230dcf32e0",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
     "language": "en",
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Transportation Details",
-    "expectedRecordId": "apply-online-f6c4b1ad6b",
-    "expectedSourceUrl": "/apply-online.html#app-transportation",
+    "question": "Tell me about Status",
+    "expectedRecordId": "apply-online-3008d78fbb",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about For Nursery/School: Full-week attendance (Sunday to Thursday)",
+    "expectedRecordId": "apply-online-3d9ed8fa84",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Choose the attendance schedule for your child",
+    "expectedRecordId": "apply-online-6d585994ec",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Select your preferred days of attendance",
+    "expectedRecordId": "apply-online-81c753708a",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
     "language": "en",
     "requiresQualification": false
   },
@@ -302,8 +316,22 @@
   },
   {
     "question": "Tell me about Schedule a Campus Visit — form requirements",
-    "expectedRecordId": "book-a-visit-149115e7a8",
+    "expectedRecordId": "book-a-visit-9a199d6f74",
     "expectedSourceUrl": "/book-a-visit.html#tour-booking-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Choose Shomoukh campus",
+    "expectedRecordId": "book-a-visit-ccfce66462",
+    "expectedSourceUrl": "/book-a-visit.html#tour-campus",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Please choose visit time",
+    "expectedRecordId": "book-a-visit-f15e5545bb",
+    "expectedSourceUrl": "/book-a-visit.html#tour-visit-time",
     "language": "en",
     "requiresQualification": false
   },

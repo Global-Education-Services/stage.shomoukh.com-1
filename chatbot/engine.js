@@ -226,8 +226,10 @@ export function createChatEngine(knowledge = {}) {
         return result(fact.title+'. '+fact.answer,'answer',fact.intent,0.9,[fact]);
       }
     }
-    const attendance=records.find(record=>record.title==='Attendance Schedule Selection');
-    if(attendance && /\b(?:attendance|enrollment|enrolment)\b/.test(normalized) && /\b(?:schedule|schedules|days|options)\b/.test(normalized)) {
+    const attendance=records.find(record=>/attendance schedule/i.test(record.title));
+    // A question that names another record's exact heading (e.g. preferred days) is left to normal retrieval
+    const namesOtherHeading=records.some(record=>record!==attendance&&normalized.includes(normalizeText(record.title)));
+    if(attendance && !namesOtherHeading && /\b(?:attendance|enrollment|enrolment)\b/.test(normalized) && /\b(?:schedule|schedules|days|options)\b/.test(normalized)) {
       context={intent:'hours',entities:[],recordId:attendance.id};
       return attendance.confidence.conflicts?.length ? result('The public form lists attendance options, but published age ranges differ across the website. Please confirm eligibility and the current schedule with admissions. '+attendance.answer,'clarify','hours',0.35,[attendance]) : result(attendance.answer,'answer','hours',0.95,[attendance]);
     }

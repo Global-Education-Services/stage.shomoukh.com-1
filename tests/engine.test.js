@@ -55,12 +55,11 @@ test('campus followups preserve the named campus', () => {
   assert.match(followup.text, /24555515/);
   assert.doesNotMatch(followup.text, /24600610/);
 });
-test('documents, academic year, and qualified transport option use public data', () => {
+test('documents and academic year use public data, and no bus service is invented', () => {
   assert.match(engine().ask('What documents do I need for admission?').text, /Birth Certificate/);
   assert.equal(engine().ask('What is the academic year?').status, 'answer');
-  const bus = engine().ask('Do you provide buses?');
-  assert.equal(bus.status, 'answer');
-  assert.match(bus.text, /Confirm current availability/i);
+  // The enrolment form only asks who drops off and picks up the child; no bus service is published.
+  assert.notEqual(engine().ask('Do you provide buses?').status, 'answer');
 });
 test('every generated exact heading retrieves its facts or qualifies its conflict', () => {
   const chat = engine();

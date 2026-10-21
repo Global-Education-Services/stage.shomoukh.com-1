@@ -1,5 +1,5 @@
 {
-  "evaluatedAt": "2026-10-21T12:40:03.246Z",
+  "evaluatedAt": "2026-10-21T12:55:49.396Z",
   "annotation": {
     "method": "Agent source-reviewed expectations; not independent human annotation. Factual assertions authored against source HTML and saved approved official GES facts, never copied from engine outputs.",
     "reviewedAt": "2026-10-18",
@@ -492,13 +492,13 @@
   },
   "generated": {
     "summary": {
-      "cases": 2497,
-      "answerCorrect": 2497,
+      "cases": 2593,
+      "answerCorrect": 2593,
       "answerAccuracy": 1,
-      "groundedCorrect": 2497,
+      "groundedCorrect": 2593,
       "groundedAccuracy": 1,
-      "retrievalCases": 2471,
-      "retrievalSourceHits": 2471,
+      "retrievalCases": 2567,
+      "retrievalSourceHits": 2567,
       "retrievalAccuracy": 1
     },
     "byCategory": {
@@ -523,33 +523,33 @@
         "retrievalAccuracy": 1
       },
       "application": {
-        "cases": 112,
-        "answerCorrect": 112,
+        "cases": 160,
+        "answerCorrect": 160,
         "answerAccuracy": 1,
-        "groundedCorrect": 112,
+        "groundedCorrect": 160,
         "groundedAccuracy": 1,
-        "retrievalCases": 112,
-        "retrievalSourceHits": 112,
+        "retrievalCases": 160,
+        "retrievalSourceHits": 160,
         "retrievalAccuracy": 1
       },
       "visit": {
-        "cases": 117,
-        "answerCorrect": 117,
+        "cases": 149,
+        "answerCorrect": 149,
         "answerAccuracy": 1,
-        "groundedCorrect": 117,
+        "groundedCorrect": 149,
         "groundedAccuracy": 1,
-        "retrievalCases": 117,
-        "retrievalSourceHits": 117,
+        "retrievalCases": 149,
+        "retrievalSourceHits": 149,
         "retrievalAccuracy": 1
       },
       "contact": {
-        "cases": 128,
-        "answerCorrect": 128,
+        "cases": 144,
+        "answerCorrect": 144,
         "answerAccuracy": 1,
-        "groundedCorrect": 128,
+        "groundedCorrect": 144,
         "groundedAccuracy": 1,
-        "retrievalCases": 128,
-        "retrievalSourceHits": 128,
+        "retrievalCases": 144,
+        "retrievalSourceHits": 144,
         "retrievalAccuracy": 1
       },
       "enrichments": {
