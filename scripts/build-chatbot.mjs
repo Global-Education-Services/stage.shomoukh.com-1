@@ -37,7 +37,7 @@ function visible(node) { if(excluded(node))return ''; return node.tag==='#text'?
 const stop = new Set('the and for with our your from this that are you can have has into their child children shomoukh nursery school of to in a an on as by is we at it or be each all through'.split(' '));
 function keywords(text) { return [...new Set(clean(text).toLowerCase().match(/[\p{L}\p{N}]+/gu)??[])].filter(w=>w.length>2&&!stop.has(w)).slice(0,70); }
 const categories = {'index.html':'overview','about.html':'about','programs.html':'programs','enrichments.html':'enrichments','spaces.html':'facilities','admissions.html':'admissions','apply-online.html':'application','book-a-visit.html':'visit','parents.html':'parents','contact.html':'contact'};
-const files=(await readdir(root)).filter(f=>f.endsWith('.html')).sort();
+const files=(await readdir(root)).filter(f=>f.endsWith('.html')&&f!=='404.html').sort();
 const sources=new Map();
 for(const file of files) { const html=await readFile(resolve(root,file),'utf8');const tree=parse(html);sources.set(file,{html,tree,ids:new Set([...walk(tree)].map(n=>n.attrs?.id).filter(Boolean))}); }
 function validUrl(url) { const parsed=new URL(url,'https://local.invalid'); const file=parsed.pathname==='/'?'index.html':parsed.pathname.slice(1);return sources.has(file)&&(!parsed.hash||sources.get(file).ids.has(decodeURIComponent(parsed.hash.slice(1)))); }

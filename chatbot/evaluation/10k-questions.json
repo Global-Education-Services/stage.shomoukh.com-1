@@ -2,7 +2,7 @@
   "version": 2,
   "seed": 20261018,
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "4949e74943ee58b48f1f39a871abf728f6429dd8b599a74ff38a73799b432948",
+  "sourceFingerprint": "d76e287d290794d9e181a25b07a4300572a383f1c8a1fb86e4815e6aaf29a084",
   "description": "Source-derived robustness cases. Generated expectations are not independently human reviewed. Whole-conversation normalized uniqueness; no punctuation/case variants. Expected facts, sources and statuses are authored from public knowledge, never observed engine replies.",
   "minima": {
     "short": 1500,
@@ -718,16 +718,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -3325,16 +3325,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -5383,16 +5383,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -5808,16 +5808,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -9091,16 +9091,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -11257,16 +11257,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -11401,16 +11401,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -12306,16 +12306,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -12495,16 +12495,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -12785,16 +12785,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -13155,16 +13155,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -16384,16 +16384,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -17306,16 +17306,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -17455,16 +17455,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -18342,16 +18342,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -21103,16 +21103,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -22064,16 +22064,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -23544,16 +23544,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -23723,16 +23723,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -24579,16 +24579,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -26244,16 +26244,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -26690,16 +26690,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -29101,16 +29101,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -29817,16 +29817,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -30357,16 +30357,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -34592,16 +34592,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -36255,16 +36255,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -36362,16 +36362,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -37699,16 +37699,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -38306,16 +38306,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -38341,16 +38341,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -39101,16 +39101,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -44317,16 +44317,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -46756,16 +46756,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -47115,16 +47115,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -49683,16 +49683,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -49970,16 +49970,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -50403,16 +50403,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -51366,16 +51366,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -51550,16 +51550,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -53218,16 +53218,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -53757,16 +53757,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -53829,16 +53829,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -53900,16 +53900,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -54932,16 +54932,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -59809,16 +59809,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -60836,16 +60836,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -61900,16 +61900,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -64723,16 +64723,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -64846,16 +64846,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -66347,16 +66347,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -67430,16 +67430,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -70634,16 +70634,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -73471,16 +73471,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -74096,16 +74096,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -77507,16 +77507,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -79443,16 +79443,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -80618,16 +80618,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -85176,16 +85176,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -85835,16 +85835,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -91543,16 +91543,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -92280,16 +92280,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -95746,16 +95746,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -96798,16 +96798,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -97239,16 +97239,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -98613,16 +98613,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -99060,16 +99060,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -99704,16 +99704,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -101239,16 +101239,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -103814,16 +103814,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -103936,16 +103936,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -104785,16 +104785,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -109694,16 +109694,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -109978,16 +109978,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -112257,16 +112257,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -113032,16 +113032,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -113152,16 +113152,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -113638,16 +113638,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -114289,16 +114289,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -114829,16 +114829,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -118890,16 +118890,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -121122,16 +121122,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -122168,16 +122168,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -128071,16 +128071,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -128796,16 +128796,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -128868,16 +128868,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -131545,16 +131545,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -132449,16 +132449,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -132485,16 +132485,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -133022,16 +133022,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -133383,16 +133383,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -134020,16 +134020,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -134487,16 +134487,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -136581,16 +136581,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -137083,16 +137083,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -137154,16 +137154,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -137994,16 +137994,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -139486,16 +139486,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -140484,16 +140484,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -142349,16 +142349,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -143666,16 +143666,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -144093,16 +144093,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -144823,16 +144823,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -146537,16 +146537,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -149610,16 +149610,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -150189,16 +150189,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -150435,16 +150435,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -152758,16 +152758,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -153328,16 +153328,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -154114,16 +154114,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -154796,16 +154796,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -155928,16 +155928,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -156075,16 +156075,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -156725,16 +156725,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -158060,16 +158060,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -161780,16 +161780,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -163767,16 +163767,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -164748,16 +164748,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -166177,16 +166177,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -168388,16 +168388,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -168534,16 +168534,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -246127,16 +246127,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -247727,16 +247727,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -248324,16 +248324,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -250535,16 +250535,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -250722,16 +250722,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -250868,16 +250868,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -251185,16 +251185,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -251220,16 +251220,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -251575,16 +251575,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -253213,16 +253213,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -254783,16 +254783,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -254958,16 +254958,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -255139,16 +255139,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -257666,16 +257666,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -258032,16 +258032,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -258605,16 +258605,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -259607,16 +259607,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -259678,16 +259678,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -259748,16 +259748,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -261892,16 +261892,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -261927,16 +261927,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -262572,16 +262572,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -263523,16 +263523,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -263629,16 +263629,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -264125,16 +264125,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -264634,16 +264634,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -266235,16 +266235,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -266983,16 +266983,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -268524,16 +268524,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -269033,16 +269033,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -269104,16 +269104,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -269209,16 +269209,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -271343,16 +271343,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -271559,16 +271559,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -271665,16 +271665,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -271841,16 +271841,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -272132,16 +272132,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -272238,16 +272238,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -273645,16 +273645,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -273751,16 +273751,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -274627,16 +274627,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -274846,16 +274846,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -275168,16 +275168,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -276271,16 +276271,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -276307,16 +276307,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -276448,16 +276448,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -276913,16 +276913,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -278063,16 +278063,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -279883,16 +279883,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -280314,16 +280314,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -280493,16 +280493,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -362567,16 +362567,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -364296,16 +364296,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -365890,16 +365890,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -367142,16 +367142,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -367574,16 +367574,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -367975,16 +367975,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -368117,16 +368117,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -371452,16 +371452,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -374273,16 +374273,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -375218,16 +375218,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -375290,16 +375290,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -375511,16 +375511,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -378059,16 +378059,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -380790,16 +380790,16 @@
       "all": [],
       "any": [
         "Please fill out the details below carefully.",
-        "Our admissions registrar will review your application and"
+        "Online submission is not available yet, so please"
       ],
       "none": [],
-      "sourceRecordId": "apply-online-21fac2b883",
+      "sourceRecordId": "apply-online-02301c03f7",
       "expectedRecordIds": [
-        "apply-online-21fac2b883"
+        "apply-online-02301c03f7"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "apply-online-21fac2b883",
+      "expectedRecordOrCategory": "apply-online-02301c03f7",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -384126,16 +384126,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -385526,16 +385526,16 @@
       ],
       "all": [],
       "any": [
-        "Please enter your information and we will get"
+        "Prepare your enquiry below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "contact-d61cf11f25",
+      "sourceRecordId": "contact-e84a2a011c",
       "expectedRecordIds": [
-        "contact-d61cf11f25"
+        "contact-e84a2a011c"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-d61cf11f25",
+      "expectedRecordOrCategory": "contact-e84a2a011c",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -387099,16 +387099,16 @@
       ],
       "all": [],
       "any": [
-        "Visit either of our two convenient Muscat locations"
+        "Visit either of our two convenient Muscat locations,"
       ],
       "none": [],
-      "sourceRecordId": "contact-1b32b0e0ff",
+      "sourceRecordId": "contact-7338f05456",
       "expectedRecordIds": [
-        "contact-1b32b0e0ff"
+        "contact-7338f05456"
       ],
       "expectedIntent": null,
       "expectedEntity": null,
-      "expectedRecordOrCategory": "contact-1b32b0e0ff",
+      "expectedRecordOrCategory": "contact-7338f05456",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,
@@ -387527,16 +387527,16 @@
       ],
       "all": [],
       "any": [
-        "Please fill out the form below and our"
+        "Choose a time below, then call or email"
       ],
       "none": [],
-      "sourceRecordId": "book-a-visit-14ba321c51",
+      "sourceRecordId": "book-a-visit-04d69872bc",
       "expectedRecordIds": [
-        "book-a-visit-14ba321c51"
+        "book-a-visit-04d69872bc"
       ],
       "expectedIntent": null,
       "expectedEntity": "service-tour",
-      "expectedRecordOrCategory": "book-a-visit-14ba321c51",
+      "expectedRecordOrCategory": "book-a-visit-04d69872bc",
       "expectedBehavior": "answer-from-verified-record",
       "confidenceExpectation": {
         "min": null,

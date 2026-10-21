@@ -197,7 +197,7 @@
   },
   {
     "question": "Tell me about Student Registration Form",
-    "expectedRecordId": "apply-online-21fac2b883",
+    "expectedRecordId": "apply-online-02301c03f7",
     "expectedSourceUrl": "/apply-online.html",
     "language": "en",
     "requiresQualification": false
@@ -267,7 +267,7 @@
   },
   {
     "question": "Tell me about Book Your Visit",
-    "expectedRecordId": "book-a-visit-14ba321c51",
+    "expectedRecordId": "book-a-visit-04d69872bc",
     "expectedSourceUrl": "/book-a-visit.html",
     "language": "en",
     "requiresQualification": false
@@ -316,7 +316,7 @@
   },
   {
     "question": "Tell me about Connect with Our Admissions Team",
-    "expectedRecordId": "contact-1b32b0e0ff",
+    "expectedRecordId": "contact-7338f05456",
     "expectedSourceUrl": "/contact.html#contact-us",
     "language": "en",
     "requiresQualification": false
@@ -337,7 +337,7 @@
   },
   {
     "question": "Tell me about Contact Form",
-    "expectedRecordId": "contact-d61cf11f25",
+    "expectedRecordId": "contact-e84a2a011c",
     "expectedSourceUrl": "/contact.html#contact-form",
     "language": "en",
     "requiresQualification": false

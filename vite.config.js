@@ -15,6 +15,7 @@ export default defineConfig({
         'apply-online': resolve(import.meta.dirname, 'apply-online.html'),
         parents: resolve(import.meta.dirname, 'parents.html'),
         contact: resolve(import.meta.dirname, 'contact.html'),
+        '404': resolve(import.meta.dirname, '404.html'),
       },
     },
   },

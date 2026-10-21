@@ -1,9 +1,9 @@
 {
-  "evaluatedAt": "2026-10-19T06:35:47.296Z",
+  "evaluatedAt": "2026-10-21T12:40:18.621Z",
   "seed": 20261018,
-  "corpusFingerprint": "3a2c4cd604aff6a446a7ad7765576babff5179010e35beaf13d63165b76210cc",
+  "corpusFingerprint": "d04a27e1eea3787f27462eeb9c2dd5a53f59cf70fc51c6345c47250132a2004c",
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "4949e74943ee58b48f1f39a871abf728f6429dd8b599a74ff38a73799b432948",
+  "sourceFingerprint": "d76e287d290794d9e181a25b07a4300572a383f1c8a1fb86e4815e6aaf29a084",
   "definitions": {
     "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
     "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
@@ -13,7 +13,7 @@
     "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
     "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
   },
-  "initializationMs": 20.458209000000004,
+  "initializationMs": 25.047874999999998,
   "summary": {
     "cases": 10000,
     "passed": 9997,
@@ -70,8 +70,8 @@
     },
     "unsupportedCases": 1184,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 1.1534289144000105,
-    "p95ResponseMs": 2.6654579999994894
+    "meanResponseMs": 1.0475660602999939,
+    "p95ResponseMs": 2.242208000001483
   },
   "byCategory": {
     "short": {
@@ -130,8 +130,8 @@
       },
       "unsupportedCases": 106,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.6913079059999994,
-      "p95ResponseMs": 1.218166999999994
+      "meanResponseMs": 0.8696934846666665,
+      "p95ResponseMs": 1.7313329999999496
     },
     "typo": {
       "cases": 1500,
@@ -189,8 +189,8 @@
       },
       "unsupportedCases": 102,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.7918207906666683,
-      "p95ResponseMs": 1.659208000000035
+      "meanResponseMs": 0.9168040586666657,
+      "p95ResponseMs": 2.0572910000000775
     },
     "natural": {
       "cases": 1500,
@@ -248,8 +248,8 @@
       },
       "unsupportedCases": 106,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.1452925773333282,
-      "p95ResponseMs": 2.487250000000131
+      "meanResponseMs": 0.9660494293333228,
+      "p95ResponseMs": 1.8579169999998157
     },
     "campus": {
       "cases": 1200,
@@ -307,8 +307,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.731745099166674,
-      "p95ResponseMs": 3.6527500000001965
+      "meanResponseMs": 1.3951025674999846,
+      "p95ResponseMs": 2.5359999999991487
     },
     "leadership": {
       "cases": 800,
@@ -366,8 +366,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.7971688224999856,
-      "p95ResponseMs": 4.111917000000176
+      "meanResponseMs": 1.2254514287500025,
+      "p95ResponseMs": 2.342291999999361
     },
     "admissions": {
       "cases": 1000,
@@ -425,8 +425,8 @@
       },
       "unsupportedCases": 119,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8680395690000323,
-      "p95ResponseMs": 1.8279579999998532
+      "meanResponseMs": 0.6777443099999909,
+      "p95ResponseMs": 1.287833999999748
     },
     "context": {
       "cases": 1000,
@@ -484,8 +484,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.1353469540000352,
-      "p95ResponseMs": 2.0807500000009895
+      "meanResponseMs": 0.9299962270000015,
+      "p95ResponseMs": 1.387165999998615
     },
     "informal": {
       "cases": 800,
@@ -543,8 +543,8 @@
       },
       "unsupportedCases": 51,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9968876625000098,
-      "p95ResponseMs": 2.1169170000011945
+      "meanResponseMs": 0.9650851137500217,
+      "p95ResponseMs": 1.7758749999993597
     },
     "negative": {
       "cases": 700,
@@ -602,8 +602,8 @@
       },
       "unsupportedCases": 700,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.8213305757142786,
-      "p95ResponseMs": 3.1237079999991693
+      "meanResponseMs": 1.875067559999973,
+      "p95ResponseMs": 3.279625000001033
     }
   },
   "context": {
@@ -662,8 +662,8 @@
     },
     "unsupportedCases": 0,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 1.1353469540000352,
-    "p95ResponseMs": 2.0807500000009895
+    "meanResponseMs": 0.9299962270000015,
+    "p95ResponseMs": 1.387165999998615
   },
   "failures": [
     {
@@ -682,7 +682,7 @@
       "entity": false,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.6549580000000788,
+      "durationMs": 2.8891669999998157,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -774,7 +774,7 @@
       "entity": null,
       "correction": true,
       "confidence": true,
-      "durationMs": 3.7633749999999964,
+      "durationMs": 2.5667499999999563,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -887,7 +887,7 @@
       "entity": false,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.4791669999999613,
+      "durationMs": 1.463333999999577,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -981,7 +981,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.0379170000001068,
+      "durationMs": 0.9461249999999382,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1042,7 +1042,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6057499999999436,
+      "durationMs": 1.9534590000000662,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1101,7 +1101,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8707079999999223,
+      "durationMs": 0.8949170000000777,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1162,7 +1162,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8875840000000608,
+      "durationMs": 0.8709170000001905,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1223,7 +1223,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.47649999999998727,
+      "durationMs": 1.1166250000001128,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1279,7 +1279,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8585829999999532,
+      "durationMs": 0.8565409999998792,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1340,7 +1340,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.0969159999999647,
+      "durationMs": 1.2215419999999995,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1404,7 +1404,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.0834999999999582,
+      "durationMs": 1.540124999999989,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1468,7 +1468,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.6957500000000891,
+      "durationMs": 1.517917000000125,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1521,7 +1521,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.5974999999998545,
+      "durationMs": 0.6150830000001406,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1580,7 +1580,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.3970419999998285,
+      "durationMs": 0.48166700000001583,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1636,7 +1636,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.83725000000004,
+      "durationMs": 0.9327499999999418,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1697,7 +1697,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.3979580000000169,
+      "durationMs": 0.41562500000009095,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1753,7 +1753,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.5868339999999534,
+      "durationMs": 0.6086660000000848,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1812,7 +1812,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.40579200000001947,
+      "durationMs": 0.5686660000001211,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1868,7 +1868,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.3857499999999163,
+      "durationMs": 0.4124579999997877,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1924,7 +1924,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.41412500000024,
+      "durationMs": 0.9529999999995198,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1982,7 +1982,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.0322500000002037,
+      "durationMs": 1.2773750000005748,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2034,7 +2034,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.26037499999984,
+      "durationMs": 1.0847499999999854,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2086,7 +2086,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 3.427375000000211,
+      "durationMs": 0.9437080000006972,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2138,7 +2138,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9775419999996302,
+      "durationMs": 1.0644579999998314,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2190,7 +2190,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 4.146750000000793,
+      "durationMs": 1.2686670000002778,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2227,9 +2227,9 @@
       }
     }
   ],
-  "datasetSha256": "99b238bd359e164b071fa7a1bc9c7370667737e7b7e72be73049beec68a18298",
+  "datasetSha256": "9054a821355acc7a5df157d467194a88362a2e5bb3a9ccb5c5e513361491fc2f",
   "holdout": {
-    "evaluatedAt": "2026-10-19T06:35:47.528Z",
+    "evaluatedAt": "2026-10-21T12:40:18.844Z",
     "corpusFingerprint": "cc5b9df82275df6ced34c753c6189e7e77ee76a639d686082b7d0e39c7768db4",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -2242,16 +2242,16 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 19.215249999999287,
+    "initializationMs": 19.68116700000064,
     "summary": {
       "cases": 100,
-      "passed": 98,
-      "failed": 2,
-      "accuracy": 0.98,
+      "passed": 96,
+      "failed": 4,
+      "accuracy": 0.96,
       "finalTurn": {
-        "correct": 98,
+        "correct": 96,
         "total": 100,
-        "accuracy": 0.98
+        "accuracy": 0.96
       },
       "precedingConversation": {
         "correct": 0,
@@ -2263,9 +2263,9 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 99,
+        "correct": 97,
         "total": 100,
-        "accuracy": 0.99
+        "accuracy": 0.97
       },
       "sourceAttribution": {
         "correct": 69,
@@ -2299,8 +2299,8 @@
       },
       "unsupportedCases": 30,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.2723433099999784,
-      "p95ResponseMs": 1.9673750000001746
+      "meanResponseMs": 1.2122512899999673,
+      "p95ResponseMs": 1.8918340000000171
     },
     "byCategory": {
       "holdout-campus-contact": {
@@ -2359,8 +2359,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.3938249999999244,
-        "p95ResponseMs": 2.359167000000525
+        "meanResponseMs": 1.1862500999997792,
+        "p95ResponseMs": 1.8918340000000171
       },
       "holdout-leadership": {
         "cases": 10,
@@ -2418,8 +2418,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2612333000000944,
-        "p95ResponseMs": 2.3323749999999563
+        "meanResponseMs": 1.2015583999998853,
+        "p95ResponseMs": 2.0943330000009155
       },
       "holdout-unsupported-leadership": {
         "cases": 10,
@@ -2477,8 +2477,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1983957999997075,
-        "p95ResponseMs": 1.8944999999985157
+        "meanResponseMs": 1.2296167000002243,
+        "p95ResponseMs": 1.897624999999607
       },
       "holdout-organization": {
         "cases": 10,
@@ -2536,18 +2536,18 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.0292333999999754,
-        "p95ResponseMs": 1.708583000001454
+        "meanResponseMs": 1.017933399999856,
+        "p95ResponseMs": 1.5899160000008123
       },
       "holdout-admission": {
         "cases": 10,
-        "passed": 10,
-        "failed": 0,
-        "accuracy": 1,
+        "passed": 9,
+        "failed": 1,
+        "accuracy": 0.9,
         "finalTurn": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "precedingConversation": {
           "correct": 0,
@@ -2559,9 +2559,9 @@
           "total": 0
         },
         "answerSelection": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "sourceAttribution": {
           "correct": 10,
@@ -2595,8 +2595,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.3514290999999503,
-        "p95ResponseMs": 1.7736249999998108
+        "meanResponseMs": 1.3320167000001675,
+        "p95ResponseMs": 1.6700000000000728
       },
       "holdout-program-services": {
         "cases": 10,
@@ -2654,18 +2654,18 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.4744038999999247,
-        "p95ResponseMs": 2.8774580000008427
+        "meanResponseMs": 1.4796125999997458,
+        "p95ResponseMs": 3.049250000000029
       },
       "holdout-visit-parents": {
         "cases": 10,
-        "passed": 10,
-        "failed": 0,
-        "accuracy": 1,
+        "passed": 9,
+        "failed": 1,
+        "accuracy": 0.9,
         "finalTurn": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "precedingConversation": {
           "correct": 0,
@@ -2677,9 +2677,9 @@
           "total": 0
         },
         "answerSelection": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "sourceAttribution": {
           "correct": 10,
@@ -2713,8 +2713,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.3200709000002462,
-        "p95ResponseMs": 1.7643750000006548
+        "meanResponseMs": 1.1924292000001515,
+        "p95ResponseMs": 1.5513749999990978
       },
       "holdout-context": {
         "cases": 10,
@@ -2772,8 +2772,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.9526500000001761,
-        "p95ResponseMs": 1.583082999999533
+        "meanResponseMs": 0.8554083999995783,
+        "p95ResponseMs": 1.4950839999983145
       },
       "holdout-context-unknown": {
         "cases": 10,
@@ -2831,8 +2831,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1423749999996289,
-        "p95ResponseMs": 1.4202920000006998
+        "meanResponseMs": 1.111608300000262,
+        "p95ResponseMs": 1.5598750000008295
       },
       "holdout-unknown-conflicting": {
         "cases": 10,
@@ -2890,8 +2890,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.5998167000001557,
-        "p95ResponseMs": 2.4257920000000013
+        "meanResponseMs": 1.5160791000000244,
+        "p95ResponseMs": 2.21349999999984
       }
     },
     "context": {
@@ -2950,10 +2950,83 @@
       },
       "unsupportedCases": 10,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.0475124999999026,
-      "p95ResponseMs": 1.583082999999533
+      "meanResponseMs": 0.98350834999992,
+      "p95ResponseMs": 1.5598750000008295
     },
     "failures": [
+      {
+        "id": "holdout-046",
+        "category": "holdout-admission",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": true,
+        "facts": false,
+        "source": true,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.2704579999990528,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "After sending the form, when will someone get back to me?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-046",
+          "category": "admission",
+          "variationCategory": "holdout-admission",
+          "question": "After sending the form, when will someone get back to me?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "24 hours"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/apply-online.html"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "Student Registration Form. Please fill out the details below carefully. Online submission is not available yet, so please call or email your preferred campus to complete your application.",
+          "status": "answer",
+          "intent": "application",
+          "confidence": 0.9,
+          "recordIds": [
+            "apply-online-02301c03f7"
+          ],
+          "entityIds": [],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/apply-online.html",
+              "title": "Student Registration Form"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Can I book a tour?",
+            "Where are your campuses?"
+          ],
+          "query": {
+            "original": "After sending the form, when will someone get back to me?",
+            "interpreted": "after sending the form when will someone get back to me",
+            "corrections": []
+          }
+        }
+      },
       {
         "id": "holdout-052",
         "category": "holdout-program-services",
@@ -2970,7 +3043,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.248583000000508,
+        "durationMs": 1.1598750000011933,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3048,7 +3121,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.0792080000010174,
+        "durationMs": 1.177625000000262,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -3114,12 +3187,89 @@
             ]
           }
         }
+      },
+      {
+        "id": "holdout-063",
+        "category": "holdout-visit-parents",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": true,
+        "facts": false,
+        "source": true,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.1047920000000886,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Where can I send a campus visit request?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-063",
+          "category": "visit-parents",
+          "variationCategory": "holdout-visit-parents",
+          "question": "Where can I send a campus visit request?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "form"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/book-a-visit.html",
+            "/book-a-visit.html#tour-booking-form"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "Book Your Visit. Choose a time below, then call or email your preferred campus to confirm your appointment.",
+          "status": "answer",
+          "intent": "visit",
+          "confidence": 0.9,
+          "recordIds": [
+            "book-a-visit-04d69872bc"
+          ],
+          "entityIds": [
+            "service-tour",
+            "shomoukh"
+          ],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/book-a-visit.html",
+              "title": "Book Your Visit"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Where are your campuses?",
+            "How can I contact you?"
+          ],
+          "query": {
+            "original": "Where can I send a campus visit request?",
+            "interpreted": "where can i send a campus visit request",
+            "corrections": []
+          }
+        }
       }
     ],
     "metricFailures": []
   },
   "ambiguity": {
-    "evaluatedAt": "2026-10-19T06:35:47.549Z",
+    "evaluatedAt": "2026-10-21T12:40:18.866Z",
     "corpusFingerprint": "70324a8b9cb5886f3308296c714f78919c9dde803b9f372404a39aa3587ad0a5",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -3132,7 +3282,7 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 17.29462500000045,
+    "initializationMs": 17.133874999999534,
     "summary": {
       "cases": 2,
       "passed": 2,
@@ -3189,8 +3339,8 @@
       },
       "unsupportedCases": 2,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.095999999999549,
-      "p95ResponseMs": 1.2674999999999272
+      "meanResponseMs": 1.1286250000002838,
+      "p95ResponseMs": 1.414375000000291
     },
     "byCategory": {
       "ambiguous-role": {
@@ -3249,8 +3399,8 @@
         },
         "unsupportedCases": 2,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.095999999999549,
-        "p95ResponseMs": 1.2674999999999272
+        "meanResponseMs": 1.1286250000002838,
+        "p95ResponseMs": 1.414375000000291
       }
     },
     "context": {

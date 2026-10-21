@@ -4622,6 +4622,9 @@ textarea.form-control {
   .header-language-selector { padding: 3px 5px; }
   .header-language-selector > i { display: none; }
   .header-language-selector select { width: 65px; font-size: 12px; }
+  /* Smaller floating buttons cover less page text on phones */
+  :root { --chat-launcher-size: 48px; --chat-launcher-bottom: 72px; }
+  .scroll-to-top { bottom: 16px; right: 16px; width: 44px; height: 44px; }
 }
 @media (max-width: 360px) {
   .site-header .brand-logo-img { max-width: 112px; }

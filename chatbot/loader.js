@@ -26,10 +26,10 @@ export function installChatbot() {
   launcher.setAttribute('aria-expanded', 'false');
   Object.assign(launcher.style, {
     position: 'fixed', right: 'max(16px, env(safe-area-inset-right))',
-    bottom: 'calc(88px + env(safe-area-inset-bottom))', zIndex: '1001',
+    bottom: 'calc(var(--chat-launcher-bottom, 88px) + env(safe-area-inset-bottom))', zIndex: '1001',
     background: 'var(--shomoukh-primary, #1c3a47)', color: '#fff',
-    border: '2px solid #e3d1ba', borderRadius: '50%', padding: '13px', width: '56px', height: '56px', display: 'grid', placeItems: 'center',
-    font: '600 15px var(--font-body, sans-serif)', minHeight: '48px',
+    border: '2px solid #e3d1ba', borderRadius: '50%', padding: '0', width: 'var(--chat-launcher-size, 56px)', height: 'var(--chat-launcher-size, 56px)', display: 'grid', placeItems: 'center',
+    font: '600 15px var(--font-body, sans-serif)', minHeight: '44px',
     cursor: 'pointer', boxShadow: '0 8px 30px #1c3a4726',
   });
   document.body.append(launcher);
