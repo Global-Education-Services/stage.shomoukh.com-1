@@ -25,7 +25,7 @@ export function createWidget(launcher) {
   const heading = node('div');
   const title = node('h2', '', 'Shomoukh assistant');
   title.id = 'school-chat-title';
-  heading.append(title, node('p', '', 'Answers from Shomoukh & official GES sources'));
+  heading.append(title, node('p', '', ''));
   const actions = node('div', 'school-chat-actions');
   const reset = node('button', '', '↻');
   reset.type = 'button';
@@ -58,7 +58,7 @@ export function createWidget(launcher) {
   const submit = node('button', '', 'Send');
   submit.type = 'submit';
   form.append(label, input, submit);
-  const note = node('p', 'school-chat-note', 'English website sources · Local search · Chat stays in this page’s memory');
+  const note = node('p', 'school-chat-note', '');
   panel.append(header, messages, suggestions, form, note);
   document.body.append(panel);
   let generation = 0;
@@ -69,9 +69,9 @@ export function createWidget(launcher) {
     message.setAttribute('aria-label', role === 'user' ? 'You' : 'Shomoukh assistant');
     const body = node('p', '', text);
     body.dir = 'auto';
-    if(query?.corrections?.length) {
-      const interpretation=node('p','school-chat-interpretation',`Understood as: ${query.interpreted}`);
-      interpretation.dir='auto';
+    if (query?.corrections?.length) {
+      const interpretation = node('p', 'school-chat-interpretation', `Understood as: ${query.interpreted}`);
+      interpretation.dir = 'auto';
       message.append(interpretation);
     }
     message.append(body);
