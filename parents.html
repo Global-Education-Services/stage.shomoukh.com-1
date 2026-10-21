@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/shomoukh-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Parents Portal | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Access the Shomoukh Nursery School Parents Portal via Web, iOS, or Android app. Real-time daily logs, learning photos, announcements, and teacher messaging." />
@@ -12,11 +13,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -31,6 +33,13 @@
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
+        <div class="language-selector-pill header-language-selector">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <select aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
         <!-- Search button -->
         <button id="search-open-btn" class="header-icon-btn" aria-label="Open search modal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -54,7 +63,7 @@
   <!-- ============================================================ -->
   <!-- OFFCANVAS FULLSCREEN NAVIGATION DRAWER                       -->
   <!-- ============================================================ -->
-  <aside id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Website navigation">
     <div class="offcanvas-container">
       
       <!-- Left Column: Art box -->
@@ -249,11 +258,12 @@
       </div>
 
     </div>
-  </aside>
+  </div>
 
   <!-- ============================================================ -->
   <!-- SUBPAGE HERO SECTION                                         -->
   <!-- ============================================================ -->
+  <main id="main-content" tabindex="-1">
   <section class="subpage-hero">
     <div class="content-wrapper">
       <div class="page-breadcrumb">
@@ -308,7 +318,7 @@
           </p>
           <a href="https://shomoukh.com/parents/" target="_blank" rel="noreferrer" class="btn-platform-action">
             <i class="fa-brands fa-apple"></i>
-            <span>Download on App Store</span>
+            <span>iOS access information</span>
           </a>
         </div>
 
@@ -321,7 +331,7 @@
           </p>
           <a href="https://shomoukh.com/parents/" target="_blank" rel="noreferrer" class="btn-platform-action">
             <i class="fa-brands fa-google-play"></i>
-            <span>Get on Google Play</span>
+            <span>Android access information</span>
           </a>
         </div>
 
@@ -350,25 +360,25 @@
         
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-teal);">
           <div style="font-size: 2rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-camera-retro"></i></div>
-          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Learning Stories &amp; Photos</h4>
+          <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Learning Stories &amp; Photos</h3>
           <p style="font-size: 0.9rem; color: var(--shomoukh-body); line-height: 1.5;">Daily documentation photos, artwork portfolios, and project observations posted by teachers.</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-coral);">
           <div style="font-size: 2rem; color: var(--shomoukh-coral); margin-bottom: 12px;"><i class="fa-solid fa-comments"></i></div>
-          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-coral); margin-bottom: 8px;">Direct Messaging</h4>
+          <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin-bottom: 8px;">Direct Messaging</h3>
           <p style="font-size: 0.9rem; color: var(--shomoukh-body); line-height: 1.5;">Quick, direct messaging with classroom educators, campus leadership, and nursery nurses.</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-yellow);">
           <div style="font-size: 2rem; color: #b8982a; margin-bottom: 12px;"><i class="fa-solid fa-calendar-days"></i></div>
-          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Academic Calendar</h4>
+          <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Academic Calendar</h3>
           <p style="font-size: 0.9rem; color: var(--shomoukh-body); line-height: 1.5;">Stay updated with term dates, cultural festivals, parent workshops, and school celebrations.</p>
         </div>
 
         <div style="background: var(--shomoukh-white); padding: 28px; border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 3px solid var(--shomoukh-teal);">
           <div style="font-size: 2rem; color: var(--shomoukh-teal); margin-bottom: 12px;"><i class="fa-solid fa-shield-halved"></i></div>
-          <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Attendance &amp; Pick-up</h4>
+          <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 8px;">Attendance &amp; Pick-up</h3>
           <p style="font-size: 0.9rem; color: var(--shomoukh-body); line-height: 1.5;">Digital check-in, secure pick-up authorizations, and health screening confirmations.</p>
         </div>
 
@@ -459,6 +469,7 @@
   <!-- ============================================================ -->
   <!-- GLOBAL FOOTER                                                -->
   <!-- ============================================================ -->
+  </main>
   <footer class="site-footer">
     <div class="content-wrapper">
       
@@ -479,7 +490,7 @@
       <div class="footer-grid">
         
         <div class="footer-col">
-          <h4 class="footer-heading">Shomoukh Nursery</h4>
+          <h2 class="footer-heading">Shomoukh Nursery</h2>
           <p class="footer-desc">
             The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman. Nurturing unique, capable, and confident lifelong learners.
           </p>
@@ -490,7 +501,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Main Pages</h4>
+          <h2 class="footer-heading">Main Pages</h2>
           <ul class="footer-links-list">
             <li><a href="/about.html">About Shomoukh</a></li>
             <li><a href="/programs.html">Programs &amp; Curriculum</a></li>
@@ -501,7 +512,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Admissions &amp; Portals</h4>
+          <h2 class="footer-heading">Admissions &amp; Portals</h2>
           <ul class="footer-links-list">
             <li><a href="/book-a-visit.html">Schedule a Campus Tour</a></li>
             <li><a href="/apply-online.html">Online Enrollment Form</a></li>
@@ -511,7 +522,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Campuses</h4>
+          <h2 class="footer-heading">Campuses</h2>
           <div class="footer-campus-entry">
             <strong>Al Mouj Campus:</strong>
             <p>Al Mouj Main Street, Main Community Hub, Muscat</p>
@@ -531,9 +542,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html#contact-inquiry-form">Privacy policy enquiries</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html#contact-inquiry-form">Terms of service enquiries</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -545,7 +556,7 @@
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-label="Site Search Modal">
     <div class="search-modal-backdrop"></div>
-    <div class="search-modal-content">
+    <div class="search-modal-content" tabindex="0" role="region" aria-label="Search panel">
       <div class="search-modal-header">
         <h3>Search Shomoukh</h3>
         <button id="search-close-btn" class="search-close-btn" aria-label="Close search modal"><i class="fa-solid fa-xmark"></i></button>
@@ -553,7 +564,7 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search this website" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>

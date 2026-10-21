@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/shomoukh-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enrichments & Ateliers | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Discover Reggio Emilia ateliers, clay studio, digital light lab, and sensory play enrichments at Shomoukh Nursery School, Muscat." />
@@ -12,12 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-cmlPJLyH.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-r4GjJG5p.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -32,6 +34,13 @@
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
+        <div class="language-selector-pill header-language-selector">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <select aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
         <!-- Search button -->
         <button id="search-open-btn" class="header-icon-btn" aria-label="Open search modal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -55,7 +64,7 @@
   <!-- ============================================================ -->
   <!-- OFFCANVAS FULLSCREEN NAVIGATION DRAWER                       -->
   <!-- ============================================================ -->
-  <aside id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Website navigation">
     <div class="offcanvas-container">
       
       <!-- Left Column: Art box -->
@@ -242,11 +251,12 @@
       </div>
 
     </div>
-  </aside>
+  </div>
 
   <!-- ============================================================ -->
   <!-- SUBPAGE HERO SECTION                                         -->
   <!-- ============================================================ -->
+  <main id="main-content" tabindex="-1">
   <section class="subpage-hero">
     <div class="content-wrapper">
       <div class="page-breadcrumb">
@@ -396,7 +406,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-winterim" tabindex="0" role="button" aria-label="Open Tiny Town details">
+        <div class="pursue-item-card" id="tiny-town" data-modal-target="modal-winterim" tabindex="0" role="button" aria-label="Open Tiny Town details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-tinytown.jpg" alt="Tiny Town">
             <div class="pursue-overlay">
@@ -408,7 +418,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-clubs" tabindex="0" role="button" aria-label="Open Sensory Play details">
+        <div class="pursue-item-card" id="sensory-play" data-modal-target="modal-clubs" tabindex="0" role="button" aria-label="Open Sensory Play details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-sensory.jpg" alt="Sensory Play">
             <div class="pursue-overlay">
@@ -420,7 +430,7 @@
           </div>
         </div>
 
-        <div class="pursue-item-card" data-modal-target="modal-laureate" tabindex="0" role="button" aria-label="Open Music & Movement details">
+        <div class="pursue-item-card" id="music-drama" data-modal-target="modal-laureate" tabindex="0" role="button" aria-label="Open Music & Movement details">
           <div class="pursue-card-inner">
             <img src="/images/atelier-music.jpg" alt="Music & Movement">
             <div class="pursue-overlay">
@@ -460,14 +470,14 @@
       </button>
       <div class="detail-modal-body">
         <div class="detail-modal-image-col">
-          <img id="detail-modal-img" src="" alt="Atelier detail preview">
+          <img id="detail-modal-img" alt="Atelier detail preview">
         </div>
         <div class="detail-modal-text-col">
           <span id="detail-modal-category" class="detail-modal-badge">CATEGORY</span>
           <h3 id="detail-modal-title" class="detail-modal-title">Title</h3>
           <p id="detail-modal-desc" class="detail-modal-desc">Description text.</p>
           <div class="detail-modal-highlights">
-            <h4>Key Educational Highlights:</h4>
+            <h3>Key Educational Highlights:</h3>
             <ul id="detail-modal-bullets" class="detail-bullets-list"></ul>
           </div>
           <div class="detail-modal-action-row" style="margin-top: 24px;">
@@ -523,6 +533,7 @@
   <!-- ============================================================ -->
   <!-- GLOBAL FOOTER                                                -->
   <!-- ============================================================ -->
+  </main>
   <footer class="site-footer">
     <div class="content-wrapper">
       <div class="footer-top-row">
@@ -541,7 +552,7 @@
       <div class="footer-divider-line"></div>
       <div class="footer-cols-grid">
         <div class="footer-col">
-          <h4 class="footer-heading">CAMPUS LOCATIONS</h4>
+          <h2 class="footer-heading">CAMPUS LOCATIONS</h2>
           <div class="footer-address">
             <p><strong>Al Mouj Campus:</strong></p>
             <p><i class="fa-solid fa-location-dot"></i> Al Mouj Main Street, Muscat, Oman</p>
@@ -555,7 +566,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">NAVIGATION</h4>
+          <h2 class="footer-heading">NAVIGATION</h2>
           <ul class="footer-nav-list">
             <li><a href="/about.html">About Shomoukh</a></li>
             <li><a href="/programs.html">Programs & EYFS</a></li>
@@ -566,7 +577,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">QUICK ACCESS</h4>
+          <h2 class="footer-heading">QUICK ACCESS</h2>
           <ul class="footer-nav-list">
             <li><a href="/book-a-visit.html">Schedule a Tour</a></li>
             <li><a href="/apply-online.html">Online Enrollment</a></li>
@@ -576,7 +587,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">ABOUT SHOMOUKH</h4>
+          <h2 class="footer-heading">ABOUT SHOMOUKH</h2>
           <p class="footer-blurb">
             The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman, combining UK EYFS curriculum excellence with authentic Omani values.
           </p>
@@ -606,7 +617,7 @@
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-label="Site Search Modal">
     <div class="search-modal-backdrop"></div>
-    <div class="search-modal-content">
+    <div class="search-modal-content" tabindex="0" role="region" aria-label="Search panel">
       <div class="search-modal-header">
         <h3>Search Shomoukh</h3>
         <button id="search-close-btn" class="search-close-btn" aria-label="Close search modal"><i class="fa-solid fa-xmark"></i></button>
@@ -614,7 +625,7 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search this website" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>

@@ -6,9 +6,21 @@
   "scripts": {
     "dev": "vite --host --port 5174",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "chatbot:build": "node scripts/build-chatbot.mjs",
+    "prebuild": "npm run chatbot:build",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "chatbot:word-guards": "node scripts/build-chatbot-word-guards.mjs",
+    "chatbot:evaluate": "node scripts/evaluate-chatbot.mjs",
+    "chatbot:generate-tests": "node scripts/generate-10k-questions.mjs",
+    "chatbot:test-10k": "node scripts/evaluate-10k.mjs",
+    "chatbot:coverage": "node scripts/chatbot-coverage.mjs",
+    "test:site": "node tests/site-audit.mjs",
+    "audit:links": "node scripts/audit-public-links.mjs"
   },
   "devDependencies": {
-    "vite": "^5.4.2"
+    "playwright": "^1.58.2",
+    "vite": "^6.4.3"
   }
 }

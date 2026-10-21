@@ -1,0 +1,2432 @@
+{
+  "review": {
+    "method": "Agent source-reviewed expectations; not independent human annotation. Factual assertions authored against source HTML and saved approved official GES facts, never copied from engine outputs.",
+    "reviewedAt": "2026-10-18",
+    "evidence": [
+      "contact.html#almouj",
+      "contact.html#alqurm",
+      "admissions.html",
+      "apply-online.html",
+      "book-a-visit.html",
+      "programs.html",
+      "about.html",
+      "parents.html",
+      "spaces.html",
+      "enrichments.html",
+      "main.js",
+      "chatbot/sources/ges.json"
+    ],
+    "caveat": "Passing this set does not establish unrestricted natural-language accuracy or independently human-verified accuracy."
+  },
+  "cases": [
+    {
+      "id": "representative-001",
+      "category": "leadership-md",
+      "question": "md",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-002",
+      "category": "leadership-md",
+      "question": "who md",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-003",
+      "category": "leadership-md",
+      "question": "whos md",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-004",
+      "category": "leadership-md",
+      "question": "managing director",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-005",
+      "category": "leadership-md",
+      "question": "who is the MD of GES",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-006",
+      "category": "leadership-md",
+      "question": "managingdirector",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-007",
+      "category": "leadership-md",
+      "question": "ges md",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-008",
+      "category": "leadership-vp",
+      "question": "vp",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-009",
+      "category": "leadership-vp",
+      "question": "who vp",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-010",
+      "category": "leadership-vp",
+      "question": "vice presdent",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-011",
+      "category": "leadership-vp",
+      "question": "shk julanda",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-012",
+      "category": "leadership-vp",
+      "question": "sheikh julanda",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-013",
+      "category": "leadership-vp",
+      "question": "julanda",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-014",
+      "category": "leadership-vp",
+      "question": "who is julanda",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-015",
+      "category": "leadership-ceo",
+      "question": "ceo",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-016",
+      "category": "leadership-ceo",
+      "question": "who ceo",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-017",
+      "category": "leadership-ceo",
+      "question": "whois ceo",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-018",
+      "category": "leadership-ceo",
+      "question": "GES chief executive officer",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-019",
+      "category": "leadership-ceo",
+      "question": "c.e.o.?",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-020",
+      "category": "leadership-other",
+      "question": "who is the GES head of academics",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Sarah Saeed",
+        "Head of Academics"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-021",
+      "category": "leadership-other",
+      "question": "Sarah Saeed",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Sarah Saeed",
+        "Head of Academics"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-022",
+      "category": "leadership-other",
+      "question": "who is the GES head of administration",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Randa",
+        "Head of Administration"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-023",
+      "category": "organization",
+      "question": "ges",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Global Education Services",
+        "2012"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/",
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-024",
+      "category": "organization",
+      "question": "global education",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Global Education Services",
+        "2012"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/",
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-025",
+      "category": "organization",
+      "question": "global education services",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Global Education Services",
+        "2012"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/",
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-026",
+      "category": "organization",
+      "question": "how are shomoukh and ges related",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj"
+      ],
+      "any": [
+        "Qurum",
+        "Qurm"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-027",
+      "category": "campuses",
+      "question": "campus",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm",
+        "/contact.html#contact-campus",
+        "/apply-online.html#app-campus",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-028",
+      "category": "campuses",
+      "question": "all campus",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm",
+        "/contact.html#contact-campus",
+        "/apply-online.html#app-campus",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-029",
+      "category": "campuses",
+      "question": "how many campus",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm",
+        "/contact.html#contact-campus",
+        "/apply-online.html#app-campus",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-030",
+      "category": "campuses",
+      "question": "campuses?",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm",
+        "/contact.html#contact-campus",
+        "/apply-online.html#app-campus",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-031",
+      "category": "campuses",
+      "question": "which campuses do you have",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm",
+        "/contact.html#contact-campus",
+        "/apply-online.html#app-campus",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-032",
+      "category": "campus-identity",
+      "question": "mouj",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "mouj",
+        "24555515"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/#campuses"
+      ]
+    },
+    {
+      "id": "representative-033",
+      "category": "campus-identity",
+      "question": "al mouj nursery",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "mouj",
+        "24555515"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/#campuses"
+      ]
+    },
+    {
+      "id": "representative-034",
+      "category": "campus-contact",
+      "question": "mouj phone",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515",
+        "info.almouj@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-035",
+      "category": "campus-contact",
+      "question": "mouj number",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515",
+        "info.almouj@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-036",
+      "category": "campus-contact",
+      "question": "email mouj",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515",
+        "info.almouj@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-037",
+      "category": "campus-contact",
+      "question": "mouj contact",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515",
+        "info.almouj@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-038",
+      "category": "campus-address",
+      "question": "mouj address",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Main Community Hub"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-039",
+      "category": "campus-address",
+      "question": "where is mouj",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Main Community Hub"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-040",
+      "category": "campus-hours",
+      "question": "mouj timing",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-041",
+      "category": "campus-hours",
+      "question": "mouj hrs",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-042",
+      "category": "campus-hours",
+      "question": "what time does al mouj open",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-043",
+      "category": "campus-followup",
+      "question": "phone?",
+      "setup": [
+        "where is mouj"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-044",
+      "category": "campus-followup",
+      "question": "email?",
+      "setup": [
+        "where is mouj"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "info.almouj@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-045",
+      "category": "campus-followup",
+      "question": "hrs?",
+      "setup": [
+        "where is mouj"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-046",
+      "category": "campus-identity",
+      "question": "qurm",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "qurm",
+        "24600610"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm",
+        "/#campuses"
+      ]
+    },
+    {
+      "id": "representative-047",
+      "category": "campus-identity",
+      "question": "al qurm nursery",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "qurm",
+        "24600610"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm",
+        "/#campuses"
+      ]
+    },
+    {
+      "id": "representative-048",
+      "category": "campus-contact",
+      "question": "qurm phone",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610",
+        "info.alqurum@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-049",
+      "category": "campus-contact",
+      "question": "qurm number",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610",
+        "info.alqurum@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-050",
+      "category": "campus-contact",
+      "question": "email qurm",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610",
+        "info.alqurum@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-051",
+      "category": "campus-contact",
+      "question": "qurm contact",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610",
+        "info.alqurum@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-052",
+      "category": "campus-address",
+      "question": "qurm address",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Suraj"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-053",
+      "category": "campus-address",
+      "question": "where is qurm",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Suraj"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-054",
+      "category": "campus-hours",
+      "question": "qurm timing",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-055",
+      "category": "campus-hours",
+      "question": "qurm hrs",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-056",
+      "category": "campus-hours",
+      "question": "what time does al qurm open",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM",
+        "Sun",
+        "Thu"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-057",
+      "category": "campus-followup",
+      "question": "phone?",
+      "setup": [
+        "where is qurm"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-058",
+      "category": "campus-followup",
+      "question": "email?",
+      "setup": [
+        "where is qurm"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "info.alqurum@shomoukh.com"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-059",
+      "category": "campus-followup",
+      "question": "hrs?",
+      "setup": [
+        "where is qurm"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-060",
+      "category": "generic-hours",
+      "question": "timing",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-061",
+      "category": "generic-hours",
+      "question": "hrs",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-062",
+      "category": "generic-hours",
+      "question": "open time",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-063",
+      "category": "programme-hours",
+      "question": "school time",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "8:30 AM",
+        "1:30 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/programs.html#infants",
+        "/programs.html#toddlers",
+        "/programs.html#preschoolers",
+        "/#infants",
+        "/#toddlers",
+        "/#preschoolers",
+        "/apply-online.html#app-attendance-schedule"
+      ]
+    },
+    {
+      "id": "representative-064",
+      "category": "admissions",
+      "question": "admisn",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "application",
+        "enrollment"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html#step2",
+        "/apply-online.html",
+        "/#step2"
+      ]
+    },
+    {
+      "id": "representative-065",
+      "category": "admissions",
+      "question": "apply",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "application",
+        "enrollment"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html#step2",
+        "/apply-online.html",
+        "/#step2"
+      ]
+    },
+    {
+      "id": "representative-066",
+      "category": "admissions",
+      "question": "registration",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "application",
+        "enrollment"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html#step2",
+        "/apply-online.html",
+        "/#step2"
+      ]
+    },
+    {
+      "id": "representative-067",
+      "category": "admissions-documents",
+      "question": "admisn docs",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Birth Certificate"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html",
+        "/apply-online.html#online-enrollment-form"
+      ]
+    },
+    {
+      "id": "representative-068",
+      "category": "admissions-documents",
+      "question": "required documents",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Birth Certificate"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html",
+        "/apply-online.html#online-enrollment-form"
+      ]
+    },
+    {
+      "id": "representative-069",
+      "category": "admissions-documents",
+      "question": "docs?",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Birth Certificate"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/admissions.html",
+        "/apply-online.html#online-enrollment-form"
+      ]
+    },
+    {
+      "id": "representative-070",
+      "category": "fees-unknown",
+      "question": "fee",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "fee",
+        "published",
+        "reliable"
+      ],
+      "none": [
+        "OMR 100",
+        "OMR 200"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-071",
+      "category": "fees-unknown",
+      "question": "fees",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "fee",
+        "published",
+        "reliable"
+      ],
+      "none": [
+        "OMR 100",
+        "OMR 200"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-072",
+      "category": "fees-unknown",
+      "question": "how much",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "fee",
+        "published",
+        "reliable"
+      ],
+      "none": [
+        "OMR 100",
+        "OMR 200"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-073",
+      "category": "fees-unknown",
+      "question": "qurm fees",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "fee",
+        "published",
+        "reliable"
+      ],
+      "none": [
+        "OMR 100",
+        "OMR 200"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-074",
+      "category": "fees-unknown",
+      "question": "mouj tuition",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "fee",
+        "published",
+        "reliable"
+      ],
+      "none": [
+        "OMR 100",
+        "OMR 200"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-075",
+      "category": "generic-contact",
+      "question": "contact",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "24555515",
+        "24600610"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-076",
+      "category": "generic-contact",
+      "question": "number",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "24555515",
+        "24600610"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-077",
+      "category": "generic-contact",
+      "question": "phone",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "24555515",
+        "24600610"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-078",
+      "category": "generic-contact",
+      "question": "email",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "24555515",
+        "24600610"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-079",
+      "category": "visit",
+      "question": "tour",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "confirm",
+        "appointment",
+        "form"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html",
+        "/book-a-visit.html#tour-booking-form"
+      ]
+    },
+    {
+      "id": "representative-080",
+      "category": "visit",
+      "question": "visit",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "confirm",
+        "appointment",
+        "form"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html",
+        "/book-a-visit.html#tour-booking-form"
+      ]
+    },
+    {
+      "id": "representative-081",
+      "category": "visit",
+      "question": "booking",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "confirm",
+        "appointment",
+        "form"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html",
+        "/book-a-visit.html#tour-booking-form"
+      ]
+    },
+    {
+      "id": "representative-082",
+      "category": "visit",
+      "question": "book a tour",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "confirm",
+        "appointment",
+        "form",
+        "Schedule Campus Tour"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html",
+        "/book-a-visit.html#tour-booking-form",
+        "/admissions.html#step1",
+        "/#step1"
+      ]
+    },
+    {
+      "id": "representative-083",
+      "category": "tour-duration",
+      "question": "how long does a tour take",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "45"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html"
+      ]
+    },
+    {
+      "id": "representative-084",
+      "category": "tour-duration",
+      "question": "tour duration",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "45"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/book-a-visit.html"
+      ]
+    },
+    {
+      "id": "representative-085",
+      "category": "programs",
+      "question": "programs",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "EYFS",
+        "Reggio"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/#programs",
+        "/programs.html#eyfs",
+        "/programs.html",
+        "/#programs-overview"
+      ]
+    },
+    {
+      "id": "representative-086",
+      "category": "programs",
+      "question": "what programs are available",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "EYFS",
+        "Reggio"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/#programs",
+        "/programs.html#eyfs",
+        "/programs.html",
+        "/#programs-overview"
+      ]
+    },
+    {
+      "id": "representative-087",
+      "category": "programs",
+      "question": "curriculum",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "EYFS",
+        "Reggio"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/#programs",
+        "/programs.html#eyfs",
+        "/programs.html",
+        "/#programs-overview"
+      ]
+    },
+    {
+      "id": "representative-088",
+      "category": "mission",
+      "question": "mission",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "creativity",
+        "self-confidence"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/about.html#mission-vision"
+      ]
+    },
+    {
+      "id": "representative-089",
+      "category": "mission",
+      "question": "what is your mission",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "creativity",
+        "self-confidence"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/about.html#mission-vision"
+      ]
+    },
+    {
+      "id": "representative-090",
+      "category": "vision",
+      "question": "vision",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "joyful",
+        "warm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/about.html#mission-vision"
+      ]
+    },
+    {
+      "id": "representative-091",
+      "category": "parents",
+      "question": "how do i get my parent portal password",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "temporary password",
+        "invitation"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "id": "representative-092",
+      "category": "facilities",
+      "question": "tell me about the library",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "books",
+        "reading"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ]
+    },
+    {
+      "id": "representative-093",
+      "category": "enrichment",
+      "question": "clay atelier",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "clay"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/enrichments.html#clay-atelier",
+        "/#enrichments",
+        "/enrichments.html#activities"
+      ]
+    },
+    {
+      "id": "representative-094",
+      "category": "enrichment",
+      "question": "music and movement",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [],
+      "any": [
+        "rhythm",
+        "music"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "/#enrichments",
+        "/enrichments.html#activities"
+      ]
+    },
+    {
+      "id": "representative-095",
+      "category": "conflicting-ages",
+      "question": "what ages can join",
+      "setup": [],
+      "expectedStatuses": [
+        "clarify"
+      ],
+      "all": [],
+      "any": [
+        "differ",
+        "conflict"
+      ],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-096",
+      "category": "unsupported",
+      "question": "what is the CEO salary",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-097",
+      "category": "unsupported",
+      "question": "julanda email",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-098",
+      "category": "unsupported",
+      "question": "qurm parking",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-099",
+      "category": "unsupported",
+      "question": "mouj wheelchair access",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-100",
+      "category": "unsupported",
+      "question": "who is CEO of Google",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-101",
+      "category": "unsupported",
+      "question": "tomorrow class timetable",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-102",
+      "category": "ambiguous-role",
+      "question": "GES president",
+      "setup": [],
+      "expectedStatuses": [
+        "clarify",
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "specify",
+        "role",
+        "publish"
+      ],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-103",
+      "category": "ambiguous-role",
+      "question": "GES director",
+      "setup": [],
+      "expectedStatuses": [
+        "clarify",
+        "unknown"
+      ],
+      "all": [],
+      "any": [
+        "specify",
+        "role",
+        "publish"
+      ],
+      "none": [],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-104",
+      "category": "exact-conversation",
+      "question": "who is julanda",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Julanda",
+        "Vice President"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-105",
+      "category": "exact-conversation",
+      "question": "md?",
+      "setup": [
+        "who is julanda"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Jinan",
+        "Managing Director"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-106",
+      "category": "exact-conversation",
+      "question": "ceo?",
+      "setup": [
+        "who is julanda",
+        "md?"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Janat",
+        "Chief Executive Officer"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-107",
+      "category": "exact-conversation",
+      "question": "campuses?",
+      "setup": [
+        "who is julanda",
+        "md?",
+        "ceo?"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Mouj",
+        "Al Qurm"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-108",
+      "category": "exact-conversation",
+      "question": "mouj timing?",
+      "setup": [
+        "who is julanda",
+        "md?",
+        "ceo?",
+        "campuses?"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-109",
+      "category": "exact-conversation",
+      "question": "phone?",
+      "setup": [
+        "who is julanda",
+        "md?",
+        "ceo?",
+        "campuses?",
+        "mouj timing?"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "id": "representative-110",
+      "category": "scope-switch",
+      "question": "phone?",
+      "setup": [
+        "mouj timing",
+        "what about qurm"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24600610"
+      ],
+      "any": [],
+      "none": [
+        "24555515"
+      ],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "id": "representative-111",
+      "category": "person-privacy",
+      "question": "phone?",
+      "setup": [
+        "who is julanda"
+      ],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [
+        "24555515",
+        "24600610"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-112",
+      "question": "\u0645\u062a\u0649 \u064a\u0641\u062a\u062d \u0641\u0631\u0639 \u0627\u0644\u0645\u0648\u062c",
+      "category": "unsupported-language",
+      "setup": [],
+      "expectedStatuses": [
+        "unsupported-language"
+      ],
+      "sourceUrls": [],
+      "all": [],
+      "any": [
+        "English"
+      ],
+      "none": []
+    },
+    {
+      "id": "representative-113",
+      "question": "janan",
+      "category": "proper-name-preservation",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "sourceUrls": [],
+      "all": [],
+      "any": [],
+      "none": []
+    },
+    {
+      "id": "representative-114",
+      "question": "shk julanda salary",
+      "category": "personal-data-unknown",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "sourceUrls": [],
+      "all": [],
+      "any": [],
+      "none": [
+        "24555515",
+        "24600610"
+      ]
+    },
+    {
+      "id": "representative-115",
+      "question": "opening christmas",
+      "category": "special-schedule-unknown",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "sourceUrls": [],
+      "all": [],
+      "any": [],
+      "none": []
+    },
+    {
+      "id": "representative-116",
+      "category": "sips",
+      "question": "sips",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Shomoukh International Private School",
+        "2015"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-117",
+      "category": "sips",
+      "question": "where is SIPS",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Hail",
+        "Muscat"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-118",
+      "category": "sips",
+      "question": "SIPS curriculum",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "National English Curriculum",
+        "bilingual"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-119",
+      "category": "sips",
+      "question": "what does SIPS stand for",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "Al Shomoukh International Private School"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-120",
+      "category": "sips-unpublished",
+      "question": "SIPS phone number",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [
+        "24555515",
+        "24600610"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-121",
+      "category": "sips-unpublished",
+      "question": "SIPS opening hours",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-122",
+      "category": "ges-institutions",
+      "question": "which schools does GES have",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "SIPS",
+        "Al Qurum",
+        "Al Mouj"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-123",
+      "category": "ges-vision",
+      "question": "GES vision",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "innovative leaders",
+        "society"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-124",
+      "category": "ges-mission",
+      "question": "GES mission",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "curiosity",
+        "lifelong learning"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-125",
+      "category": "ges-values",
+      "question": "GES values",
+      "setup": [],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "ELEVATE",
+        "Excellence",
+        "Leadership",
+        "Equity",
+        "Vision",
+        "Adaptability",
+        "Technology",
+        "Empowerment"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-126",
+      "category": "ges-count-conflict",
+      "question": "how many GES schools",
+      "setup": [],
+      "expectedStatuses": [
+        "answer",
+        "clarify"
+      ],
+      "all": [
+        "four",
+        "confirm",
+        "two"
+      ],
+      "any": [
+        "not identify",
+        "not named",
+        "fourth"
+      ],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/index.php",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "representative-127",
+      "category": "ges-org-hours",
+      "question": "GES opening hours",
+      "setup": [],
+      "expectedStatuses": [
+        "unknown"
+      ],
+      "all": [],
+      "any": [],
+      "none": [
+        "7:00 AM",
+        "4:00 PM"
+      ],
+      "sourceUrls": []
+    },
+    {
+      "id": "representative-128",
+      "category": "ges-followup",
+      "question": "vision?",
+      "setup": [
+        "tell me about GES"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "innovative leaders",
+        "society"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ]
+    },
+    {
+      "id": "representative-129",
+      "category": "scope-school-switch",
+      "question": "phone?",
+      "setup": [
+        "sips",
+        "mouj"
+      ],
+      "expectedStatuses": [
+        "answer"
+      ],
+      "all": [
+        "24555515"
+      ],
+      "any": [],
+      "none": [],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    }
+  ]
+}

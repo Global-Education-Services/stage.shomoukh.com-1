@@ -1,0 +1,3318 @@
+{
+  "evaluatedAt": "2026-10-19T06:35:47.296Z",
+  "seed": 20261018,
+  "corpusFingerprint": "3a2c4cd604aff6a446a7ad7765576babff5179010e35beaf13d63165b76210cc",
+  "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
+  "sourceFingerprint": "4949e74943ee58b48f1f39a871abf728f6429dd8b599a74ff38a73799b432948",
+  "definitions": {
+    "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
+    "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
+    "entity": "Annotated entity IDs versus response scope metadata; null annotations are unmeasured; absent response metadata on annotated cases counts as failure.",
+    "autocorrection": "Expected canonical topic tokens in interpreted query, normalized for the same public synonym/plural lexicon. This is not a complete word-level correction score.",
+    "falsePositive": "Answer status on a scenario explicitly requiring unknown/clarify/unsupported-language.",
+    "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
+    "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
+  },
+  "initializationMs": 20.458209000000004,
+  "summary": {
+    "cases": 10000,
+    "passed": 9997,
+    "failed": 3,
+    "accuracy": 0.9997,
+    "finalTurn": {
+      "correct": 9997,
+      "total": 10000,
+      "accuracy": 0.9997
+    },
+    "precedingConversation": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "precedingTurns": {
+      "passed": 2265,
+      "total": 2265
+    },
+    "answerSelection": {
+      "correct": 9997,
+      "total": 10000,
+      "accuracy": 0.9997
+    },
+    "sourceAttribution": {
+      "correct": 9297,
+      "total": 9300,
+      "accuracy": 0.9996774193548387
+    },
+    "recordSelection": {
+      "correct": 8813,
+      "total": 8816,
+      "accuracy": 0.9996597096188747
+    },
+    "intentRecognition": {
+      "correct": 2994,
+      "total": 3000,
+      "accuracy": 0.998
+    },
+    "entityRecognition": {
+      "correct": 6430,
+      "total": 6432,
+      "accuracy": 0.9996890547263682
+    },
+    "autocorrection": {
+      "correct": 1482,
+      "total": 1500,
+      "accuracy": 0.988
+    },
+    "confidenceRange": {
+      "correct": 10000,
+      "total": 10000,
+      "accuracy": 1
+    },
+    "unsupportedCases": 1184,
+    "falsePositiveAnswers": 0,
+    "meanResponseMs": 1.1534289144000105,
+    "p95ResponseMs": 2.6654579999994894
+  },
+  "byCategory": {
+    "short": {
+      "cases": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 1394,
+        "total": 1394,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 856,
+        "total": 856,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "unsupportedCases": 106,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 0.6913079059999994,
+      "p95ResponseMs": 1.218166999999994
+    },
+    "typo": {
+      "cases": 1500,
+      "passed": 1497,
+      "failed": 3,
+      "accuracy": 0.998,
+      "finalTurn": {
+        "correct": 1497,
+        "total": 1500,
+        "accuracy": 0.998
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 1497,
+        "total": 1500,
+        "accuracy": 0.998
+      },
+      "sourceAttribution": {
+        "correct": 1497,
+        "total": 1500,
+        "accuracy": 0.998
+      },
+      "recordSelection": {
+        "correct": 1395,
+        "total": 1398,
+        "accuracy": 0.9978540772532188
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 792,
+        "total": 794,
+        "accuracy": 0.9974811083123426
+      },
+      "autocorrection": {
+        "correct": 1482,
+        "total": 1500,
+        "accuracy": 0.988
+      },
+      "confidenceRange": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "unsupportedCases": 102,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 0.7918207906666683,
+      "p95ResponseMs": 1.659208000000035
+    },
+    "natural": {
+      "cases": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 1394,
+        "total": 1394,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 825,
+        "total": 825,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 1500,
+        "total": 1500,
+        "accuracy": 1
+      },
+      "unsupportedCases": 106,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.1452925773333282,
+      "p95ResponseMs": 2.487250000000131
+    },
+    "campus": {
+      "cases": 1200,
+      "passed": 1200,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 1194,
+        "total": 1200,
+        "accuracy": 0.995
+      },
+      "entityRecognition": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 1200,
+        "total": 1200,
+        "accuracy": 1
+      },
+      "unsupportedCases": 0,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.731745099166674,
+      "p95ResponseMs": 3.6527500000001965
+    },
+    "leadership": {
+      "cases": 800,
+      "passed": 800,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "entityRecognition": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "unsupportedCases": 0,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.7971688224999856,
+      "p95ResponseMs": 4.111917000000176
+    },
+    "admissions": {
+      "cases": 1000,
+      "passed": 1000,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 881,
+        "total": 881,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 465,
+        "total": 465,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "unsupportedCases": 119,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 0.8680395690000323,
+      "p95ResponseMs": 1.8279579999998532
+    },
+    "context": {
+      "cases": 1000,
+      "passed": 1000,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "precedingTurns": {
+        "passed": 2265,
+        "total": 2265
+      },
+      "answerSelection": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "entityRecognition": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 1000,
+        "total": 1000,
+        "accuracy": 1
+      },
+      "unsupportedCases": 0,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.1353469540000352,
+      "p95ResponseMs": 2.0807500000009895
+    },
+    "informal": {
+      "cases": 800,
+      "passed": 800,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 749,
+        "total": 749,
+        "accuracy": 1
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 492,
+        "total": 492,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 800,
+        "total": 800,
+        "accuracy": 1
+      },
+      "unsupportedCases": 51,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 0.9968876625000098,
+      "p95ResponseMs": 2.1169170000011945
+    },
+    "negative": {
+      "cases": 700,
+      "passed": 700,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 700,
+        "total": 700,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 700,
+        "total": 700,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "recordSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 700,
+        "total": 700,
+        "accuracy": 1
+      },
+      "unsupportedCases": 700,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.8213305757142786,
+      "p95ResponseMs": 3.1237079999991693
+    }
+  },
+  "context": {
+    "cases": 1000,
+    "passed": 1000,
+    "failed": 0,
+    "accuracy": 1,
+    "finalTurn": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "precedingConversation": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "precedingTurns": {
+      "passed": 2265,
+      "total": 2265
+    },
+    "answerSelection": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "sourceAttribution": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "recordSelection": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "intentRecognition": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "entityRecognition": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "autocorrection": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "confidenceRange": {
+      "correct": 1000,
+      "total": 1000,
+      "accuracy": 1
+    },
+    "unsupportedCases": 0,
+    "falsePositiveAnswers": 0,
+    "meanResponseMs": 1.1353469540000352,
+    "p95ResponseMs": 2.0807500000009895
+  },
+  "failures": [
+    {
+      "id": "tenk-02157",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": false,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.6549580000000788,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about schedule a camps visit",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02157",
+        "category": "typo",
+        "variation": "short",
+        "question": "tell me about schedule a camps visit",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/book-a-visit.html"
+        ],
+        "all": [],
+        "any": [
+          "Our Shomoukh team is eager to welcome you",
+          "Experience our learning ateliers, meet our educators, and"
+        ],
+        "none": [],
+        "sourceRecordId": "book-a-visit-a772764a01",
+        "expectedRecordIds": [
+          "book-a-visit-a772764a01"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": "service-tour",
+        "expectedRecordOrCategory": "book-a-visit-a772764a01",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "schedule a campus visit"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "visit",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"tell me about schedule a camps visit\"]"
+      },
+      "actual": {
+        "text": "Schedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.",
+        "status": "answer",
+        "intent": "visit",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-4fe9e6c231"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html",
+            "title": "Come See Our Spaces in Person"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Where are your campuses?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "tell me about schedule a camps visit",
+          "interpreted": "tell me about schedule a camps visit",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-02398",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": true,
+      "confidence": true,
+      "durationMs": 3.7633749999999964,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about shomoukh atelies & enrichments",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02398",
+        "category": "typo",
+        "variation": "short",
+        "question": "tell me about shomoukh atelies & enrichments",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/enrichments.html"
+        ],
+        "all": [],
+        "any": [
+          "Smart & innovative learning environments where children research,"
+        ],
+        "none": [],
+        "sourceRecordId": "enrichments-e359ba5685",
+        "expectedRecordIds": [
+          "enrichments-e359ba5685"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "enrichments-e359ba5685",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "shomoukh ateliers enrichments"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "enrichments",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"tell me about shomoukh atelies enrichments\"]"
+      },
+      "actual": {
+        "text": "The website lists these enrichment areas:\n\n• Clay Atelier\n• Art Atelier\n• Digital & Light Atelier\n• Project-Based Learning\n• Tiny Town\n• Sensory Play\n• Music & Movement\n• Drama, Puppetry & ECA / PE",
+        "status": "answer",
+        "intent": "enrichment",
+        "confidence": 0.9,
+        "recordIds": [
+          "main.js-278d99379d",
+          "main.js-2acebaf277",
+          "main.js-8f68b0ad3b",
+          "main.js-70720eb9e8",
+          "main.js-49f7c6d08f",
+          "main.js-619c618978",
+          "main.js-20f139a472",
+          "main.js-ff9c0d0c0f"
+        ],
+        "entityIds": [
+          "atelier-clay",
+          "shomoukh",
+          "atelier-art",
+          "atelier-light",
+          "enrichment-project",
+          "enrichment-tiny-town",
+          "enrichment-sensory",
+          "enrichment-music",
+          "enrichment-drama"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#enrichments",
+            "title": "Clay Atelier"
+          }
+        ],
+        "suggestions": [
+          "Tell me about Art Atelier",
+          "Tell me about Clay Atelier",
+          "Tell me about Music & Movement"
+        ],
+        "query": {
+          "original": "tell me about shomoukh atelies & enrichments",
+          "interpreted": "tell me about shomoukh atelier enrichments",
+          "corrections": [
+            {
+              "from": "atelies",
+              "to": "atelier",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02533",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": false,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.4791669999999613,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "schedule a camps visit",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02533",
+        "category": "typo",
+        "variation": "short",
+        "question": "schedule a camps visit",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/book-a-visit.html"
+        ],
+        "all": [],
+        "any": [
+          "Our Shomoukh team is eager to welcome you",
+          "Experience our learning ateliers, meet our educators, and"
+        ],
+        "none": [],
+        "sourceRecordId": "book-a-visit-a772764a01",
+        "expectedRecordIds": [
+          "book-a-visit-a772764a01"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": "service-tour",
+        "expectedRecordOrCategory": "book-a-visit-a772764a01",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "schedule a campus visit"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "visit",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"schedule a camps visit\"]"
+      },
+      "actual": {
+        "text": "Schedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.",
+        "status": "answer",
+        "intent": "visit",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-4fe9e6c231"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html",
+            "title": "Come See Our Spaces in Person"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Where are your campuses?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "schedule a camps visit",
+          "interpreted": "schedule a camps visit",
+          "corrections": []
+        }
+      }
+    }
+  ],
+  "metricFailures": [
+    {
+      "id": "tenk-01572",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.0379170000001068,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's pihlosophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's pihlosophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "pihlosophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01624",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6057499999999436,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clniic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clniic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clniic",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01730",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.8707079999999223,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philsoophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philsoophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philsoophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01822",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.8875840000000608,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's phiolsophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's phiolsophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "phiolsophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01828",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.47649999999998727,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's philosopy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's philosopy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philosopy",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01853",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.8585829999999532,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philosohpy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philosohpy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philosohpy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01887",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.0969159999999647,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about nurse's clnic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about nurse's clnic",
+          "interpreted": "tell me about nurse clinic",
+          "corrections": [
+            {
+              "from": "clnic",
+              "to": "clinic",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about nurse clinic",
+              "to": "tell me about nurse clinic",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01996",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.0834999999999582,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about nurse's cliinc",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about nurse's cliinc",
+          "interpreted": "tell me about nurse clinic",
+          "corrections": [
+            {
+              "from": "cliinc",
+              "to": "clinic",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about nurse clinic",
+              "to": "tell me about nurse clinic",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02364",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.6957500000000891,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "al mouj camps",
+      "actual": {
+        "text": "Al Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman +968 24555515 info.almouj@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-10794d58df"
+        ],
+        "entityIds": [
+          "campus-mouj",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "al mouj camps",
+          "interpreted": "al mouj camps",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-02375",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.5974999999998545,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clinci",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clinci",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clinci",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02588",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.3970419999998285,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's phiolsophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's phiolsophy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "phiolsophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02603",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.83725000000004,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philsophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philsophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philsophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02626",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.3979580000000169,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's philospohy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's philospohy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philospohy",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02662",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.5868339999999534,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's cliic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's cliic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "cliic",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02730",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.40579200000001947,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's philosopyh",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's philosopyh",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philosopyh",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02814",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.3857499999999163,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's philosphy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's philosphy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philosphy",
+              "to": "philosophy",
+              "kind": "alias"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-04594",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 1.41412500000024,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find alqurm open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find alqurm open time",
+          "interpreted": "where can i find al qurm open time",
+          "corrections": [
+            {
+              "from": "alqurm",
+              "to": "al qurm",
+              "kind": "spacing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-04981",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 1.0322500000002037,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find al qurm campus open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find al qurm campus open time",
+          "interpreted": "where can i find al qurm campus open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05300",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 1.26037499999984,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find al mouj nursery open time",
+      "actual": {
+        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-10794d58df"
+        ],
+        "entityIds": [
+          "campus-mouj"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find al mouj nursery open time",
+          "interpreted": "where can i find al mouj nursery open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05342",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 3.427375000000211,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find al mouj open time",
+      "actual": {
+        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-10794d58df"
+        ],
+        "entityIds": [
+          "campus-mouj"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find al mouj open time",
+          "interpreted": "where can i find al mouj open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05356",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 0.9775419999996302,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find qurm nursery open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find qurm nursery open time",
+          "interpreted": "where can i find qurm nursery open time",
+          "corrections": []
+        }
+      }
+    },
+    {
+      "id": "tenk-05686",
+      "category": "campus",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": false,
+      "entity": true,
+      "correction": null,
+      "confidence": true,
+      "durationMs": 4.146750000000793,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "where can i find shatti al qurm open time",
+      "actual": {
+        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "status": "answer",
+        "intent": "location",
+        "confidence": 0.96,
+        "recordIds": [
+          "contact-08ee738f40"
+        ],
+        "entityIds": [
+          "campus-qurum"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "How can I contact you?"
+        ],
+        "query": {
+          "original": "where can i find shatti al qurm open time",
+          "interpreted": "where can i find shatti al qurm open time",
+          "corrections": []
+        }
+      }
+    }
+  ],
+  "datasetSha256": "99b238bd359e164b071fa7a1bc9c7370667737e7b7e72be73049beec68a18298",
+  "holdout": {
+    "evaluatedAt": "2026-10-19T06:35:47.528Z",
+    "corpusFingerprint": "cc5b9df82275df6ced34c753c6189e7e77ee76a639d686082b7d0e39c7768db4",
+    "generatorHash": null,
+    "sourceFingerprint": null,
+    "definitions": {
+      "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
+      "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
+      "entity": "Annotated entity IDs versus response scope metadata; null annotations are unmeasured; absent response metadata on annotated cases counts as failure.",
+      "autocorrection": "Expected canonical topic tokens in interpreted query, normalized for the same public synonym/plural lexicon. This is not a complete word-level correction score.",
+      "falsePositive": "Answer status on a scenario explicitly requiring unknown/clarify/unsupported-language.",
+      "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
+      "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
+    },
+    "initializationMs": 19.215249999999287,
+    "summary": {
+      "cases": 100,
+      "passed": 98,
+      "failed": 2,
+      "accuracy": 0.98,
+      "finalTurn": {
+        "correct": 98,
+        "total": 100,
+        "accuracy": 0.98
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 99,
+        "total": 100,
+        "accuracy": 0.99
+      },
+      "sourceAttribution": {
+        "correct": 69,
+        "total": 70,
+        "accuracy": 0.9857142857142858
+      },
+      "recordSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1
+      },
+      "unsupportedCases": 30,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.2723433099999784,
+      "p95ResponseMs": 1.9673750000001746
+    },
+    "byCategory": {
+      "holdout-campus-contact": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.3938249999999244,
+        "p95ResponseMs": 2.359167000000525
+      },
+      "holdout-leadership": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.2612333000000944,
+        "p95ResponseMs": 2.3323749999999563
+      },
+      "holdout-unsupported-leadership": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 10,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.1983957999997075,
+        "p95ResponseMs": 1.8944999999985157
+      },
+      "holdout-organization": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.0292333999999754,
+        "p95ResponseMs": 1.708583000001454
+      },
+      "holdout-admission": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.3514290999999503,
+        "p95ResponseMs": 1.7736249999998108
+      },
+      "holdout-program-services": {
+        "cases": 10,
+        "passed": 8,
+        "failed": 2,
+        "accuracy": 0.8,
+        "finalTurn": {
+          "correct": 8,
+          "total": 10,
+          "accuracy": 0.8
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 0.9
+        },
+        "sourceAttribution": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 0.9
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.4744038999999247,
+        "p95ResponseMs": 2.8774580000008427
+      },
+      "holdout-visit-parents": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.3200709000002462,
+        "p95ResponseMs": 1.7643750000006548
+      },
+      "holdout-context": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 0,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 0.9526500000001761,
+        "p95ResponseMs": 1.583082999999533
+      },
+      "holdout-context-unknown": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 10,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.1423749999996289,
+        "p95ResponseMs": 1.4202920000006998
+      },
+      "holdout-unknown-conflicting": {
+        "cases": 10,
+        "passed": 10,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1
+        },
+        "unsupportedCases": 10,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.5998167000001557,
+        "p95ResponseMs": 2.4257920000000013
+      }
+    },
+    "context": {
+      "cases": 20,
+      "passed": 20,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1
+      },
+      "recordSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1
+      },
+      "unsupportedCases": 10,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.0475124999999026,
+      "p95ResponseMs": 1.583082999999533
+    },
+    "failures": [
+      {
+        "id": "holdout-052",
+        "category": "holdout-program-services",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": false,
+        "facts": true,
+        "source": true,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.248583000000508,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Is there care before lessons and after lessons?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-052",
+          "category": "program-services",
+          "variationCategory": "holdout-program-services",
+          "question": "Is there care before lessons and after lessons?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "7:00 AM",
+            "4:00 PM"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/programs.html#flexcare",
+            "/#flexcare"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "The published descriptions contain conflicting age details. Please confirm current eligibility with admissions. Pre-Care & After-Care services to meet individual working family schedules. Extended Hours: 7:00 AM – 4:00 PM",
+          "status": "clarify",
+          "intent": "overview",
+          "confidence": 0.35,
+          "recordIds": [
+            "index-5290f6b045"
+          ],
+          "entityIds": [
+            "service-flex-care",
+            "shomoukh"
+          ],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/#flexcare",
+              "title": "Flex-Care (6–48 months)"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Can I book a tour?",
+            "Where are your campuses?"
+          ],
+          "query": {
+            "original": "Is there care before lessons and after lessons?",
+            "interpreted": "is there care before lessons and after lessons",
+            "corrections": []
+          }
+        }
+      },
+      {
+        "id": "holdout-053",
+        "category": "holdout-program-services",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": true,
+        "facts": true,
+        "source": false,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.0792080000010174,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Which educational framework is used in nursery?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-053",
+          "category": "program-services",
+          "variationCategory": "holdout-program-services",
+          "question": "Which educational framework is used in nursery?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "EYFS",
+            "Reggio"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/programs.html#eyfs"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "Proven Approach to Education. UK Early Years Foundation Stage (EYFS) integrated with Reggio Emilia project inquiry, inspiring children to think critically on their own.",
+          "status": "answer",
+          "intent": "overview",
+          "confidence": 0.9,
+          "recordIds": [
+            "index-50bd0fc610"
+          ],
+          "entityIds": [
+            "program-eyfs",
+            "shomoukh"
+          ],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/#programs",
+              "title": "Proven Approach to Education"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Can I book a tour?",
+            "Where are your campuses?"
+          ],
+          "query": {
+            "original": "Which educational framework is used in nursery?",
+            "interpreted": "which curriculum is used in nursery",
+            "corrections": [
+              {
+                "from": "educational framework",
+                "to": "curriculum",
+                "kind": "phrase"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "metricFailures": []
+  },
+  "ambiguity": {
+    "evaluatedAt": "2026-10-19T06:35:47.549Z",
+    "corpusFingerprint": "70324a8b9cb5886f3308296c714f78919c9dde803b9f372404a39aa3587ad0a5",
+    "generatorHash": null,
+    "sourceFingerprint": null,
+    "definitions": {
+      "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
+      "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
+      "entity": "Annotated entity IDs versus response scope metadata; null annotations are unmeasured; absent response metadata on annotated cases counts as failure.",
+      "autocorrection": "Expected canonical topic tokens in interpreted query, normalized for the same public synonym/plural lexicon. This is not a complete word-level correction score.",
+      "falsePositive": "Answer status on a scenario explicitly requiring unknown/clarify/unsupported-language.",
+      "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
+      "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
+    },
+    "initializationMs": 17.29462500000045,
+    "summary": {
+      "cases": 2,
+      "passed": 2,
+      "failed": 0,
+      "accuracy": 1,
+      "finalTurn": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1
+      },
+      "sourceAttribution": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "recordSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1
+      },
+      "unsupportedCases": 2,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 1.095999999999549,
+      "p95ResponseMs": 1.2674999999999272
+    },
+    "byCategory": {
+      "ambiguous-role": {
+        "cases": 2,
+        "passed": 2,
+        "failed": 0,
+        "accuracy": 1,
+        "finalTurn": {
+          "correct": 2,
+          "total": 2,
+          "accuracy": 1
+        },
+        "precedingConversation": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "precedingTurns": {
+          "passed": 0,
+          "total": 0
+        },
+        "answerSelection": {
+          "correct": 2,
+          "total": 2,
+          "accuracy": 1
+        },
+        "sourceAttribution": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "recordSelection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "intentRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "entityRecognition": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "autocorrection": {
+          "correct": 0,
+          "total": 0,
+          "accuracy": null
+        },
+        "confidenceRange": {
+          "correct": 2,
+          "total": 2,
+          "accuracy": 1
+        },
+        "unsupportedCases": 2,
+        "falsePositiveAnswers": 0,
+        "meanResponseMs": 1.095999999999549,
+        "p95ResponseMs": 1.2674999999999272
+      }
+    },
+    "context": {
+      "cases": 0,
+      "passed": 0,
+      "failed": 0,
+      "accuracy": null,
+      "finalTurn": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingConversation": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "precedingTurns": {
+        "passed": 0,
+        "total": 0
+      },
+      "answerSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "sourceAttribution": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "recordSelection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "intentRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "entityRecognition": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "autocorrection": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "confidenceRange": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "unsupportedCases": 0,
+      "falsePositiveAnswers": 0,
+      "meanResponseMs": 0,
+      "p95ResponseMs": 0
+    },
+    "failures": [],
+    "metricFailures": []
+  }
+}

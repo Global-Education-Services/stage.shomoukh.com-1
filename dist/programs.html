@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/shomoukh-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Programs & Curriculum | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Explore UK EYFS curriculum and Reggio Emilia inspired early education programs at Shomoukh Nursery School, Muscat." />
@@ -12,12 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-cmlPJLyH.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-r4GjJG5p.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -32,6 +34,13 @@
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
+        <div class="language-selector-pill header-language-selector">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <select aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
         <!-- Search button -->
         <button id="search-open-btn" class="header-icon-btn" aria-label="Open search modal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -55,7 +64,7 @@
   <!-- ============================================================ -->
   <!-- OFFCANVAS FULLSCREEN NAVIGATION DRAWER                       -->
   <!-- ============================================================ -->
-  <aside id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Website navigation">
     <div class="offcanvas-container">
       
       <!-- Left Column: Art box -->
@@ -242,11 +251,12 @@
       </div>
 
     </div>
-  </aside>
+  </div>
 
   <!-- ============================================================ -->
   <!-- SUBPAGE HERO SECTION                                         -->
   <!-- ============================================================ -->
+  <main id="main-content" tabindex="-1">
   <section class="subpage-hero">
     <div class="content-wrapper">
       <div class="page-breadcrumb">
@@ -279,9 +289,9 @@
             We believe it is our responsibility to provide environments and experiences that nurture each child's individual growth and development, paving the way for lifelong success in school and beyond.
           </p>
           <div style="background: var(--shomoukh-white); border-radius: 16px; padding: 24px; border: 1px solid var(--shomoukh-border-light); margin-top: 24px; box-shadow: var(--shadow-sm);">
-            <h4 style="color: var(--shomoukh-primary); font-weight: 800; font-size: 1.15rem; margin-bottom: 8px;">
+            <h3 style="color: var(--shomoukh-primary); font-weight: 800; font-size: 1.15rem; margin-bottom: 8px;">
               <i class="fa-solid fa-calendar-days" style="color: var(--shomoukh-coral); margin-right: 8px;"></i> 12-Month Continuous Learning
-            </h4>
+            </h3>
             <p style="font-size: 0.95rem; color: var(--shomoukh-text); line-height: 1.6;">
               Shomoukh operates twelve (12) months per year, following a three-term academic year alongside an engaging summer camp. Working in small groups, students explore their environment and continuously enhance their skills.
             </p>
@@ -385,17 +395,17 @@
         <div class="features-3col-grid">
           <div style="padding: 20px; background: var(--shomoukh-warm-bg); border-radius: 16px;">
             <div style="font-size: 1.5rem; color: var(--shomoukh-coral); margin-bottom: 10px;"><i class="fa-solid fa-language"></i></div>
-            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Second Language</h4>
+            <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Second Language</h3>
             <p style="font-size: 0.92rem; color: var(--shomoukh-text); line-height: 1.55;">Immersive bilingual exposure nurturing native Arabic foundations alongside English fluency.</p>
           </div>
           <div style="padding: 20px; background: var(--shomoukh-warm-bg); border-radius: 16px;">
             <div style="font-size: 1.5rem; color: var(--shomoukh-coral); margin-bottom: 10px;"><i class="fa-solid fa-child-reaching"></i></div>
-            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Movement Matters</h4>
+            <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Movement Matters</h3>
             <p style="font-size: 0.92rem; color: var(--shomoukh-text); line-height: 1.55;">Gross motor development, yoga, gymnastics, and energetic games refining balance and body control.</p>
           </div>
           <div style="padding: 20px; background: var(--shomoukh-warm-bg); border-radius: 16px;">
             <div style="font-size: 1.5rem; color: var(--shomoukh-coral); margin-bottom: 10px;"><i class="fa-solid fa-pen-nib"></i></div>
-            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Handwriting & Pre-Literacy</h4>
+            <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--shomoukh-primary); margin-bottom: 6px;">Handwriting & Pre-Literacy</h3>
             <p style="font-size: 0.92rem; color: var(--shomoukh-text); line-height: 1.55;">Developing hand strength, finger dexterity, pencil grip, and joyful mark-making for school readiness.</p>
           </div>
         </div>
@@ -421,27 +431,27 @@
       <div class="stats-grid-card">
         
         <div class="stat-box" id="infants">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-baby"></i> Infants (3–11 months)</div>
+          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-primary);"><i class="fa-solid fa-baby"></i> Infants (3–11 months)</div>
           <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Providing your baby's brain with a gentle, loving, and strong foundation for learning and growing.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-warm-bg); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
+          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-primary); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="toddlers">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-child-reaching"></i> Toddlers (12–35 months)</div>
+          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-primary);"><i class="fa-solid fa-child-reaching"></i> Toddlers (12–35 months)</div>
           <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Exploring the world through sensory provocations and forming positive relationships with peers and teachers.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-warm-bg); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
+          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-primary); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="preschoolers">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-children"></i> Preschoolers (36–48 months)</div>
+          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-primary);"><i class="fa-solid fa-children"></i> Preschoolers (36–48 months)</div>
           <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Developing problem-solving autonomy, language mastery, and creative confidence to meet complex future challenges.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-warm-bg); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
+          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-primary); font-size: 0.9rem;">Regular Hours: 8:30 AM – 1:30 PM</div>
         </div>
 
         <div class="stat-box" id="flexcare">
-          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-yellow);"><i class="fa-solid fa-clock"></i> Flex-Care (6–48 months)</div>
+          <div class="stat-title" style="font-size: 1.4rem; color: var(--shomoukh-primary);"><i class="fa-solid fa-clock"></i> Flex-Care (6–48 months)</div>
           <p class="stat-detail" style="font-size: 0.95rem; margin-top: 8px;">Pre-Care & After-Care services designed specifically to meet individual working family schedules.</p>
-          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-warm-bg); font-size: 0.9rem;">Extended Hours: 7:00 AM – 4:00 PM</div>
+          <div style="margin-top: 12px; font-weight: 700; color: var(--shomoukh-primary); font-size: 0.9rem;">Extended Hours: 7:00 AM – 4:00 PM</div>
         </div>
 
       </div>
@@ -498,6 +508,7 @@
   <!-- ============================================================ -->
   <!-- GLOBAL FOOTER                                                -->
   <!-- ============================================================ -->
+  </main>
   <footer class="site-footer">
     <div class="content-wrapper">
       <div class="footer-top-row">
@@ -516,7 +527,7 @@
       <div class="footer-divider-line"></div>
       <div class="footer-cols-grid">
         <div class="footer-col">
-          <h4 class="footer-heading">CAMPUS LOCATIONS</h4>
+          <h2 class="footer-heading">CAMPUS LOCATIONS</h2>
           <div class="footer-address">
             <p><strong>Al Mouj Campus:</strong></p>
             <p><i class="fa-solid fa-location-dot"></i> Al Mouj Main Street, Muscat, Oman</p>
@@ -530,7 +541,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">NAVIGATION</h4>
+          <h2 class="footer-heading">NAVIGATION</h2>
           <ul class="footer-nav-list">
             <li><a href="/about.html">About Shomoukh</a></li>
             <li><a href="/programs.html">Programs & EYFS</a></li>
@@ -541,7 +552,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">QUICK ACCESS</h4>
+          <h2 class="footer-heading">QUICK ACCESS</h2>
           <ul class="footer-nav-list">
             <li><a href="/book-a-visit.html">Schedule a Tour</a></li>
             <li><a href="/apply-online.html">Online Enrollment</a></li>
@@ -551,7 +562,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4 class="footer-heading">ABOUT SHOMOUKH</h4>
+          <h2 class="footer-heading">ABOUT SHOMOUKH</h2>
           <p class="footer-blurb">
             The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman, combining UK EYFS curriculum excellence with authentic Omani values.
           </p>
@@ -581,7 +592,7 @@
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-label="Site Search Modal">
     <div class="search-modal-backdrop"></div>
-    <div class="search-modal-content">
+    <div class="search-modal-content" tabindex="0" role="region" aria-label="Search panel">
       <div class="search-modal-header">
         <h3>Search Shomoukh</h3>
         <button id="search-close-btn" class="search-close-btn" aria-label="Close search modal"><i class="fa-solid fa-xmark"></i></button>
@@ -589,7 +600,7 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search this website" placeholder="Search programs, ateliers, campus, admissions..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>

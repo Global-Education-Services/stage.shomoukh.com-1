@@ -1,0 +1,462 @@
+[
+  {
+    "topic": "greeting",
+    "status": "greeting",
+    "questions": [
+      "hi",
+      "hello",
+      "hii",
+      "helo",
+      "good morning"
+    ],
+    "textAny": [
+      "hello"
+    ]
+  },
+  {
+    "topic": "thanks",
+    "status": "greeting",
+    "questions": [
+      "thanks",
+      "thank you",
+      "thx",
+      "thanx",
+      "bye"
+    ],
+    "textAny": [
+      "welcome"
+    ]
+  },
+  {
+    "topic": "campus contact",
+    "status": "answer",
+    "recordTitles": [
+      "Al Mouj Campus",
+      "Al Qurm Campus"
+    ],
+    "questions": [
+      "contact",
+      "phone",
+      "ph no",
+      "tel",
+      "ur ph num",
+      "how can i contact you"
+    ],
+    "textAny": [
+      "24555515",
+      "24600610"
+    ]
+  },
+  {
+    "topic": "Al Mouj",
+    "status": "answer",
+    "recordTitles": [
+      "Al Mouj Campus"
+    ],
+    "questions": [
+      "where is mouj",
+      "almouj address",
+      "muj addr",
+      "mouj phone",
+      "mouj email"
+    ],
+    "textAny": [
+      "mouj",
+      "24555515"
+    ]
+  },
+  {
+    "topic": "Al Qurm",
+    "status": "answer",
+    "recordTitles": [
+      "Al Qurm Campus"
+    ],
+    "questions": [
+      "where is qurm",
+      "alqurm addres",
+      "qrum phn",
+      "qurm email",
+      "whr is alqurm"
+    ],
+    "textAny": [
+      "qurm",
+      "24600610"
+    ]
+  },
+  {
+    "topic": "opening hours",
+    "status": "answer",
+    "recordTitles": [
+      "Al Mouj Campus",
+      "Al Qurm Campus"
+    ],
+    "questions": [
+      "hours",
+      "open",
+      "qurm open",
+      "opening hrs",
+      "opning hrs",
+      "what time do you close",
+      "open fri"
+    ],
+    "textAny": [
+      "7:00 AM"
+    ]
+  },
+  {
+    "topic": "programs",
+    "status": "answer",
+    "recordTitles": [
+      "Proven Approach to Education"
+    ],
+    "questions": [
+      "programs",
+      "courses",
+      "wat programs",
+      "wht u offer",
+      "wot progrms",
+      "progs"
+    ],
+    "textAny": [
+      "EYFS",
+      "Reggio"
+    ]
+  },
+  {
+    "topic": "curriculum",
+    "status": "answer",
+    "recordTitles": [
+      "Proven Approach to Education",
+      "Educational Programs & UK EYFS Framework",
+      "Our Programs & UK EYFS",
+      "Reggio Emilia Approach"
+    ],
+    "questions": [
+      "curriculum",
+      "curiculum",
+      "EYFS",
+      "what curriculum do you follow"
+    ],
+    "textAny": [
+      "EYFS",
+      "Reggio",
+      "Foundation"
+    ]
+  },
+  {
+    "topic": "admissions",
+    "status": "answer",
+    "recordTitles": [
+      "Submit Details"
+    ],
+    "questions": [
+      "admission",
+      "admsn",
+      "how to apply",
+      "how 2 apply",
+      "how2apply",
+      "aply",
+      "register"
+    ],
+    "textAny": [
+      "application",
+      "enrollment"
+    ]
+  },
+  {
+    "topic": "admissions documents",
+    "status": "answer",
+    "recordTitles": [
+      "Birth Certificate",
+      "Vaccination Record",
+      "Passport Copy",
+      "Photographs"
+    ],
+    "questions": [
+      "docs",
+      "admission documents",
+      "req docs",
+      "admission requirements",
+      "admisn docs",
+      "birth cert"
+    ],
+    "textAny": [
+      "Birth Certificate",
+      "birth certificate"
+    ]
+  },
+  {
+    "topic": "visits",
+    "status": "answer",
+    "recordTitles": [
+      "Book Your Visit"
+    ],
+    "questions": [
+      "visit",
+      "book tour",
+      "buk a vist",
+      "when can i visit",
+      "can i book a tour",
+      "appt tour"
+    ],
+    "textAny": [
+      "appointment"
+    ]
+  },
+  {
+    "topic": "tour duration",
+    "status": "answer",
+    "recordTitles": [
+      "45-Minute Guided Tour"
+    ],
+    "questions": [
+      "how long tour",
+      "tour duration",
+      "how long does a visit take"
+    ],
+    "textAny": [
+      "45"
+    ]
+  },
+  {
+    "topic": "facilities",
+    "status": "answer",
+    "recordTitles": [
+      "Indoor Playground",
+      "Library"
+    ],
+    "questions": [
+      "facilities",
+      "facilites",
+      "spaces",
+      "learning spaces",
+      "what rooms do you have"
+    ],
+    "textAny": [
+      "Library",
+      "Playground"
+    ]
+  },
+  {
+    "topic": "enrichment overview",
+    "status": "answer",
+    "recordTitles": [
+      "Clay Atelier",
+      "Art Atelier"
+    ],
+    "questions": [
+      "activities",
+      "activity",
+      "enrichments",
+      "activites",
+      "ateliers"
+    ],
+    "textAny": [
+      "Clay",
+      "Music"
+    ]
+  },
+  {
+    "topic": "art atelier",
+    "status": "answer",
+    "recordTitles": [
+      "Art Atelier"
+    ],
+    "questions": [
+      "art atelier",
+      "art activities",
+      "art activites"
+    ],
+    "textAny": [
+      "art",
+      "paint",
+      "creative"
+    ]
+  },
+  {
+    "topic": "clay atelier",
+    "status": "answer",
+    "recordTitles": [
+      "Clay Atelier"
+    ],
+    "questions": [
+      "clay atelier",
+      "clayy atelier",
+      "clay activities"
+    ],
+    "textAny": [
+      "clay"
+    ]
+  },
+  {
+    "topic": "parent portal",
+    "status": "answer",
+    "recordTitles": [
+      "Web-App",
+      "First Time Logging In?",
+      "Shomoukh Parents Portal"
+    ],
+    "questions": [
+      "parent portal",
+      "parent poratl",
+      "login",
+      "portal login",
+      "sign in"
+    ],
+    "textAny": [
+      "parent",
+      "portal",
+      "password"
+    ]
+  },
+  {
+    "topic": "mission",
+    "status": "answer",
+    "recordTitles": [
+      "Our Mission"
+    ],
+    "questions": [
+      "mission",
+      "mision",
+      "what is your mission"
+    ],
+    "textAny": [
+      "childcare",
+      "creativity"
+    ]
+  },
+  {
+    "topic": "vision",
+    "status": "answer",
+    "recordTitles": [
+      "Our Vision",
+      "Our Vision & Values"
+    ],
+    "questions": [
+      "vision",
+      "vission",
+      "your vision"
+    ],
+    "textAny": [
+      "joyful",
+      "warm",
+      "development"
+    ]
+  },
+  {
+    "topic": "managing director",
+    "status": "answer",
+    "recordTitles": [
+      "Sheikha Jinan Salim Hamood Al Hashmi"
+    ],
+    "questions": [
+      "MD",
+      "who md",
+      "managing director",
+      "whos managin director",
+      "m.d.?"
+    ],
+    "textAny": [
+      "Jinan"
+    ]
+  },
+  {
+    "topic": "vice president",
+    "status": "answer",
+    "recordTitles": [
+      "Sheikh Julanda Salim Hamood Al Hashmi"
+    ],
+    "questions": [
+      "VP",
+      "who vp",
+      "vice presdent",
+      "whos vp",
+      "who is shk julanda"
+    ],
+    "textAny": [
+      "Julanda"
+    ]
+  },
+  {
+    "topic": "chief executive",
+    "status": "answer",
+    "recordTitles": [
+      "Sheikha Janat Salim Hamood Al Hashmi"
+    ],
+    "questions": [
+      "CEO",
+      "whois ceo",
+      "who is ceo of ges",
+      "c.e.o.?"
+    ],
+    "textAny": [
+      "Janat"
+    ]
+  },
+  {
+    "topic": "GES",
+    "status": "answer",
+    "recordTitles": [
+      "Global Education Services (GES)"
+    ],
+    "questions": [
+      "GES",
+      "what is ges",
+      "tell me about ges"
+    ],
+    "textAny": [
+      "Global Education Services"
+    ]
+  },
+  {
+    "topic": "unpublished fees",
+    "status": "unknown",
+    "questions": [
+      "fees",
+      "feess",
+      "tution",
+      "cost",
+      "price qurm"
+    ],
+    "textAny": [
+      "fee"
+    ]
+  },
+  {
+    "topic": "conflicting ages",
+    "status": "clarify",
+    "questions": [
+      "ages",
+      "what age can join",
+      "age requirements"
+    ],
+    "textAny": [
+      "differ"
+    ]
+  },
+  {
+    "topic": "unknowns stay unknown",
+    "status": "unknown",
+    "questions": [
+      "pizza",
+      "mad",
+      "bad",
+      "sing",
+      "song",
+      "vp nasa",
+      "md phd",
+      "summer hrs",
+      "opening christmas",
+      "free bus",
+      "phone number for apple",
+      "food",
+      "janan",
+      "vison",
+      "your vison",
+      "poral login",
+      "nursery contract",
+      "postal address"
+    ],
+    "textAny": []
+  }
+]

@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-18",
+  "description": "Reviewed public facts from the official GES website. Saved locally; no visitor-time requests. Reverify roles on the linked official pages when updating.",
+  "pages": [
+    {
+      "url": "https://www.ges.om/about.php",
+      "title": "About GES \u2014 management and schools",
+      "sections": [
+        "Our Management Team",
+        "Our Doors"
+      ]
+    },
+    {
+      "url": "https://www.ges.om/",
+      "title": "GES Quality Education",
+      "sections": [
+        "About GES Quality Education",
+        "Chairman"
+      ]
+    },
+    {
+      "url": "https://www.ges.om/index.php",
+      "title": "GES Quality Education \u2014 official homepage",
+      "sections": [
+        "About GES Quality Education",
+        "Chairman",
+        "Vision",
+        "Mission",
+        "Values",
+        "Our Impact"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "ges-julanda",
+      "title": "Sheikh Julanda Salim Hamood Al Hashmi",
+      "answer": "Sheikh Julanda Salim Hamood Al Hashmi is listed as Vice President of Global Education Services (GES) on its official management page.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "julanda",
+          "sheikh julanda",
+          "julanda al hashmi"
+        ],
+        "role": "Vice President",
+        "roleAliases": [
+          "vice president",
+          "vp",
+          "v p"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-janat",
+      "title": "Sheikha Janat Salim Hamood Al Hashmi",
+      "answer": "Sheikha Janat Salim Hamood Al Hashmi is listed as Chief Executive Officer of GES.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "janat",
+          "sheikha janat",
+          "janat al hashmi"
+        ],
+        "role": "Chief Executive Officer",
+        "roleAliases": [
+          "ceo",
+          "chief executive officer",
+          "c e o",
+          "chief executive"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-jinan",
+      "title": "Sheikha Jinan Salim Hamood Al Hashmi",
+      "answer": "Sheikha Jinan Salim Hamood Al Hashmi is listed as Managing Director of GES.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "jinan",
+          "sheikha jinan",
+          "jinan al hashmi"
+        ],
+        "role": "Managing Director",
+        "roleAliases": [
+          "managing director",
+          "md",
+          "m d"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-shanmuganand",
+      "title": "Mr. Shanmuganand Hariharan",
+      "answer": "Mr. Shanmuganand Hariharan is listed as Director of Finance & Accounts at GES.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "shanmuganand",
+          "shanmuganand hariharan"
+        ],
+        "role": "Director of Finance & Accounts",
+        "roleAliases": [
+          "director of finance",
+          "finance director"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-randa",
+      "title": "Ms. Randa Al Ahmadieh",
+      "answer": "Ms. Randa Al Ahmadieh is listed as Head of Administration at GES.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "randa",
+          "randa al ahmadieh"
+        ],
+        "role": "Head of Administration",
+        "roleAliases": [
+          "head of administration"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-sarah",
+      "title": "Ms. Sarah Saeed",
+      "answer": "Ms. Sarah Saeed is listed as Head of Academics at GES.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Management Team",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "sarah saeed"
+        ],
+        "role": "Head of Academics",
+        "roleAliases": [
+          "head of academics"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-group",
+      "title": "Global Education Services (GES)",
+      "answer": "Global Education Services (GES) is an Omani private education group founded in 2012, providing K\u201312 schools, preschools and early learning centres.",
+      "url": "https://www.ges.om/index.php",
+      "section": "About GES Quality Education",
+      "category": "organization",
+      "entity": {
+        "kind": "organization",
+        "aliases": [
+          "ges",
+          "global education services"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-shomoukh",
+      "title": "Shomoukh and GES",
+      "answer": "GES lists Shomoukh Early Childhood Education\u2019s Al Qurum and Al Mouj campuses among its education institutions, with links to shomoukh.com.",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Doors",
+      "category": "organization",
+      "keywords": [
+        "shomoukh",
+        "ges",
+        "relationship",
+        "related",
+        "group"
+      ]
+    },
+    {
+      "id": "ges-chairman",
+      "title": "Sheikh Salim Hamood Al Hashmi",
+      "answer": "GES\u2019s official website identifies Sheikh Salim Hamood Al Hashmi as Chairman.",
+      "url": "https://www.ges.om/index.php",
+      "section": "Chairman",
+      "category": "leadership",
+      "entity": {
+        "kind": "person",
+        "aliases": [
+          "sheikh salim hamood al hashmi",
+          "salim hamood al hashmi"
+        ],
+        "role": "Chairman",
+        "roleAliases": [
+          "chairman"
+        ],
+        "organization": "GES"
+      }
+    },
+    {
+      "id": "ges-institutions",
+      "title": "Education institutions listed by GES",
+      "answer": "The GES About page lists Al Shomoukh International Private School (SIPS), Shomoukh ECE Al Qurum Campus and Shomoukh ECE Al Mouj Campus. These are the institutions identified on this page; this is not a confirmed total for the group.",
+      "keywords": [
+        "ges schools",
+        "schools",
+        "institutions",
+        "nurseries",
+        "campuses",
+        "sips"
+      ],
+      "category": "organization",
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Doors"
+    },
+    {
+      "id": "ges-sips",
+      "title": "Al Shomoukh International Private School (SIPS)",
+      "answer": "GES lists Al Shomoukh International Private School (SIPS) at Hay Al Hail, Al Jadeed Al Hail South, Muscat, Oman. Its profile states it was established in 2015 and offers the National English Curriculum (British) for K\u201312 students alongside a bilingual stream.",
+      "keywords": [
+        "sips",
+        "international school",
+        "al hail",
+        "british",
+        "k12",
+        "bilingual"
+      ],
+      "category": "organization",
+      "entity": {
+        "kind": "school",
+        "aliases": [
+          "sips",
+          "al shomoukh international private school",
+          "shomoukh international school"
+        ],
+        "organization": "GES"
+      },
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Doors"
+    },
+    {
+      "id": "ges-qurum",
+      "title": "Shomoukh ECE Al Qurum Campus \u2014 GES listing",
+      "answer": "GES lists Shomoukh ECE Al Qurum Campus at Al Saruj St., Shatti Al Qurum, Muscat, Oman, and describes its Reggio Emilia inspired curriculum. The local Shomoukh contact page supplies its detailed address and contact information.",
+      "category": "organization",
+      "entity": {
+        "kind": "campus",
+        "aliases": [
+          "qurum",
+          "qurm",
+          "al qurum",
+          "al qurm",
+          "shatti al qurm"
+        ],
+        "organization": "Shomoukh"
+      },
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Doors"
+    },
+    {
+      "id": "ges-mouj",
+      "title": "Shomoukh ECE Al Mouj Campus \u2014 GES listing",
+      "answer": "GES lists Shomoukh ECE Al Mouj Campus in Al Mouj, Muscat, Oman, with a link to the Shomoukh website. Its profile describes early childhood education and sustainable initiatives.",
+      "category": "organization",
+      "entity": {
+        "kind": "campus",
+        "aliases": [
+          "mouj",
+          "al mouj",
+          "almouj",
+          "al mouj nursery"
+        ],
+        "organization": "Shomoukh"
+      },
+      "url": "https://www.ges.om/about.php",
+      "section": "Our Doors"
+    },
+    {
+      "id": "ges-vision",
+      "title": "GES vision",
+      "answer": "GES states a vision of developing innovative leaders who contribute to society and thrive globally.",
+      "url": "https://www.ges.om/index.php",
+      "section": "Vision",
+      "category": "organization",
+      "keywords": [
+        "ges vision",
+        "leaders",
+        "vision"
+      ]
+    },
+    {
+      "id": "ges-mission",
+      "title": "GES mission",
+      "answer": "GES describes its mission as providing education that encourages curiosity, lifelong learning, individual potential and a positive contribution to the world.",
+      "url": "https://www.ges.om/index.php",
+      "section": "Mission",
+      "category": "organization",
+      "keywords": [
+        "ges mission",
+        "education",
+        "mission"
+      ]
+    },
+    {
+      "id": "ges-values",
+      "title": "GES values \u2014 ELEVATE",
+      "answer": "GES names its ELEVATE values as Excellence, Leadership, Equity, Vision, Adaptability, Technology and Empowerment.",
+      "url": "https://www.ges.om/index.php",
+      "section": "Values",
+      "category": "organization",
+      "keywords": [
+        "ges values",
+        "elevate",
+        "values"
+      ]
+    },
+    {
+      "id": "ges-school-count",
+      "title": "GES published school count",
+      "answer": "The GES homepage displays a count of four schools. Its About page names SIPS, Shomoukh ECE Al Qurum and Shomoukh ECE Al Mouj. The reviewed pages do not identify a fourth institution, so ask GES to confirm the complete current list. Shomoukh Nursery itself has two published Muscat campuses.",
+      "url": "https://www.ges.om/index.php",
+      "section": "Our Impact",
+      "category": "organization",
+      "keywords": [
+        "ges school count",
+        "how many ges schools",
+        "four schools"
+      ]
+    }
+  ],
+  "auditNotes": [
+    "Local public contact details are more specific than GES campus descriptions. Al Saruj (GES) and Al Suraj (local site) are recorded as source spelling variants, not different campuses.",
+    "GES describes Qurum ages one to four; local eligibility claims range from three months to six years. Admissions confirmation remains necessary.",
+    "GES About identifies three named institutions, not a verified total of all GES schools. No schedules or contacts for SIPS or the GES group are published on the reviewed About page."
+  ]
+}

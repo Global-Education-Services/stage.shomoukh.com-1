@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/shomoukh-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Spaces & Facilities | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Explore Shomoukh Nursery School's 14 purpose-built learning spaces, ateliers, indoor gym, organic garden, and Reggio Emilia piazza in Muscat." />
@@ -12,12 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-cmlPJLyH.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-r4GjJG5p.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -32,6 +34,13 @@
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
+        <div class="language-selector-pill header-language-selector">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <select aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
         <!-- Search button -->
         <button id="search-open-btn" class="header-icon-btn" aria-label="Open search modal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -55,7 +64,7 @@
   <!-- ============================================================ -->
   <!-- OFFCANVAS FULLSCREEN NAVIGATION DRAWER                       -->
   <!-- ============================================================ -->
-  <aside id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Website navigation">
     <div class="offcanvas-container">
       
       <!-- Left Column: Art box -->
@@ -250,11 +259,12 @@
       </div>
 
     </div>
-  </aside>
+  </div>
 
   <!-- ============================================================ -->
   <!-- SUBPAGE HERO SECTION                                         -->
   <!-- ============================================================ -->
+  <main id="main-content" tabindex="-1">
   <section class="subpage-hero">
     <div class="content-wrapper">
       <div class="page-breadcrumb">
@@ -290,11 +300,11 @@
 
           <div style="display: flex; gap: 24px; margin-top: 28px; flex-wrap: wrap;">
             <div style="flex: 1; min-width: 180px; background: var(--shomoukh-warm-bg); padding: 20px; border-radius: 16px; border-left: 4px solid var(--shomoukh-teal);">
-              <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 6px;">Interconnected</h4>
+              <h3 style="font-size: 1.05rem; font-weight: 800; color: var(--shomoukh-teal); margin-bottom: 6px;">Interconnected</h3>
               <p style="font-size: 0.88rem; color: var(--shomoukh-body); line-height: 1.5;">Corridors, piazzas, and ateliers seamlessly link indoor discovery with outdoor nature.</p>
             </div>
             <div style="flex: 1; min-width: 180px; background: var(--shomoukh-warm-bg); padding: 20px; border-radius: 16px; border-left: 4px solid var(--shomoukh-coral);">
-              <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--shomoukh-coral); margin-bottom: 6px;">Provocative</h4>
+              <h3 style="font-size: 1.05rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin-bottom: 6px;">Provocative</h3>
               <p style="font-size: 0.88rem; color: var(--shomoukh-body); line-height: 1.5;">Natural materials and tools evoke questions, hypothesis testing, and collaborative work.</p>
             </div>
           </div>
@@ -332,7 +342,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-palette"></i></div>
           <div class="facility-info">
-            <h4>Art and Clay Ateliers</h4>
+            <h3>Art and Clay Ateliers</h3>
             <p>Hands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.</p>
           </div>
         </div>
@@ -341,7 +351,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-lightbulb"></i></div>
           <div class="facility-info">
-            <h4>Digital / Light Atelier</h4>
+            <h3>Digital / Light Atelier</h3>
             <p>Investigating light, shadows, projectors, optical logic, and creative digital learning strategies.</p>
           </div>
         </div>
@@ -350,7 +360,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-masks-theater"></i></div>
           <div class="facility-info">
-            <h4>Drama Room</h4>
+            <h3>Drama Room</h3>
             <p>A dedicated space for puppetry, dramatic roleplay, storytelling, and expressive confidence.</p>
           </div>
         </div>
@@ -359,7 +369,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-dumbbell"></i></div>
           <div class="facility-info">
-            <h4>Indoor Gymnasium</h4>
+            <h3>Indoor Gymnasium</h3>
             <p>Climbers, balance tracks, and soft gym apparatus nurturing physical fitness and motor coordination.</p>
           </div>
         </div>
@@ -368,7 +378,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-gamepad"></i></div>
           <div class="facility-info">
-            <h4>Indoor Playground</h4>
+            <h3>Indoor Playground</h3>
             <p>Safe, climate-controlled dynamic play zone designed for active movement throughout the entire year.</p>
           </div>
         </div>
@@ -377,7 +387,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-book-open"></i></div>
           <div class="facility-info">
-            <h4>Library</h4>
+            <h3>Library</h3>
             <p>Rich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.</p>
           </div>
         </div>
@@ -386,7 +396,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-tree"></i></div>
           <div class="facility-info">
-            <h4>Modern Outdoor Playgrounds</h4>
+            <h3>Modern Outdoor Playgrounds</h3>
             <p>Custom-built outdoor equipment, green areas, and sensory trails meeting European safety standards.</p>
           </div>
         </div>
@@ -395,7 +405,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-user-nurse"></i></div>
           <div class="facility-info">
-            <h4>Nurse's Clinic</h4>
+            <h3>Nurse's Clinic</h3>
             <p>Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.</p>
           </div>
         </div>
@@ -404,7 +414,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-vector-square"></i></div>
           <div class="facility-info">
-            <h4>Open Spaces</h4>
+            <h3>Open Spaces</h3>
             <p>Interconnected corridors and wide breakout areas facilitating spontaneous interaction and curiosity.</p>
           </div>
         </div>
@@ -413,7 +423,7 @@
         <div class="facility-item-card" id="garden">
           <div class="facility-icon-badge"><i class="fa-solid fa-seedling"></i></div>
           <div class="facility-info">
-            <h4>Organic Garden</h4>
+            <h3>Organic Garden</h3>
             <p>Children plant seeds, care for herbs, and discover natural life cycles and environmental sustainability.</p>
           </div>
         </div>
@@ -422,7 +432,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-city"></i></div>
           <div class="facility-info">
-            <h4>Pretend Play Areas – Tiny Towns</h4>
+            <h3>Pretend Play Areas – Tiny Towns</h3>
             <p>Miniature civic community zones for roleplay, shopping, health center, and social problem-solving.</p>
           </div>
         </div>
@@ -431,7 +441,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-bucket"></i></div>
           <div class="facility-info">
-            <h4>Sand Kitchens</h4>
+            <h3>Sand Kitchens</h3>
             <p>Sensory wet and dry sand workstations where tactile curiosity and collaborative recipes flourish.</p>
           </div>
         </div>
@@ -440,7 +450,7 @@
         <div class="facility-item-card">
           <div class="facility-icon-badge"><i class="fa-solid fa-sun"></i></div>
           <div class="facility-info">
-            <h4>Spacious Classrooms With Natural Light</h4>
+            <h3>Spacious Classrooms With Natural Light</h3>
             <p>Expansive rooms flooded with sunlight, ergonomic furniture, and flexible layout provocations.</p>
           </div>
         </div>
@@ -449,7 +459,7 @@
         <div class="facility-item-card" id="piazza">
           <div class="facility-icon-badge"><i class="fa-solid fa-landmark"></i></div>
           <div class="facility-info">
-            <h4>Piazza (Central Square)</h4>
+            <h3>Piazza (Central Square)</h3>
             <p>A central, open space where students, educators, and families can get together, interact, and collaborate.</p>
           </div>
         </div>
@@ -487,7 +497,7 @@
 
         <div class="pillar-card" style="text-align: left; padding: 32px; background: var(--shomoukh-white); border-radius: 20px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--shomoukh-coral);">
           <div style="font-size: 2.2rem; color: var(--shomoukh-coral); margin-bottom: 16px;"><i class="fa-solid fa-seedling"></i></div>
-          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-coral); margin-bottom: 10px;">The Organic Garden</h3>
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin-bottom: 10px;">The Organic Garden</h3>
           <p style="font-size: 0.95rem; color: var(--shomoukh-body); line-height: 1.6;">
             A living outdoor science laboratory. Children plant seeds, nurture herbs and vegetables, observe pollinators, and discover the wonder of seasonal growth, embedding sustainability and respect for nature from their earliest years.
           </p>
@@ -573,6 +583,7 @@
   <!-- ============================================================ -->
   <!-- GLOBAL FOOTER                                                -->
   <!-- ============================================================ -->
+  </main>
   <footer class="site-footer">
     <div class="content-wrapper">
       
@@ -593,7 +604,7 @@
       <div class="footer-grid">
         
         <div class="footer-col">
-          <h4 class="footer-heading">Shomoukh Nursery</h4>
+          <h2 class="footer-heading">Shomoukh Nursery</h2>
           <p class="footer-desc">
             The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman. Nurturing unique, capable, and confident lifelong learners.
           </p>
@@ -604,7 +615,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Main Pages</h4>
+          <h2 class="footer-heading">Main Pages</h2>
           <ul class="footer-links-list">
             <li><a href="/about.html">About Shomoukh</a></li>
             <li><a href="/programs.html">Programs &amp; Curriculum</a></li>
@@ -615,7 +626,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Admissions &amp; Portals</h4>
+          <h2 class="footer-heading">Admissions &amp; Portals</h2>
           <ul class="footer-links-list">
             <li><a href="/book-a-visit.html">Schedule a Campus Tour</a></li>
             <li><a href="/apply-online.html">Online Enrollment Form</a></li>
@@ -625,7 +636,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Campuses</h4>
+          <h2 class="footer-heading">Campuses</h2>
           <div class="footer-campus-entry">
             <strong>Al Mouj Campus:</strong>
             <p>Al Mouj Main Street, Main Community Hub, Muscat</p>
@@ -645,9 +656,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html#contact-inquiry-form">Privacy policy enquiries</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html#contact-inquiry-form">Terms of service enquiries</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -659,7 +670,7 @@
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-label="Site Search Modal">
     <div class="search-modal-backdrop"></div>
-    <div class="search-modal-content">
+    <div class="search-modal-content" tabindex="0" role="region" aria-label="Search panel">
       <div class="search-modal-header">
         <h3>Search Shomoukh</h3>
         <button id="search-close-btn" class="search-close-btn" aria-label="Close search modal"><i class="fa-solid fa-xmark"></i></button>
@@ -667,7 +678,7 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search this website" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>

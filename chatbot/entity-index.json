@@ -1,0 +1,2238 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-18",
+  "entities": [
+    {
+      "id": "ges",
+      "kind": "organization",
+      "name": "Global Education Services (GES)",
+      "aliases": [
+        "global education services (ges)",
+        "ges",
+        "global education",
+        "global education services",
+        "ges quality education"
+      ],
+      "recordIds": [
+        "ges-group",
+        "ges-institutions",
+        "ges-vision",
+        "ges-mission",
+        "ges-values",
+        "ges-school-count"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "https://www.ges.om/index.php",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "shomoukh",
+      "kind": "nursery",
+      "name": "Shomoukh Early Childhood Education",
+      "aliases": [
+        "shomoukh early childhood education",
+        "shomoukh",
+        "shomoukh nursery",
+        "shomoukh ece",
+        "shomoukh nursery schools"
+      ],
+      "recordIds": [
+        "about-91c044a4ae",
+        "about-d2b9c988a5",
+        "index-1efe13bd04",
+        "ges-shomoukh"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/about.html",
+        "/about.html#welcome",
+        "/#who-we-are",
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "campus-mouj",
+      "kind": "campus",
+      "name": "Al Mouj Campus",
+      "aliases": [
+        "al mouj campus",
+        "mouj",
+        "al mouj",
+        "almouj",
+        "al mouj nursery",
+        "mouj campus",
+        "al mouj muscat"
+      ],
+      "recordIds": [
+        "contact-10794d58df",
+        "contact-38b7147ddc",
+        "index-7ac7a5007f",
+        "ges-mouj"
+      ],
+      "attributes": {
+        "phone": [
+          {
+            "value": "+968 24555515",
+            "recordId": "contact-10794d58df",
+            "url": "/contact.html#almouj",
+            "scope": "campus-mouj",
+            "conflicts": []
+          }
+        ],
+        "email": [
+          {
+            "value": "info.almouj@shomoukh.com",
+            "recordId": "contact-10794d58df",
+            "url": "/contact.html#almouj",
+            "scope": "campus-mouj",
+            "conflicts": []
+          }
+        ],
+        "address": [
+          {
+            "value": "Al Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman",
+            "recordId": "contact-10794d58df",
+            "url": "/contact.html#almouj",
+            "scope": "campus-mouj",
+            "conflicts": []
+          }
+        ],
+        "hours": [
+          {
+            "value": "Sun – Thu: 7:00 AM – 4:00 PM",
+            "recordId": "contact-10794d58df",
+            "url": "/contact.html#almouj",
+            "scope": "campus-mouj",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/contact.html#almouj",
+        "/contact.html",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ],
+      "parentId": "shomoukh",
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "campus-qurum",
+      "kind": "campus",
+      "name": "Al Qurm Campus",
+      "aliases": [
+        "al qurm campus",
+        "qurm",
+        "qurum",
+        "al qurm",
+        "al qurum",
+        "alqurum",
+        "alqurm",
+        "shatti al qurm",
+        "shatti al qurum",
+        "qurm nursery"
+      ],
+      "recordIds": [
+        "contact-08ee738f40",
+        "contact-11dd2afb30",
+        "index-cc46ee02ea",
+        "ges-qurum"
+      ],
+      "attributes": {
+        "phone": [
+          {
+            "value": "+968 24600610",
+            "recordId": "contact-08ee738f40",
+            "url": "/contact.html#alqurm",
+            "scope": "campus-qurum",
+            "conflicts": []
+          }
+        ],
+        "email": [
+          {
+            "value": "info.alqurum@shomoukh.com",
+            "recordId": "contact-08ee738f40",
+            "url": "/contact.html#alqurm",
+            "scope": "campus-qurum",
+            "conflicts": []
+          }
+        ],
+        "address": [
+          {
+            "value": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman",
+            "recordId": "contact-08ee738f40",
+            "url": "/contact.html#alqurm",
+            "scope": "campus-qurum",
+            "conflicts": []
+          }
+        ],
+        "hours": [
+          {
+            "value": "Sun – Thu: 7:00 AM – 4:00 PM",
+            "recordId": "contact-08ee738f40",
+            "url": "/contact.html#alqurm",
+            "scope": "campus-qurum",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/contact.html#alqurm",
+        "/contact.html",
+        "/#campuses",
+        "https://www.ges.om/about.php"
+      ],
+      "parentId": "shomoukh",
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "school-sips",
+      "kind": "school",
+      "name": "Al Shomoukh International Private School (SIPS)",
+      "aliases": [
+        "al shomoukh international private school (sips)",
+        "sips",
+        "al shomoukh international private school",
+        "shomoukh international school"
+      ],
+      "recordIds": [
+        "ges-sips"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "id": "program-infants",
+      "kind": "program",
+      "name": "Infants",
+      "aliases": [
+        "infants",
+        "infant",
+        "baby",
+        "babies"
+      ],
+      "recordIds": [
+        "index-44d33b6211",
+        "programs-e228aa89a2"
+      ],
+      "attributes": {
+        "hours": [
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "index-44d33b6211",
+            "url": "/#infants",
+            "scope": "program-infants",
+            "conflicts": []
+          },
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "programs-e228aa89a2",
+            "url": "/programs.html#infants",
+            "scope": "program-infants",
+            "conflicts": []
+          }
+        ],
+        "ageRange": [
+          {
+            "value": "3–11 months",
+            "recordId": "index-44d33b6211",
+            "url": "/#infants",
+            "scope": "program-infants",
+            "conflicts": [
+              "age-range"
+            ]
+          },
+          {
+            "value": "3–11 months",
+            "recordId": "programs-e228aa89a2",
+            "url": "/programs.html#infants",
+            "scope": "program-infants",
+            "conflicts": [
+              "age-range"
+            ]
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/#infants",
+        "/programs.html#infants"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "program-toddlers",
+      "kind": "program",
+      "name": "Toddlers",
+      "aliases": [
+        "toddlers",
+        "toddler"
+      ],
+      "recordIds": [
+        "index-94dcf956d9",
+        "programs-993217029d"
+      ],
+      "attributes": {
+        "hours": [
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "index-94dcf956d9",
+            "url": "/#toddlers",
+            "scope": "program-toddlers",
+            "conflicts": []
+          },
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "programs-993217029d",
+            "url": "/programs.html#toddlers",
+            "scope": "program-toddlers",
+            "conflicts": []
+          }
+        ],
+        "ageRange": [
+          {
+            "value": "12–35 months",
+            "recordId": "index-94dcf956d9",
+            "url": "/#toddlers",
+            "scope": "program-toddlers",
+            "conflicts": [
+              "age-range"
+            ]
+          },
+          {
+            "value": "12–35 months",
+            "recordId": "programs-993217029d",
+            "url": "/programs.html#toddlers",
+            "scope": "program-toddlers",
+            "conflicts": [
+              "age-range"
+            ]
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/#toddlers",
+        "/programs.html#toddlers"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "program-preschoolers",
+      "kind": "program",
+      "name": "Preschoolers",
+      "aliases": [
+        "preschoolers",
+        "preschool",
+        "preschooler"
+      ],
+      "recordIds": [
+        "index-3459decd83",
+        "programs-4bfaed0eec"
+      ],
+      "attributes": {
+        "hours": [
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "index-3459decd83",
+            "url": "/#preschoolers",
+            "scope": "program-preschoolers",
+            "conflicts": []
+          },
+          {
+            "value": "8:30 AM – 1:30 PM",
+            "recordId": "programs-4bfaed0eec",
+            "url": "/programs.html#preschoolers",
+            "scope": "program-preschoolers",
+            "conflicts": []
+          }
+        ],
+        "ageRange": [
+          {
+            "value": "36–48 months",
+            "recordId": "index-3459decd83",
+            "url": "/#preschoolers",
+            "scope": "program-preschoolers",
+            "conflicts": [
+              "age-range"
+            ]
+          },
+          {
+            "value": "36–48 months",
+            "recordId": "programs-4bfaed0eec",
+            "url": "/programs.html#preschoolers",
+            "scope": "program-preschoolers",
+            "conflicts": [
+              "age-range"
+            ]
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/#preschoolers",
+        "/programs.html#preschoolers"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-flex-care",
+      "kind": "service",
+      "name": "Flex-Care",
+      "aliases": [
+        "flex-care",
+        "flex care",
+        "flexcare",
+        "extended care",
+        "pre care",
+        "after care"
+      ],
+      "recordIds": [
+        "index-5290f6b045",
+        "programs-0a5a2d0a97"
+      ],
+      "attributes": {
+        "hours": [
+          {
+            "value": "7:00 AM – 4:00 PM",
+            "recordId": "index-5290f6b045",
+            "url": "/#flexcare",
+            "scope": "service-flex-care",
+            "conflicts": []
+          },
+          {
+            "value": "7:00 AM – 4:00 PM",
+            "recordId": "programs-0a5a2d0a97",
+            "url": "/programs.html#flexcare",
+            "scope": "service-flex-care",
+            "conflicts": []
+          }
+        ],
+        "ageRange": [
+          {
+            "value": "6–48 months",
+            "recordId": "index-5290f6b045",
+            "url": "/#flexcare",
+            "scope": "service-flex-care",
+            "conflicts": [
+              "age-range"
+            ]
+          },
+          {
+            "value": "6–48 months",
+            "recordId": "programs-0a5a2d0a97",
+            "url": "/programs.html#flexcare",
+            "scope": "service-flex-care",
+            "conflicts": [
+              "age-range"
+            ]
+          }
+        ]
+      },
+      "sourceUrls": [
+        "/#flexcare",
+        "/programs.html#flexcare"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-tour",
+      "kind": "service",
+      "name": "Campus tours",
+      "aliases": [
+        "campus tours",
+        "tour",
+        "tours",
+        "visit",
+        "booking",
+        "book tour"
+      ],
+      "recordIds": [
+        "book-a-visit-a772764a01",
+        "book-a-visit-14ba321c51",
+        "book-a-visit-d46e3ee6fe",
+        "book-a-visit-48867e20dd"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/book-a-visit.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-admissions",
+      "kind": "service",
+      "name": "Admissions and registration",
+      "aliases": [
+        "admissions and registration",
+        "admissions",
+        "admission",
+        "apply",
+        "registration",
+        "enrollment",
+        "enrolment"
+      ],
+      "recordIds": [
+        "admissions-f447d96292",
+        "admissions-d1b8aef5b1",
+        "admissions-0dbb68cde9",
+        "apply-online-bfa6e4ab42",
+        "index-456495330e"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/admissions.html",
+        "/admissions.html#steps",
+        "/apply-online.html",
+        "/#admissions-overview"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-parent-portal",
+      "kind": "service",
+      "name": "Parents portal",
+      "aliases": [
+        "parents portal",
+        "parent portal",
+        "parent app",
+        "login"
+      ],
+      "recordIds": [
+        "parents-c452db77e8",
+        "parents-581bea356b",
+        "parents-ea54a865a5",
+        "parents-1adf4c167a",
+        "parents-8b0ba02629"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/parents.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-transport",
+      "kind": "service",
+      "name": "Transportation request",
+      "aliases": [
+        "transportation request",
+        "transport",
+        "transportation",
+        "bus",
+        "bus service"
+      ],
+      "recordIds": [
+        "apply-online-f6c4b1ad6b"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/apply-online.html#app-transportation"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "program-eyfs",
+      "kind": "curriculum",
+      "name": "UK Early Years Foundation Stage (EYFS)",
+      "aliases": [
+        "uk early years foundation stage (eyfs)",
+        "eyfs",
+        "uk eyfs",
+        "early years foundation stage",
+        "curriculum"
+      ],
+      "recordIds": [
+        "index-50bd0fc610",
+        "programs-2b1ce89409"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/#programs",
+        "/programs.html#eyfs"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "program-reggio",
+      "kind": "curriculum",
+      "name": "Reggio Emilia approach",
+      "aliases": [
+        "reggio emilia approach",
+        "reggio",
+        "reggio emilia",
+        "reggio approach"
+      ],
+      "recordIds": [
+        "about-d2b9c988a5",
+        "index-1efe13bd04",
+        "index-d2102d67a5",
+        "programs-304dc47874"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/about.html#welcome",
+        "/#who-we-are",
+        "/#reggio-pillar",
+        "/programs.html#reggio"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-summer",
+      "kind": "program",
+      "name": "Summer camp",
+      "aliases": [
+        "summer camp",
+        "summer",
+        "holiday camp"
+      ],
+      "recordIds": [
+        "apply-online-3c35482e28",
+        "programs-e64ca3424e"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/apply-online.html#app-academic-year",
+        "/programs.html#promise"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-language",
+      "kind": "program",
+      "name": "Second language",
+      "aliases": [
+        "second language",
+        "arabic",
+        "english",
+        "bilingual"
+      ],
+      "recordIds": [
+        "programs-307787a922"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-movement",
+      "kind": "program",
+      "name": "Movement Matters",
+      "aliases": [
+        "movement matters",
+        "yoga",
+        "gymnastics"
+      ],
+      "recordIds": [
+        "programs-4950bfd541"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-literacy",
+      "kind": "program",
+      "name": "Handwriting and pre-literacy",
+      "aliases": [
+        "handwriting and pre-literacy",
+        "handwriting",
+        "pre literacy",
+        "literacy",
+        "writing"
+      ],
+      "recordIds": [
+        "programs-06d991e42a"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "atelier-clay",
+      "kind": "enrichment",
+      "name": "Clay Atelier",
+      "aliases": [
+        "clay atelier",
+        "clay",
+        "sculpting"
+      ],
+      "recordIds": [
+        "enrichments-522872217b",
+        "enrichments-c0209ed4ca",
+        "index-0006467f3e",
+        "index-bf725c40c8",
+        "main.js-278d99379d"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#clay-atelier",
+        "/enrichments.html#activities",
+        "/#clay-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "atelier-art",
+      "kind": "enrichment",
+      "name": "Art Atelier",
+      "aliases": [
+        "art atelier",
+        "art",
+        "painting"
+      ],
+      "recordIds": [
+        "enrichments-2d32682645",
+        "enrichments-2909246643",
+        "index-ee595fabf3",
+        "index-bf725c40c8",
+        "main.js-2acebaf277"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#art-atelier",
+        "/enrichments.html#activities",
+        "/#art-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "atelier-light",
+      "kind": "enrichment",
+      "name": "Digital and Light Atelier",
+      "aliases": [
+        "digital and light atelier",
+        "digital",
+        "light",
+        "digital atelier",
+        "light atelier",
+        "shadows"
+      ],
+      "recordIds": [
+        "enrichments-cafffdebc6",
+        "enrichments-51a68964f8",
+        "index-bed5a39bd1",
+        "index-99e522992f",
+        "main.js-8f68b0ad3b"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#digital-atelier",
+        "/enrichments.html#activities",
+        "/#digital-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "enrichment-project",
+      "kind": "enrichment",
+      "name": "Project-based learning",
+      "aliases": [
+        "project-based learning",
+        "project based learning",
+        "project approach",
+        "projects"
+      ],
+      "recordIds": [
+        "enrichments-d686b01797",
+        "index-e7535199a8",
+        "main.js-70720eb9e8"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#activities",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "enrichment-tiny-town",
+      "kind": "enrichment",
+      "name": "Tiny Town",
+      "aliases": [
+        "tiny town",
+        "pretend play",
+        "roleplay"
+      ],
+      "recordIds": [
+        "enrichments-1d616796bf",
+        "index-404b9eae40",
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#tiny-town",
+        "/#tiny-town",
+        "/spaces.html#all-spaces",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "enrichment-sensory",
+      "kind": "enrichment",
+      "name": "Sensory play",
+      "aliases": [
+        "sensory play",
+        "sensory"
+      ],
+      "recordIds": [
+        "enrichments-349bf70301",
+        "index-e55f8abcd0",
+        "main.js-619c618978"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#sensory-play",
+        "/#sensory-play",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "enrichment-music",
+      "kind": "enrichment",
+      "name": "Music and movement",
+      "aliases": [
+        "music and movement",
+        "music",
+        "dance",
+        "singing"
+      ],
+      "recordIds": [
+        "enrichments-8c79bc0a6c",
+        "index-4de467f098",
+        "main.js-20f139a472"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#music-drama",
+        "/#music-drama",
+        "/#enrichments"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "enrichment-drama",
+      "kind": "enrichment",
+      "name": "Drama, puppetry and PE",
+      "aliases": [
+        "drama, puppetry and pe",
+        "drama",
+        "puppetry",
+        "pe",
+        "sports",
+        "physical education"
+      ],
+      "recordIds": [
+        "enrichments-b35a5fbd78",
+        "index-7148e8e009",
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/enrichments.html#activities",
+        "/#enrichments",
+        "/#facilities"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-gym",
+      "kind": "facility",
+      "name": "Indoor Gymnasium",
+      "aliases": [
+        "indoor gymnasium",
+        "gym",
+        "gymnasium",
+        "indoor gym"
+      ],
+      "recordIds": [
+        "index-39715fe92e"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/#facilities"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-playground",
+      "kind": "facility",
+      "name": "Playgrounds",
+      "aliases": [
+        "playgrounds",
+        "playground",
+        "indoor playground",
+        "outdoor playground"
+      ],
+      "recordIds": [
+        "spaces-e6331976ba",
+        "spaces-ad0057a9ea"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-library",
+      "kind": "facility",
+      "name": "Library",
+      "aliases": [
+        "library",
+        "books"
+      ],
+      "recordIds": [
+        "spaces-9b1ab856fa"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-clinic",
+      "kind": "facility",
+      "name": "Nurse's Clinic",
+      "aliases": [
+        "nurse's clinic",
+        "nurse",
+        "clinic",
+        "medical"
+      ],
+      "recordIds": [
+        "spaces-002f1385fc"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-sand",
+      "kind": "facility",
+      "name": "Sand kitchens",
+      "aliases": [
+        "sand kitchens",
+        "sand"
+      ],
+      "recordIds": [
+        "spaces-6b3b33a441"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-classrooms",
+      "kind": "facility",
+      "name": "Classrooms",
+      "aliases": [
+        "classrooms",
+        "classroom"
+      ],
+      "recordIds": [
+        "spaces-8341905422",
+        "spaces-1f5f7bb920"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/spaces.html#all-spaces",
+        "/spaces.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-garden",
+      "kind": "facility",
+      "name": "Organic garden",
+      "aliases": [
+        "organic garden",
+        "garden"
+      ],
+      "recordIds": [
+        "index-8d3857c4eb",
+        "spaces-6355f764bc"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/#facilities",
+        "/spaces.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "space-piazza",
+      "kind": "facility",
+      "name": "Central Piazza",
+      "aliases": [
+        "central piazza",
+        "piazza",
+        "central square"
+      ],
+      "recordIds": [
+        "index-21578eb142",
+        "spaces-17bffefbf7"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/#facilities",
+        "/spaces.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-calendar",
+      "kind": "service",
+      "name": "Academic calendar",
+      "aliases": [
+        "academic calendar",
+        "calendar",
+        "term dates",
+        "events",
+        "school calendar"
+      ],
+      "recordIds": [
+        "parents-864ead9c4e"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/parents.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-pickup",
+      "kind": "service",
+      "name": "Attendance and pick-up",
+      "aliases": [
+        "attendance and pick-up",
+        "pickup",
+        "pick up",
+        "attendance"
+      ],
+      "recordIds": [
+        "parents-956725e10b"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/parents.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-messaging",
+      "kind": "service",
+      "name": "Parent messaging",
+      "aliases": [
+        "parent messaging",
+        "messaging",
+        "teacher messages",
+        "parent messages"
+      ],
+      "recordIds": [
+        "parents-e6c39442e2"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/parents.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "service-stories",
+      "kind": "service",
+      "name": "Learning stories and photos",
+      "aliases": [
+        "learning stories and photos",
+        "photos",
+        "learning stories",
+        "portfolios"
+      ],
+      "recordIds": [
+        "parents-7c8cb09547"
+      ],
+      "attributes": {},
+      "sourceUrls": [
+        "/parents.html"
+      ],
+      "organizationId": "shomoukh"
+    },
+    {
+      "id": "person-julanda",
+      "kind": "person",
+      "name": "Sheikh Julanda Salim Hamood Al Hashmi",
+      "aliases": [
+        "sheikh julanda salim hamood al hashmi",
+        "julanda",
+        "sheikh julanda",
+        "julanda al hashmi",
+        "shk julanda",
+        "julandah"
+      ],
+      "recordIds": [
+        "ges-julanda"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Vice President",
+            "recordId": "ges-julanda",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "vice president",
+        "vp",
+        "v p"
+      ]
+    },
+    {
+      "id": "person-janat",
+      "kind": "person",
+      "name": "Sheikha Janat Salim Hamood Al Hashmi",
+      "aliases": [
+        "sheikha janat salim hamood al hashmi",
+        "janat",
+        "sheikha janat",
+        "janat al hashmi"
+      ],
+      "recordIds": [
+        "ges-janat"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Chief Executive Officer",
+            "recordId": "ges-janat",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "ceo",
+        "chief executive officer",
+        "c e o",
+        "chief executive"
+      ]
+    },
+    {
+      "id": "person-jinan",
+      "kind": "person",
+      "name": "Sheikha Jinan Salim Hamood Al Hashmi",
+      "aliases": [
+        "sheikha jinan salim hamood al hashmi",
+        "jinan",
+        "sheikha jinan",
+        "jinan al hashmi"
+      ],
+      "recordIds": [
+        "ges-jinan"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Managing Director",
+            "recordId": "ges-jinan",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "managing director",
+        "md",
+        "m d"
+      ]
+    },
+    {
+      "id": "person-shanmuganand",
+      "kind": "person",
+      "name": "Mr. Shanmuganand Hariharan",
+      "aliases": [
+        "mr. shanmuganand hariharan",
+        "shanmuganand",
+        "shanmuganand hariharan"
+      ],
+      "recordIds": [
+        "ges-shanmuganand"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Director of Finance & Accounts",
+            "recordId": "ges-shanmuganand",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "director of finance",
+        "finance director"
+      ]
+    },
+    {
+      "id": "person-randa",
+      "kind": "person",
+      "name": "Ms. Randa Al Ahmadieh",
+      "aliases": [
+        "ms. randa al ahmadieh",
+        "randa",
+        "randa al ahmadieh"
+      ],
+      "recordIds": [
+        "ges-randa"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Head of Administration",
+            "recordId": "ges-randa",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "head of administration"
+      ]
+    },
+    {
+      "id": "person-sarah",
+      "kind": "person",
+      "name": "Ms. Sarah Saeed",
+      "aliases": [
+        "ms. sarah saeed",
+        "sarah saeed"
+      ],
+      "recordIds": [
+        "ges-sarah"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Head of Academics",
+            "recordId": "ges-sarah",
+            "url": "https://www.ges.om/about.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "head of academics"
+      ]
+    },
+    {
+      "id": "person-chairman",
+      "kind": "person",
+      "name": "Sheikh Salim Hamood Al Hashmi",
+      "aliases": [
+        "sheikh salim hamood al hashmi",
+        "salim hamood al hashmi"
+      ],
+      "recordIds": [
+        "ges-chairman"
+      ],
+      "attributes": {
+        "role": [
+          {
+            "value": "Chairman",
+            "recordId": "ges-chairman",
+            "url": "https://www.ges.om/index.php",
+            "scope": "ges",
+            "conflicts": []
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ],
+      "organizationId": "ges",
+      "roleAliases": [
+        "chairman"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "shomoukh",
+      "type": "listedBy",
+      "to": "ges",
+      "recordIds": [
+        "ges-shomoukh"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "school-sips",
+      "type": "listedBy",
+      "to": "ges",
+      "recordIds": [
+        "ges-sips"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "campus-mouj",
+      "type": "campusOf",
+      "to": "shomoukh",
+      "recordIds": [
+        "contact-10794d58df"
+      ],
+      "sourceUrls": [
+        "/contact.html#almouj"
+      ]
+    },
+    {
+      "from": "campus-mouj",
+      "type": "listedBy",
+      "to": "ges",
+      "recordIds": [
+        "ges-mouj",
+        "ges-shomoukh"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "campus-qurum",
+      "type": "campusOf",
+      "to": "shomoukh",
+      "recordIds": [
+        "contact-08ee738f40"
+      ],
+      "sourceUrls": [
+        "/contact.html#alqurm"
+      ]
+    },
+    {
+      "from": "campus-qurum",
+      "type": "listedBy",
+      "to": "ges",
+      "recordIds": [
+        "ges-qurum",
+        "ges-shomoukh"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "program-infants",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-44d33b6211",
+        "programs-e228aa89a2"
+      ],
+      "sourceUrls": [
+        "/#infants",
+        "/programs.html#infants"
+      ]
+    },
+    {
+      "from": "program-toddlers",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-94dcf956d9",
+        "programs-993217029d"
+      ],
+      "sourceUrls": [
+        "/#toddlers",
+        "/programs.html#toddlers"
+      ]
+    },
+    {
+      "from": "program-preschoolers",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-3459decd83",
+        "programs-4bfaed0eec"
+      ],
+      "sourceUrls": [
+        "/#preschoolers",
+        "/programs.html#preschoolers"
+      ]
+    },
+    {
+      "from": "service-flex-care",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-5290f6b045",
+        "programs-0a5a2d0a97"
+      ],
+      "sourceUrls": [
+        "/#flexcare",
+        "/programs.html#flexcare"
+      ]
+    },
+    {
+      "from": "service-tour",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "book-a-visit-a772764a01",
+        "book-a-visit-14ba321c51",
+        "book-a-visit-d46e3ee6fe",
+        "book-a-visit-48867e20dd"
+      ],
+      "sourceUrls": [
+        "/book-a-visit.html"
+      ]
+    },
+    {
+      "from": "service-admissions",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "admissions-f447d96292",
+        "admissions-d1b8aef5b1",
+        "admissions-0dbb68cde9",
+        "apply-online-bfa6e4ab42",
+        "index-456495330e"
+      ],
+      "sourceUrls": [
+        "/admissions.html",
+        "/admissions.html#steps",
+        "/apply-online.html",
+        "/#admissions-overview"
+      ]
+    },
+    {
+      "from": "service-parent-portal",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "parents-c452db77e8",
+        "parents-581bea356b",
+        "parents-ea54a865a5",
+        "parents-1adf4c167a",
+        "parents-8b0ba02629"
+      ],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "from": "service-transport",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "apply-online-f6c4b1ad6b"
+      ],
+      "sourceUrls": [
+        "/apply-online.html#app-transportation"
+      ]
+    },
+    {
+      "from": "program-eyfs",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-50bd0fc610",
+        "programs-2b1ce89409"
+      ],
+      "sourceUrls": [
+        "/#programs",
+        "/programs.html#eyfs"
+      ]
+    },
+    {
+      "from": "program-reggio",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "about-d2b9c988a5",
+        "index-1efe13bd04",
+        "index-d2102d67a5",
+        "programs-304dc47874"
+      ],
+      "sourceUrls": [
+        "/about.html#welcome",
+        "/#who-we-are",
+        "/#reggio-pillar",
+        "/programs.html#reggio"
+      ]
+    },
+    {
+      "from": "service-summer",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "apply-online-3c35482e28",
+        "programs-e64ca3424e"
+      ],
+      "sourceUrls": [
+        "/apply-online.html#app-academic-year",
+        "/programs.html#promise"
+      ]
+    },
+    {
+      "from": "service-language",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "programs-307787a922"
+      ],
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ]
+    },
+    {
+      "from": "service-movement",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "programs-4950bfd541"
+      ],
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ]
+    },
+    {
+      "from": "service-literacy",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "programs-06d991e42a"
+      ],
+      "sourceUrls": [
+        "/programs.html#focus-areas"
+      ]
+    },
+    {
+      "from": "atelier-clay",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-522872217b",
+        "enrichments-c0209ed4ca",
+        "index-0006467f3e",
+        "index-bf725c40c8",
+        "main.js-278d99379d"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#clay-atelier",
+        "/enrichments.html#activities",
+        "/#clay-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "atelier-art",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-2d32682645",
+        "enrichments-2909246643",
+        "index-ee595fabf3",
+        "index-bf725c40c8",
+        "main.js-2acebaf277"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#art-atelier",
+        "/enrichments.html#activities",
+        "/#art-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "atelier-light",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-cafffdebc6",
+        "enrichments-51a68964f8",
+        "index-bed5a39bd1",
+        "index-99e522992f",
+        "main.js-8f68b0ad3b"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#digital-atelier",
+        "/enrichments.html#activities",
+        "/#digital-atelier",
+        "/#facilities",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "enrichment-project",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-d686b01797",
+        "index-e7535199a8",
+        "main.js-70720eb9e8"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#activities",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "enrichment-tiny-town",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-1d616796bf",
+        "index-404b9eae40",
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#tiny-town",
+        "/#tiny-town",
+        "/spaces.html#all-spaces",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "enrichment-sensory",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-349bf70301",
+        "index-e55f8abcd0",
+        "main.js-619c618978"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#sensory-play",
+        "/#sensory-play",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "enrichment-music",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-8c79bc0a6c",
+        "index-4de467f098",
+        "main.js-20f139a472"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#music-drama",
+        "/#music-drama",
+        "/#enrichments"
+      ]
+    },
+    {
+      "from": "enrichment-drama",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "enrichments-b35a5fbd78",
+        "index-7148e8e009",
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
+      ],
+      "sourceUrls": [
+        "/enrichments.html#activities",
+        "/#enrichments",
+        "/#facilities"
+      ]
+    },
+    {
+      "from": "space-gym",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-39715fe92e"
+      ],
+      "sourceUrls": [
+        "/#facilities"
+      ]
+    },
+    {
+      "from": "space-playground",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "spaces-e6331976ba",
+        "spaces-ad0057a9ea"
+      ],
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ]
+    },
+    {
+      "from": "space-library",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "spaces-9b1ab856fa"
+      ],
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ]
+    },
+    {
+      "from": "space-clinic",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "spaces-002f1385fc"
+      ],
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ]
+    },
+    {
+      "from": "space-sand",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "spaces-6b3b33a441"
+      ],
+      "sourceUrls": [
+        "/spaces.html#all-spaces"
+      ]
+    },
+    {
+      "from": "space-classrooms",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "spaces-8341905422",
+        "spaces-1f5f7bb920"
+      ],
+      "sourceUrls": [
+        "/spaces.html#all-spaces",
+        "/spaces.html"
+      ]
+    },
+    {
+      "from": "space-garden",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-8d3857c4eb",
+        "spaces-6355f764bc"
+      ],
+      "sourceUrls": [
+        "/#facilities",
+        "/spaces.html"
+      ]
+    },
+    {
+      "from": "space-piazza",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "index-21578eb142",
+        "spaces-17bffefbf7"
+      ],
+      "sourceUrls": [
+        "/#facilities",
+        "/spaces.html"
+      ]
+    },
+    {
+      "from": "service-calendar",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "parents-864ead9c4e"
+      ],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "from": "service-pickup",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "parents-956725e10b"
+      ],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "from": "service-messaging",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "parents-e6c39442e2"
+      ],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "from": "service-stories",
+      "type": "publishedBy",
+      "to": "shomoukh",
+      "recordIds": [
+        "parents-7c8cb09547"
+      ],
+      "sourceUrls": [
+        "/parents.html"
+      ]
+    },
+    {
+      "from": "person-julanda",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-julanda"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-janat",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-janat"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-jinan",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-jinan"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-shanmuganand",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-shanmuganand"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-randa",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-randa"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-sarah",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-sarah"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/about.php"
+      ]
+    },
+    {
+      "from": "person-chairman",
+      "type": "managementOf",
+      "to": "ges",
+      "recordIds": [
+        "ges-chairman"
+      ],
+      "sourceUrls": [
+        "https://www.ges.om/index.php"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "entityId": "campus-mouj",
+      "attribute": "phone",
+      "value": "+968 24555515",
+      "recordId": "contact-10794d58df",
+      "url": "/contact.html#almouj",
+      "scope": "campus-mouj",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-mouj",
+      "attribute": "email",
+      "value": "info.almouj@shomoukh.com",
+      "recordId": "contact-10794d58df",
+      "url": "/contact.html#almouj",
+      "scope": "campus-mouj",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-mouj",
+      "attribute": "address",
+      "value": "Al Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman",
+      "recordId": "contact-10794d58df",
+      "url": "/contact.html#almouj",
+      "scope": "campus-mouj",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-mouj",
+      "attribute": "hours",
+      "value": "Sun – Thu: 7:00 AM – 4:00 PM",
+      "recordId": "contact-10794d58df",
+      "url": "/contact.html#almouj",
+      "scope": "campus-mouj",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-qurum",
+      "attribute": "phone",
+      "value": "+968 24600610",
+      "recordId": "contact-08ee738f40",
+      "url": "/contact.html#alqurm",
+      "scope": "campus-qurum",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-qurum",
+      "attribute": "email",
+      "value": "info.alqurum@shomoukh.com",
+      "recordId": "contact-08ee738f40",
+      "url": "/contact.html#alqurm",
+      "scope": "campus-qurum",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-qurum",
+      "attribute": "address",
+      "value": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman",
+      "recordId": "contact-08ee738f40",
+      "url": "/contact.html#alqurm",
+      "scope": "campus-qurum",
+      "conflicts": []
+    },
+    {
+      "entityId": "campus-qurum",
+      "attribute": "hours",
+      "value": "Sun – Thu: 7:00 AM – 4:00 PM",
+      "recordId": "contact-08ee738f40",
+      "url": "/contact.html#alqurm",
+      "scope": "campus-qurum",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-infants",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "index-44d33b6211",
+      "url": "/#infants",
+      "scope": "program-infants",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-infants",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "programs-e228aa89a2",
+      "url": "/programs.html#infants",
+      "scope": "program-infants",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-infants",
+      "attribute": "ageRange",
+      "value": "3–11 months",
+      "recordId": "index-44d33b6211",
+      "url": "/#infants",
+      "scope": "program-infants",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "program-infants",
+      "attribute": "ageRange",
+      "value": "3–11 months",
+      "recordId": "programs-e228aa89a2",
+      "url": "/programs.html#infants",
+      "scope": "program-infants",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "program-toddlers",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "index-94dcf956d9",
+      "url": "/#toddlers",
+      "scope": "program-toddlers",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-toddlers",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "programs-993217029d",
+      "url": "/programs.html#toddlers",
+      "scope": "program-toddlers",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-toddlers",
+      "attribute": "ageRange",
+      "value": "12–35 months",
+      "recordId": "index-94dcf956d9",
+      "url": "/#toddlers",
+      "scope": "program-toddlers",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "program-toddlers",
+      "attribute": "ageRange",
+      "value": "12–35 months",
+      "recordId": "programs-993217029d",
+      "url": "/programs.html#toddlers",
+      "scope": "program-toddlers",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "program-preschoolers",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "index-3459decd83",
+      "url": "/#preschoolers",
+      "scope": "program-preschoolers",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-preschoolers",
+      "attribute": "hours",
+      "value": "8:30 AM – 1:30 PM",
+      "recordId": "programs-4bfaed0eec",
+      "url": "/programs.html#preschoolers",
+      "scope": "program-preschoolers",
+      "conflicts": []
+    },
+    {
+      "entityId": "program-preschoolers",
+      "attribute": "ageRange",
+      "value": "36–48 months",
+      "recordId": "index-3459decd83",
+      "url": "/#preschoolers",
+      "scope": "program-preschoolers",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "program-preschoolers",
+      "attribute": "ageRange",
+      "value": "36–48 months",
+      "recordId": "programs-4bfaed0eec",
+      "url": "/programs.html#preschoolers",
+      "scope": "program-preschoolers",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "service-flex-care",
+      "attribute": "hours",
+      "value": "7:00 AM – 4:00 PM",
+      "recordId": "index-5290f6b045",
+      "url": "/#flexcare",
+      "scope": "service-flex-care",
+      "conflicts": []
+    },
+    {
+      "entityId": "service-flex-care",
+      "attribute": "hours",
+      "value": "7:00 AM – 4:00 PM",
+      "recordId": "programs-0a5a2d0a97",
+      "url": "/programs.html#flexcare",
+      "scope": "service-flex-care",
+      "conflicts": []
+    },
+    {
+      "entityId": "service-flex-care",
+      "attribute": "ageRange",
+      "value": "6–48 months",
+      "recordId": "index-5290f6b045",
+      "url": "/#flexcare",
+      "scope": "service-flex-care",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "service-flex-care",
+      "attribute": "ageRange",
+      "value": "6–48 months",
+      "recordId": "programs-0a5a2d0a97",
+      "url": "/programs.html#flexcare",
+      "scope": "service-flex-care",
+      "conflicts": [
+        "age-range"
+      ]
+    },
+    {
+      "entityId": "person-julanda",
+      "attribute": "role",
+      "value": "Vice President",
+      "recordId": "ges-julanda",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-janat",
+      "attribute": "role",
+      "value": "Chief Executive Officer",
+      "recordId": "ges-janat",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-jinan",
+      "attribute": "role",
+      "value": "Managing Director",
+      "recordId": "ges-jinan",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-shanmuganand",
+      "attribute": "role",
+      "value": "Director of Finance & Accounts",
+      "recordId": "ges-shanmuganand",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-randa",
+      "attribute": "role",
+      "value": "Head of Administration",
+      "recordId": "ges-randa",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-sarah",
+      "attribute": "role",
+      "value": "Head of Academics",
+      "recordId": "ges-sarah",
+      "url": "https://www.ges.om/about.php",
+      "scope": "ges",
+      "conflicts": []
+    },
+    {
+      "entityId": "person-chairman",
+      "attribute": "role",
+      "value": "Chairman",
+      "recordId": "ges-chairman",
+      "url": "https://www.ges.om/index.php",
+      "scope": "ges",
+      "conflicts": []
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "age-range",
+      "description": "Local published age ranges and GES Qurum age descriptions differ. Confirm eligibility with admissions."
+    },
+    {
+      "id": "qurum-address-spelling",
+      "description": "GES uses Al Saruj St.; the local Shomoukh contact source uses Al Suraj St. Local source supplies the full address."
+    }
+  ],
+  "statistics": {
+    "entities": 46,
+    "relationships": 47,
+    "verifiedAttributeAssertions": 31,
+    "uniqueAttributeFacts": 23,
+    "knowledgeRecords": 182
+  },
+  "scopeNotes": [
+    "Relationships are publication/listing relationships, not inferred legal ownership.",
+    "Program and facility records apply to the nursery; campus-specific availability is not inferred.",
+    "Phone, email and office hours come only from each dedicated local campus contact card.",
+    "Knowledge records are source sections; assertion count covers only explicitly extracted role, phone, email, address, hours and age attributes, not every atomic fact in prose."
+  ]
+}

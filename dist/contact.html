@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/shomoukh-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us & Campuses | Shomoukh Early Childhood Education</title>
   <meta name="description" content="Contact Shomoukh Nursery School campuses in Al Mouj and Al Qurm, Muscat. Get in touch for inquiries, visits, and enrollment questions." />
@@ -12,12 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-D8xMZK1S.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BZBQ-60y.css">
+  <script type="module" crossorigin src="/assets/main-cmlPJLyH.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-r4GjJG5p.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ============================================================ -->
   <!-- TOP STICKY HEADER                                            -->
@@ -32,6 +34,13 @@
 
       <!-- Right Navigation Items -->
       <div class="header-actions">
+        <div class="language-selector-pill header-language-selector">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <select aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
         <!-- Search button -->
         <button id="search-open-btn" class="header-icon-btn" aria-label="Open search modal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -55,7 +64,7 @@
   <!-- ============================================================ -->
   <!-- OFFCANVAS FULLSCREEN NAVIGATION DRAWER                       -->
   <!-- ============================================================ -->
-  <aside id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div id="offcanvas-drawer" class="offcanvas-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Website navigation">
     <div class="offcanvas-container">
       
       <!-- Left Column: Art box -->
@@ -250,11 +259,12 @@
       </div>
 
     </div>
-  </aside>
+  </div>
 
   <!-- ============================================================ -->
   <!-- SUBPAGE HERO SECTION                                         -->
   <!-- ============================================================ -->
+  <main id="main-content" tabindex="-1">
   <section class="subpage-hero">
     <div class="content-wrapper">
       <div class="page-breadcrumb">
@@ -343,7 +353,8 @@
             <p class="form-panel-sub">Please enter your information and we will get back to you promptly:</p>
           </div>
 
-          <form id="contact-inquiry-form" novalidate>
+          <form id="contact-inquiry-form" method="post">
+            <p class="form-delivery-note">Online delivery is unavailable on this website. Your details will not be sent. Please <a href="/contact.html#almouj">contact a campus</a> to complete your request.</p>
             <div class="form-group">
               <label for="contact-name" class="form-label">Name <span class="required">*</span></label>
               <input type="text" id="contact-name" name="name" class="form-control" placeholder="Your full name" required>
@@ -383,7 +394,7 @@
               <div class="form-char-count"><span id="contact-char-count">0</span> / 180 characters</div>
             </div>
 
-            <button type="submit" class="btn-form-submit">
+            <button type="submit" disabled class="btn-form-submit">
               <i class="fa-solid fa-paper-plane"></i>
               <span>SEND MESSAGE</span>
             </button>
@@ -429,7 +440,7 @@
             <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(242, 143, 121, 0.1); display: flex; align-items: center; justify-content: center; color: var(--shomoukh-coral); font-size: 1.4rem;">
               <i class="fa-solid fa-tree"></i>
             </div>
-            <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-coral); margin: 0;">Shatti Al Qurm</h3>
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--shomoukh-coral-ink); margin: 0;">Shatti Al Qurm</h3>
           </div>
           <p style="font-size: 0.95rem; color: var(--shomoukh-body); line-height: 1.6;">
             Situated in quiet Shatti Al Qurm on Al Suraj Street, adjacent to embassies and residential parks. Offers serene indoor gymnasiums, light ateliers, and shaded outdoor discovery courtyards.
@@ -482,6 +493,7 @@
   <!-- ============================================================ -->
   <!-- GLOBAL FOOTER                                                -->
   <!-- ============================================================ -->
+  </main>
   <footer class="site-footer">
     <div class="content-wrapper">
       
@@ -502,7 +514,7 @@
       <div class="footer-grid">
         
         <div class="footer-col">
-          <h4 class="footer-heading">Shomoukh Nursery</h4>
+          <h2 class="footer-heading">Shomoukh Nursery</h2>
           <p class="footer-desc">
             The first and only Reggio Emilia inspired nursery school in the Sultanate of Oman. Nurturing unique, capable, and confident lifelong learners.
           </p>
@@ -513,7 +525,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Main Pages</h4>
+          <h2 class="footer-heading">Main Pages</h2>
           <ul class="footer-links-list">
             <li><a href="/about.html">About Shomoukh</a></li>
             <li><a href="/programs.html">Programs &amp; Curriculum</a></li>
@@ -524,7 +536,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Admissions &amp; Portals</h4>
+          <h2 class="footer-heading">Admissions &amp; Portals</h2>
           <ul class="footer-links-list">
             <li><a href="/book-a-visit.html">Schedule a Campus Tour</a></li>
             <li><a href="/apply-online.html">Online Enrollment Form</a></li>
@@ -534,7 +546,7 @@
         </div>
 
         <div class="footer-col">
-          <h4 class="footer-heading">Campuses</h4>
+          <h2 class="footer-heading">Campuses</h2>
           <div class="footer-campus-entry">
             <strong>Al Mouj Campus:</strong>
             <p>Al Mouj Main Street, Main Community Hub, Muscat</p>
@@ -554,9 +566,9 @@
           Copyright &copy; 2026, Global Education Services L.L.C. All Rights Reserved.
         </p>
         <div class="footer-bottom-links">
-          <a href="/about.html">Privacy Policy</a>
+          <a href="/contact.html#contact-inquiry-form">Privacy policy enquiries</a>
           <span>&bull;</span>
-          <a href="/about.html">Terms of Service</a>
+          <a href="/contact.html#contact-inquiry-form">Terms of service enquiries</a>
           <span>&bull;</span>
           <a href="/contact.html">Contact Us</a>
         </div>
@@ -568,7 +580,7 @@
   <!-- Search Modal -->
   <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-label="Site Search Modal">
     <div class="search-modal-backdrop"></div>
-    <div class="search-modal-content">
+    <div class="search-modal-content" tabindex="0" role="region" aria-label="Search panel">
       <div class="search-modal-header">
         <h3>Search Shomoukh</h3>
         <button id="search-close-btn" class="search-close-btn" aria-label="Close search modal"><i class="fa-solid fa-xmark"></i></button>
@@ -576,7 +588,7 @@
       <form id="search-form" class="search-modal-form">
         <div class="search-input-group">
           <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-          <input type="text" id="search-input" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
+          <input type="text" id="search-input" aria-label="Search this website" placeholder="Search pages, programs, admissions, spaces..." autocomplete="off">
           <button type="submit" class="search-submit-btn">SEARCH</button>
         </div>
       </form>
@@ -591,9 +603,9 @@
     </div>
   </div>
   <!-- Floating Toast Notification for Form Submissions -->
-  <div id="toast-feedback" class="toast-feedback" role="alert" aria-live="assertive">
-    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
-    <div class="toast-message" id="toast-message">Thank you! Your submission has been received.</div>
+  <div id="toast-feedback" class="toast-feedback" role="status" aria-live="polite">
+    <div class="toast-icon"><i class="fa-solid fa-circle-info"></i></div>
+    <div class="toast-message" id="toast-message"></div>
   </div>
 
   <!-- Scroll to top button -->

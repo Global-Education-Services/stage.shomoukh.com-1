@@ -1,0 +1,1276 @@
+[
+  {
+    "question": "Tell me about About Shomoukh Early Childhood Education",
+    "expectedRecordId": "about-91c044a4ae",
+    "expectedSourceUrl": "/about.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Welcome to Shomoukh Nursery Schools",
+    "expectedRecordId": "about-d2b9c988a5",
+    "expectedSourceUrl": "/about.html#welcome",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Nurturing Mind, Body, and Spirit",
+    "expectedRecordId": "about-0b1e92c7e8",
+    "expectedSourceUrl": "/about.html#philosophy",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Collaborative Partnerships",
+    "expectedRecordId": "about-4b6aea652e",
+    "expectedSourceUrl": "/about.html#philosophy",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Mission",
+    "expectedRecordId": "about-371a7d93d7",
+    "expectedSourceUrl": "/about.html#mission-vision",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Vision",
+    "expectedRecordId": "about-ff3aa40029",
+    "expectedSourceUrl": "/about.html#mission-vision",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Values",
+    "expectedRecordId": "about-763ac25046",
+    "expectedSourceUrl": "/about.html#mission-vision",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Core Principles",
+    "expectedRecordId": "about-31444bea90",
+    "expectedSourceUrl": "/about.html#core-principles",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Community",
+    "expectedRecordId": "about-d0b0ea2aa1",
+    "expectedSourceUrl": "/about.html#core-principles",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Giving Back",
+    "expectedRecordId": "about-8e17f1e23a",
+    "expectedSourceUrl": "/about.html#core-principles",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Environmental Care",
+    "expectedRecordId": "about-ad6d1493a1",
+    "expectedSourceUrl": "/about.html#core-principles",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Health & Safety",
+    "expectedRecordId": "about-378140f21b",
+    "expectedSourceUrl": "/about.html#health-safety",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Public school accreditation and overview",
+    "expectedRecordId": "about-b5a36608f7",
+    "expectedSourceUrl": "/about.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Public school accreditation and overview",
+    "expectedRecordId": "about-adac1fa59c",
+    "expectedSourceUrl": "/about.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Website copyright holder",
+    "expectedRecordId": "about-baa7133646",
+    "expectedSourceUrl": "/about.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Admissions & Enrollment",
+    "expectedRecordId": "admissions-f447d96292",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Education for Your Child at Shomoukh",
+    "expectedRecordId": "admissions-d1b8aef5b1",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Join Our Diverse Community of Learners",
+    "expectedRecordId": "admissions-81cb00a43a",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Three Steps to Enrollment",
+    "expectedRecordId": "admissions-0dbb68cde9",
+    "expectedSourceUrl": "/admissions.html#steps",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Book a Tour",
+    "expectedRecordId": "admissions-03d9f94747",
+    "expectedSourceUrl": "/admissions.html#step1",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Submit Details",
+    "expectedRecordId": "admissions-595ab5ed21",
+    "expectedSourceUrl": "/admissions.html#step2",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Secure Your Place",
+    "expectedRecordId": "admissions-8de2430be5",
+    "expectedSourceUrl": "/admissions.html#step3",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Required Documents Checklist",
+    "expectedRecordId": "admissions-1e6b18d56c",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Birth Certificate",
+    "expectedRecordId": "admissions-3afb4053b7",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Health & Vaccine Card",
+    "expectedRecordId": "admissions-4e4a9e38ee",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Passport Copies",
+    "expectedRecordId": "admissions-a5806da1ae",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about 4 Photographs",
+    "expectedRecordId": "admissions-5f6ae52425",
+    "expectedSourceUrl": "/admissions.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Online Enrollment Application",
+    "expectedRecordId": "apply-online-bfa6e4ab42",
+    "expectedSourceUrl": "/apply-online.html",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Student Registration Form",
+    "expectedRecordId": "apply-online-21fac2b883",
+    "expectedSourceUrl": "/apply-online.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Need Help With Your Application?",
+    "expectedRecordId": "apply-online-2e1f9c752f",
+    "expectedSourceUrl": "/apply-online.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Online Enrollment Application — form requirements",
+    "expectedRecordId": "apply-online-d90304c2cf",
+    "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Academic Year Selection",
+    "expectedRecordId": "apply-online-3c35482e28",
+    "expectedSourceUrl": "/apply-online.html#app-academic-year",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Campus Selection",
+    "expectedRecordId": "apply-online-de34872f1a",
+    "expectedSourceUrl": "/apply-online.html#app-campus",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Attendance Schedule Selection",
+    "expectedRecordId": "apply-online-77443e730d",
+    "expectedSourceUrl": "/apply-online.html#app-attendance-schedule",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Child Gender",
+    "expectedRecordId": "apply-online-3e5484196a",
+    "expectedSourceUrl": "/apply-online.html#app-child-gender",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Transportation Details",
+    "expectedRecordId": "apply-online-f6c4b1ad6b",
+    "expectedSourceUrl": "/apply-online.html#app-transportation",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Schedule a Campus Visit",
+    "expectedRecordId": "book-a-visit-a772764a01",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Shomoukh Team is Eager to Welcome You",
+    "expectedRecordId": "book-a-visit-e32967552d",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Book Your Visit",
+    "expectedRecordId": "book-a-visit-14ba321c51",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about What to Expect During Your Campus Tour",
+    "expectedRecordId": "book-a-visit-f87adb2438",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about 45-Minute Guided Tour",
+    "expectedRecordId": "book-a-visit-d46e3ee6fe",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Bring Your Child",
+    "expectedRecordId": "book-a-visit-48867e20dd",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Q&A With Educators",
+    "expectedRecordId": "book-a-visit-afdaaba607",
+    "expectedSourceUrl": "/book-a-visit.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Schedule a Campus Visit — form requirements",
+    "expectedRecordId": "book-a-visit-149115e7a8",
+    "expectedSourceUrl": "/book-a-visit.html#tour-booking-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Contact Us & Our Campuses",
+    "expectedRecordId": "contact-6961fe9399",
+    "expectedSourceUrl": "/contact.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Connect with Our Admissions Team",
+    "expectedRecordId": "contact-1b32b0e0ff",
+    "expectedSourceUrl": "/contact.html#contact-us",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Mouj Campus",
+    "expectedRecordId": "contact-10794d58df",
+    "expectedSourceUrl": "/contact.html#almouj",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Qurm Campus",
+    "expectedRecordId": "contact-08ee738f40",
+    "expectedSourceUrl": "/contact.html#alqurm",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Contact Form",
+    "expectedRecordId": "contact-d61cf11f25",
+    "expectedSourceUrl": "/contact.html#contact-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Two Campuses in Prime Locations",
+    "expectedRecordId": "contact-4f85f4c7f8",
+    "expectedSourceUrl": "/contact.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Mouj Muscat",
+    "expectedRecordId": "contact-38b7147ddc",
+    "expectedSourceUrl": "/contact.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shatti Al Qurm",
+    "expectedRecordId": "contact-11dd2afb30",
+    "expectedSourceUrl": "/contact.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Contact Us & Our Campuses — form requirements",
+    "expectedRecordId": "contact-9d9a977a80",
+    "expectedSourceUrl": "/contact.html#contact-inquiry-form",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Campus Selection",
+    "expectedRecordId": "contact-9f260156f6",
+    "expectedSourceUrl": "/contact.html#contact-campus",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shomoukh Ateliers & Enrichments",
+    "expectedRecordId": "enrichments-e359ba5685",
+    "expectedSourceUrl": "/enrichments.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Shomoukh Fun Space",
+    "expectedRecordId": "enrichments-40021358da",
+    "expectedSourceUrl": "/enrichments.html#overview",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Clay Atelier",
+    "expectedRecordId": "enrichments-522872217b",
+    "expectedSourceUrl": "/enrichments.html#clay-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art Atelier",
+    "expectedRecordId": "enrichments-2d32682645",
+    "expectedSourceUrl": "/enrichments.html#art-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital & Light Atelier",
+    "expectedRecordId": "enrichments-cafffdebc6",
+    "expectedSourceUrl": "/enrichments.html#digital-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Enrichment Experiences & Activities",
+    "expectedRecordId": "enrichments-5c72910ac6",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Clay Atelier",
+    "expectedRecordId": "enrichments-c0209ed4ca",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art Atelier",
+    "expectedRecordId": "enrichments-2909246643",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital & Light Atelier",
+    "expectedRecordId": "enrichments-51a68964f8",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Project-Based Learning",
+    "expectedRecordId": "enrichments-d686b01797",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Tiny Town",
+    "expectedRecordId": "enrichments-1d616796bf",
+    "expectedSourceUrl": "/enrichments.html#tiny-town",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sensory Play",
+    "expectedRecordId": "enrichments-349bf70301",
+    "expectedSourceUrl": "/enrichments.html#sensory-play",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Music & Movement",
+    "expectedRecordId": "enrichments-8c79bc0a6c",
+    "expectedSourceUrl": "/enrichments.html#music-drama",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Drama, Puppetry & PE",
+    "expectedRecordId": "enrichments-b35a5fbd78",
+    "expectedSourceUrl": "/enrichments.html#activities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about THE FIRST & ONLY Reggio Emilia INSPIRED NURSERY SCHOOL",
+    "expectedRecordId": "index-e130d5bc67",
+    "expectedSourceUrl": "/#hero",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Home-like Environment",
+    "expectedRecordId": "index-bd9a06382d",
+    "expectedSourceUrl": "/#key-features",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Safe & Secure",
+    "expectedRecordId": "index-b1e6874bcc",
+    "expectedSourceUrl": "/#key-features",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Quality Educators",
+    "expectedRecordId": "index-0bc53bcb6f",
+    "expectedSourceUrl": "/#key-features",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Play to Learn",
+    "expectedRecordId": "index-ce77eaf736",
+    "expectedSourceUrl": "/#key-features",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Modern & Innovative",
+    "expectedRecordId": "index-2f2a3fffdb",
+    "expectedSourceUrl": "/#key-features",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Welcome to Shomoukh Nursery Schools",
+    "expectedRecordId": "index-1efe13bd04",
+    "expectedSourceUrl": "/#who-we-are",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our School's Philosophy",
+    "expectedRecordId": "index-82ea71f621",
+    "expectedSourceUrl": "/#philosophy",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Mission",
+    "expectedRecordId": "index-a39f7ce21b",
+    "expectedSourceUrl": "/#mission",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Vision & Values",
+    "expectedRecordId": "index-934dc08fae",
+    "expectedSourceUrl": "/#vision",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Promise to Families",
+    "expectedRecordId": "index-67403b45ab",
+    "expectedSourceUrl": "/#promise",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Reggio Emilia",
+    "expectedRecordId": "index-d2102d67a5",
+    "expectedSourceUrl": "/#reggio-pillar",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Inspired Teachers",
+    "expectedRecordId": "index-8063a55e51",
+    "expectedSourceUrl": "/#inspired-teachers",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Proven Approach to Education",
+    "expectedRecordId": "index-50bd0fc610",
+    "expectedSourceUrl": "/#programs",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about We Meet Kids Where They Are",
+    "expectedRecordId": "index-f377a17d74",
+    "expectedSourceUrl": "/#enrollment",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Infants (3–11 months)",
+    "expectedRecordId": "index-44d33b6211",
+    "expectedSourceUrl": "/#infants",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Toddlers (12–35 months)",
+    "expectedRecordId": "index-94dcf956d9",
+    "expectedSourceUrl": "/#toddlers",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Preschoolers (36–48 months)",
+    "expectedRecordId": "index-3459decd83",
+    "expectedSourceUrl": "/#preschoolers",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Flex-Care (6–48 months)",
+    "expectedRecordId": "index-5290f6b045",
+    "expectedSourceUrl": "/#flexcare",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Shomoukh Fun Space: Enrichments & Ateliers",
+    "expectedRecordId": "index-6e202c44dd",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Clay Atelier",
+    "expectedRecordId": "index-0006467f3e",
+    "expectedSourceUrl": "/#clay-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art Atelier",
+    "expectedRecordId": "index-ee595fabf3",
+    "expectedSourceUrl": "/#art-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital & Light Atelier",
+    "expectedRecordId": "index-bed5a39bd1",
+    "expectedSourceUrl": "/#digital-atelier",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Project Approach",
+    "expectedRecordId": "index-e7535199a8",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Tiny Town",
+    "expectedRecordId": "index-404b9eae40",
+    "expectedSourceUrl": "/#tiny-town",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sensory Play",
+    "expectedRecordId": "index-e55f8abcd0",
+    "expectedSourceUrl": "/#sensory-play",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Music & Movement",
+    "expectedRecordId": "index-4de467f098",
+    "expectedSourceUrl": "/#music-drama",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Drama & ECA / PE",
+    "expectedRecordId": "index-7148e8e009",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Spaces: Designed for Discovery",
+    "expectedRecordId": "index-c0f3c29891",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art and Clay Ateliers",
+    "expectedRecordId": "index-bf725c40c8",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital / Light Atelier",
+    "expectedRecordId": "index-99e522992f",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Drama Room",
+    "expectedRecordId": "index-7de2a41da2",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Indoor Gymnasium",
+    "expectedRecordId": "index-39715fe92e",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Organic Garden",
+    "expectedRecordId": "index-8d3857c4eb",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Piazza (Central Square)",
+    "expectedRecordId": "index-21578eb142",
+    "expectedSourceUrl": "/#facilities",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Education for Your Child at Shomoukh",
+    "expectedRecordId": "index-456495330e",
+    "expectedSourceUrl": "/#admissions-overview",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Book a Tour",
+    "expectedRecordId": "index-8328695678",
+    "expectedSourceUrl": "/#step1",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Submit Details",
+    "expectedRecordId": "index-dcf349008c",
+    "expectedSourceUrl": "/#step2",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Secure Your Place",
+    "expectedRecordId": "index-380eba86b8",
+    "expectedSourceUrl": "/#step3",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about In The Heart Of Muscat",
+    "expectedRecordId": "index-f6aa4cf911",
+    "expectedSourceUrl": "/#campuses",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Mouj Campus",
+    "expectedRecordId": "index-7ac7a5007f",
+    "expectedSourceUrl": "/#campuses",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Qurm Campus",
+    "expectedRecordId": "index-cc46ee02ea",
+    "expectedSourceUrl": "/#campuses",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shomoukh Parents Portal",
+    "expectedRecordId": "parents-c452db77e8",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Choose Your Preferred Platform",
+    "expectedRecordId": "parents-ddac565352",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Web-App",
+    "expectedRecordId": "parents-581bea356b",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about iOS App",
+    "expectedRecordId": "parents-ea54a865a5",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Android App",
+    "expectedRecordId": "parents-1adf4c167a",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Everything You Need in One Place",
+    "expectedRecordId": "parents-9a82fafa54",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Learning Stories & Photos",
+    "expectedRecordId": "parents-7c8cb09547",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Direct Messaging",
+    "expectedRecordId": "parents-e6c39442e2",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Academic Calendar",
+    "expectedRecordId": "parents-864ead9c4e",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Attendance & Pick-up",
+    "expectedRecordId": "parents-956725e10b",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about First Time Logging In?",
+    "expectedRecordId": "parents-8b0ba02629",
+    "expectedSourceUrl": "/parents.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Educational Programs & UK EYFS Framework",
+    "expectedRecordId": "programs-0835cbe4a9",
+    "expectedSourceUrl": "/programs.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Promise to Families",
+    "expectedRecordId": "programs-2cd86ebcca",
+    "expectedSourceUrl": "/programs.html#promise",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about 12-Month Continuous Learning",
+    "expectedRecordId": "programs-e64ca3424e",
+    "expectedSourceUrl": "/programs.html#promise",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Three Pillars of Shomoukh",
+    "expectedRecordId": "programs-e371f5134b",
+    "expectedSourceUrl": "/programs.html#reggio",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Reggio Emilia Approach",
+    "expectedRecordId": "programs-304dc47874",
+    "expectedSourceUrl": "/programs.html#reggio",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Inspired Teachers",
+    "expectedRecordId": "programs-6f73cb9d71",
+    "expectedSourceUrl": "/programs.html#reggio",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Proven Approach",
+    "expectedRecordId": "programs-5da978846a",
+    "expectedSourceUrl": "/programs.html#reggio",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Our Programs & UK EYFS",
+    "expectedRecordId": "programs-2b1ce89409",
+    "expectedSourceUrl": "/programs.html#eyfs",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about The Teacher as Researcher",
+    "expectedRecordId": "programs-8052375dbf",
+    "expectedSourceUrl": "/programs.html#teachers",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Environment: \"The Third Teacher\"",
+    "expectedRecordId": "programs-641753cddb",
+    "expectedSourceUrl": "/programs.html#environment",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Second Language",
+    "expectedRecordId": "programs-307787a922",
+    "expectedSourceUrl": "/programs.html#focus-areas",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Movement Matters",
+    "expectedRecordId": "programs-4950bfd541",
+    "expectedSourceUrl": "/programs.html#focus-areas",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Handwriting & Pre-Literacy",
+    "expectedRecordId": "programs-06d991e42a",
+    "expectedSourceUrl": "/programs.html#focus-areas",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about We Meet Kids Where They Are",
+    "expectedRecordId": "programs-2de3930ed5",
+    "expectedSourceUrl": "/programs.html#ages",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Infants (3–11 months)",
+    "expectedRecordId": "programs-e228aa89a2",
+    "expectedSourceUrl": "/programs.html#infants",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Toddlers (12–35 months)",
+    "expectedRecordId": "programs-993217029d",
+    "expectedSourceUrl": "/programs.html#toddlers",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Preschoolers (36–48 months)",
+    "expectedRecordId": "programs-4bfaed0eec",
+    "expectedSourceUrl": "/programs.html#preschoolers",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Flex-Care (6–48 months)",
+    "expectedRecordId": "programs-0a5a2d0a97",
+    "expectedSourceUrl": "/programs.html#flexcare",
+    "language": "en",
+    "requiresQualification": true
+  },
+  {
+    "question": "Tell me about Our Purpose-Built Learning Spaces",
+    "expectedRecordId": "spaces-d4e37405d5",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Environment: \"The Third Teacher\"",
+    "expectedRecordId": "spaces-7a7691447f",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Interconnected",
+    "expectedRecordId": "spaces-d28a943aaa",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Provocative",
+    "expectedRecordId": "spaces-569c0030b9",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about 14 Purpose-Built Facilities & Spaces",
+    "expectedRecordId": "spaces-f9fb773370",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Indoor Playground",
+    "expectedRecordId": "spaces-e6331976ba",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Library",
+    "expectedRecordId": "spaces-9b1ab856fa",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Modern Outdoor Playgrounds",
+    "expectedRecordId": "spaces-ad0057a9ea",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Nurse's Clinic",
+    "expectedRecordId": "spaces-002f1385fc",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Open Spaces",
+    "expectedRecordId": "spaces-9931ced3bf",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Pretend Play Areas – Tiny Towns",
+    "expectedRecordId": "spaces-5e1cd325f0",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sand Kitchens",
+    "expectedRecordId": "spaces-6b3b33a441",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Spacious Classrooms With Natural Light",
+    "expectedRecordId": "spaces-8341905422",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Signature Spaces that Inspire Wonder",
+    "expectedRecordId": "spaces-c98a8e9e61",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Central Piazza",
+    "expectedRecordId": "spaces-17bffefbf7",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about The Organic Garden",
+    "expectedRecordId": "spaces-6355f764bc",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sunlit Classrooms",
+    "expectedRecordId": "spaces-1f5f7bb920",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Come See Our Spaces in Person",
+    "expectedRecordId": "spaces-4fe9e6c231",
+    "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Clay Atelier",
+    "expectedRecordId": "main.js-278d99379d",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art Atelier",
+    "expectedRecordId": "main.js-2acebaf277",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital & Light Atelier",
+    "expectedRecordId": "main.js-8f68b0ad3b",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Project-Based Learning",
+    "expectedRecordId": "main.js-70720eb9e8",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Tiny Town",
+    "expectedRecordId": "main.js-49f7c6d08f",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sensory Play",
+    "expectedRecordId": "main.js-619c618978",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Music & Movement",
+    "expectedRecordId": "main.js-20f139a472",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Drama, Puppetry & ECA / PE",
+    "expectedRecordId": "main.js-ff9c0d0c0f",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sheikh Julanda Salim Hamood Al Hashmi",
+    "expectedRecordId": "ges-julanda",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sheikha Janat Salim Hamood Al Hashmi",
+    "expectedRecordId": "ges-janat",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sheikha Jinan Salim Hamood Al Hashmi",
+    "expectedRecordId": "ges-jinan",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Mr. Shanmuganand Hariharan",
+    "expectedRecordId": "ges-shanmuganand",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Ms. Randa Al Ahmadieh",
+    "expectedRecordId": "ges-randa",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Ms. Sarah Saeed",
+    "expectedRecordId": "ges-sarah",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Global Education Services (GES)",
+    "expectedRecordId": "ges-group",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shomoukh and GES",
+    "expectedRecordId": "ges-shomoukh",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sheikh Salim Hamood Al Hashmi",
+    "expectedRecordId": "ges-chairman",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Education institutions listed by GES",
+    "expectedRecordId": "ges-institutions",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Al Shomoukh International Private School (SIPS)",
+    "expectedRecordId": "ges-sips",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shomoukh ECE Al Qurum Campus — GES listing",
+    "expectedRecordId": "ges-qurum",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Shomoukh ECE Al Mouj Campus — GES listing",
+    "expectedRecordId": "ges-mouj",
+    "expectedSourceUrl": "https://www.ges.om/about.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about GES vision",
+    "expectedRecordId": "ges-vision",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about GES mission",
+    "expectedRecordId": "ges-mission",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about GES values — ELEVATE",
+    "expectedRecordId": "ges-values",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about GES published school count",
+    "expectedRecordId": "ges-school-count",
+    "expectedSourceUrl": "https://www.ges.om/index.php",
+    "language": "en",
+    "requiresQualification": false
+  }
+]

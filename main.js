@@ -1,3 +1,8 @@
+import {focusDialog, releaseDialog} from './site/dialog-focus.js';
+import { installChatbot } from './chatbot/loader.js';
+
+installChatbot();
+
 // Shomoukh Nursery School Interactivity & Modal Handlers
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -42,12 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!offcanvasDrawer) return;
     offcanvasDrawer.classList.add('open');
     offcanvasDrawer.setAttribute('aria-hidden', 'false');
+    focusDialog(offcanvasDrawer, menuCloseBtn);
     if (menuToggleBtn) menuToggleBtn.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
   }
 
   function closeOffcanvas() {
     if (!offcanvasDrawer) return;
+    releaseDialog(offcanvasDrawer);
     offcanvasDrawer.classList.remove('open');
     offcanvasDrawer.setAttribute('aria-hidden', 'true');
     if (menuToggleBtn) menuToggleBtn.setAttribute('aria-expanded', 'false');
@@ -96,13 +103,12 @@ document.addEventListener('DOMContentLoaded', () => {
     searchModal.classList.add('open');
     searchModal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
-    setTimeout(() => {
-      if (searchInput) searchInput.focus();
-    }, 100);
+    focusDialog(searchModal, searchInput);
   }
 
   function closeSearch() {
     if (!searchModal) return;
+    releaseDialog(searchModal);
     searchModal.classList.remove('open');
     searchModal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -119,31 +125,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const searchForm = document.getElementById('search-form');
   if (searchForm) {
-    searchForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const term = (searchInput?.value || '').toLowerCase().trim();
-      if (!term) return;
-      closeSearch();
-      if (term.includes('tour') || term.includes('book') || term.includes('visit')) {
-        window.location.href = '/book-a-visit.html';
-      } else if (term.includes('apply') || term.includes('enroll') || term.includes('register')) {
-        window.location.href = '/apply-online.html';
-      } else if (term.includes('parent') || term.includes('portal') || term.includes('app')) {
-        window.location.href = '/parents.html';
-      } else if (term.includes('program') || term.includes('curriculum') || term.includes('eyfs')) {
-        window.location.href = '/programs.html';
-      } else if (term.includes('age') || term.includes('infant') || term.includes('toddler') || term.includes('hour')) {
-        window.location.href = '/programs.html#ages';
-      } else if (term.includes('atelier') || term.includes('art') || term.includes('clay') || term.includes('enrich')) {
-        window.location.href = '/enrichments.html';
-      } else if (term.includes('space') || term.includes('facility') || term.includes('piazza') || term.includes('garden')) {
-        window.location.href = '/spaces.html';
-      } else if (term.includes('contact') || term.includes('mouj') || term.includes('qurm') || term.includes('phone') || term.includes('email')) {
-        window.location.href = '/contact.html';
-      } else if (term.includes('admission')) {
-        window.location.href = '/admissions.html';
-      } else {
-        window.location.href = '/about.html';
+    const results = document.createElement('section');
+    results.className = 'site-search-results';
+    results.setAttribute('aria-label', 'Search results');
+    const status = document.createElement('p');
+    status.setAttribute('role', 'status');
+    const list = document.createElement('ul');
+    results.append(status, list);
+    searchForm.after(results);
+    let searchVersion = 0;
+    searchForm.addEventListener('submit', async event => {
+      event.preventDefault();
+      const query = searchInput.value.trim();
+      const version = ++searchVersion;
+      list.replaceChildren();
+      if (!query) { status.textContent = 'Enter a topic to search this website.'; searchInput.focus(); return; }
+      status.textContent = 'Searching website content…';
+      try {
+        const {searchWebsite} = await import('./site/search.js');
+        if (version !== searchVersion) return;
+        const matches = searchWebsite(query);
+        status.textContent = matches.length ? `${matches.length} matching pages and sections` : 'No matching content found. Try a different topic, such as admissions, campuses or tours.';
+        for (const match of matches) {
+          const item = document.createElement('li');
+          const link = document.createElement('a');
+          link.href = match.url;
+          link.textContent = match.title;
+          if (match.url.startsWith('https://')) { link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(' · Official GES source'); }
+          else link.addEventListener('click', closeSearch);
+          const excerpt = document.createElement('p');
+          excerpt.textContent = match.excerpt;
+          item.append(link, excerpt); list.append(item);
+        }
+      } catch {
+        if (version === searchVersion) status.textContent = 'Search could not load. Please use the website menu or try again.';
       }
     });
   }
@@ -161,6 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!videoModal) return;
     videoModal.classList.add('open');
     videoModal.setAttribute('aria-hidden', 'false');
+    focusDialog(videoModal, videoModalClose);
     document.body.style.overflow = 'hidden';
     if (lightboxVideo) {
       lightboxVideo.currentTime = 0;
@@ -170,6 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function closeVideoModal() {
     if (!videoModal) return;
+    releaseDialog(videoModal);
     videoModal.classList.remove('open');
     videoModal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -187,29 +204,27 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroVideoToggleBtn = document.getElementById('hero-video-toggle-btn');
 
   if (heroBgVideo) {
-    heroBgVideo.addEventListener('timeupdate', () => {
-      if (heroBgVideo.duration && heroBgVideo.currentTime >= heroBgVideo.duration - 0.25) {
-        heroBgVideo.currentTime = 0;
-        heroBgVideo.play().catch(() => {});
-      }
-    });
-
-    heroBgVideo.addEventListener('ended', () => {
-      heroBgVideo.currentTime = 0;
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      heroBgVideo.src = heroBgVideo.dataset.backgroundSrc;
       heroBgVideo.play().catch(() => {});
-    });
+    }
+
   }
 
   if (heroVideoToggleBtn && heroBgVideo) {
+    const updateVideoControl = () => {
+      const paused = heroBgVideo.paused;
+      heroVideoToggleBtn.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
+      heroVideoToggleBtn.innerHTML = paused ? '<i class="fa-solid fa-play" aria-hidden="true"></i> <span>PLAY VIDEO</span>' : '<i class="fa-solid fa-pause" aria-hidden="true"></i> <span>PAUSE VIDEO</span>';
+    };
+    heroBgVideo.addEventListener('play', updateVideoControl);
+    heroBgVideo.addEventListener('pause', updateVideoControl);
     heroVideoToggleBtn.addEventListener('click', () => {
-      if (heroBgVideo.paused) {
-        heroBgVideo.play();
-        heroVideoToggleBtn.innerHTML = '<i class="fa-solid fa-pause"></i> <span>PAUSE VIDEO</span>';
-      } else {
-        heroBgVideo.pause();
-        heroVideoToggleBtn.innerHTML = '<i class="fa-solid fa-play"></i> <span>PLAY VIDEO</span>';
-      }
+      if (!heroBgVideo.getAttribute('src')) heroBgVideo.src = heroBgVideo.dataset.backgroundSrc;
+      if (heroBgVideo.paused) heroBgVideo.play().catch(() => { updateVideoControl(); showToast('The video could not play. Please try again.'); });
+      else heroBgVideo.pause();
     });
+    updateVideoControl();
   }
 
   /* ============================================================
@@ -346,11 +361,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     detailModal.classList.add('open');
     detailModal.setAttribute('aria-hidden', 'false');
+    focusDialog(detailModal, detailModalClose);
     document.body.style.overflow = 'hidden';
   }
 
   function closeDetailModal() {
     if (!detailModal) return;
+    releaseDialog(detailModal);
     detailModal.classList.remove('open');
     detailModal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -373,11 +390,19 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ============================================================
      8. TOAST NOTIFICATION UTILITY
      ============================================================ */
-  const toastFeedback = document.getElementById('toast-feedback');
+  let toastFeedback = document.getElementById('toast-feedback');
+  if (!toastFeedback) {
+    toastFeedback = document.createElement('div');
+    toastFeedback.id = 'toast-feedback'; toastFeedback.className = 'toast-feedback';
+    toastFeedback.setAttribute('role', 'status');
+    toastFeedback.setAttribute('aria-live', 'polite');
+    const message = document.createElement('div'); message.id = 'toast-message';
+    toastFeedback.append(message); document.body.append(toastFeedback);
+  }
   const toastMessage = document.getElementById('toast-message');
   let toastTimer = null;
 
-  function showToast(message, isSuccess = true) {
+  function showToast(message) {
     if (!toastFeedback || !toastMessage) return;
     toastMessage.textContent = message;
     toastFeedback.classList.add('show');
@@ -387,54 +412,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 4500);
   }
 
-  /* ============================================================
-     9. TOUR BOOKING FORM HANDLER
-     ============================================================ */
-  const tourForm = document.getElementById('tour-booking-form');
-  if (tourForm) {
-    tourForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const parentName = document.getElementById('tour-parent-name')?.value;
-      showToast(`Thank you, ${parentName || 'Parent'}! Your tour visit request has been sent to Shomoukh Admissions.`);
-      tourForm.reset();
+  // There is no submission endpoint in this static website. Never claim
+  // delivery or erase a family's entered details without a confirmed response.
+  for (const id of ['tour-booking-form', 'online-enrollment-form', 'contact-inquiry-form']) {
+    const form = document.getElementById(id);
+    if (!form) continue;
+    const submit = form.querySelector('[type="submit"]');
+    if (submit) submit.textContent = 'Check request details';
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      showToast('Your details have not been sent. Online delivery is unavailable; please contact a campus to complete your request. Your entries are still here.');
     });
+    if (submit) submit.disabled = false;
   }
-
-  /* ============================================================
-     10. ONLINE ENROLLMENT FORM HANDLER
-     ============================================================ */
-  const enrollmentForm = document.getElementById('online-enrollment-form');
-  if (enrollmentForm) {
-    enrollmentForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const childName = document.getElementById('app-child-name')?.value;
-      showToast(`Online enrollment for ${childName || 'your child'} has been submitted successfully! We will contact you soon.`);
-      enrollmentForm.reset();
-    });
-  }
-
-  /* ============================================================
-     11. CONTACT INQUIRY FORM & 180-CHAR COUNTER
-     ============================================================ */
-  const contactForm = document.getElementById('contact-inquiry-form');
+  const localNow = new Date();
+  const localDate = `${localNow.getFullYear()}-${String(localNow.getMonth()+1).padStart(2,'0')}-${String(localNow.getDate()).padStart(2,'0')}`;
+  document.querySelectorAll('input[type=date][id*=dob]').forEach(field => { field.max = localDate; });
+  const visitTime = document.getElementById('tour-visit-datetime');
+  if (visitTime) visitTime.min = `${localDate}T${String(localNow.getHours()).padStart(2,'0')}:${String(localNow.getMinutes()).padStart(2,'0')}`;
   const contactMsgInput = document.getElementById('contact-message');
   const contactCharCount = document.getElementById('contact-char-count');
+  if (contactMsgInput && contactCharCount) contactMsgInput.addEventListener('input', () => { contactCharCount.textContent = contactMsgInput.value.length; });
 
-  if (contactMsgInput && contactCharCount) {
-    contactMsgInput.addEventListener('input', () => {
-      contactCharCount.textContent = contactMsgInput.value.length;
+  document.querySelectorAll('.header-language-selector select').forEach(select => {
+    select.addEventListener('change', () => {
+      if (select.value === 'ar') {
+        select.value = 'en';
+        showToast('Arabic content is not available on this website. Please contact a campus for Arabic assistance.');
+      }
     });
-  }
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const contactName = document.getElementById('contact-name')?.value;
-      showToast(`Thank you, ${contactName || 'Parent'}! Your message has been received by Shomoukh Nursery School.`);
-      contactForm.reset();
-      if (contactCharCount) contactCharCount.textContent = '0';
-    });
-  }
+  });
 
   /* ============================================================
      12. CLOSE OFFCANVAS ON NAV LINK CLICK

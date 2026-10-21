@@ -1,0 +1,1008 @@
+{
+  "evaluatedAt": "2026-10-19T06:35:47.659Z",
+  "annotation": {
+    "method": "Agent source-reviewed expectations; not independent human annotation. Factual assertions authored against source HTML and saved approved official GES facts, never copied from engine outputs.",
+    "reviewedAt": "2026-10-18",
+    "evidence": [
+      "contact.html#almouj",
+      "contact.html#alqurm",
+      "admissions.html",
+      "apply-online.html",
+      "book-a-visit.html",
+      "programs.html",
+      "about.html",
+      "parents.html",
+      "spaces.html",
+      "enrichments.html",
+      "main.js",
+      "chatbot/sources/ges.json"
+    ],
+    "caveat": "Passing this set does not establish unrestricted natural-language accuracy or independently human-verified accuracy."
+  },
+  "metricDefinitions": {
+    "groundedAccuracy": "Expected status and factual text assertions plus at least one expected source URL for source-eligible cases. Source-free safe fallback cases must meet their annotated factual/status assertions.",
+    "answerAccuracy": "Expected status and all factual text assertions; does not depend on source-hit. Clarifications are correct only when explicitly required by the annotated case.",
+    "retrievalAccuracy": "At least one expected source URL returned, among source-eligible cases. Measures returned-source relevance, not internal ranking recall.",
+    "generated": "Template/lexical robustness checks grounded in approved knowledge. Not an independent human accuracy benchmark."
+  },
+  "representative": {
+    "summary": {
+      "cases": 129,
+      "answerCorrect": 129,
+      "answerAccuracy": 1,
+      "groundedCorrect": 129,
+      "groundedAccuracy": 1,
+      "retrievalCases": 107,
+      "retrievalSourceHits": 107,
+      "retrievalAccuracy": 1
+    },
+    "byCategory": {
+      "leadership-md": {
+        "cases": 7,
+        "answerCorrect": 7,
+        "answerAccuracy": 1,
+        "groundedCorrect": 7,
+        "groundedAccuracy": 1,
+        "retrievalCases": 7,
+        "retrievalSourceHits": 7,
+        "retrievalAccuracy": 1
+      },
+      "leadership-vp": {
+        "cases": 7,
+        "answerCorrect": 7,
+        "answerAccuracy": 1,
+        "groundedCorrect": 7,
+        "groundedAccuracy": 1,
+        "retrievalCases": 7,
+        "retrievalSourceHits": 7,
+        "retrievalAccuracy": 1
+      },
+      "leadership-ceo": {
+        "cases": 5,
+        "answerCorrect": 5,
+        "answerAccuracy": 1,
+        "groundedCorrect": 5,
+        "groundedAccuracy": 1,
+        "retrievalCases": 5,
+        "retrievalSourceHits": 5,
+        "retrievalAccuracy": 1
+      },
+      "leadership-other": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 3,
+        "retrievalSourceHits": 3,
+        "retrievalAccuracy": 1
+      },
+      "organization": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "campuses": {
+        "cases": 5,
+        "answerCorrect": 5,
+        "answerAccuracy": 1,
+        "groundedCorrect": 5,
+        "groundedAccuracy": 1,
+        "retrievalCases": 5,
+        "retrievalSourceHits": 5,
+        "retrievalAccuracy": 1
+      },
+      "campus-identity": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "campus-contact": {
+        "cases": 8,
+        "answerCorrect": 8,
+        "answerAccuracy": 1,
+        "groundedCorrect": 8,
+        "groundedAccuracy": 1,
+        "retrievalCases": 8,
+        "retrievalSourceHits": 8,
+        "retrievalAccuracy": 1
+      },
+      "campus-address": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "campus-hours": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 6,
+        "retrievalSourceHits": 6,
+        "retrievalAccuracy": 1
+      },
+      "campus-followup": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 6,
+        "retrievalSourceHits": 6,
+        "retrievalAccuracy": 1
+      },
+      "generic-hours": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 3,
+        "retrievalSourceHits": 3,
+        "retrievalAccuracy": 1
+      },
+      "programme-hours": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "admissions": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 3,
+        "retrievalSourceHits": 3,
+        "retrievalAccuracy": 1
+      },
+      "admissions-documents": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 3,
+        "retrievalSourceHits": 3,
+        "retrievalAccuracy": 1
+      },
+      "fees-unknown": {
+        "cases": 5,
+        "answerCorrect": 5,
+        "answerAccuracy": 1,
+        "groundedCorrect": 5,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "generic-contact": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "visit": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "tour-duration": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "programs": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 3,
+        "retrievalSourceHits": 3,
+        "retrievalAccuracy": 1
+      },
+      "mission": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "vision": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "parents": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "facilities": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "enrichment": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "conflicting-ages": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "unsupported": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ambiguous-role": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "exact-conversation": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 6,
+        "retrievalSourceHits": 6,
+        "retrievalAccuracy": 1
+      },
+      "scope-switch": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "person-privacy": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "unsupported-language": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "proper-name-preservation": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "personal-data-unknown": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "special-schedule-unknown": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "sips": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "sips-unpublished": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ges-institutions": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "ges-vision": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "ges-mission": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "ges-values": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "ges-count-conflict": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "ges-org-hours": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ges-followup": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "scope-school-switch": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      }
+    },
+    "failures": []
+  },
+  "generated": {
+    "summary": {
+      "cases": 2497,
+      "answerCorrect": 2497,
+      "answerAccuracy": 1,
+      "groundedCorrect": 2497,
+      "groundedAccuracy": 1,
+      "retrievalCases": 2471,
+      "retrievalSourceHits": 2471,
+      "retrievalAccuracy": 1
+    },
+    "byCategory": {
+      "about": {
+        "cases": 192,
+        "answerCorrect": 192,
+        "answerAccuracy": 1,
+        "groundedCorrect": 192,
+        "groundedAccuracy": 1,
+        "retrievalCases": 192,
+        "retrievalSourceHits": 192,
+        "retrievalAccuracy": 1
+      },
+      "admissions": {
+        "cases": 196,
+        "answerCorrect": 196,
+        "answerAccuracy": 1,
+        "groundedCorrect": 196,
+        "groundedAccuracy": 1,
+        "retrievalCases": 196,
+        "retrievalSourceHits": 196,
+        "retrievalAccuracy": 1
+      },
+      "application": {
+        "cases": 112,
+        "answerCorrect": 112,
+        "answerAccuracy": 1,
+        "groundedCorrect": 112,
+        "groundedAccuracy": 1,
+        "retrievalCases": 112,
+        "retrievalSourceHits": 112,
+        "retrievalAccuracy": 1
+      },
+      "visit": {
+        "cases": 117,
+        "answerCorrect": 117,
+        "answerAccuracy": 1,
+        "groundedCorrect": 117,
+        "groundedAccuracy": 1,
+        "retrievalCases": 117,
+        "retrievalSourceHits": 117,
+        "retrievalAccuracy": 1
+      },
+      "contact": {
+        "cases": 128,
+        "answerCorrect": 128,
+        "answerAccuracy": 1,
+        "groundedCorrect": 128,
+        "groundedAccuracy": 1,
+        "retrievalCases": 128,
+        "retrievalSourceHits": 128,
+        "retrievalAccuracy": 1
+      },
+      "enrichments": {
+        "cases": 192,
+        "answerCorrect": 192,
+        "answerAccuracy": 1,
+        "groundedCorrect": 192,
+        "groundedAccuracy": 1,
+        "retrievalCases": 192,
+        "retrievalSourceHits": 192,
+        "retrievalAccuracy": 1
+      },
+      "overview": {
+        "cases": 448,
+        "answerCorrect": 448,
+        "answerAccuracy": 1,
+        "groundedCorrect": 448,
+        "groundedAccuracy": 1,
+        "retrievalCases": 448,
+        "retrievalSourceHits": 448,
+        "retrievalAccuracy": 1
+      },
+      "parents": {
+        "cases": 177,
+        "answerCorrect": 177,
+        "answerAccuracy": 1,
+        "groundedCorrect": 177,
+        "groundedAccuracy": 1,
+        "retrievalCases": 177,
+        "retrievalSourceHits": 177,
+        "retrievalAccuracy": 1
+      },
+      "programs": {
+        "cases": 183,
+        "answerCorrect": 183,
+        "answerAccuracy": 1,
+        "groundedCorrect": 183,
+        "groundedAccuracy": 1,
+        "retrievalCases": 183,
+        "retrievalSourceHits": 183,
+        "retrievalAccuracy": 1
+      },
+      "facilities": {
+        "cases": 274,
+        "answerCorrect": 274,
+        "answerAccuracy": 1,
+        "groundedCorrect": 274,
+        "groundedAccuracy": 1,
+        "retrievalCases": 274,
+        "retrievalSourceHits": 274,
+        "retrievalAccuracy": 1
+      },
+      "leadership": {
+        "cases": 112,
+        "answerCorrect": 112,
+        "answerAccuracy": 1,
+        "groundedCorrect": 112,
+        "groundedAccuracy": 1,
+        "retrievalCases": 112,
+        "retrievalSourceHits": 112,
+        "retrievalAccuracy": 1
+      },
+      "organization": {
+        "cases": 167,
+        "answerCorrect": 167,
+        "answerAccuracy": 1,
+        "groundedCorrect": 167,
+        "groundedAccuracy": 1,
+        "retrievalCases": 167,
+        "retrievalSourceHits": 167,
+        "retrievalAccuracy": 1
+      },
+      "leadership-md": {
+        "cases": 14,
+        "answerCorrect": 14,
+        "answerAccuracy": 1,
+        "groundedCorrect": 14,
+        "groundedAccuracy": 1,
+        "retrievalCases": 14,
+        "retrievalSourceHits": 14,
+        "retrievalAccuracy": 1
+      },
+      "leadership-vp": {
+        "cases": 13,
+        "answerCorrect": 13,
+        "answerAccuracy": 1,
+        "groundedCorrect": 13,
+        "groundedAccuracy": 1,
+        "retrievalCases": 13,
+        "retrievalSourceHits": 13,
+        "retrievalAccuracy": 1
+      },
+      "leadership-ceo": {
+        "cases": 8,
+        "answerCorrect": 8,
+        "answerAccuracy": 1,
+        "groundedCorrect": 8,
+        "groundedAccuracy": 1,
+        "retrievalCases": 8,
+        "retrievalSourceHits": 8,
+        "retrievalAccuracy": 1
+      },
+      "leadership-other": {
+        "cases": 7,
+        "answerCorrect": 7,
+        "answerAccuracy": 1,
+        "groundedCorrect": 7,
+        "groundedAccuracy": 1,
+        "retrievalCases": 7,
+        "retrievalSourceHits": 7,
+        "retrievalAccuracy": 1
+      },
+      "campuses": {
+        "cases": 13,
+        "answerCorrect": 13,
+        "answerAccuracy": 1,
+        "groundedCorrect": 13,
+        "groundedAccuracy": 1,
+        "retrievalCases": 13,
+        "retrievalSourceHits": 13,
+        "retrievalAccuracy": 1
+      },
+      "campus-identity": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 6,
+        "retrievalSourceHits": 6,
+        "retrievalAccuracy": 1
+      },
+      "campus-contact": {
+        "cases": 20,
+        "answerCorrect": 20,
+        "answerAccuracy": 1,
+        "groundedCorrect": 20,
+        "groundedAccuracy": 1,
+        "retrievalCases": 20,
+        "retrievalSourceHits": 20,
+        "retrievalAccuracy": 1
+      },
+      "campus-address": {
+        "cases": 10,
+        "answerCorrect": 10,
+        "answerAccuracy": 1,
+        "groundedCorrect": 10,
+        "groundedAccuracy": 1,
+        "retrievalCases": 10,
+        "retrievalSourceHits": 10,
+        "retrievalAccuracy": 1
+      },
+      "campus-hours": {
+        "cases": 12,
+        "answerCorrect": 12,
+        "answerAccuracy": 1,
+        "groundedCorrect": 12,
+        "groundedAccuracy": 1,
+        "retrievalCases": 12,
+        "retrievalSourceHits": 12,
+        "retrievalAccuracy": 1
+      },
+      "campus-followup": {
+        "cases": 8,
+        "answerCorrect": 8,
+        "answerAccuracy": 1,
+        "groundedCorrect": 8,
+        "groundedAccuracy": 1,
+        "retrievalCases": 8,
+        "retrievalSourceHits": 8,
+        "retrievalAccuracy": 1
+      },
+      "generic-hours": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "programme-hours": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "admissions-documents": {
+        "cases": 5,
+        "answerCorrect": 5,
+        "answerAccuracy": 1,
+        "groundedCorrect": 5,
+        "groundedAccuracy": 1,
+        "retrievalCases": 5,
+        "retrievalSourceHits": 5,
+        "retrievalAccuracy": 1
+      },
+      "fees-unknown": {
+        "cases": 3,
+        "answerCorrect": 3,
+        "answerAccuracy": 1,
+        "groundedCorrect": 3,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "generic-contact": {
+        "cases": 6,
+        "answerCorrect": 6,
+        "answerAccuracy": 1,
+        "groundedCorrect": 6,
+        "groundedAccuracy": 1,
+        "retrievalCases": 6,
+        "retrievalSourceHits": 6,
+        "retrievalAccuracy": 1
+      },
+      "tour-duration": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "mission": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "vision": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "enrichment": {
+        "cases": 4,
+        "answerCorrect": 4,
+        "answerAccuracy": 1,
+        "groundedCorrect": 4,
+        "groundedAccuracy": 1,
+        "retrievalCases": 4,
+        "retrievalSourceHits": 4,
+        "retrievalAccuracy": 1
+      },
+      "conflicting-ages": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "unsupported": {
+        "cases": 8,
+        "answerCorrect": 8,
+        "answerAccuracy": 1,
+        "groundedCorrect": 8,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ambiguous-role": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "exact-conversation": {
+        "cases": 8,
+        "answerCorrect": 8,
+        "answerAccuracy": 1,
+        "groundedCorrect": 8,
+        "groundedAccuracy": 1,
+        "retrievalCases": 8,
+        "retrievalSourceHits": 8,
+        "retrievalAccuracy": 1
+      },
+      "scope-switch": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "person-privacy": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "unsupported-language": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "personal-data-unknown": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "special-schedule-unknown": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "sips": {
+        "cases": 9,
+        "answerCorrect": 9,
+        "answerAccuracy": 1,
+        "groundedCorrect": 9,
+        "groundedAccuracy": 1,
+        "retrievalCases": 9,
+        "retrievalSourceHits": 9,
+        "retrievalAccuracy": 1
+      },
+      "sips-unpublished": {
+        "cases": 5,
+        "answerCorrect": 5,
+        "answerAccuracy": 1,
+        "groundedCorrect": 5,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ges-institutions": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "ges-vision": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "ges-mission": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "ges-values": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "ges-count-conflict": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      },
+      "ges-org-hours": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 0,
+        "retrievalSourceHits": 0,
+        "retrievalAccuracy": null
+      },
+      "ges-followup": {
+        "cases": 1,
+        "answerCorrect": 1,
+        "answerAccuracy": 1,
+        "groundedCorrect": 1,
+        "groundedAccuracy": 1,
+        "retrievalCases": 1,
+        "retrievalSourceHits": 1,
+        "retrievalAccuracy": 1
+      },
+      "scope-school-switch": {
+        "cases": 2,
+        "answerCorrect": 2,
+        "answerAccuracy": 1,
+        "groundedCorrect": 2,
+        "groundedAccuracy": 1,
+        "retrievalCases": 2,
+        "retrievalSourceHits": 2,
+        "retrievalAccuracy": 1
+      }
+    },
+    "failures": []
+  }
+}

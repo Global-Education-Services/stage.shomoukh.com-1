@@ -1,0 +1,404 @@
+{
+  "wordAliases": {
+    "pls": "please",
+    "plz": "please",
+    "plse": "please",
+    "u": "you",
+    "ur": "your",
+    "r": "are",
+    "abt": "about",
+    "whr": "where",
+    "wer": "where",
+    "wot": "what",
+    "wht": "what",
+    "wat": "what",
+    "whats": "what is",
+    "wats": "what is",
+    "whos": "who is",
+    "whn": "when",
+    "hw": "how",
+    "cn": "can",
+    "nd": "and",
+    "thx": "thanks",
+    "thanx": "thanks",
+    "tmrw": "tomorrow",
+    "2day": "today",
+    "schl": "school",
+    "nursry": "nursery",
+    "nurserry": "nursery",
+    "nursey": "nursery",
+    "campas": "campus",
+    "campuss": "campus",
+    "camups": "campus",
+    "campusses": "campuses",
+    "almouj": "al mouj",
+    "alqurm": "al qurm",
+    "alqurum": "al qurm",
+    "qurum": "qurm",
+    "qrum": "qurm",
+    "qurmm": "qurm",
+    "muj": "mouj",
+    "contct": "contact",
+    "contat": "contact",
+    "contcat": "contact",
+    "cntct": "contact",
+    "fone": "phone",
+    "phne": "phone",
+    "phn": "phone",
+    "numbr": "number",
+    "nmbr": "number",
+    "emal": "email",
+    "emaill": "email",
+    "addres": "address",
+    "adress": "address",
+    "loction": "location",
+    "locatn": "location",
+    "opning": "opening",
+    "openning": "opening",
+    "clsing": "closing",
+    "timming": "timing",
+    "timng": "timing",
+    "schedul": "schedule",
+    "schedual": "schedule",
+    "admisn": "admission",
+    "admision": "admission",
+    "admisson": "admission",
+    "admissin": "admission",
+    "aply": "apply",
+    "appli": "apply",
+    "enrolmnt": "enrolment",
+    "enrollmnt": "enrollment",
+    "regstration": "registration",
+    "documnts": "documents",
+    "documets": "documents",
+    "reqd": "required",
+    "req": "requirements",
+    "reqmnts": "requirements",
+    "certifcate": "certificate",
+    "buk": "book",
+    "vist": "visit",
+    "visti": "visit",
+    "turr": "tour",
+    "appt": "appointment",
+    "progrm": "program",
+    "progrms": "programs",
+    "prog": "program",
+    "progs": "programs",
+    "curiculum": "curriculum",
+    "curriculm": "curriculum",
+    "facilites": "facilities",
+    "facilties": "facilities",
+    "activites": "activities",
+    "activty": "activity",
+    "enrichmnt": "enrichment",
+    "poratl": "portal",
+    "portl": "portal",
+    "prnt": "parent",
+    "parentss": "parents",
+    "mision": "mission",
+    "vission": "vision",
+    "philosphy": "philosophy",
+    "feess": "fees",
+    "fess": "fees",
+    "tution": "tuition",
+    "transprt": "transport",
+    "manging": "managing",
+    "managin": "managing",
+    "dirctor": "director",
+    "direcor": "director",
+    "presdent": "president",
+    "vicepresident": "vice president",
+    "managingdirector": "managing director",
+    "cheif": "chief",
+    "executve": "executive",
+    "hii": "hi",
+    "helo": "hello",
+    "helloo": "hello",
+    "admsn": "admission",
+    "mon": "monday",
+    "tue": "tuesday",
+    "tues": "tuesday",
+    "wed": "wednesday",
+    "thu": "thursday",
+    "thurs": "thursday",
+    "fri": "friday",
+    "sat": "saturday",
+    "sun": "sunday",
+    "cert": "certificate",
+    "almoj": "al mouj",
+    "almuoj": "al mouj",
+    "shomuk": "shomoukh",
+    "shomukh": "shomoukh",
+    "shomouk": "shomoukh",
+    "requirments": "requirements",
+    "infrmation": "information",
+    "ofc": "office",
+    "plshelp": "please help",
+    "quum": "qurm",
+    "quurm": "qurm",
+    "qurmu": "qurm"
+  },
+  "phraseAliases": [
+    [
+      "whois",
+      "who is"
+    ],
+    [
+      "whatis",
+      "what is"
+    ],
+    [
+      "whereis",
+      "where is"
+    ],
+    [
+      "how2apply",
+      "how to apply"
+    ],
+    [
+      "phone no",
+      "phone number"
+    ],
+    [
+      "contact no",
+      "contact number"
+    ],
+    [
+      "email id",
+      "email"
+    ],
+    [
+      "e mail",
+      "email"
+    ],
+    [
+      "opening time",
+      "opening hours"
+    ],
+    [
+      "closing time",
+      "closing hours"
+    ],
+    [
+      "office timings",
+      "opening hours"
+    ],
+    [
+      "working hrs",
+      "working hours"
+    ],
+    [
+      "sign up",
+      "apply"
+    ],
+    [
+      "sign in",
+      "parent portal"
+    ],
+    [
+      "log in",
+      "parent portal"
+    ],
+    [
+      "login",
+      "parent portal"
+    ],
+    [
+      "after care",
+      "aftercare"
+    ],
+    [
+      "pre care",
+      "precare"
+    ],
+    [
+      "how 2 apply",
+      "how to apply"
+    ],
+    [
+      "what you offer",
+      "what do you offer"
+    ],
+    [
+      "what you provide",
+      "what do you provide"
+    ],
+    [
+      "phone num",
+      "phone number"
+    ],
+    [
+      "curriculum do you follow",
+      "curriculum"
+    ],
+    [
+      "heads academic work",
+      "head of academics"
+    ],
+    [
+      "leads administration",
+      "head of administration"
+    ],
+    [
+      "runs finance and accounts",
+      "director of finance"
+    ],
+    [
+      "begin operating",
+      "founded"
+    ],
+    [
+      "founding year",
+      "founded"
+    ],
+    [
+      "spell out",
+      "what is"
+    ],
+    [
+      "year groups",
+      "curriculum"
+    ],
+    [
+      "nursery sites",
+      "nursery campuses"
+    ],
+    [
+      "school group",
+      "ges"
+    ],
+    [
+      "paperwork",
+      "documents"
+    ],
+    [
+      "vaccination record",
+      "vaccine card"
+    ],
+    [
+      "class start and finish time",
+      "school time"
+    ],
+    [
+      "educational framework",
+      "curriculum"
+    ],
+    [
+      "browser version",
+      "web app"
+    ],
+    [
+      "classroom photographs",
+      "learning stories photos"
+    ],
+    [
+      "classroom educator",
+      "classroom teacher"
+    ]
+  ],
+  "fuzzyTargets": [
+    "admission",
+    "admissions",
+    "application",
+    "apply",
+    "enrollment",
+    "enrolment",
+    "registration",
+    "contact",
+    "phone",
+    "email",
+    "address",
+    "location",
+    "campus",
+    "campuses",
+    "nursery",
+    "program",
+    "programs",
+    "programme",
+    "programmes",
+    "curriculum",
+    "facilities",
+    "facility",
+    "enrichment",
+    "activities",
+    "activity",
+    "atelier",
+    "ateliers",
+    "parents",
+    "parent",
+    "portal",
+    "mission",
+    "vision",
+    "philosophy",
+    "documents",
+    "document",
+    "requirements",
+    "required",
+    "schedule",
+    "opening",
+    "closing",
+    "booking",
+    "managing",
+    "director",
+    "president",
+    "executive",
+    "chairman",
+    "transportation",
+    "clay"
+  ],
+  "protectedWords": [
+    "apple",
+    "google",
+    "hospital",
+    "food",
+    "flood",
+    "weather",
+    "whether",
+    "london",
+    "salary",
+    "salaries",
+    "private",
+    "refund",
+    "scholarship",
+    "discount",
+    "boarding",
+    "wheelchair",
+    "teacher",
+    "teachers",
+    "principal",
+    "principles",
+    "president",
+    "medical",
+    "doctor",
+    "transport",
+    "ratio",
+    "route",
+    "visa",
+    "parking",
+    "safety",
+    "birthday",
+    "party",
+    "holiday",
+    "holidays",
+    "today",
+    "tomorrow",
+    "yesterday",
+    "former",
+    "previous",
+    "before",
+    "after",
+    "not",
+    "no",
+    "never",
+    "closed",
+    "pizza",
+    "mad",
+    "bad",
+    "sing",
+    "song",
+    "summer",
+    "christmas",
+    "nasa",
+    "phd"
+  ]
+}

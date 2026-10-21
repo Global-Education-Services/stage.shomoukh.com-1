@@ -6,6 +6,10 @@
 :root {
   /* 1. Official Shomoukh Brand Core Palette */
   --shomoukh-primary: #1C3A47;
+  --shomoukh-teal: var(--shomoukh-primary);
+  --shomoukh-coral-ink: #A64432;
+  --shomoukh-gold-ink: #756018;
+  --shomoukh-peach-ink: #935638;
   --shomoukh-coral: #F28F79;
   --shomoukh-yellow: #F2D675;
   --shomoukh-peach: #E8B08F;
@@ -765,6 +769,7 @@ button {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
+  visibility: hidden;
   padding-left: 16px;
   display: flex;
   flex-direction: column;
@@ -773,8 +778,9 @@ button {
 }
 
 .drawer-menu-item.active .submenu-dropdown {
-  max-height: 300px;
+  max-height: none;
   opacity: 1;
+  visibility: visible;
   margin-top: 10px;
   margin-bottom: 14px;
 }
@@ -789,7 +795,7 @@ button {
 }
 
 .submenu-dropdown a:hover {
-  color: var(--shomoukh-yellow);
+  color: var(--shomoukh-primary);
   transform: translateX(6px);
 }
 
@@ -1139,6 +1145,13 @@ button {
   letter-spacing: 0.04em;
   margin-bottom: 36px;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
 
 .btn-play-video {
@@ -1801,7 +1814,7 @@ button {
   color: var(--shomoukh-white);
 }
 
-.deck-card-caption h4 {
+.deck-card-caption :is(h3, h4) {
   font-size: 1.3rem;
   font-weight: 800;
   margin-bottom: 4px;
@@ -3324,7 +3337,7 @@ textarea.form-control {
   color: var(--shomoukh-white);
 }
 
-.facility-info h4 {
+.facility-info :is(h3, h4) {
   font-size: 1.05rem;
   font-weight: 800;
   color: var(--shomoukh-primary);
@@ -4117,7 +4130,7 @@ textarea.form-control {
 }
 
 .step-card:nth-child(3) .step-link {
-  color: var(--shomoukh-green);
+  color: var(--shomoukh-primary);
 }
 
 .step-link:hover {
@@ -4288,7 +4301,7 @@ textarea.form-control {
   }
 
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .content-wrapper {
@@ -4583,3 +4596,121 @@ textarea.form-control {
     padding: 22px 18px;
   }
 }
+
+/* Language control shares the header with search on every page. */
+.header-language-selector {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.55);
+  min-height: 44px;
+}
+.header-language-selector select {
+  min-height: 30px;
+}
+.header-language-selector:focus-within {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+.site-header.scrolled .header-language-selector {
+  color: var(--shomoukh-primary);
+  border-color: var(--shomoukh-border-light);
+}
+.site-header.scrolled .header-language-selector select {
+  color: var(--shomoukh-primary);
+}
+@media (max-width: 600px) {
+  .header-actions { flex-shrink: 0; }
+  .header-language-selector { padding: 3px 5px; }
+  .header-language-selector > i { display: none; }
+  .header-language-selector select { width: 65px; font-size: 12px; }
+}
+@media (max-width: 360px) {
+  .site-header .brand-logo-img { max-width: 112px; }
+  .header-actions { gap: 4px; }
+}
+
+/* Audit fixes: keep controls usable without changing the existing layout. */
+html { scroll-padding-top: 100px; }
+.form-delivery-note {
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  border: 1px solid var(--shomoukh-border-light);
+  border-radius: 10px;
+  background: var(--shomoukh-warm-bg);
+  color: var(--shomoukh-primary);
+}
+.form-delivery-note a { text-decoration: underline; }
+.site-search-results { margin-top: 18px; }
+.site-search-results:empty { display: none; }
+.site-search-results ul { list-style: none; padding: 0; }
+.site-search-results li { padding: 14px 0; border-bottom: 1px solid var(--shomoukh-border-light); }
+.site-search-results a { font-weight: 700; text-decoration: underline; color: var(--shomoukh-primary); }
+.site-search-results li p { margin-top: 5px; font-size: .9rem; color: var(--shomoukh-body); }
+.search-modal-content, .search-modal-card { max-height: calc(100dvh - 32px); overflow-y: auto; overscroll-behavior: contain; }
+.offcanvas-container, .detail-modal-card { overscroll-behavior: contain; }
+button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, [role="button"]:focus-visible {
+  outline: 2px solid var(--shomoukh-coral); outline-offset: 3px;
+}
+@media (pointer: coarse) {
+  input, textarea, select, .header-language-selector select { font-size: 16px; }
+  .header-language-selector select { width: 78px; }
+  button, a, [role="button"] { touch-action: manipulation; }
+}
+@media (max-width: 360px) and (pointer: coarse) {
+  .site-header .brand-logo-img { max-width: 96px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
+/* Visibility changes immediately so keyboard focus can enter opening dialogs. */
+.offcanvas-drawer, .search-modal, .video-modal, .detail-modal { transition-property: opacity; }
+@media (max-width: 360px) and (pointer: coarse) {
+  .header-container { gap: 8px; }
+}
+.toast-feedback { visibility: hidden; pointer-events: none; }
+.toast-feedback.show { visibility: visible; }
+.hero-section { height: 100svh; }
+.skip-link {
+  position: fixed; top: 8px; left: 8px; z-index: 10000;
+  padding: 10px 16px; border-radius: 8px;
+  background: var(--shomoukh-primary); color: var(--shomoukh-white);
+  transform: translateY(-150%);
+}
+.skip-link:focus { transform: translateY(0); color: var(--shomoukh-white); }
+
+/* Readable labels and comfortable targets without changing brand styling. */
+.brand-logo { min-height: 44px; }
+.header-language-selector { padding-block: 0; }
+.header-language-selector select { min-height: 44px; }
+.video-control-pill { min-height: 44px; font-size: .875rem; }
+.step-link { min-height: 44px; font-size: .875rem; display: inline-flex; align-items: center; }
+.footer-social-links a { min-width: 44px; min-height: 44px; }
+@media (pointer: coarse) {
+  .header-icon-btn { width: 44px; min-width: 44px; min-height: 44px; }
+  .header-language-selector { padding-inline: 3px; }
+  .footer-nav-list, .footer-links-list { gap: 3px; }
+  .footer-nav-list a, .footer-links-list a,
+  .footer-campus-entry a, .footer-address a,
+  .footer-legal-links a, .footer-bottom-links a, .legal-links a,
+  .campus-meta-list a, .campus-preview-card a, .page-breadcrumb a {
+    display: inline-flex; align-items: center; min-height: 44px;
+  }
+  .audience-pills .pill-btn { font-size: .875rem; letter-spacing: .02em; }
+}
+
+/* Accessible text shades retain the original brand fills and decoration. */
+a { color: var(--shomoukh-coral-ink); }
+.btn-primary-coral, .btn-primary-magenta, .btn-play-video, .btn-form-submit,
+.tile-inquire .tile-content, .tile-inquire .tile-title { color: var(--shomoukh-primary); }
+.btn-outline-coral, .card-arrow-link, .key-feature-num, .footer-campus-entry a { color: var(--shomoukh-coral-ink); }
+.script-accent-gold, .script-cursive-yellow, .script-cursive-gold { color: var(--shomoukh-gold-ink); }
+.script-cursive-magenta, .script-cursive-purple, .script-cursive-cyan { color: var(--shomoukh-coral-ink); }
+.script-cursive-blue { color: var(--shomoukh-peach-ink); }
+.hero-title :is(.script-accent-gold, .script-cursive-yellow, .script-cursive-gold) { color: var(--shomoukh-yellow); }
+.step-number { color: var(--shomoukh-gold-ink); }
+.step-link { color: var(--shomoukh-coral-ink); }
+.campus-preview-card a { color: var(--shomoukh-coral-ink); }
+.form-char-count { color: var(--shomoukh-body); }
+
+.stat-box .stat-detail { color: var(--shomoukh-body); }
+.menu-toggle-btn:hover { color: var(--shomoukh-primary); }

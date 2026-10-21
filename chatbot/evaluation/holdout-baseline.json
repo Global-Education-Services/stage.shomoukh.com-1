@@ -1,0 +1,214 @@
+{
+  "evaluatedAt": "2026-10-18",
+  "stage": "First untouched 100-case holdout evaluation, before annotation review. Concurrent NLP work was underway; this is a snapshot, not necessarily the original task-start engine.",
+  "metricDefinitions": {
+    "answerAccuracy": "Expected status and factual text assertions, independently of source attribution.",
+    "groundedAccuracy": "Expected status and factual assertions plus an expected source URL for source-eligible cases.",
+    "retrievalAccuracy": "Returned expected source URL among 70 source-eligible cases; 22 hits. All 30 source-free negative cases are excluded from this denominator."
+  },
+  "summary": {
+    "cases": 100,
+    "answerCorrect": 52,
+    "answerAccuracy": 0.52,
+    "groundedCorrect": 50,
+    "groundedAccuracy": 0.5,
+    "retrievalCases": 70,
+    "retrievalSourceHits": 22,
+    "retrievalAccuracy": 0.3142857142857143
+  },
+  "originalCaseSnapshotSha256": "8c3a89c66dc4560d6c17629c52ed4d8b649c92e26b8c1a4a322b6db4f988867d",
+  "failingCaseIds": [
+    "holdout-001",
+    "holdout-002",
+    "holdout-004",
+    "holdout-007",
+    "holdout-008",
+    "holdout-009",
+    "holdout-010",
+    "holdout-011",
+    "holdout-013",
+    "holdout-015",
+    "holdout-016",
+    "holdout-017",
+    "holdout-018",
+    "holdout-020",
+    "holdout-031",
+    "holdout-032",
+    "holdout-033",
+    "holdout-034",
+    "holdout-035",
+    "holdout-036",
+    "holdout-037",
+    "holdout-038",
+    "holdout-039",
+    "holdout-040",
+    "holdout-041",
+    "holdout-042",
+    "holdout-043",
+    "holdout-044",
+    "holdout-045",
+    "holdout-046",
+    "holdout-047",
+    "holdout-049",
+    "holdout-050",
+    "holdout-051",
+    "holdout-052",
+    "holdout-053",
+    "holdout-055",
+    "holdout-056",
+    "holdout-058",
+    "holdout-060",
+    "holdout-061",
+    "holdout-062",
+    "holdout-063",
+    "holdout-064",
+    "holdout-065",
+    "holdout-066",
+    "holdout-067",
+    "holdout-068",
+    "holdout-069",
+    "holdout-080"
+  ],
+  "annotationCorrections": [
+    {
+      "id": "holdout-001",
+      "originalExpectation": {
+        "all": [
+          "Al Mouj",
+          "24555515",
+          "info.almouj"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "Al Mouj",
+          "24555515"
+        ]
+      }
+    },
+    {
+      "id": "holdout-002",
+      "originalExpectation": {
+        "all": [
+          "Al Qurm",
+          "24600610",
+          "info.alqurum"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "Al Qurm",
+          "24600610"
+        ]
+      }
+    },
+    {
+      "id": "holdout-003",
+      "originalExpectation": {
+        "all": [
+          "Al Mouj",
+          "24555515",
+          "info.almouj"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "Al Mouj",
+          "24555515"
+        ]
+      }
+    },
+    {
+      "id": "holdout-004",
+      "originalExpectation": {
+        "all": [
+          "Al Qurm",
+          "24600610",
+          "info.alqurum"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "Al Qurm",
+          "24600610"
+        ]
+      }
+    },
+    {
+      "id": "holdout-008",
+      "originalExpectation": {
+        "all": [
+          "Al Mouj",
+          "Sunday",
+          "Thursday"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "Al Mouj",
+          "Sun",
+          "Thu"
+        ]
+      }
+    },
+    {
+      "id": "holdout-044",
+      "originalExpectation": {
+        "sourceUrls": [
+          "/admissions.html"
+        ]
+      },
+      "reviewedExpectation": {
+        "sourceUrls": [
+          "/admissions.html",
+          "/apply-online.html#online-enrollment-form"
+        ]
+      }
+    },
+    {
+      "id": "holdout-049",
+      "originalExpectation": {
+        "sourceUrls": [
+          "/apply-online.html",
+          "/apply-online.html#online-enrollment-form"
+        ]
+      },
+      "reviewedExpectation": {
+        "sourceUrls": [
+          "/apply-online.html",
+          "/apply-online.html#online-enrollment-form",
+          "/admissions.html#step2"
+        ]
+      }
+    },
+    {
+      "id": "holdout-062",
+      "originalExpectation": {
+        "all": [
+          "children"
+        ]
+      },
+      "reviewedExpectation": {
+        "all": [
+          "child"
+        ]
+      }
+    }
+  ],
+  "annotationMethod": {
+    "method": "Separately authored agent source-reviewed holdout. Questions written without reading generator templates or runtime alias dictionaries. Expectations use public knowledge records and approved GES source facts; not independent human annotation.",
+    "reviewedAt": "2026-10-18",
+    "savedBeforeEvaluation": true,
+    "evidence": [
+      "contact.html",
+      "admissions.html",
+      "apply-online.html",
+      "book-a-visit.html",
+      "programs.html",
+      "parents.html",
+      "chatbot/sources/ges.json"
+    ],
+    "caveat": "This is a fixed diagnostic holdout, not an unbiased real-user sample. Expected sources allow verified duplicate pages. No expectations were learned from current engine replies."
+  },
+  "note": "Original questions, expected statuses, and setups remain unchanged. Annotation edits only remove unrequested attributes or allow source-equivalent wording/citations."
+}
