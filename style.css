@@ -3456,7 +3456,14 @@ textarea.form-control {
 .form-grid-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 22px 24px;
+  /* Inputs line up across a row even when one label wraps to two lines */
+  align-items: end;
+}
+
+/* The grid gap sets the spacing between rows */
+.form-grid-two > .form-group {
+  margin-bottom: 0;
 }
 
 .form-group {
@@ -3494,6 +3501,18 @@ textarea.form-control {
   border-radius: 12px;
   transition: all var(--transition-fast);
   outline: none;
+}
+
+/* Text, date and select fields share one height in every browser */
+.form-control,
+.form-select {
+  min-height: 50px;
+}
+
+.form-control::placeholder,
+.form-textarea::placeholder {
+  color: var(--shomoukh-text-muted);
+  opacity: 0.7;
 }
 
 .form-control:focus,
@@ -3562,8 +3581,10 @@ textarea.form-control {
 
 .form-fieldset-block {
   border: none;
-  margin-bottom: 36px;
-  padding-bottom: 28px;
+  /* Drop the browser's default fieldset indent and min-content width, which push fields off narrow screens */
+  min-width: 0;
+  margin: 0 0 36px;
+  padding: 0 0 28px;
   border-bottom: 1px solid var(--shomoukh-border-light);
 }
 
@@ -3627,8 +3648,13 @@ textarea.form-control {
   min-width: 0;
 }
 
-.form-grid-two > .choice-group:not(.full-width) {
-  margin-bottom: 0;
+.choice-group > legend {
+  padding: 0;
+}
+
+/* Choice groups sit at the top of their row so their pills line up with each other */
+.form-grid-two > .choice-group {
+  align-self: start;
 }
 
 .choice-hint {
@@ -3658,9 +3684,19 @@ textarea.form-control {
   transition: border-color var(--transition-fast);
 }
 
-.choice-pill:hover,
+.choice-pill:hover {
+  border-color: var(--shomoukh-coral);
+}
+
 .choice-pill:has(input:checked) {
   border-color: var(--shomoukh-coral);
+  background: rgba(242, 143, 121, 0.12);
+  color: var(--shomoukh-primary);
+  font-weight: 700;
+}
+
+.choice-pill:has(input:focus-visible) {
+  box-shadow: 0 0 0 4px rgba(242, 143, 121, 0.25);
 }
 
 .choice-pill input {
