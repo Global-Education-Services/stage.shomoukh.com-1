@@ -58,7 +58,7 @@ test('visit and campus admissions questions use actionable existing routes',()=>
     const response=engine().ask(question);
     assert.equal(response.status,'answer',question);
     assert.ok(response.sources.some(source=>source.url.startsWith('/book-a-visit.html')),`${question}: ${JSON.stringify(response)}`);
-    assert.match(response.text,/\bform\b|appointment|confirm/i);
+    assert.match(response.text,/tour|visit/i);
   }
   const response=engine().ask('mouj admission');
   assert.equal(response.status,'answer');

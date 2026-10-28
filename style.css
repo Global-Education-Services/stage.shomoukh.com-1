@@ -4844,117 +4844,244 @@ a { color: var(--shomoukh-coral-ink); }
 .menu-toggle-btn:hover { color: var(--shomoukh-primary); }
 
 /* ==========================================================================
-   SHOMOUKH.COM FORMS (ported from the live site's enrolment, visit and contact forms)
-   Scoped under .enrolment-form-wrapper / .reference-form so this site's own
-   .form-group and .form-label rules do not change them.
+   SHOMOUKH.COM FORMS
+   Fields and behaviour come from shomoukh.com's enrolment, visit and contact
+   forms; the look follows this website's theme (colours, inputs, pills, cards).
+   Scoped under .enrolment-form / .reference-form so the site's own .form-group
+   and .form-label rules do not leak in.
    ========================================================================== */
+
+/* Containers: the site's white card on the visit page */
+section.contact-form {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 80px 24px 100px;
+}
+section.contact-form > form,
+section.contact-form > .submission-success {
+  background: var(--shomoukh-white);
+  border: 1px solid var(--shomoukh-border-light);
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+}
+
+/* Visit and contact forms */
 .reference-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px 30px;
+  gap: 22px 24px;
+  align-items: end;
 }
 .reference-form label {
   display: grid;
-  gap: 7px;
-  font-size: 13px;
-  font-family: var(--font-body);
-}
-.reference-form input,
-.reference-form select,
-.reference-form textarea {
-  border: 1px solid #cbd5e1;
-  background: #fafafa;
-  padding: 12px;
-  border-radius: 4px;
-  font: 14px var(--font-body);
-  width: 100%;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--shomoukh-primary);
+  letter-spacing: 0.02em;
 }
 .reference-form .wide { grid-column: 1 / -1; }
-.reference-form textarea { min-height: 110px; }
-.reference-form button {
-  grid-column: 1 / -1;
-  justify-self: center;
-  border: 0;
-  background: #ee9a82;
-  color: #fff;
-  padding: 13px 34px;
-  font-weight: 800;
+
+/* Shared field look (matches .form-control) */
+.reference-form input,
+.reference-form select,
+.reference-form textarea,
+.enrolment-form .form-pill-input,
+.enrolment-form .form-pill-select {
+  width: 100%;
+  min-height: 50px;
+  padding: 13px 16px;
   font-family: var(--font-body);
-  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: var(--shomoukh-body);
+  background-color: var(--shomoukh-white);
+  border: 1px solid var(--shomoukh-border-medium);
+  border-radius: 12px;
+  outline: none;
+  transition: all var(--transition-fast);
+}
+.reference-form textarea { min-height: 110px; resize: vertical; }
+.reference-form input::placeholder,
+.reference-form textarea::placeholder,
+.enrolment-form .form-pill-input::placeholder {
+  color: var(--shomoukh-text-muted);
+  opacity: 0.7;
+}
+.reference-form input:focus,
+.reference-form select:focus,
+.reference-form textarea:focus,
+.enrolment-form .form-pill-input:focus,
+.enrolment-form .form-pill-select:focus {
+  border-color: var(--shomoukh-coral);
+  box-shadow: 0 0 0 4px rgba(242, 143, 121, 0.15);
+}
+
+/* Submit buttons (match .btn-form-submit) */
+.reference-form button,
+.enrolment-submit-btn {
+  width: 100%;
+  padding: 16px 28px;
+  background: var(--shomoukh-coral);
+  color: var(--shomoukh-white);
+  border: none;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   cursor: pointer;
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 16px rgba(242, 143, 121, 0.25);
+}
+.reference-form button { grid-column: 1 / -1; }
+.enrolment-submit-btn { margin-top: 12px; }
+.reference-form button:hover:not(:disabled),
+.enrolment-submit-btn:hover:not(:disabled) {
+  background: var(--shomoukh-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(28, 58, 71, 0.35);
 }
 .reference-form button:disabled,
-.enrolment-submit-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+.enrolment-submit-btn:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
 
-.enrolment-form-wrapper {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 24px 100px;
-  font-family: var(--font-body);
-}
-.application-card-wrapper .enrolment-form-wrapper { max-width: none; padding: 0; }
+/* Enrolment form */
+.enrolment-form-wrapper { font-family: var(--font-body); }
 .enrolment-banner {
-  margin: 40px 0 32px;
-  padding: 18px 24px;
-  background: #d6977d;
+  margin: 0 0 32px;
+  padding: 20px 24px;
+  background: var(--shomoukh-primary);
   text-align: center;
-  border-radius: 4px;
+  border-radius: 16px;
 }
-.application-card-wrapper .enrolment-banner { margin-top: 0; }
 .enrolment-banner h2 {
   margin: 0;
-  font-size: 34px;
-  color: #15343d;
+  font-size: 1.6rem;
   font-weight: 800;
-  letter-spacing: 0.5px;
+  color: var(--shomoukh-white);
+  letter-spacing: 0.06em;
 }
-.enrolment-success,
-.form-success-screen {
-  min-height: 58vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-sizing: border-box;
-  width: 100%;
+.enrolment-form { display: flex; flex-direction: column; gap: 18px; }
+.enrolment-form .form-row-two-col,
+.enrolment-form .form-row-three-col,
+.enrolment-form .form-row-four-col,
+.enrolment-form .form-grid-two-col { display: grid; gap: 22px 24px; align-items: end; }
+.enrolment-form .form-row-two-col,
+.enrolment-form .form-grid-two-col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.enrolment-form .form-row-three-col { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.enrolment-form .form-row-four-col { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.enrolment-form .form-grid-two-col { align-items: start; }
+.enrolment-form .opening-row { align-items: start; margin-bottom: 4px; }
+.enrolment-form .form-section-header {
+  margin-top: 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--shomoukh-border-light);
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--shomoukh-coral);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.enrolment-form .form-subtitle,
+.enrolment-form .emergencies-text {
   margin: 0;
-  padding: 64px 28px;
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--shomoukh-body);
 }
-.submission-success__mark {
-  display: grid;
-  place-items: center;
-  width: 68px;
-  height: 68px;
-  margin-bottom: 22px;
-  border-radius: 50%;
-  background: #ee9a82;
-  box-shadow: 0 0 0 9px #fff4ef;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  font-size: 38px;
+.enrolment-form .form-group { display: flex; flex-direction: column; gap: 8px; margin: 0; }
+.enrolment-form .form-label {
+  display: block;
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--shomoukh-primary);
+  letter-spacing: 0.02em;
+}
+.enrolment-form .req { color: var(--shomoukh-coral); margin-left: 2px; }
+
+/* Radio and checkbox choices as the site's pills */
+.enrolment-form .radio-vertical-list,
+.enrolment-form .radio-inline-row,
+.enrolment-form .checkbox-inline-row,
+.enrolment-form .checkbox-horizontal-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.enrolment-form .radio-item,
+.enrolment-form .checkbox-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 50px;
+  padding: 10px 16px;
+  font-size: 0.92rem;
+  color: var(--shomoukh-body);
+  background: var(--shomoukh-warm-bg);
+  border: 1px solid var(--shomoukh-border-light);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+.enrolment-form .radio-item:hover,
+.enrolment-form .checkbox-item:hover { border-color: var(--shomoukh-coral); }
+.enrolment-form .radio-item:has(input:checked),
+.enrolment-form .checkbox-item:has(input:checked) {
+  border-color: var(--shomoukh-coral);
+  background: rgba(242, 143, 121, 0.12);
+  color: var(--shomoukh-primary);
   font-weight: 700;
 }
-.submission-success__eyebrow {
-  margin: 0 0 12px;
-  color: #15343d;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 2px;
+.enrolment-form .radio-item:has(input:focus-visible),
+.enrolment-form .checkbox-item:has(input:focus-visible) { box-shadow: 0 0 0 4px rgba(242, 143, 121, 0.25); }
+.enrolment-form .radio-item input,
+.enrolment-form .checkbox-item input,
+.enrolment-form .acknowledgement-checkbox input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex-shrink: 0;
+  accent-color: var(--shomoukh-coral);
+  cursor: pointer;
 }
-.submission-success h2,
-.submission-success h3 {
-  margin: 0 0 14px;
-  color: #ee9a82;
-  font-size: clamp(28px, 4vw, 46px);
-  font-weight: 800;
-  line-height: 1.15;
+.enrolment-form .health-history-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 24px; }
+.enrolment-form .health-item { display: flex; flex-direction: column; gap: 8px; }
+.enrolment-form .health-item .radio-inline-row { flex-wrap: nowrap; }
+.enrolment-form .required-docs-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 40px;
+  padding: 20px 24px;
+  background: var(--shomoukh-warm-bg);
+  border-radius: 16px;
 }
-.submission-success > p:last-child { font-size: 18px; color: #15343d; margin: 0; }
+.enrolment-form .docs-list {
+  margin: 0;
+  padding-left: 20px;
+  list-style: decimal;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--shomoukh-body);
+}
+.enrolment-form .acknowledgement-group { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.enrolment-form .acknowledgement-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--shomoukh-body);
+  background: var(--shomoukh-warm-bg);
+  border: 1px solid var(--shomoukh-border-light);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.enrolment-form .acknowledgement-checkbox input { margin-top: 3px; }
+
+/* Messages and the thank-you screen */
+.form-error,
+.form-security-error { margin: 0; font-size: 0.9rem; font-weight: 600; color: #c0392b; }
+.reference-form .form-error { grid-column: 1 / -1; text-align: center; }
 .form-honeypot {
   position: absolute !important;
   width: 1px !important;
@@ -4963,113 +5090,53 @@ a { color: var(--shomoukh-coral-ink); }
   clip: rect(0 0 0 0) !important;
   white-space: nowrap !important;
 }
-.form-error,
-.form-security-error { color: #c53030; font-size: 14px; margin: 0; }
-.reference-form .form-error { grid-column: 1 / -1; text-align: center; }
-
-.enrolment-form { display: flex; flex-direction: column; gap: 14px; }
-.enrolment-form .form-row-two-col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 30px; }
-.enrolment-form .opening-row { margin-bottom: 8px; }
-.enrolment-form .form-row-three-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px 30px; }
-.enrolment-form .form-row-four-col { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px 30px; }
-.enrolment-form .form-grid-two-col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px 30px; }
-.enrolment-form .form-section-header {
-  font-size: 16px;
-  font-weight: 700;
-  color: #d6977d;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 26px;
-  margin-bottom: 6px;
-}
-.enrolment-form .form-subtitle { font-size: 13.5px; color: #4b5563; margin: 0 0 14px; }
-.enrolment-form .emergencies-text { font-size: 13.5px; color: #374151; line-height: 1.6; margin: 0 0 16px; }
-.enrolment-form .form-group { display: flex; flex-direction: column; gap: 6px; flex: 1; margin: 0; }
-.enrolment-form .form-label {
-  font-size: 13.5px;
-  color: #374151;
-  font-weight: 600;
-  display: block;
-  margin: 0;
-  letter-spacing: normal;
-}
-.enrolment-form .req { color: #e53e3e; font-weight: bold; margin-left: 2px; }
-.enrolment-form .form-pill-input,
-.enrolment-form .form-pill-select {
-  height: 42px;
-  border-radius: 21px;
-  background-color: #e9e9e9;
-  border: 1px solid #7c7c7c;
-  padding: 0 18px;
-  font-size: 13.5px;
-  font-family: var(--font-body);
-  color: #1f2937;
-  width: 100%;
-  outline: none;
-  box-sizing: border-box;
-  transition: border-color 0.2s, background-color 0.2s;
-}
-.enrolment-form .form-pill-input:focus,
-.enrolment-form .form-pill-select:focus { border-color: #0e6789; background-color: #ffffff; }
-.enrolment-form .form-pill-input::placeholder { color: #777777; font-size: 13px; }
-.enrolment-form .radio-vertical-list { display: flex; flex-direction: column; gap: 8px; padding-top: 4px; }
-.enrolment-form .radio-inline-row { display: flex; align-items: center; gap: 18px; min-height: 38px; }
-.enrolment-form .checkbox-inline-row,
-.enrolment-form .checkbox-horizontal-list { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 24px; padding-top: 4px; }
-.enrolment-form .radio-item,
-.enrolment-form .checkbox-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  font-size: 13.5px;
-  color: #374151;
-}
-.enrolment-form .radio-item input[type="radio"],
-.enrolment-form .checkbox-item input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: #0e6789; }
-.enrolment-form .health-history-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 20px; margin-top: 8px; }
-.enrolment-form .health-item { display: flex; flex-direction: column; gap: 4px; }
-.enrolment-form .required-docs-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 40px; margin-top: 8px; }
-.enrolment-form .docs-list { margin: 0; padding-left: 20px; font-size: 13.5px; line-height: 1.8; color: #374151; list-style: decimal; }
-.enrolment-form .acknowledgement-group { margin-top: 24px; display: flex; flex-direction: column; gap: 8px; }
-.enrolment-form .acknowledgement-checkbox {
+.submission-success {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  font-size: 13px;
-  line-height: 1.6;
-  color: #374151;
-  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  padding: 56px 28px;
+  text-align: center;
 }
-.enrolment-form .acknowledgement-checkbox input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  margin-top: 2px;
-  flex-shrink: 0;
-  cursor: pointer;
-  accent-color: #0e6789;
-}
-.enrolment-submit-btn {
-  align-self: flex-start;
-  margin-top: 24px;
-  background: #0e6789;
-  color: #ffffff;
-  border: none;
-  border-radius: 22px;
-  padding: 12px 36px;
-  font-size: 15px;
+.submission-success__mark {
+  display: grid;
+  place-items: center;
+  width: 68px;
+  height: 68px;
+  margin-bottom: 22px;
+  border-radius: 50%;
+  background: var(--shomoukh-coral);
+  box-shadow: 0 0 0 9px rgba(242, 143, 121, 0.15);
+  color: var(--shomoukh-white);
+  font-size: 34px;
   font-weight: 700;
-  font-family: var(--font-body);
-  cursor: pointer;
-  transition: all 0.2s;
 }
-.enrolment-submit-btn:hover:not(:disabled) { background: #0b516c; transform: translateY(-1px); }
+.submission-success__eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: var(--shomoukh-coral);
+}
+.submission-success h2,
+.submission-success h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--shomoukh-primary);
+}
+.submission-success > p:last-child { margin: 0; font-size: 1.05rem; color: var(--shomoukh-body); }
 
 @media (max-width: 1024px) {
   .enrolment-form .form-row-four-col,
   .enrolment-form .health-history-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 768px) {
+  section.contact-form { padding: 48px 16px 64px; }
+  section.contact-form > form,
+  section.contact-form > .submission-success { padding: 24px; }
   .reference-form,
   .enrolment-form .form-row-two-col,
   .enrolment-form .form-row-three-col,
@@ -5077,12 +5144,5 @@ a { color: var(--shomoukh-coral-ink); }
   .enrolment-form .form-grid-two-col,
   .enrolment-form .health-history-grid,
   .enrolment-form .required-docs-two-col { grid-template-columns: 1fr; }
-  .enrolment-form-wrapper { padding: 0 16px 64px; }
-  .application-card-wrapper .enrolment-form-wrapper { padding: 0; }
-  .enrolment-banner { margin: 24px 0; padding: 14px 16px; }
-  .application-card-wrapper .enrolment-banner { margin-top: 0; }
-  .enrolment-banner h2 { font-size: 25px; }
-  .enrolment-form .radio-inline-row,
-  .enrolment-form .checkbox-inline-row { flex-wrap: wrap; gap: 10px 16px; }
-  .enrolment-submit-btn { width: 100%; }
+  .enrolment-banner h2 { font-size: 1.3rem; }
 }

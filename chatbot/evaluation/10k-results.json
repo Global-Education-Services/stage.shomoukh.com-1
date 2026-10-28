@@ -1,9 +1,9 @@
 {
-  "evaluatedAt": "2026-10-28T05:30:22.017Z",
+  "evaluatedAt": "2026-10-28T05:59:39.598Z",
   "seed": 20261018,
-  "corpusFingerprint": "500d68cd8d6b9c53faf1621231c795f3dc0ff8d53bb6044a4112d465120840c6",
+  "corpusFingerprint": "a089f7bdabe7a02dbb1a6ebe8a5d45cce028f4346a03a553fa25a17e1b3af75e",
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "0e19a42428fcbfad8ea0800794fc3753b865cb24af6fe0c4d3cb3b44862bdb28",
+  "sourceFingerprint": "8132821a6401863d557ca005e2a0ac6955d1e8be30fec4c15200b80950559453",
   "definitions": {
     "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
     "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
@@ -13,16 +13,16 @@
     "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
     "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
   },
-  "initializationMs": 22.763875,
+  "initializationMs": 23.546999999999997,
   "summary": {
     "cases": 10000,
-    "passed": 9992,
-    "failed": 8,
-    "accuracy": 0.9992,
+    "passed": 9993,
+    "failed": 7,
+    "accuracy": 0.9993,
     "finalTurn": {
-      "correct": 9992,
+      "correct": 9993,
       "total": 10000,
-      "accuracy": 0.9992
+      "accuracy": 0.9993
     },
     "precedingConversation": {
       "correct": 1000,
@@ -30,59 +30,59 @@
       "accuracy": 1
     },
     "precedingTurns": {
-      "passed": 2291,
-      "total": 2291
+      "passed": 2249,
+      "total": 2249
     },
     "answerSelection": {
-      "correct": 9992,
+      "correct": 9993,
       "total": 10000,
-      "accuracy": 0.9992
+      "accuracy": 0.9993
     },
     "sourceAttribution": {
-      "correct": 9292,
+      "correct": 9294,
       "total": 9300,
-      "accuracy": 0.9991397849462366
+      "accuracy": 0.9993548387096775
     },
     "recordSelection": {
-      "correct": 8898,
-      "total": 8906,
-      "accuracy": 0.9991017291713452
+      "correct": 8868,
+      "total": 8874,
+      "accuracy": 0.9993238674780257
     },
     "intentRecognition": {
-      "correct": 2994,
+      "correct": 2997,
       "total": 3000,
-      "accuracy": 0.998
+      "accuracy": 0.999
     },
     "entityRecognition": {
-      "correct": 6133,
-      "total": 6135,
-      "accuracy": 0.9996740016299919
+      "correct": 6156,
+      "total": 6157,
+      "accuracy": 0.9998375832385902
     },
     "autocorrection": {
-      "correct": 1456,
+      "correct": 1462,
       "total": 1500,
-      "accuracy": 0.9706666666666667
+      "accuracy": 0.9746666666666667
     },
     "confidenceRange": {
       "correct": 10000,
       "total": 10000,
       "accuracy": 1
     },
-    "unsupportedCases": 1094,
-    "falsePositiveAnswers": 0,
-    "meanResponseMs": 0.9587183839,
-    "p95ResponseMs": 1.908249999999498
+    "unsupportedCases": 1126,
+    "falsePositiveAnswers": 1,
+    "meanResponseMs": 1.1101436376999954,
+    "p95ResponseMs": 2.3432080000002316
   },
   "byCategory": {
     "short": {
       "cases": 1500,
-      "passed": 1500,
-      "failed": 0,
-      "accuracy": 1,
+      "passed": 1499,
+      "failed": 1,
+      "accuracy": 0.9993333333333333,
       "finalTurn": {
-        "correct": 1500,
+        "correct": 1499,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9993333333333333
       },
       "precedingConversation": {
         "correct": 0,
@@ -94,19 +94,19 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 1500,
+        "correct": 1499,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9993333333333333
       },
       "sourceAttribution": {
-        "correct": 1500,
+        "correct": 1499,
         "total": 1500,
-        "accuracy": 1
+        "accuracy": 0.9993333333333333
       },
       "recordSelection": {
-        "correct": 1404,
-        "total": 1404,
-        "accuracy": 1
+        "correct": 1399,
+        "total": 1400,
+        "accuracy": 0.9992857142857143
       },
       "intentRecognition": {
         "correct": 0,
@@ -114,8 +114,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 825,
-        "total": 825,
+        "correct": 838,
+        "total": 838,
         "accuracy": 1
       },
       "autocorrection": {
@@ -128,20 +128,20 @@
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 96,
+      "unsupportedCases": 100,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8131501146666626,
-      "p95ResponseMs": 1.4451670000000263
+      "meanResponseMs": 0.8420330839999995,
+      "p95ResponseMs": 1.5242920000000026
     },
     "typo": {
       "cases": 1500,
-      "passed": 1494,
-      "failed": 6,
-      "accuracy": 0.996,
+      "passed": 1496,
+      "failed": 4,
+      "accuracy": 0.9973333333333333,
       "finalTurn": {
-        "correct": 1494,
+        "correct": 1496,
         "total": 1500,
-        "accuracy": 0.996
+        "accuracy": 0.9973333333333333
       },
       "precedingConversation": {
         "correct": 0,
@@ -153,19 +153,19 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 1494,
+        "correct": 1496,
         "total": 1500,
-        "accuracy": 0.996
+        "accuracy": 0.9973333333333333
       },
       "sourceAttribution": {
-        "correct": 1494,
+        "correct": 1497,
         "total": 1500,
-        "accuracy": 0.996
+        "accuracy": 0.998
       },
       "recordSelection": {
-        "correct": 1424,
-        "total": 1430,
-        "accuracy": 0.9958041958041958
+        "correct": 1417,
+        "total": 1420,
+        "accuracy": 0.997887323943662
       },
       "intentRecognition": {
         "correct": 0,
@@ -173,24 +173,24 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 710,
+        "correct": 711,
         "total": 712,
-        "accuracy": 0.9971910112359551
+        "accuracy": 0.9985955056179775
       },
       "autocorrection": {
-        "correct": 1456,
+        "correct": 1462,
         "total": 1500,
-        "accuracy": 0.9706666666666667
+        "accuracy": 0.9746666666666667
       },
       "confidenceRange": {
         "correct": 1500,
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 70,
-      "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8734393913333346,
-      "p95ResponseMs": 1.8062499999998636
+      "unsupportedCases": 80,
+      "falsePositiveAnswers": 1,
+      "meanResponseMs": 0.8800699260000026,
+      "p95ResponseMs": 1.740542000000005
     },
     "natural": {
       "cases": 1500,
@@ -222,8 +222,8 @@
         "accuracy": 1
       },
       "recordSelection": {
-        "correct": 1402,
-        "total": 1402,
+        "correct": 1399,
+        "total": 1399,
         "accuracy": 1
       },
       "intentRecognition": {
@@ -232,8 +232,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 799,
-        "total": 799,
+        "correct": 808,
+        "total": 808,
         "accuracy": 1
       },
       "autocorrection": {
@@ -246,10 +246,10 @@
         "total": 1500,
         "accuracy": 1
       },
-      "unsupportedCases": 98,
+      "unsupportedCases": 101,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9064821599999968,
-      "p95ResponseMs": 1.5495829999999842
+      "meanResponseMs": 0.9297504506666662,
+      "p95ResponseMs": 1.6206670000001395
     },
     "campus": {
       "cases": 1200,
@@ -286,9 +286,9 @@
         "accuracy": 1
       },
       "intentRecognition": {
-        "correct": 1194,
+        "correct": 1197,
         "total": 1200,
-        "accuracy": 0.995
+        "accuracy": 0.9975
       },
       "entityRecognition": {
         "correct": 1200,
@@ -307,8 +307,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.1778647100000061,
-      "p95ResponseMs": 2.101166000000376
+      "meanResponseMs": 1.428671860000001,
+      "p95ResponseMs": 2.7484999999996944
     },
     "leadership": {
       "cases": 800,
@@ -366,8 +366,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.097212213749999,
-      "p95ResponseMs": 2.0063749999999345
+      "meanResponseMs": 1.436149368750024,
+      "p95ResponseMs": 2.9041669999996884
     },
     "admissions": {
       "cases": 1000,
@@ -399,9 +399,9 @@
         "accuracy": 0.998
       },
       "recordSelection": {
-        "correct": 915,
-        "total": 917,
-        "accuracy": 0.9978189749182116
+        "correct": 899,
+        "total": 901,
+        "accuracy": 0.9977802441731409
       },
       "intentRecognition": {
         "correct": 0,
@@ -409,8 +409,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 351,
-        "total": 351,
+        "correct": 353,
+        "total": 353,
         "accuracy": 1
       },
       "autocorrection": {
@@ -423,10 +423,10 @@
         "total": 1000,
         "accuracy": 1
       },
-      "unsupportedCases": 83,
+      "unsupportedCases": 99,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.6935933310000028,
-      "p95ResponseMs": 1.3477080000002388
+      "meanResponseMs": 1.167037473999976,
+      "p95ResponseMs": 2.86462500000016
     },
     "context": {
       "cases": 1000,
@@ -444,8 +444,8 @@
         "accuracy": 1
       },
       "precedingTurns": {
-        "passed": 2291,
-        "total": 2291
+        "passed": 2249,
+        "total": 2249
       },
       "answerSelection": {
         "correct": 1000,
@@ -484,8 +484,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.82778975299998,
-      "p95ResponseMs": 0.9822089999997843
+      "meanResponseMs": 0.9696949070000228,
+      "p95ResponseMs": 1.4238329999989219
     },
     "informal": {
       "cases": 800,
@@ -517,8 +517,8 @@
         "accuracy": 1
       },
       "recordSelection": {
-        "correct": 753,
-        "total": 753,
+        "correct": 754,
+        "total": 754,
         "accuracy": 1
       },
       "intentRecognition": {
@@ -527,8 +527,8 @@
         "accuracy": null
       },
       "entityRecognition": {
-        "correct": 448,
-        "total": 448,
+        "correct": 446,
+        "total": 446,
         "accuracy": 1
       },
       "autocorrection": {
@@ -541,10 +541,10 @@
         "total": 800,
         "accuracy": 1
       },
-      "unsupportedCases": 47,
+      "unsupportedCases": 46,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.831051178749999,
-      "p95ResponseMs": 1.451708000000508
+      "meanResponseMs": 0.8871741499999757,
+      "p95ResponseMs": 1.6092090000001917
     },
     "negative": {
       "cases": 700,
@@ -602,8 +602,8 @@
       },
       "unsupportedCases": 700,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.7430641285714565,
-      "p95ResponseMs": 2.9235829999997804
+      "meanResponseMs": 2.0197982257142577,
+      "p95ResponseMs": 3.444083000000319
     }
   },
   "context": {
@@ -622,8 +622,8 @@
       "accuracy": 1
     },
     "precedingTurns": {
-      "passed": 2291,
-      "total": 2291
+      "passed": 2249,
+      "total": 2249
     },
     "answerSelection": {
       "correct": 1000,
@@ -662,13 +662,13 @@
     },
     "unsupportedCases": 0,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 0.82778975299998,
-    "p95ResponseMs": 0.9822089999997843
+    "meanResponseMs": 0.9696949070000228,
+    "p95ResponseMs": 1.4238329999989219
   },
   "failures": [
     {
-      "id": "tenk-01826",
-      "category": "typo",
+      "id": "tenk-01085",
+      "category": "short",
       "pass": false,
       "finalTurn": false,
       "setupCorrect": null,
@@ -680,39 +680,131 @@
       "selection": false,
       "intent": null,
       "entity": null,
-      "correction": false,
+      "correction": null,
       "confidence": true,
-      "durationMs": 1.7446250000000418,
+      "durationMs": 2.4880410000000666,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "choose shomoukh camps",
+      "question": "please choose your campus summary",
       "setup": [],
       "expected": {
-        "id": "tenk-01826",
-        "category": "typo",
+        "id": "tenk-01085",
+        "category": "short",
         "variation": "short",
-        "question": "choose shomoukh camps",
+        "question": "please choose your campus summary",
         "setup": [],
         "expectedStatuses": [
           "answer"
         ],
         "sourceUrls": [
-          "/book-a-visit.html#tour-booking-form"
+          "/apply-online.html#online-enrollment-form"
         ],
         "all": [],
         "any": [
-          "The public page lists these choose shomoukh campus",
+          "The public page lists these please choose your",
           "Confirm current availability with admissions."
         ],
         "none": [],
-        "sourceRecordId": "book-a-visit-ccfce66462",
+        "sourceRecordId": "apply-online-3553db8f6a",
         "expectedRecordIds": [
-          "book-a-visit-ccfce66462"
+          "apply-online-3553db8f6a"
         ],
         "expectedIntent": null,
         "expectedEntity": null,
-        "expectedRecordOrCategory": "book-a-visit-ccfce66462",
+        "expectedRecordOrCategory": "apply-online-3553db8f6a",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": null,
+        "topicCategory": "application",
+        "variationCategory": "short",
+        "normalizedKey": "[\"please choose your campus summary\"]"
+      },
+      "actual": {
+        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+        "status": "unknown",
+        "intent": "search",
+        "confidence": 0,
+        "recordIds": [
+          "contact-6961fe9399"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/contact.html",
+            "title": "Contact Us & Our Campuses"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "please choose your campus summary",
+          "interpreted": "choose your campus summary",
+          "corrections": [
+            {
+              "from": "please choose your campus summary",
+              "to": "choose your campus summary",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02014",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": false,
+      "source": false,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": true,
+      "confidence": true,
+      "durationMs": 1.4139169999998558,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "shomoukh ateliesr & enrichments",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02014",
+        "category": "typo",
+        "variation": "short",
+        "question": "shomoukh ateliesr & enrichments",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/enrichments.html"
+        ],
+        "all": [],
+        "any": [
+          "Smart & innovative learning environments where children research,"
+        ],
+        "none": [],
+        "sourceRecordId": "enrichments-e359ba5685",
+        "expectedRecordIds": [
+          "enrichments-e359ba5685"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "enrichments-e359ba5685",
         "expectedBehavior": "answer-from-verified-record",
         "confidenceExpectation": {
           "min": null,
@@ -721,13 +813,126 @@
         },
         "expectedCorrection": {
           "includes": [
-            "choose shomoukh campus"
+            "shomoukh ateliers enrichments"
           ],
           "excludes": []
         },
-        "topicCategory": "visit",
+        "topicCategory": "enrichments",
         "variationCategory": "typo",
-        "normalizedKey": "[\"choose shomoukh camps\"]"
+        "normalizedKey": "[\"shomoukh ateliesr enrichments\"]"
+      },
+      "actual": {
+        "text": "The website lists these enrichment areas:\n\n• Clay Atelier\n• Art Atelier\n• Digital & Light Atelier\n• Project-Based Learning\n• Tiny Town\n• Sensory Play\n• Music & Movement\n• Drama, Puppetry & ECA / PE",
+        "status": "answer",
+        "intent": "enrichment",
+        "confidence": 0.9,
+        "recordIds": [
+          "main.js-278d99379d",
+          "main.js-2acebaf277",
+          "main.js-8f68b0ad3b",
+          "main.js-70720eb9e8",
+          "main.js-49f7c6d08f",
+          "main.js-619c618978",
+          "main.js-20f139a472",
+          "main.js-ff9c0d0c0f"
+        ],
+        "entityIds": [
+          "atelier-clay",
+          "shomoukh",
+          "atelier-art",
+          "atelier-light",
+          "enrichment-project",
+          "enrichment-tiny-town",
+          "enrichment-sensory",
+          "enrichment-music",
+          "enrichment-drama"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#enrichments",
+            "title": "Clay Atelier"
+          }
+        ],
+        "suggestions": [
+          "Tell me about Art Atelier",
+          "Tell me about Clay Atelier",
+          "Tell me about Music & Movement"
+        ],
+        "query": {
+          "original": "shomoukh ateliesr & enrichments",
+          "interpreted": "shomoukh atelier enrichments",
+          "corrections": [
+            {
+              "from": "ateliesr",
+              "to": "atelier",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02043",
+      "category": "typo",
+      "pass": false,
+      "finalTurn": false,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": false,
+      "facts": false,
+      "source": true,
+      "selection": false,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.6992079999999987,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "two campuss in prime locations",
+      "setup": [],
+      "expected": {
+        "id": "tenk-02043",
+        "category": "typo",
+        "variation": "short",
+        "question": "two campuss in prime locations",
+        "setup": [],
+        "expectedStatuses": [
+          "answer"
+        ],
+        "sourceUrls": [
+          "/contact.html"
+        ],
+        "all": [],
+        "any": [
+          "Conveniently situated in Muscat's most family-friendly neighbourhoods with"
+        ],
+        "none": [],
+        "sourceRecordId": "contact-4f85f4c7f8",
+        "expectedRecordIds": [
+          "contact-4f85f4c7f8"
+        ],
+        "expectedIntent": null,
+        "expectedEntity": null,
+        "expectedRecordOrCategory": "contact-4f85f4c7f8",
+        "expectedBehavior": "answer-from-verified-record",
+        "confidenceExpectation": {
+          "min": null,
+          "max": 1,
+          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
+        },
+        "expectedCorrection": {
+          "includes": [
+            "two campuses in prime locations"
+          ],
+          "excludes": []
+        },
+        "topicCategory": "contact",
+        "variationCategory": "typo",
+        "normalizedKey": "[\"two campuss in prime locations\"]"
       },
       "actual": {
         "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
@@ -752,106 +957,20 @@
           "How can I contact you?"
         ],
         "query": {
-          "original": "choose shomoukh camps",
-          "interpreted": "choose shomoukh camps",
-          "corrections": []
+          "original": "two campuss in prime locations",
+          "interpreted": "two campus in prime locations",
+          "corrections": [
+            {
+              "from": "campuss",
+              "to": "campus",
+              "kind": "alias"
+            }
+          ]
         }
       }
     },
     {
-      "id": "tenk-01844",
-      "category": "typo",
-      "pass": false,
-      "finalTurn": false,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": false,
-      "source": false,
-      "selection": false,
-      "intent": null,
-      "entity": false,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 2.8667089999999007,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about schedule a camps visit",
-      "setup": [],
-      "expected": {
-        "id": "tenk-01844",
-        "category": "typo",
-        "variation": "short",
-        "question": "tell me about schedule a camps visit",
-        "setup": [],
-        "expectedStatuses": [
-          "answer"
-        ],
-        "sourceUrls": [
-          "/book-a-visit.html"
-        ],
-        "all": [],
-        "any": [
-          "Our Shomoukh team is eager to welcome you",
-          "Experience our learning ateliers, meet our educators, and"
-        ],
-        "none": [],
-        "sourceRecordId": "book-a-visit-a772764a01",
-        "expectedRecordIds": [
-          "book-a-visit-a772764a01"
-        ],
-        "expectedIntent": null,
-        "expectedEntity": "service-tour",
-        "expectedRecordOrCategory": "book-a-visit-a772764a01",
-        "expectedBehavior": "answer-from-verified-record",
-        "confidenceExpectation": {
-          "min": null,
-          "max": 1,
-          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
-        },
-        "expectedCorrection": {
-          "includes": [
-            "schedule a campus visit"
-          ],
-          "excludes": []
-        },
-        "topicCategory": "visit",
-        "variationCategory": "typo",
-        "normalizedKey": "[\"tell me about schedule a camps visit\"]"
-      },
-      "actual": {
-        "text": "Schedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.",
-        "status": "answer",
-        "intent": "visit",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-4fe9e6c231"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html",
-            "title": "Come See Our Spaces in Person"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Where are your campuses?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "tell me about schedule a camps visit",
-          "interpreted": "tell me about schedule a camps visit",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-02091",
+      "id": "tenk-02538",
       "category": "typo",
       "pass": false,
       "finalTurn": false,
@@ -866,14 +985,14 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.5022500000000036,
+      "durationMs": 1.5260840000000826,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
       "question": "please choose vsit time",
       "setup": [],
       "expected": {
-        "id": "tenk-02091",
+        "id": "tenk-02538",
         "category": "typo",
         "variation": "short",
         "question": "please choose vsit time",
@@ -949,7 +1068,7 @@
       }
     },
     {
-      "id": "tenk-02259",
+      "id": "tenk-02942",
       "category": "typo",
       "pass": false,
       "finalTurn": false,
@@ -957,138 +1076,44 @@
       "setupTurns": 0,
       "setupTurnsPassed": 0,
       "status": false,
-      "facts": false,
+      "facts": true,
       "source": false,
-      "selection": false,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 3.0859169999998812,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about inspired teaches",
-      "setup": [],
-      "expected": {
-        "id": "tenk-02259",
-        "category": "typo",
-        "variation": "short",
-        "question": "tell me about inspired teaches",
-        "setup": [],
-        "expectedStatuses": [
-          "answer"
-        ],
-        "sourceUrls": [
-          "/#inspired-teachers",
-          "/programs.html#reggio"
-        ],
-        "all": [],
-        "any": [
-          "Dedicated early childhood professionals fully engaged in teaching"
-        ],
-        "none": [],
-        "sourceRecordId": "index-8063a55e51",
-        "expectedRecordIds": [
-          "index-8063a55e51",
-          "programs-6f73cb9d71"
-        ],
-        "expectedIntent": null,
-        "expectedEntity": null,
-        "expectedRecordOrCategory": "index-8063a55e51",
-        "expectedBehavior": "answer-from-verified-record",
-        "confidenceExpectation": {
-          "min": null,
-          "max": 1,
-          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
-        },
-        "expectedCorrection": {
-          "includes": [
-            "inspired teachers"
-          ],
-          "excludes": []
-        },
-        "topicCategory": "overview",
-        "variationCategory": "typo",
-        "normalizedKey": "[\"tell me about inspired teaches\"]"
-      },
-      "actual": {
-        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
-        "status": "unknown",
-        "intent": "search",
-        "confidence": 0,
-        "recordIds": [
-          "contact-6961fe9399"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html",
-            "title": "Contact Us & Our Campuses"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about inspired teaches",
-          "interpreted": "tell me about inspired teaches",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-02490",
-      "category": "typo",
-      "pass": false,
-      "finalTurn": false,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": false,
-      "facts": false,
-      "source": false,
-      "selection": false,
+      "selection": null,
       "intent": null,
       "entity": false,
-      "correction": false,
+      "correction": true,
       "confidence": true,
-      "durationMs": 3.54745899999989,
-      "unsupported": false,
-      "falsePositive": false,
+      "durationMs": 1.3005000000002838,
+      "unsupported": true,
+      "falsePositive": true,
       "context": false,
-      "question": "tell me about shomoukh ece al mouj camps — ges listing",
+      "question": "admissions & enrolment",
       "setup": [],
       "expected": {
-        "id": "tenk-02490",
+        "id": "tenk-02942",
         "category": "typo",
         "variation": "short",
-        "question": "tell me about shomoukh ece al mouj camps — ges listing",
+        "question": "admissions & enrolment",
         "setup": [],
         "expectedStatuses": [
-          "answer"
+          "clarify"
         ],
         "sourceUrls": [
-          "https://www.ges.om/about.php"
+          "/admissions.html"
         ],
         "all": [],
         "any": [
-          "GES lists Shomoukh ECE Al Mouj Campus in",
-          "Its profile describes early childhood education and sustainable"
+          "differ",
+          "conflict",
+          "confirm"
         ],
         "none": [],
-        "sourceRecordId": "ges-mouj",
-        "expectedRecordIds": [
-          "ges-mouj"
-        ],
+        "sourceRecordId": "admissions-f447d96292",
+        "expectedRecordIds": null,
         "expectedIntent": null,
-        "expectedEntity": "campus-mouj",
-        "expectedRecordOrCategory": "ges-mouj",
-        "expectedBehavior": "answer-from-verified-record",
+        "expectedEntity": "service-admissions",
+        "expectedRecordOrCategory": "admissions-f447d96292",
+        "expectedBehavior": "explain-conflicting-public-content",
         "confidenceExpectation": {
           "min": null,
           "max": 1,
@@ -1096,143 +1121,55 @@
         },
         "expectedCorrection": {
           "includes": [
-            "shomoukh ece al mouj campus ges listing"
+            "admissions enrollment"
           ],
           "excludes": []
         },
-        "topicCategory": "organization",
+        "topicCategory": "admissions",
         "variationCategory": "typo",
-        "normalizedKey": "[\"tell me about shomoukh ece al mouj camps ges listing\"]"
+        "normalizedKey": "[\"admissions enrolment\"]"
       },
       "actual": {
-        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
-        "status": "unknown",
-        "intent": "location",
-        "confidence": 0,
+        "text": "Here is the published admissions process:\n\nBook a tour and visit Shomoukh nursery school together with your child during working hours. Meet our educators, see the ateliers in action, and get your questions answered. Schedule Campus Tour STEP 2\n\nUpon tour confirmation, complete our online enrollment application submitting your child's information, health records, emergency contacts, and required documentation. Complete Enrollment Form STEP 3\n\nProceed to term fee payments within the given time frame to secure your child's place in our classrooms. We will provide full onboarding materials and parent app access. Ongoing Admissions",
+        "status": "answer",
+        "intent": "apply",
+        "confidence": 0.95,
         "recordIds": [
-          "contact-6961fe9399"
+          "admissions-03d9f94747",
+          "admissions-595ab5ed21",
+          "admissions-8de2430be5"
         ],
         "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/contact.html",
-            "title": "Contact Us & Our Campuses"
+            "url": "/admissions.html#step1",
+            "title": "Book a Tour"
+          },
+          {
+            "url": "/admissions.html#step2",
+            "title": "Submit Details"
+          },
+          {
+            "url": "/admissions.html#step3",
+            "title": "Secure Your Place"
           }
         ],
         "suggestions": [
           "What programs are available?",
-          "How can I apply?",
           "Can I book a tour?",
+          "Where are your campuses?",
           "How can I contact you?"
         ],
         "query": {
-          "original": "tell me about shomoukh ece al mouj camps — ges listing",
-          "interpreted": "tell me about shomoukh ece al mouj camps ges listing",
+          "original": "admissions & enrolment",
+          "interpreted": "admissions enrolment",
           "corrections": []
         }
       }
     },
     {
-      "id": "tenk-02802",
-      "category": "typo",
-      "pass": false,
-      "finalTurn": false,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": false,
-      "facts": false,
-      "source": false,
-      "selection": false,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.6224170000000413,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "please choose your camps",
-      "setup": [],
-      "expected": {
-        "id": "tenk-02802",
-        "category": "typo",
-        "variation": "short",
-        "question": "please choose your camps",
-        "setup": [],
-        "expectedStatuses": [
-          "answer"
-        ],
-        "sourceUrls": [
-          "/apply-online.html#online-enrollment-form"
-        ],
-        "all": [],
-        "any": [
-          "The public page lists these please choose your",
-          "Confirm current availability with admissions."
-        ],
-        "none": [],
-        "sourceRecordId": "apply-online-3553db8f6a",
-        "expectedRecordIds": [
-          "apply-online-3553db8f6a"
-        ],
-        "expectedIntent": null,
-        "expectedEntity": null,
-        "expectedRecordOrCategory": "apply-online-3553db8f6a",
-        "expectedBehavior": "answer-from-verified-record",
-        "confidenceExpectation": {
-          "min": null,
-          "max": 1,
-          "reason": "Record confidence is engine-calibrated, not a probability of correctness."
-        },
-        "expectedCorrection": {
-          "includes": [
-            "please choose your campus"
-          ],
-          "excludes": []
-        },
-        "topicCategory": "application",
-        "variationCategory": "typo",
-        "normalizedKey": "[\"please choose your camps\"]"
-      },
-      "actual": {
-        "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
-        "status": "unknown",
-        "intent": "location",
-        "confidence": 0,
-        "recordIds": [
-          "contact-6961fe9399"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html",
-            "title": "Contact Us & Our Campuses"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "please choose your camps",
-          "interpreted": "choose your camps",
-          "corrections": [
-            {
-              "from": "please choose your camps",
-              "to": "choose your camps",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-06562",
+      "id": "tenk-06516",
       "category": "admissions",
       "pass": false,
       "finalTurn": false,
@@ -1247,14 +1184,14 @@
       "entity": null,
       "correction": null,
       "confidence": true,
-      "durationMs": 2.031582999999955,
+      "durationMs": 2.736167000000023,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
       "question": "please choose your campus explained",
       "setup": [],
       "expected": {
-        "id": "tenk-06562",
+        "id": "tenk-06516",
         "category": "admissions",
         "variation": "short",
         "question": "please choose your campus explained",
@@ -1325,7 +1262,7 @@
       }
     },
     {
-      "id": "tenk-07088",
+      "id": "tenk-06995",
       "category": "admissions",
       "pass": false,
       "finalTurn": false,
@@ -1340,14 +1277,14 @@
       "entity": null,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.965041000000383,
+      "durationMs": 3.936333999999988,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
       "question": "please choose your campus overview",
       "setup": [],
       "expected": {
-        "id": "tenk-07088",
+        "id": "tenk-06995",
         "category": "admissions",
         "variation": "short",
         "question": "please choose your campus overview",
@@ -1432,131 +1369,14 @@
       "source": true,
       "selection": true,
       "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 2.0528750000000855,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about choose the attenance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about choose the attenance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attenance",
-              "to": "attendance",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01580",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.727333999999928,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendacne schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attendacne schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attendacne",
-              "to": "attendance",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01604",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.7200410000000375,
+      "durationMs": 0.8761250000000018,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "nurse's clniic",
+      "question": "nurse's cinic",
       "actual": {
         "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
@@ -1583,11 +1403,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "nurse's clniic",
+          "original": "nurse's cinic",
           "interpreted": "nurse clinic",
           "corrections": [
             {
-              "from": "clniic",
+              "from": "cinic",
               "to": "clinic",
               "kind": "spelling"
             }
@@ -1596,7 +1416,7 @@
       }
     },
     {
-      "id": "tenk-01619",
+      "id": "tenk-01529",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1611,67 +1431,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4732920000001286,
+      "durationMs": 2.1399579999999787,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's pihlosophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's pihlosophy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "pihlosophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01638",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.9284999999999854,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "tell me about choose the attendanec schedule for your child ( please select the option that applies to your child’s program for nursery)",
       "actual": {
         "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
         "status": "answer",
@@ -1695,11 +1459,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "original": "tell me about choose the attendanec schedule for your child ( please select the option that applies to your child’s program for nursery)",
           "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
           "corrections": [
             {
-              "from": "attedance",
+              "from": "attendanec",
               "to": "attendance",
               "kind": "spelling"
             },
@@ -1713,7 +1477,7 @@
       }
     },
     {
-      "id": "tenk-01669",
+      "id": "tenk-01531",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1728,72 +1492,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.049417000000176,
+      "durationMs": 0.7428330000000187,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about our school's pihlosophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about our school's pihlosophy",
-          "interpreted": "tell me about our school philosophy",
-          "corrections": [
-            {
-              "from": "pihlosophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about our school philosophy",
-              "to": "tell me about our school philosophy",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01712",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6440840000000208,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendace schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "choose the attendane schedule for your child ( please select the option that applies to your child’s program for nursery)",
       "actual": {
         "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
         "status": "answer",
@@ -1817,11 +1520,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "choose the attendace schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "original": "choose the attendane schedule for your child ( please select the option that applies to your child’s program for nursery)",
           "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
           "corrections": [
             {
-              "from": "attendace",
+              "from": "attendane",
               "to": "attendance",
               "kind": "spelling"
             }
@@ -1830,7 +1533,7 @@
       }
     },
     {
-      "id": "tenk-01713",
+      "id": "tenk-01602",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1845,67 +1548,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4727499999999054,
+      "durationMs": 0.6584159999999883,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's philsoophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's philsoophy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "philsoophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01799",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.9688329999999041,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about choose the attendace schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "chosoe the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
       "actual": {
         "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
         "status": "answer",
@@ -1929,25 +1576,20 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about choose the attendace schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "original": "chosoe the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
           "corrections": [
             {
-              "from": "attendace",
-              "to": "attendance",
+              "from": "chosoe",
+              "to": "choose",
               "kind": "spelling"
-            },
-            {
-              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "kind": "wording"
             }
           ]
         }
       }
     },
     {
-      "id": "tenk-01803",
+      "id": "tenk-01628",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -1962,455 +1604,45 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.2191660000000866,
+      "durationMs": 1.5675830000000133,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about nurse's clnic",
+      "question": "al qurm camps",
       "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "text": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman +968 24600610 info.alqurum@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
         "status": "answer",
-        "intent": "search",
+        "intent": "location",
         "confidence": 0.96,
         "recordIds": [
-          "spaces-002f1385fc"
+          "contact-08ee738f40"
         ],
         "entityIds": [
-          "space-clinic",
+          "campus-qurum",
           "shomoukh"
         ],
         "language": "en",
         "sources": [
           {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
+            "url": "/contact.html#alqurm",
+            "title": "Al Qurm Campus"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
           "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about nurse's clnic",
-          "interpreted": "tell me about nurse clinic",
-          "corrections": [
-            {
-              "from": "clnic",
-              "to": "clinic",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about nurse clinic",
-              "to": "tell me about nurse clinic",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01810",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.9909999999999854,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about choose the attnedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about choose the attnedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attnedance",
-              "to": "attendance",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01812",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6948330000000169,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "nurse's cliinc",
-      "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-        "status": "answer",
-        "intent": "search",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-002f1385fc"
-        ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "nurse's cliinc",
-          "interpreted": "nurse clinic",
-          "corrections": [
-            {
-              "from": "cliinc",
-              "to": "clinic",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01860",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.9352080000001024,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about our school's phiolsophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about our school's phiolsophy",
-          "interpreted": "tell me about our school philosophy",
-          "corrections": [
-            {
-              "from": "phiolsophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about our school philosophy",
-              "to": "tell me about our school philosophy",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01886",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.43087500000001455,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "our school's phiolsophy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's phiolsophy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "phiolsophy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01906",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6704580000000533,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attedance",
-              "to": "attendance",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01919",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6522500000000946,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attenance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attenance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attenance",
-              "to": "attendance",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-01938",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 3.450749999999971,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about what to expect during your camps tour",
-      "actual": {
-        "text": "We want your visit to be informative, relaxed, and engaging for both you and your child.",
-        "status": "answer",
-        "intent": "visit",
-        "confidence": 0.92,
-        "recordIds": [
-          "book-a-visit-f87adb2438"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/book-a-visit.html",
-            "title": "What to Expect During Your Campus Tour"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Where are your campuses?",
           "How can I contact you?"
         ],
         "query": {
-          "original": "tell me about what to expect during your camps tour",
-          "interpreted": "tell me about what to expect during your camps tour",
+          "original": "al qurm camps",
+          "interpreted": "al qurm camps",
           "corrections": []
         }
       }
     },
     {
-      "id": "tenk-02194",
+      "id": "tenk-01644",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -2425,641 +1657,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.47462500000006,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "our school's philosopy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's philosopy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "philosopy",
-              "to": "philosophy",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02212",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.3002500000000055,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about nurse's clinc",
-      "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-        "status": "answer",
-        "intent": "search",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-002f1385fc"
-        ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about nurse's clinc",
-          "interpreted": "tell me about nurse clinic",
-          "corrections": [
-            {
-              "from": "clinc",
-              "to": "clinic",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about nurse clinic",
-              "to": "tell me about nurse clinic",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02214",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.7442499999999654,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "nurse's clnic",
-      "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-        "status": "answer",
-        "intent": "search",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-002f1385fc"
-        ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "nurse's clnic",
-          "interpreted": "nurse clinic",
-          "corrections": [
-            {
-              "from": "clnic",
-              "to": "clinic",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02246",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6657500000001164,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendnace schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attendnace schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attendnace",
-              "to": "attendance",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02278",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.62887499999988,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendance scedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attendance scedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "scedule",
-              "to": "schedule",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02372",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.6706250000002,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "what to expect during your camps tour",
-      "actual": {
-        "text": "We want your visit to be informative, relaxed, and engaging for both you and your child.",
-        "status": "answer",
-        "intent": "visit",
-        "confidence": 0.92,
-        "recordIds": [
-          "book-a-visit-f87adb2438"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/book-a-visit.html",
-            "title": "What to Expect During Your Campus Tour"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Where are your campuses?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "what to expect during your camps tour",
-          "interpreted": "what to expect during your camps tour",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-02400",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.6067079999997986,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendance schdule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attendance schdule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "schdule",
-              "to": "schedule",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02409",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 2.001541999999972,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about choose the attendacne schedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about choose the attendacne schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attendacne",
-              "to": "attendance",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02418",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": true,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 1.2770410000002812,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "tell me about nurse's cliinc",
-      "actual": {
-        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-        "status": "answer",
-        "intent": "search",
-        "confidence": 0.96,
-        "recordIds": [
-          "spaces-002f1385fc"
-        ],
-        "entityIds": [
-          "space-clinic",
-          "shomoukh"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/spaces.html#all-spaces",
-            "title": "Nurse's Clinic"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "tell me about nurse's cliinc",
-          "interpreted": "tell me about nurse clinic",
-          "corrections": [
-            {
-              "from": "cliinc",
-              "to": "clinic",
-              "kind": "spelling"
-            },
-            {
-              "from": "tell me about nurse clinic",
-              "to": "tell me about nurse clinic",
-              "kind": "wording"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02543",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.5683329999997113,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "our school's philosphy",
-      "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
-        "status": "answer",
-        "intent": "about",
-        "confidence": 0.96,
-        "recordIds": [
-          "index-82ea71f621"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "our school's philosphy",
-          "interpreted": "our school philosophy",
-          "corrections": [
-            {
-              "from": "philosphy",
-              "to": "philosophy",
-              "kind": "alias"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02592",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.7390420000001541,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "choose the attendance shedule for your child ( please select the option that applies to your child’s program for nursery)",
-      "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
-        "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
-        "recordIds": [
-          "apply-online-ee6645c216"
-        ],
-        "entityIds": [],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
-        ],
-        "query": {
-          "original": "choose the attendance shedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "shedule",
-              "to": "schedule",
-              "kind": "spelling"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "tenk-02647",
-      "category": "typo",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": null,
-      "entity": null,
-      "correction": false,
-      "confidence": true,
-      "durationMs": 0.9346659999996518,
+      "durationMs": 0.8997090000000298,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3105,7 +1703,7 @@
       }
     },
     {
-      "id": "tenk-02655",
+      "id": "tenk-01657",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3120,7 +1718,842 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9497079999996458,
+      "durationMs": 1.9722090000000208,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about coose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about coose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "coose",
+              "to": "choose",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01735",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.8460410000000138,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clinci",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clinci",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clinci",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01791",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6926249999999072,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "chooe the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "chooe the attendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "chooe",
+              "to": "choose",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01820",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.015875000000051,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philosopyh",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philosopyh",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philosopyh",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01856",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6934579999999642,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's clniic",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's clniic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "clniic",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01875",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.0466250000001764,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about choose the atetndance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the atetndance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "atetndance",
+              "to": "attendance",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01907",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.9205830000000788,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's philosohpy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's philosohpy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "philosohpy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01950",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.9669589999998607,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about choose the attendane schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the attendane schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "attendane",
+              "to": "attendance",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01981",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.9484170000000631,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about choose the attednance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the attednance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "attednance",
+              "to": "attendance",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-01998",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6556670000002214,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "choose the attnedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "choose the attnedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "attnedance",
+              "to": "attendance",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02029",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.47591699999998127,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "our school's philsoophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "our school's philsoophy",
+          "interpreted": "our school philosophy",
+          "corrections": [
+            {
+              "from": "philsoophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02109",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.150624999999991,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's pihlosophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's pihlosophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "pihlosophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02149",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.9786249999999654,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the attedance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "attedance",
+              "to": "attendance",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02189",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.9301249999998618,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about our school's phliosophy",
+      "actual": {
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "status": "answer",
+        "intent": "about",
+        "confidence": 0.96,
+        "recordIds": [
+          "index-82ea71f621"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about our school's phliosophy",
+          "interpreted": "tell me about our school philosophy",
+          "corrections": [
+            {
+              "from": "phliosophy",
+              "to": "philosophy",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about our school philosophy",
+              "to": "tell me about our school philosophy",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02216",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.1725410000001375,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3166,7 +2599,7 @@
       }
     },
     {
-      "id": "tenk-02737",
+      "id": "tenk-02220",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3178,28 +2611,31 @@
       "source": true,
       "selection": true,
       "intent": null,
-      "entity": null,
+      "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4887079999998605,
+      "durationMs": 0.7176670000001195,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "our school's pilosophy",
+      "question": "nurse's clnic",
       "actual": {
-        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
-        "intent": "about",
+        "intent": "search",
         "confidence": 0.96,
         "recordIds": [
-          "index-82ea71f621"
+          "spaces-002f1385fc"
         ],
-        "entityIds": [],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
         "language": "en",
         "sources": [
           {
-            "url": "/#philosophy",
-            "title": "Our School's Philosophy"
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
           }
         ],
         "suggestions": [
@@ -3209,12 +2645,12 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "our school's pilosophy",
-          "interpreted": "our school philosophy",
+          "original": "nurse's clnic",
+          "interpreted": "nurse clinic",
           "corrections": [
             {
-              "from": "pilosophy",
-              "to": "philosophy",
+              "from": "clnic",
+              "to": "clinic",
               "kind": "spelling"
             }
           ]
@@ -3222,7 +2658,7 @@
       }
     },
     {
-      "id": "tenk-02761",
+      "id": "tenk-02229",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3237,48 +2673,42 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6579169999999976,
+      "durationMs": 1.7193749999999,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "choose the attendanec schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "what to expect during your camps tour",
       "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "text": "We want your visit to be informative, relaxed, and engaging for both you and your child.",
         "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
+        "intent": "visit",
+        "confidence": 0.92,
         "recordIds": [
-          "apply-online-ee6645c216"
+          "book-a-visit-f87adb2438"
         ],
         "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+            "url": "/book-a-visit.html",
+            "title": "What to Expect During Your Campus Tour"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
-          "Can I book a tour?",
-          "Where are your campuses?"
+          "Where are your campuses?",
+          "How can I contact you?"
         ],
         "query": {
-          "original": "choose the attendanec schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-          "corrections": [
-            {
-              "from": "attendanec",
-              "to": "attendance",
-              "kind": "spelling"
-            }
-          ]
+          "original": "what to expect during your camps tour",
+          "interpreted": "what to expect during your camps tour",
+          "corrections": []
         }
       }
     },
     {
-      "id": "tenk-02784",
+      "id": "tenk-02249",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3290,28 +2720,31 @@
       "source": true,
       "selection": true,
       "intent": null,
-      "entity": null,
+      "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9529159999997319,
+      "durationMs": 1.1755420000001777,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about choose the attndance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "tell me about nurse's clinci",
       "actual": {
-        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
-        "intent": "hours",
-        "confidence": 0.95,
+        "intent": "search",
+        "confidence": 0.96,
         "recordIds": [
-          "apply-online-ee6645c216"
+          "spaces-002f1385fc"
         ],
-        "entityIds": [],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
         "language": "en",
         "sources": [
           {
-            "url": "/apply-online.html#online-enrollment-form",
-            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
           }
         ],
         "suggestions": [
@@ -3321,17 +2754,17 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about choose the attndance schedule for your child ( please select the option that applies to your child’s program for nursery)",
-          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "original": "tell me about nurse's clinci",
+          "interpreted": "tell me about nurse clinic",
           "corrections": [
             {
-              "from": "attndance",
-              "to": "attendance",
+              "from": "clinci",
+              "to": "clinic",
               "kind": "spelling"
             },
             {
-              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
-              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "from": "tell me about nurse clinic",
+              "to": "tell me about nurse clinic",
               "kind": "wording"
             }
           ]
@@ -3339,7 +2772,7 @@
       }
     },
     {
-      "id": "tenk-02787",
+      "id": "tenk-02372",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3354,7 +2787,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4753329999998641,
+      "durationMs": 0.4580000000000837,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3395,7 +2828,7 @@
       }
     },
     {
-      "id": "tenk-02816",
+      "id": "tenk-02381",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3410,45 +2843,51 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.4576250000000073,
+      "durationMs": 0.7311670000003687,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "al mouj camps",
+      "question": "nurse's cliic",
       "actual": {
-        "text": "Al Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman +968 24555515 info.almouj@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
         "status": "answer",
-        "intent": "location",
+        "intent": "search",
         "confidence": 0.96,
         "recordIds": [
-          "contact-10794d58df"
+          "spaces-002f1385fc"
         ],
         "entityIds": [
-          "campus-mouj",
+          "space-clinic",
           "shomoukh"
         ],
         "language": "en",
         "sources": [
           {
-            "url": "/contact.html#almouj",
-            "title": "Al Mouj Campus"
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
           "Can I book a tour?",
-          "How can I contact you?"
+          "Where are your campuses?"
         ],
         "query": {
-          "original": "al mouj camps",
-          "interpreted": "al mouj camps",
-          "corrections": []
+          "original": "nurse's cliic",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "cliic",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
         }
       }
     },
     {
-      "id": "tenk-02831",
+      "id": "tenk-02476",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3463,11 +2902,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6461249999997563,
+      "durationMs": 0.6918329999998605,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "choose the atendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "question": "choose the attednance schedule for your child ( please select the option that applies to your child’s program for nursery)",
       "actual": {
         "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
         "status": "answer",
@@ -3491,11 +2930,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "choose the atendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "original": "choose the attednance schedule for your child ( please select the option that applies to your child’s program for nursery)",
           "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
           "corrections": [
             {
-              "from": "atendance",
+              "from": "attednance",
               "to": "attendance",
               "kind": "spelling"
             }
@@ -3504,7 +2943,7 @@
       }
     },
     {
-      "id": "tenk-02941",
+      "id": "tenk-02514",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3519,7 +2958,122 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9452079999996386,
+      "durationMs": 0.730916999999863,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "choose the attendance shedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "choose the attendance shedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "shedule",
+              "to": "schedule",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02522",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.709957999999915,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "nurse's cliinc",
+      "actual": {
+        "text": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
+        "status": "answer",
+        "intent": "search",
+        "confidence": 0.96,
+        "recordIds": [
+          "spaces-002f1385fc"
+        ],
+        "entityIds": [
+          "space-clinic",
+          "shomoukh"
+        ],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/spaces.html#all-spaces",
+            "title": "Nurse's Clinic"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "nurse's cliinc",
+          "interpreted": "nurse clinic",
+          "corrections": [
+            {
+              "from": "cliinc",
+              "to": "clinic",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02526",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.3337500000002365,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3565,7 +3119,7 @@
       }
     },
     {
-      "id": "tenk-02989",
+      "id": "tenk-02651",
       "category": "typo",
       "pass": true,
       "finalTurn": true,
@@ -3580,11 +3134,11 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.9179169999997612,
+      "durationMs": 0.9177500000000691,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "tell me about our school's philoosphy",
+      "question": "tell me about our school's philoophy",
       "actual": {
         "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
@@ -3608,11 +3162,11 @@
           "Where are your campuses?"
         ],
         "query": {
-          "original": "tell me about our school's philoosphy",
+          "original": "tell me about our school's philoophy",
           "interpreted": "tell me about our school philosophy",
           "corrections": [
             {
-              "from": "philoosphy",
+              "from": "philoophy",
               "to": "philosophy",
               "kind": "spelling"
             },
@@ -3626,8 +3180,8 @@
       }
     },
     {
-      "id": "tenk-05091",
-      "category": "campus",
+      "id": "tenk-02780",
+      "category": "typo",
       "pass": true,
       "finalTurn": true,
       "setupCorrect": null,
@@ -3637,55 +3191,53 @@
       "facts": true,
       "source": true,
       "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
+      "intent": null,
+      "entity": null,
+      "correction": false,
       "confidence": true,
-      "durationMs": 1.018000000000029,
+      "durationMs": 0.49195899999995163,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "where can i find alqurum open time",
+      "question": "our school's philospohy",
       "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "text": "Our school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE",
         "status": "answer",
-        "intent": "location",
+        "intent": "about",
         "confidence": 0.96,
         "recordIds": [
-          "contact-08ee738f40"
+          "index-82ea71f621"
         ],
-        "entityIds": [
-          "campus-qurum"
-        ],
+        "entityIds": [],
         "language": "en",
         "sources": [
           {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
+            "url": "/#philosophy",
+            "title": "Our School's Philosophy"
           }
         ],
         "suggestions": [
           "What programs are available?",
           "How can I apply?",
           "Can I book a tour?",
-          "How can I contact you?"
+          "Where are your campuses?"
         ],
         "query": {
-          "original": "where can i find alqurum open time",
-          "interpreted": "where can i find al qurm open time",
+          "original": "our school's philospohy",
+          "interpreted": "our school philosophy",
           "corrections": [
             {
-              "from": "alqurum",
-              "to": "al qurm",
-              "kind": "alias"
+              "from": "philospohy",
+              "to": "philosophy",
+              "kind": "spelling"
             }
           ]
         }
       }
     },
     {
-      "id": "tenk-05216",
-      "category": "campus",
+      "id": "tenk-02792",
+      "category": "typo",
       "pass": true,
       "finalTurn": true,
       "setupCorrect": null,
@@ -3695,17 +3247,78 @@
       "facts": true,
       "source": true,
       "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
+      "intent": null,
+      "entity": null,
+      "correction": false,
       "confidence": true,
-      "durationMs": 0.97137500000008,
+      "durationMs": 2.070083000000068,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "where can i find al qurm campus open time",
+      "question": "tell me about choose the atendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
       "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the atendance schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "atendance",
+              "to": "attendance",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02798",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": true,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 2.7224160000000666,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about al qurm camps",
+      "actual": {
+        "text": "Al Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman +968 24600610 info.alqurum@shomoukh.com Sun – Thu: 7:00 AM – 4:00 PM",
         "status": "answer",
         "intent": "location",
         "confidence": 0.96,
@@ -3713,7 +3326,8 @@
           "contact-08ee738f40"
         ],
         "entityIds": [
-          "campus-qurum"
+          "campus-qurum",
+          "shomoukh"
         ],
         "language": "en",
         "sources": [
@@ -3729,14 +3343,131 @@
           "How can I contact you?"
         ],
         "query": {
-          "original": "where can i find al qurm campus open time",
-          "interpreted": "where can i find al qurm campus open time",
+          "original": "tell me about al qurm camps",
+          "interpreted": "tell me about al qurm camps",
           "corrections": []
         }
       }
     },
     {
-      "id": "tenk-05242",
+      "id": "tenk-02864",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 1.9909159999997428,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "tell me about choose the attendance shcedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "tell me about choose the attendance shcedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "shcedule",
+              "to": "schedule",
+              "kind": "spelling"
+            },
+            {
+              "from": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "to": "tell me about choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+              "kind": "wording"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-02899",
+      "category": "typo",
+      "pass": true,
+      "finalTurn": true,
+      "setupCorrect": null,
+      "setupTurns": 0,
+      "setupTurnsPassed": 0,
+      "status": true,
+      "facts": true,
+      "source": true,
+      "selection": true,
+      "intent": null,
+      "entity": null,
+      "correction": false,
+      "confidence": true,
+      "durationMs": 0.6564579999999296,
+      "unsupported": false,
+      "falsePositive": false,
+      "context": false,
+      "question": "choose the attenadnce schedule for your child ( please select the option that applies to your child’s program for nursery)",
+      "actual": {
+        "text": "The public page lists these choose the attendance schedule for your child ( please select the option that applies to your child’s program for nursery) options: 3 Days a week; 4 Days a week; 5 Days a week. Confirm current availability with admissions.",
+        "status": "answer",
+        "intent": "hours",
+        "confidence": 0.95,
+        "recordIds": [
+          "apply-online-ee6645c216"
+        ],
+        "entityIds": [],
+        "language": "en",
+        "sources": [
+          {
+            "url": "/apply-online.html#online-enrollment-form",
+            "title": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)"
+          }
+        ],
+        "suggestions": [
+          "What programs are available?",
+          "How can I apply?",
+          "Can I book a tour?",
+          "Where are your campuses?"
+        ],
+        "query": {
+          "original": "choose the attenadnce schedule for your child ( please select the option that applies to your child’s program for nursery)",
+          "interpreted": "choose the attendance schedule for your child please select the option that applies to your child program for nursery",
+          "corrections": [
+            {
+              "from": "attenadnce",
+              "to": "attendance",
+              "kind": "spelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tenk-04536",
       "category": "campus",
       "pass": true,
       "finalTurn": true,
@@ -3751,27 +3482,27 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.1502500000005966,
+      "durationMs": 1.1390830000000278,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
-      "question": "where can i find shatti al qurum open time",
+      "question": "where can i find mouj campus open time",
       "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
+        "text": "Al Mouj Campus\nAl Mouj Main Street, Main Community Hub, Muscat, Sultanate of Oman\nPhone: +968 24555515\nEmail: info.almouj@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
         "status": "answer",
         "intent": "location",
         "confidence": 0.96,
         "recordIds": [
-          "contact-08ee738f40"
+          "contact-10794d58df"
         ],
         "entityIds": [
-          "campus-qurum"
+          "campus-mouj"
         ],
         "language": "en",
         "sources": [
           {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
+            "url": "/contact.html#almouj",
+            "title": "Al Mouj Campus"
           }
         ],
         "suggestions": [
@@ -3781,20 +3512,14 @@
           "How can I contact you?"
         ],
         "query": {
-          "original": "where can i find shatti al qurum open time",
-          "interpreted": "where can i find shatti al qurm open time",
-          "corrections": [
-            {
-              "from": "qurum",
-              "to": "qurm",
-              "kind": "alias"
-            }
-          ]
+          "original": "where can i find mouj campus open time",
+          "interpreted": "where can i find mouj campus open time",
+          "corrections": []
         }
       }
     },
     {
-      "id": "tenk-05265",
+      "id": "tenk-04972",
       "category": "campus",
       "pass": true,
       "finalTurn": true,
@@ -3809,7 +3534,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9569999999994252,
+      "durationMs": 0.9739999999992506,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3846,7 +3571,7 @@
       }
     },
     {
-      "id": "tenk-05567",
+      "id": "tenk-05212",
       "category": "campus",
       "pass": true,
       "finalTurn": true,
@@ -3861,59 +3586,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9170000000003711,
-      "unsupported": false,
-      "falsePositive": false,
-      "context": false,
-      "question": "where can i find al qurm open time",
-      "actual": {
-        "text": "Al Qurm Campus\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat, Sultanate of Oman\nPhone: +968 24600610\nEmail: info.alqurum@shomoukh.com\nPublished office hours: Sun – Thu: 7:00 AM – 4:00 PM",
-        "status": "answer",
-        "intent": "location",
-        "confidence": 0.96,
-        "recordIds": [
-          "contact-08ee738f40"
-        ],
-        "entityIds": [
-          "campus-qurum"
-        ],
-        "language": "en",
-        "sources": [
-          {
-            "url": "/contact.html#alqurm",
-            "title": "Al Qurm Campus"
-          }
-        ],
-        "suggestions": [
-          "What programs are available?",
-          "How can I apply?",
-          "Can I book a tour?",
-          "How can I contact you?"
-        ],
-        "query": {
-          "original": "where can i find al qurm open time",
-          "interpreted": "where can i find al qurm open time",
-          "corrections": []
-        }
-      }
-    },
-    {
-      "id": "tenk-05697",
-      "category": "campus",
-      "pass": true,
-      "finalTurn": true,
-      "setupCorrect": null,
-      "setupTurns": 0,
-      "setupTurnsPassed": 0,
-      "status": true,
-      "facts": true,
-      "source": true,
-      "selection": true,
-      "intent": false,
-      "entity": true,
-      "correction": null,
-      "confidence": true,
-      "durationMs": 0.9392920000000231,
+      "durationMs": 0.9305000000003929,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3956,9 +3629,9 @@
       }
     }
   ],
-  "datasetSha256": "5657e57ec609c5ddc8d08e71ef4d0d752973dd116f8bc4df06231e348337a71e",
+  "datasetSha256": "5958e96c31320a09221d8052bffa276aa4e2852041f07026486287f849db7f5b",
   "holdout": {
-    "evaluatedAt": "2026-10-28T05:30:22.232Z",
+    "evaluatedAt": "2026-10-28T05:59:39.837Z",
     "corpusFingerprint": "cc5b9df82275df6ced34c753c6189e7e77ee76a639d686082b7d0e39c7768db4",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -3971,16 +3644,16 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 18.541791999999987,
+    "initializationMs": 20.555167000000438,
     "summary": {
       "cases": 100,
-      "passed": 95,
-      "failed": 5,
-      "accuracy": 0.95,
+      "passed": 93,
+      "failed": 7,
+      "accuracy": 0.93,
       "finalTurn": {
-        "correct": 95,
+        "correct": 93,
         "total": 100,
-        "accuracy": 0.95
+        "accuracy": 0.93
       },
       "precedingConversation": {
         "correct": 0,
@@ -3992,14 +3665,14 @@
         "total": 0
       },
       "answerSelection": {
-        "correct": 96,
+        "correct": 94,
         "total": 100,
-        "accuracy": 0.96
+        "accuracy": 0.94
       },
       "sourceAttribution": {
-        "correct": 67,
+        "correct": 65,
         "total": 70,
-        "accuracy": 0.9571428571428572
+        "accuracy": 0.9285714285714286
       },
       "recordSelection": {
         "correct": 0,
@@ -4028,8 +3701,8 @@
       },
       "unsupportedCases": 30,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.221456259999959,
-      "p95ResponseMs": 1.854750000000422
+      "meanResponseMs": 1.3586549499999092,
+      "p95ResponseMs": 2.575249999999869
     },
     "byCategory": {
       "holdout-campus-contact": {
@@ -4088,8 +3761,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1381209000001036,
-        "p95ResponseMs": 1.88537499999984
+        "meanResponseMs": 1.2490998999997829,
+        "p95ResponseMs": 2.618457999999009
       },
       "holdout-leadership": {
         "cases": 10,
@@ -4147,8 +3820,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1636540999998033,
-        "p95ResponseMs": 2.5642079999997804
+        "meanResponseMs": 1.2521957999999358,
+        "p95ResponseMs": 2.575249999999869
       },
       "holdout-unsupported-leadership": {
         "cases": 10,
@@ -4206,8 +3879,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1579751000001124,
-        "p95ResponseMs": 1.854750000000422
+        "meanResponseMs": 1.2741666000001715,
+        "p95ResponseMs": 1.8585000000002765
       },
       "holdout-organization": {
         "cases": 10,
@@ -4265,18 +3938,18 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.005145799999991,
-        "p95ResponseMs": 1.5971669999998994
+        "meanResponseMs": 1.0230292000005647,
+        "p95ResponseMs": 1.5886250000003201
       },
       "holdout-admission": {
         "cases": 10,
-        "passed": 8,
-        "failed": 2,
-        "accuracy": 0.8,
+        "passed": 7,
+        "failed": 3,
+        "accuracy": 0.7,
         "finalTurn": {
-          "correct": 8,
+          "correct": 7,
           "total": 10,
-          "accuracy": 0.8
+          "accuracy": 0.7
         },
         "precedingConversation": {
           "correct": 0,
@@ -4288,14 +3961,14 @@
           "total": 0
         },
         "answerSelection": {
-          "correct": 8,
+          "correct": 7,
           "total": 10,
-          "accuracy": 0.8
+          "accuracy": 0.7
         },
         "sourceAttribution": {
-          "correct": 9,
+          "correct": 7,
           "total": 10,
-          "accuracy": 0.9
+          "accuracy": 0.7
         },
         "recordSelection": {
           "correct": 0,
@@ -4324,8 +3997,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.363650200000302,
-        "p95ResponseMs": 1.7852089999996679
+        "meanResponseMs": 1.7200123000000531,
+        "p95ResponseMs": 3.1317500000004657
       },
       "holdout-program-services": {
         "cases": 10,
@@ -4383,18 +4056,18 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.4987872999998217,
-        "p95ResponseMs": 2.9645419999997102
+        "meanResponseMs": 1.8205166999996436,
+        "p95ResponseMs": 3.460124999999607
       },
       "holdout-visit-parents": {
         "cases": 10,
-        "passed": 10,
-        "failed": 0,
-        "accuracy": 1,
+        "passed": 9,
+        "failed": 1,
+        "accuracy": 0.9,
         "finalTurn": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "precedingConversation": {
           "correct": 0,
@@ -4406,9 +4079,9 @@
           "total": 0
         },
         "answerSelection": {
-          "correct": 10,
+          "correct": 9,
           "total": 10,
-          "accuracy": 1
+          "accuracy": 0.9
         },
         "sourceAttribution": {
           "correct": 10,
@@ -4442,8 +4115,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2225460000001476,
-        "p95ResponseMs": 1.3513750000001892
+        "meanResponseMs": 1.3951665999997203,
+        "p95ResponseMs": 2.4027919999989535
       },
       "holdout-context": {
         "cases": 10,
@@ -4501,8 +4174,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.9132914999996501,
-        "p95ResponseMs": 1.6037089999990712
+        "meanResponseMs": 0.8919497999999294,
+        "p95ResponseMs": 1.483790999998746
       },
       "holdout-context-unknown": {
         "cases": 10,
@@ -4560,8 +4233,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1330582999999024,
-        "p95ResponseMs": 1.7084579999991547
+        "meanResponseMs": 1.1842957999995634,
+        "p95ResponseMs": 1.6993750000001455
       },
       "holdout-unknown-conflicting": {
         "cases": 10,
@@ -4619,8 +4292,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.6183333999997558,
-        "p95ResponseMs": 2.684417000000394
+        "meanResponseMs": 1.776116799999727,
+        "p95ResponseMs": 2.3768749999999272
       }
     },
     "context": {
@@ -4679,8 +4352,8 @@
       },
       "unsupportedCases": 10,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.0231748999997763,
-      "p95ResponseMs": 1.7084579999991547
+      "meanResponseMs": 1.0381227999997464,
+      "p95ResponseMs": 1.6993750000001455
     },
     "failures": [
       {
@@ -4699,7 +4372,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.7852089999996679,
+        "durationMs": 3.1317500000004657,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4766,15 +4439,15 @@
         "setupCorrect": null,
         "setupTurns": 0,
         "setupTurnsPassed": 0,
-        "status": true,
+        "status": false,
         "facts": false,
-        "source": true,
+        "source": false,
         "selection": null,
         "intent": null,
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.2826249999998254,
+        "durationMs": 2.178250000000844,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4803,19 +4476,19 @@
           "confidenceExpectation": null
         },
         "actual": {
-          "text": "Student Registration Form. Please fill out the details below carefully. Your application is sent directly to the admissions team at your chosen campus.",
-          "status": "answer",
-          "intent": "application",
-          "confidence": 0.9,
+          "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+          "status": "unknown",
+          "intent": "search",
+          "confidence": 0,
           "recordIds": [
-            "apply-online-36fe08ebc5"
+            "contact-6961fe9399"
           ],
           "entityIds": [],
           "language": "en",
           "sources": [
             {
-              "url": "/apply-online.html",
-              "title": "Student Registration Form"
+              "url": "/contact.html",
+              "title": "Contact Us & Our Campuses"
             }
           ],
           "suggestions": [
@@ -4827,6 +4500,79 @@
           "query": {
             "original": "After sending the form, when will someone get back to me?",
             "interpreted": "after sending the form when will someone get back to me",
+            "corrections": []
+          }
+        }
+      },
+      {
+        "id": "holdout-050",
+        "category": "holdout-admission",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": false,
+        "facts": false,
+        "source": false,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.761916999999812,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Does the application ask about allergies?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-050",
+          "category": "admission",
+          "variationCategory": "holdout-admission",
+          "question": "Does the application ask about allergies?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "Allergies"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/apply-online.html#online-enrollment-form"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "I couldn’t find a reliable answer to that question in the public website content. Please contact the nursery to confirm.",
+          "status": "unknown",
+          "intent": "apply",
+          "confidence": 0,
+          "recordIds": [
+            "contact-6961fe9399"
+          ],
+          "entityIds": [],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/contact.html",
+              "title": "Contact Us & Our Campuses"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "Can I book a tour?",
+            "Where are your campuses?",
+            "How can I contact you?"
+          ],
+          "query": {
+            "original": "Does the application ask about allergies?",
+            "interpreted": "does the application ask about allergies",
             "corrections": []
           }
         }
@@ -4847,7 +4593,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.1329999999998108,
+        "durationMs": 1.300959000000148,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4925,7 +4671,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.0588329999991402,
+        "durationMs": 1.1423339999983,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -5008,7 +4754,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.721125000000029,
+        "durationMs": 1.8869579999991402,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -5064,12 +4810,89 @@
             "corrections": []
           }
         }
+      },
+      {
+        "id": "holdout-063",
+        "category": "holdout-visit-parents",
+        "pass": false,
+        "finalTurn": false,
+        "setupCorrect": null,
+        "setupTurns": 0,
+        "setupTurnsPassed": 0,
+        "status": true,
+        "facts": false,
+        "source": true,
+        "selection": null,
+        "intent": null,
+        "entity": null,
+        "correction": null,
+        "confidence": true,
+        "durationMs": 1.3921659999996336,
+        "unsupported": false,
+        "falsePositive": false,
+        "context": false,
+        "question": "Where can I send a campus visit request?",
+        "setup": [],
+        "expected": {
+          "id": "holdout-063",
+          "category": "visit-parents",
+          "variationCategory": "holdout-visit-parents",
+          "question": "Where can I send a campus visit request?",
+          "setup": [],
+          "expectedStatuses": [
+            "answer"
+          ],
+          "all": [
+            "form"
+          ],
+          "any": [],
+          "none": [],
+          "sourceUrls": [
+            "/book-a-visit.html",
+            "/book-a-visit.html#tour-booking-form"
+          ],
+          "expectedIntent": null,
+          "expectedEntity": null,
+          "expectedBehavior": "Return only source-supported facts for the requested scope; clarify missing or conflicting information.",
+          "confidenceExpectation": null
+        },
+        "actual": {
+          "text": "Book a visit. Our Shomoukh team is eager to welcome you. Book a tour and visit Shomoukh nursery school together with your child during working hours.",
+          "status": "answer",
+          "intent": "visit",
+          "confidence": 0.9,
+          "recordIds": [
+            "book-a-visit-058362f1b4"
+          ],
+          "entityIds": [
+            "service-tour",
+            "shomoukh"
+          ],
+          "language": "en",
+          "sources": [
+            {
+              "url": "/book-a-visit.html",
+              "title": "Book a visit"
+            }
+          ],
+          "suggestions": [
+            "What programs are available?",
+            "How can I apply?",
+            "Where are your campuses?",
+            "How can I contact you?"
+          ],
+          "query": {
+            "original": "Where can I send a campus visit request?",
+            "interpreted": "where can i send a campus visit request",
+            "corrections": []
+          }
+        }
       }
     ],
     "metricFailures": []
   },
   "ambiguity": {
-    "evaluatedAt": "2026-10-28T05:30:22.252Z",
+    "evaluatedAt": "2026-10-28T05:59:39.859Z",
     "corpusFingerprint": "70324a8b9cb5886f3308296c714f78919c9dde803b9f372404a39aa3587ad0a5",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -5082,7 +4905,7 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 17.52258299999994,
+    "initializationMs": 18.610791999999492,
     "summary": {
       "cases": 2,
       "passed": 2,
@@ -5139,8 +4962,8 @@
       },
       "unsupportedCases": 2,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8503545000003214,
-      "p95ResponseMs": 0.9116250000006403
+      "meanResponseMs": 0.9910415000003923,
+      "p95ResponseMs": 1.067666000000827
     },
     "byCategory": {
       "ambiguous-role": {
@@ -5199,8 +5022,8 @@
         },
         "unsupportedCases": 2,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.8503545000003214,
-        "p95ResponseMs": 0.9116250000006403
+        "meanResponseMs": 0.9910415000003923,
+        "p95ResponseMs": 1.067666000000827
       }
     },
     "context": {

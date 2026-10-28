@@ -12,7 +12,7 @@ const DEFINITIONS = [
   ['program-toddlers','program','Toddlers',['toddler','toddlers'],['Toddlers (12–35 months)']],
   ['program-preschoolers','program','Preschoolers',['preschool','preschooler','preschoolers'],['Preschoolers (36–48 months)']],
   ['service-flex-care','service','Flex-Care',['flex care','flexcare','extended care','pre care','after care'],['Flex-Care (6–48 months)']],
-  ['service-tour','service','Campus tours',['tour','tours','visit','booking','book tour'],['Schedule a Campus Visit','45-Minute Guided Tour','Book Your Visit','Bring Your Child']],
+  ['service-tour','service','Campus tours',['tour','tours','visit','booking','book tour'],['45-Minute Guided Tour','Book a visit','Bring Your Child']],
   ['service-admissions','service','Admissions and registration',['admissions','admission','apply','registration','enrollment','enrolment'],['Admissions & Enrollment','Education for Your Child at Shomoukh','Online Enrollment Application','Three Steps to Enrollment']],
   ['service-parent-portal','service','Parents portal',['parents portal','parent portal','parent app','login'],['Shomoukh Parents Portal','Web-App','iOS App','Android App','First Time Logging In?']],
   ['service-transport','service','Transportation request',['transport','transportation','bus','bus service'],['Transportation Details']],

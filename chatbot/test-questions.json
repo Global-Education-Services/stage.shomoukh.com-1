@@ -189,29 +189,15 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Online Enrollment Application",
-    "expectedRecordId": "apply-online-bfa6e4ab42",
+    "question": "Tell me about Apply Online",
+    "expectedRecordId": "apply-online-35634ee997",
     "expectedSourceUrl": "/apply-online.html",
     "language": "en",
     "requiresQualification": true
   },
   {
-    "question": "Tell me about Student Registration Form",
-    "expectedRecordId": "apply-online-36fe08ebc5",
-    "expectedSourceUrl": "/apply-online.html",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Need Help With Your Application?",
-    "expectedRecordId": "apply-online-2e1f9c752f",
-    "expectedSourceUrl": "/apply-online.html",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Online Enrollment Application — form requirements",
-    "expectedRecordId": "apply-online-3eec9f6e73",
+    "question": "Tell me about Apply Online — form requirements",
+    "expectedRecordId": "apply-online-64c08035a5",
     "expectedSourceUrl": "/apply-online.html#online-enrollment-form",
     "language": "en",
     "requiresQualification": false
@@ -266,22 +252,8 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Schedule a Campus Visit",
-    "expectedRecordId": "book-a-visit-a772764a01",
-    "expectedSourceUrl": "/book-a-visit.html",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Our Shomoukh Team is Eager to Welcome You",
-    "expectedRecordId": "book-a-visit-e32967552d",
-    "expectedSourceUrl": "/book-a-visit.html",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Book Your Visit",
-    "expectedRecordId": "book-a-visit-bca655a071",
+    "question": "Tell me about Book a visit",
+    "expectedRecordId": "book-a-visit-058362f1b4",
     "expectedSourceUrl": "/book-a-visit.html",
     "language": "en",
     "requiresQualification": false
@@ -315,8 +287,8 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Schedule a Campus Visit — form requirements",
-    "expectedRecordId": "book-a-visit-bba0c4b20b",
+    "question": "Tell me about Book a visit — form requirements",
+    "expectedRecordId": "book-a-visit-811a2f72c9",
     "expectedSourceUrl": "/book-a-visit.html#tour-booking-form",
     "language": "en",
     "requiresQualification": false

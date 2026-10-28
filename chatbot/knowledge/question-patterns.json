@@ -189,7 +189,7 @@
     "topic": "visits",
     "status": "answer",
     "recordTitles": [
-      "Book Your Visit"
+      "Book a visit"
     ],
     "questions": [
       "visit",
@@ -200,7 +200,7 @@
       "appt tour"
     ],
     "textAny": [
-      "appointment"
+      "tour"
     ]
   },
   {

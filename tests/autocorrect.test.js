@@ -6,7 +6,7 @@ const knowledge=JSON.parse(fs.readFileSync(new URL('../chatbot/knowledge.json',i
 const engine=()=>createChatEngine(knowledge);
 const examples=[
  ['whr r u',/Muscat|Mouj|Qurm/],['ur ph num',/24555515/],['alqurm addres',/Al Suraj/],['opning hrs',/7:00 AM/],
- ['how2apply',/application|enrollment/i],['admisn docs',/Birth Certificate/],['buk a vist',/appointment/],['wot progrms',/EYFS|Reggio/],
+ ['how2apply',/application|enrollment/i],['admisn docs',/Birth Certificate/],['buk a vist',/tour/],['wot progrms',/EYFS|Reggio/],
  ['whos managin director',/Jinan/],['whois ceo',/Janat/],['parent poratl',/parent|portal|app/i],['facilites',/space|environment|classroom|garden|Piazza/i],
  ['mision',/childcare|creativity/i],['art activites',/art|paint|creativ/i]
 ];

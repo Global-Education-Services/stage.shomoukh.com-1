@@ -449,8 +449,7 @@
         "book tour"
       ],
       "recordIds": [
-        "book-a-visit-a772764a01",
-        "book-a-visit-bca655a071",
+        "book-a-visit-058362f1b4",
         "book-a-visit-d46e3ee6fe",
         "book-a-visit-48867e20dd"
       ],
@@ -477,14 +476,12 @@
         "admissions-f447d96292",
         "admissions-d1b8aef5b1",
         "admissions-0dbb68cde9",
-        "apply-online-bfa6e4ab42",
         "index-456495330e"
       ],
       "attributes": {},
       "sourceUrls": [
         "/admissions.html",
         "/admissions.html#steps",
-        "/apply-online.html",
         "/#admissions-overview"
       ],
       "organizationId": "shomoukh"
@@ -1413,8 +1410,7 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "book-a-visit-a772764a01",
-        "book-a-visit-bca655a071",
+        "book-a-visit-058362f1b4",
         "book-a-visit-d46e3ee6fe",
         "book-a-visit-48867e20dd"
       ],
@@ -1430,13 +1426,11 @@
         "admissions-f447d96292",
         "admissions-d1b8aef5b1",
         "admissions-0dbb68cde9",
-        "apply-online-bfa6e4ab42",
         "index-456495330e"
       ],
       "sourceUrls": [
         "/admissions.html",
         "/admissions.html#steps",
-        "/apply-online.html",
         "/#admissions-overview"
       ]
     },
@@ -2192,7 +2186,7 @@
     "relationships": 46,
     "verifiedAttributeAssertions": 31,
     "uniqueAttributeFacts": 23,
-    "knowledgeRecords": 185
+    "knowledgeRecords": 181
   },
   "scopeNotes": [
     "Relationships are publication/listing relationships, not inferred legal ownership.",

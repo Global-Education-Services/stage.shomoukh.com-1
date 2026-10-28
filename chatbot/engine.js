@@ -207,7 +207,7 @@ export function createChatEngine(knowledge = {}) {
       [/\b(?:how long|duration|set aside)\b.*\b(?:guided|visit|tour)\b/,'45-Minute Guided Tour'],
       [/\bchild\b.*\b(?:come along|accompany|join)\b.*\btour\b/,'Bring Your Child'],
       [/\btour\b.*\b(?:see|explore)\b.*\bateliers\b/,'45-Minute Guided Tour'],
-      [/\b(?:send|submit)\b.*\b(?:visit|tour)\b.*\brequest\b/,'Book Your Visit'],
+      [/\b(?:send|submit)\b.*\b(?:visit|tour)\b.*\brequest\b/,'Book a visit'],
       [/\b(?:message|messaging)\b.*\b(?:classroom|teacher|educator)\b/,'Direct Messaging'],
       [/\b(?:parent|portal|app)\b.*\b(?:photos|photographs)\b/,'Learning Stories & Photos'],
       [/\b(?:term dates|school celebrations)\b/,'Academic Calendar'],
@@ -306,7 +306,7 @@ export function createChatEngine(knowledge = {}) {
       if(duration)return result(`${duration.title}. ${duration.answer}`,'answer','visit',0.95,[duration]);
     }
     if(intent==='visit' && tokens.every(token=>['tour','book','appointment','time','working','hour','during','al','mouj','qurm','campus','nursery','shomoukh'].includes(token))) {
-      const booking=records.find(record=>record.title==='Book Your Visit' && record.url==='/book-a-visit.html');
+      const booking=records.find(record=>record.title==='Book a visit' && record.url==='/book-a-visit.html');
       if(booking) {
         context={intent:'visit',entities:campusEntity?[campusEntity]:[],recordId:booking.id};
         return result(`${booking.answer} Use the linked visit page to request a tour${campusRecord?' of '+campusRecord.title:''}.`,'answer','visit',0.95,[booking,...(campusRecord?[campusRecord]:[])]);
