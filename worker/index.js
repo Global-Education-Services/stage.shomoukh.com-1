@@ -19,6 +19,11 @@ export default {
     } else {
       // Static pages; the assets config serves 404.html for unknown paths.
       response = await env.ASSETS.fetch(request);
+      // Unknown addresses under /ar/ get the Arabic not-found page.
+      if (response.status === 404 && (path === '/ar' || path.startsWith('/ar/'))) {
+        const arabic = await env.ASSETS.fetch(new Request(new URL('/ar/404', url), {headers: request.headers}));
+        if (arabic.ok) response = new Response(arabic.body, {status: 404, headers: arabic.headers});
+      }
     }
     const secured = new Response([204, 205, 304].includes(response.status) ? null : response.body, response);
     for (const [key, value] of Object.entries(securityHeaders)) secured.headers.set(key, value);

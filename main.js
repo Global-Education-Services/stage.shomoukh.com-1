@@ -2,6 +2,8 @@ import {focusDialog, releaseDialog} from './site/dialog-focus.js';
 import { installChatbot } from './chatbot/loader.js';
 import {installForms} from './site/form-submission.js';
 import {publicPath} from './site/public-path.js';
+import {alternatePath, isArabic, localizeValidation, rememberLanguage, t} from './site/i18n.js';
+import {arabicStudentLifeData} from './site/ateliers-ar.js';
 
 installChatbot();
 
@@ -129,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (searchForm) {
     const results = document.createElement('section');
     results.className = 'site-search-results';
-    results.setAttribute('aria-label', 'Search results');
+    results.setAttribute('aria-label', t('searchResults'));
     const status = document.createElement('p');
     status.setAttribute('role', 'status');
     const list = document.createElement('ul');
@@ -141,26 +143,26 @@ document.addEventListener('DOMContentLoaded', () => {
       const query = searchInput.value.trim();
       const version = ++searchVersion;
       list.replaceChildren();
-      if (!query) { status.textContent = 'Enter a topic to search this website.'; searchInput.focus(); return; }
-      status.textContent = 'Searching website content…';
+      if (!query) { status.textContent = t('searchEmpty'); searchInput.focus(); return; }
+      status.textContent = t('searching');
       try {
-        const {searchWebsite} = await import('./site/search.js');
+        const {searchWebsite} = await (isArabic ? import('./site/search-ar.js') : import('./site/search.js'));
         if (version !== searchVersion) return;
         const matches = searchWebsite(query);
-        status.textContent = matches.length ? `${matches.length} matching pages and sections` : 'No matching content found. Try a different topic, such as admissions, campuses or tours.';
+        status.textContent = matches.length ? t('searchCount', matches.length) : t('searchNone');
         for (const match of matches) {
           const item = document.createElement('li');
           const link = document.createElement('a');
           link.href = match.url.startsWith('/') ? publicPath(match.url) : match.url;
           link.textContent = match.title;
-          if (match.url.startsWith('https://')) { link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(' · Official GES source'); }
+          if (match.url.startsWith('https://')) { link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(t('officialSource')); }
           else link.addEventListener('click', closeSearch);
           const excerpt = document.createElement('p');
           excerpt.textContent = match.excerpt;
           item.append(link, excerpt); list.append(item);
         }
       } catch {
-        if (version === searchVersion) status.textContent = 'Search could not load. Please use the website menu or try again.';
+        if (version === searchVersion) status.textContent = t('searchFailed');
       }
     });
   }
@@ -204,26 +206,52 @@ document.addEventListener('DOMContentLoaded', () => {
      ============================================================ */
   const heroBgVideo = document.getElementById('hero-bg-video');
   const heroVideoToggleBtn = document.getElementById('hero-video-toggle-btn');
+  let heroPausedByUser = false;
+
+  // Phones and data-saver connections get the lighter 960px file; larger screens get
+  // 1280px, as HEVC where the browser can decode it (smaller file, same sharpness).
+  function heroVideoSource(video) {
+    const {backgroundSrc, backgroundHevc, backgroundSmall} = video.dataset;
+    if (backgroundSmall && (window.matchMedia('(max-width: 767px)').matches || navigator.connection?.saveData)) return backgroundSmall;
+    if (backgroundHevc && video.canPlayType('video/mp4; codecs="hvc1.1.6.L120.90"') === 'probably') return backgroundHevc;
+    return backgroundSrc;
+  }
+
+  function loadHeroVideo() {
+    if (!heroBgVideo.getAttribute('src')) heroBgVideo.src = heroVideoSource(heroBgVideo);
+  }
 
   if (heroBgVideo) {
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      heroBgVideo.src = heroBgVideo.dataset.backgroundSrc;
+      loadHeroVideo();
       heroBgVideo.play().catch(() => {});
     }
 
+    // Stop decoding while the hero is off screen or the tab is hidden, unless the visitor paused it.
+    let heroVisible = true;
+    const syncHeroPlayback = () => {
+      if (!heroBgVideo.getAttribute('src') || heroPausedByUser) return;
+      if (heroVisible && !document.hidden) heroBgVideo.play().catch(() => {});
+      else heroBgVideo.pause();
+    };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([entry]) => { heroVisible = entry.isIntersecting; syncHeroPlayback(); }).observe(heroBgVideo);
+    }
+    document.addEventListener('visibilitychange', syncHeroPlayback);
   }
 
   if (heroVideoToggleBtn && heroBgVideo) {
     const updateVideoControl = () => {
       const paused = heroBgVideo.paused;
-      heroVideoToggleBtn.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
-      heroVideoToggleBtn.innerHTML = paused ? '<i class="fa-solid fa-play" aria-hidden="true"></i> <span>PLAY VIDEO</span>' : '<i class="fa-solid fa-pause" aria-hidden="true"></i> <span>PAUSE VIDEO</span>';
+      heroVideoToggleBtn.setAttribute('aria-label', t(paused ? 'playVideo' : 'pauseVideo'));
+      heroVideoToggleBtn.innerHTML = `<i class="fa-solid fa-${paused ? 'play' : 'pause'}" aria-hidden="true"></i> <span>${t(paused ? 'playLabel' : 'pauseLabel')}</span>`;
     };
     heroBgVideo.addEventListener('play', updateVideoControl);
     heroBgVideo.addEventListener('pause', updateVideoControl);
     heroVideoToggleBtn.addEventListener('click', () => {
-      if (!heroBgVideo.getAttribute('src')) heroBgVideo.src = heroBgVideo.dataset.backgroundSrc;
-      if (heroBgVideo.paused) heroBgVideo.play().catch(() => { updateVideoControl(); showToast('The video could not play. Please try again.'); });
+      loadHeroVideo();
+      heroPausedByUser = !heroBgVideo.paused;
+      if (heroBgVideo.paused) heroBgVideo.play().catch(() => { updateVideoControl(); showToast(t('videoFailed')); });
       else heroBgVideo.pause();
     });
     updateVideoControl();
@@ -232,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ============================================================
      6. SHOMOUKH ENRICHMENTS & ATELIERS DETAIL MODAL
      ============================================================ */
-  const studentLifeData = {
+  const studentLifeData = isArabic ? arabicStudentLifeData : {
     'modal-arts': {
       category: 'RESEARCH ATELIER',
       title: 'Clay Atelier',
@@ -420,12 +448,17 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('input[type=date][name*="date of birth"]').forEach(field => { field.max = localDate; });
   document.querySelectorAll('input[type=date][name="When would you like to visit?"]').forEach(field => { field.min = localDate; });
 
+  localizeValidation();
+
+  // The header's English / العربية selector opens this page in the chosen language and
+  // remembers the choice for later visits (see the inline script in each page's <head>).
   document.querySelectorAll('.header-language-selector select').forEach(select => {
+    const showCurrent = () => { select.value = isArabic ? 'ar' : 'en'; };
+    showCurrent();
+    window.addEventListener('pageshow', showCurrent);
     select.addEventListener('change', () => {
-      if (select.value === 'ar') {
-        select.value = 'en';
-        showToast('Arabic content is not available on this website. Please contact a campus for Arabic assistance.');
-      }
+      rememberLanguage(select.value);
+      location.assign(alternatePath(select.value));
     });
   });
 

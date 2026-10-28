@@ -64,3 +64,8 @@
 @media (prefers-reduced-motion: reduce) { .school-chat, .school-chat-typing { animation: none; } }
 
 .school-chat-message .school-chat-interpretation { font-size: 12px; color: #595d62; border-bottom: 1px solid #d4d6d3; padding-bottom: 7px; margin-bottom: 7px; }
+/* Arabic pages: the panel opens from the left, mirroring the launcher. */
+[dir="rtl"] .school-chat { right: auto; left: max(16px, env(safe-area-inset-left)); }
+[dir="rtl"] .school-chat-message { border-radius: 14px 14px 3px 14px; }
+[dir="rtl"] .school-chat-user { margin-left: 0; margin-right: auto; border-radius: 14px 14px 14px 3px; }
+@media (max-width: 480px) { [dir="rtl"] .school-chat { left: max(8px, env(safe-area-inset-left)); } }

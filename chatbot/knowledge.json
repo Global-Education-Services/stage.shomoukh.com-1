@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T06:11:07.990Z",
+  "generatedAt": "2026-10-28T07:47:53.204Z",
   "entityIndex": {
     "version": 1,
     "reviewedAt": "2026-10-18",
@@ -6663,7 +6663,7 @@
       "url": "/#hero",
       "sourceReference": {
         "file": "index.html",
-        "line": 347,
+        "line": 350,
         "heading": "THE FIRST & ONLY Reggio Emilia INSPIRED NURSERY SCHOOL",
         "kind": "html"
       },
@@ -6703,7 +6703,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 389,
+        "line": 392,
         "heading": "Home-like Environment",
         "kind": "html"
       },
@@ -6742,7 +6742,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 395,
+        "line": 398,
         "heading": "Safe & Secure",
         "kind": "html"
       },
@@ -6782,7 +6782,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 401,
+        "line": 404,
         "heading": "Quality Educators",
         "kind": "html"
       },
@@ -6821,7 +6821,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 407,
+        "line": 410,
         "heading": "Play to Learn",
         "kind": "html"
       },
@@ -6863,7 +6863,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 413,
+        "line": 416,
         "heading": "Modern & Innovative",
         "kind": "html"
       },
@@ -6925,7 +6925,7 @@
       "url": "/#who-we-are",
       "sourceReference": {
         "file": "index.html",
-        "line": 429,
+        "line": 432,
         "heading": "Welcome to Shomoukh Nursery Schools",
         "kind": "html"
       },
@@ -6971,7 +6971,7 @@
       "url": "/#philosophy",
       "sourceReference": {
         "file": "index.html",
-        "line": 447,
+        "line": 450,
         "heading": "Our School's Philosophy",
         "kind": "html"
       },
@@ -7015,7 +7015,7 @@
       "url": "/#mission",
       "sourceReference": {
         "file": "index.html",
-        "line": 461,
+        "line": 464,
         "heading": "Our Mission",
         "kind": "html"
       },
@@ -7057,7 +7057,7 @@
       "url": "/#vision",
       "sourceReference": {
         "file": "index.html",
-        "line": 475,
+        "line": 478,
         "heading": "Our Vision & Values",
         "kind": "html"
       },
@@ -7101,7 +7101,7 @@
       "url": "/#promise",
       "sourceReference": {
         "file": "index.html",
-        "line": 503,
+        "line": 506,
         "heading": "Our Promise to Families",
         "kind": "html"
       },
@@ -7140,7 +7140,7 @@
       "url": "/#reggio-pillar",
       "sourceReference": {
         "file": "index.html",
-        "line": 516,
+        "line": 519,
         "heading": "Reggio Emilia",
         "kind": "html"
       },
@@ -7182,7 +7182,7 @@
       "url": "/#inspired-teachers",
       "sourceReference": {
         "file": "index.html",
-        "line": 524,
+        "line": 527,
         "heading": "Inspired Teachers",
         "kind": "html"
       },
@@ -7225,7 +7225,7 @@
       "url": "/#programs",
       "sourceReference": {
         "file": "index.html",
-        "line": 532,
+        "line": 535,
         "heading": "Proven Approach to Education",
         "kind": "html"
       },
@@ -7272,7 +7272,7 @@
       "url": "/#enrollment",
       "sourceReference": {
         "file": "index.html",
-        "line": 558,
+        "line": 561,
         "heading": "We Meet Kids Where They Are",
         "kind": "html"
       },
@@ -7310,7 +7310,7 @@
       "url": "/#infants",
       "sourceReference": {
         "file": "index.html",
-        "line": 569,
+        "line": 572,
         "heading": "Infants (3–11 months)",
         "kind": "html"
       },
@@ -7350,7 +7350,7 @@
       "url": "/#toddlers",
       "sourceReference": {
         "file": "index.html",
-        "line": 575,
+        "line": 578,
         "heading": "Toddlers (12–35 months)",
         "kind": "html"
       },
@@ -7390,7 +7390,7 @@
       "url": "/#preschoolers",
       "sourceReference": {
         "file": "index.html",
-        "line": 581,
+        "line": 584,
         "heading": "Preschoolers (36–48 months)",
         "kind": "html"
       },
@@ -7431,7 +7431,7 @@
       "url": "/#flexcare",
       "sourceReference": {
         "file": "index.html",
-        "line": 587,
+        "line": 590,
         "heading": "Flex-Care (6–48 months)",
         "kind": "html"
       },
@@ -7482,7 +7482,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 613,
+        "line": 616,
         "heading": "Shomoukh Fun Space: Enrichments & Ateliers",
         "kind": "html"
       },
@@ -7517,7 +7517,7 @@
       "url": "/#clay-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 630,
+        "line": 633,
         "heading": "Clay Atelier",
         "kind": "html"
       },
@@ -7552,7 +7552,7 @@
       "url": "/#art-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 643,
+        "line": 646,
         "heading": "Art Atelier",
         "kind": "html"
       },
@@ -7586,7 +7586,7 @@
       "url": "/#digital-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 656,
+        "line": 659,
         "heading": "Digital & Light Atelier",
         "kind": "html"
       },
@@ -7619,7 +7619,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 669,
+        "line": 672,
         "heading": "Project Approach",
         "kind": "html"
       },
@@ -7655,7 +7655,7 @@
       "url": "/#tiny-town",
       "sourceReference": {
         "file": "index.html",
-        "line": 682,
+        "line": 685,
         "heading": "Tiny Town",
         "kind": "html"
       },
@@ -7690,7 +7690,7 @@
       "url": "/#sensory-play",
       "sourceReference": {
         "file": "index.html",
-        "line": 695,
+        "line": 698,
         "heading": "Sensory Play",
         "kind": "html"
       },
@@ -7726,7 +7726,7 @@
       "url": "/#music-drama",
       "sourceReference": {
         "file": "index.html",
-        "line": 708,
+        "line": 711,
         "heading": "Music & Movement",
         "kind": "html"
       },
@@ -7761,7 +7761,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 721,
+        "line": 724,
         "heading": "Drama & ECA / PE",
         "kind": "html"
       },
@@ -7806,7 +7806,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 775,
+        "line": 778,
         "heading": "Our Spaces: Designed for Discovery",
         "kind": "html"
       },
@@ -7844,7 +7844,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 788,
+        "line": 791,
         "heading": "Art and Clay Ateliers",
         "kind": "html"
       },
@@ -7881,7 +7881,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 795,
+        "line": 798,
         "heading": "Digital / Light Atelier",
         "kind": "html"
       },
@@ -7917,7 +7917,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 802,
+        "line": 805,
         "heading": "Drama Room",
         "kind": "html"
       },
@@ -7956,7 +7956,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 809,
+        "line": 812,
         "heading": "Indoor Gymnasium",
         "kind": "html"
       },
@@ -7994,7 +7994,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 816,
+        "line": 819,
         "heading": "Organic Garden",
         "kind": "html"
       },
@@ -8033,7 +8033,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 823,
+        "line": 826,
         "heading": "Piazza (Central Square)",
         "kind": "html"
       },
@@ -8097,7 +8097,7 @@
       "url": "/#admissions-overview",
       "sourceReference": {
         "file": "index.html",
-        "line": 846,
+        "line": 849,
         "heading": "Education for Your Child at Shomoukh",
         "kind": "html"
       },
@@ -8133,7 +8133,7 @@
       "url": "/#step1",
       "sourceReference": {
         "file": "index.html",
-        "line": 859,
+        "line": 862,
         "heading": "Book a Tour",
         "kind": "html"
       },
@@ -8171,7 +8171,7 @@
       "url": "/#step2",
       "sourceReference": {
         "file": "index.html",
-        "line": 865,
+        "line": 868,
         "heading": "Submit Details",
         "kind": "html"
       },
@@ -8209,7 +8209,7 @@
       "url": "/#step3",
       "sourceReference": {
         "file": "index.html",
-        "line": 871,
+        "line": 874,
         "heading": "Secure Your Place",
         "kind": "html"
       },
@@ -8247,7 +8247,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 888,
+        "line": 891,
         "heading": "In The Heart Of Muscat",
         "kind": "html"
       },
@@ -8289,7 +8289,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 899,
+        "line": 902,
         "heading": "Al Mouj Campus",
         "kind": "html"
       },
@@ -8333,7 +8333,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 907,
+        "line": 910,
         "heading": "Al Qurm Campus",
         "kind": "html"
       },
@@ -10390,7 +10390,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 236,
+        "line": 262,
         "heading": "Clay Atelier",
         "kind": "public-modal-data"
       },
@@ -10451,7 +10451,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 248,
+        "line": 274,
         "heading": "Art Atelier",
         "kind": "public-modal-data"
       },
@@ -10511,7 +10511,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 260,
+        "line": 286,
         "heading": "Digital & Light Atelier",
         "kind": "public-modal-data"
       },
@@ -10572,7 +10572,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 272,
+        "line": 298,
         "heading": "Project-Based Learning",
         "kind": "public-modal-data"
       },
@@ -10635,7 +10635,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 284,
+        "line": 310,
         "heading": "Tiny Town",
         "kind": "public-modal-data"
       },
@@ -10695,7 +10695,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 296,
+        "line": 322,
         "heading": "Sensory Play",
         "kind": "public-modal-data"
       },
@@ -10753,7 +10753,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 308,
+        "line": 334,
         "heading": "Music & Movement",
         "kind": "public-modal-data"
       },
@@ -10813,7 +10813,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 320,
+        "line": 346,
         "heading": "Drama, Puppetry & ECA / PE",
         "kind": "public-modal-data"
       },

@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" as="image" href="/hero-poster.jpg" fetchpriority="high">
   <meta name="theme-color" content="#1c3a47">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shomoukh Nursery School | Reggio Emilia Inspired Early Childhood Education</title>
@@ -42,13 +43,13 @@
   <!-- Google Fonts: Figtree, Playfair Display, Caveat cursive -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <!-- FontAwesome Icons for UI -->
   <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
 
-  <script type="module" crossorigin src="/assets/main-DGs0PyVu.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-DEy2-3aO.css">
+  <script type="module" crossorigin src="/assets/main-DqQqv_5i.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-Hx3H95Hm.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -322,8 +323,9 @@
         <i class="fa-solid fa-xmark"></i>
       </button>
       <div class="video-aspect-container">
-        <video id="lightbox-video" controls playsinline preload="none">
-          <source src="/Final 2 .mp4" type="video/mp4">
+        <video id="lightbox-video" controls playsinline preload="none" poster="/hero-poster.jpg">
+          <source src="/videos/shomoukh-film-hevc.mp4" type='video/mp4; codecs="hvc1.1.6.L120.90, mp4a.40.2"'>
+          <source src="/videos/shomoukh-film.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
       </div>
@@ -337,7 +339,8 @@
   <section id="hero" class="hero-section">
     <!-- Video Background -->
     <div class="hero-video-wrapper">
-      <video id="hero-bg-video" muted loop playsinline poster="/hero-poster.jpg" preload="none" data-background-src="/hero-background.mp4">
+      <video id="hero-bg-video" muted loop playsinline disablepictureinpicture disableremoteplayback poster="/hero-poster.jpg" preload="none" aria-hidden="true"
+        data-background-src="/videos/hero-1280.mp4" data-background-hevc="/videos/hero-1280-hevc.mp4" data-background-small="/videos/hero-960.mp4">
       </video>
       <div class="hero-overlay-gradient"></div>
     </div>
@@ -386,7 +389,7 @@
       <div class="key-features-grid">
         <div class="key-feature-card">
           <span class="key-feature-num">01 / FEATURE</span>
-          <div class="key-feature-icon"><i class="fa-solid fa-house-chimney-heart"></i></div>
+          <div class="key-feature-icon"><i class="fa-solid fa-house-chimney"></i></div>
           <h3 class="key-feature-title">Home-like Environment</h3>
           <p class="key-feature-desc">Warm, nurturing, and aesthetic spaces designed to feel like a natural, joyful second home for every child.</p>
         </div>

@@ -74,8 +74,9 @@ try {
  await page.waitForFunction(()=>document.querySelector('.site-search-results [role=status]').textContent.includes('No matching'));
  await page.getByLabel('Search this website').fill('<img src=x onerror="window.auditXss=true">');await page.getByLabel('Search this website').press('Enter');
  assert.equal(await page.evaluate(()=>window.auditXss),undefined);assert.equal(await page.locator('.site-search-results img').count(),0);
- await page.keyboard.press('Escape');await page.getByLabel('Select language').selectOption('ar');
- assert.equal(await page.getByLabel('Select language').inputValue(),'en');await page.locator('#toast-feedback.show').waitFor();assert.match(await page.locator('#toast-message').innerText(),/Arabic content is not available/);
+ await page.keyboard.press('Escape');const englishUrl=page.url();await page.getByLabel('Select language').selectOption('ar');
+ await page.waitForURL(url=>new URL(url).pathname.startsWith('/ar/'));assert.equal(await page.locator('html').getAttribute('dir'),'rtl');
+ await page.getByLabel('اختر اللغة').selectOption('en');await page.waitForURL(englishUrl);assert.equal(await page.getByLabel('Select language').inputValue(),'en');
  // Stand in for Turnstile and the Worker so the real client flow runs without sending email.
  await context.addInitScript(()=>{window.turnstile={render:(element,options)=>{setTimeout(()=>options.callback('audit-token'),0);return 'audit-widget';},remove:()=>{}};});
  await context.route('**/api/form-config',route=>route.fulfill({json:{siteKey:'audit-site-key'}}));
@@ -125,7 +126,7 @@ try {
  const detail=page.getByRole('button',{name:'Open Tiny Town details'});await detail.focus();await page.keyboard.press('Enter');
  await page.locator('#detail-modal.open').waitFor();await page.waitForFunction(()=>document.activeElement?.id==='detail-modal-close');
  await page.keyboard.press('Escape');assert.equal(await detail.evaluate(element=>document.activeElement===element),true);
- await context.close();checks.push({check:'search, unavailable language, form submission flow, anchors and detail focus',passed:true});
+ await context.close();checks.push({check:'search, language switching, form submission flow, anchors and detail focus',passed:true});
  const reduced=await browser.newContext({reducedMotion:'reduce'});const reducedPage=await reduced.newPage();const videoRequests=[];
  reducedPage.on('request',request=>{if(/\.mp4(?:$|\?)/.test(request.url()))videoRequests.push(request.url());});
  await reducedPage.goto(base,{waitUntil:'domcontentloaded'});await reducedPage.locator('#school-chat-launcher').waitFor();

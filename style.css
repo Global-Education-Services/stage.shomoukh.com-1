@@ -5146,3 +5146,97 @@ section.contact-form > .submission-success {
   .enrolment-form .required-docs-two-col { grid-template-columns: 1fr; }
   .enrolment-banner h2 { font-size: 1.3rem; }
 }
+
+/* ==========================================================================
+   RESPONSIVE POLISH
+   Fluid spacing and tablet/phone layouts on top of the rules above; colours,
+   content and the desktop layout stay as they were.
+   ========================================================================== */
+.section-padding { padding-block: clamp(56px, 7vw, 96px); }
+.section-padding + .section-padding:not(.bg-warm):not(.frame-explore-section):not(.frame-treasure-section) { padding-top: clamp(40px, 5vw, 72px); }
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+img { height: auto; }
+.pursue-card-inner img, .card-img-wrap img { height: 100%; }
+
+/* Hero video: a little more of the footage shows through, text stays readable. */
+.hero-overlay-gradient {
+  background: linear-gradient(180deg, rgba(28, 58, 71, 0.45) 0%, rgba(20, 42, 52, 0.6) 50%, rgba(14, 28, 35, 0.85) 100%);
+}
+.hero-title, .hero-subtitle { text-shadow: 0 2px 18px rgba(0, 0, 0, 0.25); }
+
+/* The film is 1280×676; show all of it instead of cropping it to 16:9. */
+.video-aspect-container { padding-bottom: 0; height: auto; aspect-ratio: 1280 / 676; background: #000; }
+.video-aspect-container video { object-fit: contain; }
+
+/* Admissions steps: a filled marker instead of an empty ring. */
+.step-number::before {
+  width: 10px; height: 10px;
+  background: var(--shomoukh-yellow);
+  border: 0;
+  box-shadow: 0 0 0 4px rgba(242, 214, 117, 0.3);
+}
+.step-card:nth-child(1) .step-number::before { background: var(--shomoukh-coral); box-shadow: 0 0 0 4px rgba(240, 139, 116, 0.25); }
+
+/* CTA tiles: same icon column width so titles line up across the three tiles. */
+.tile-icon { width: 2.6rem; text-align: center; }
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .key-features-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .key-feature-card { grid-column: span 2; }
+  .key-feature-card:nth-child(n+4) { grid-column: span 3; }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .cards-grid-three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .cards-grid-three .card-img-wrap { height: 180px; }
+  .cta-banner-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cta-action-tile { flex-direction: column; align-items: flex-start; gap: 12px; padding: 26px 22px; }
+  .tile-icon { text-align: left; margin-right: 0; }
+  .tile-arrow { margin-left: 0; }
+}
+
+/* Phones and small tablets */
+@media (max-width: 768px) {
+  .key-features-section { padding-block: 32px; }
+  .key-features-grid { gap: 12px; }
+  .key-feature-card {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 18px 16px;
+  }
+  .key-feature-card > * { grid-column: 2; }
+  .key-feature-card .key-feature-icon {
+    grid-column: 1; grid-row: 1 / span 3;
+    width: 44px; height: 44px; margin: 0;
+    display: grid; place-items: center;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    background: var(--shomoukh-warm-bg);
+  }
+  .key-feature-num { margin-bottom: 2px; }
+  .key-feature-title { margin-bottom: 4px; }
+
+  .pursue-grid-eight { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .pursue-item-card { height: auto; aspect-ratio: 3 / 4; border-radius: 16px; }
+  .pursue-overlay { padding: 14px; }
+  .pursue-name { font-size: 1.02rem; margin-bottom: 0; }
+  .pursue-preview { display: none; }
+  .pursue-plus-btn { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; }
+  .pursue-category { font-size: 0.75rem; letter-spacing: 0.06em; }
+
+  .footer-cols-grid, .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; }
+  :is(.footer-cols-grid, .footer-grid) > .footer-col:first-child,
+  :is(.footer-cols-grid, .footer-grid) > .footer-col:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 340px) {
+  .pursue-grid-eight { grid-template-columns: 1fr; }
+  .pursue-item-card { aspect-ratio: 4 / 3; }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .cards-grid-three .card-body { padding: 22px 20px; }
+}
+@media (max-width: 420px) {
+  .facility-item-card { flex-direction: row; align-items: flex-start; gap: 14px; }
+}

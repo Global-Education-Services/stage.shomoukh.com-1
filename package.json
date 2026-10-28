@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "deploy": "wrangler deploy",
     "chatbot:build": "node scripts/build-chatbot.mjs",
-    "prebuild": "npm run chatbot:build",
+    "prebuild": "npm run chatbot:build && npm run i18n:build",
     "test": "node --test tests/*.test.js",
     "test:browser": "node tests/browser.mjs",
     "chatbot:word-guards": "node scripts/build-chatbot-word-guards.mjs",
@@ -18,11 +18,14 @@
     "chatbot:test-10k": "node scripts/evaluate-10k.mjs",
     "chatbot:coverage": "node scripts/chatbot-coverage.mjs",
     "test:site": "node tests/site-audit.mjs",
-    "audit:links": "node scripts/audit-public-links.mjs"
+    "audit:links": "node scripts/audit-public-links.mjs",
+    "i18n:build": "node scripts/build-arabic.mjs",
+    "predev": "npm run i18n:build"
   },
   "devDependencies": {
     "playwright": "^1.58.2",
     "vite": "^6.4.5",
-    "wrangler": "^4.152.0"
+    "wrangler": "^4.152.0",
+    "postcss": "^8.5.6"
   }
 }

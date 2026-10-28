@@ -1,0 +1,63 @@
+/* Arabic typography and right-to-left details, appended to style.rtl.css by
+   scripts/build-arabic.mjs after style.css has been mirrored. */
+:root {
+  /* Tajawal for Arabic, Figtree kept for Latin words (EYFS, iOS…); Aref Ruqaa replaces the
+     Caveat handwriting accents, which have no Arabic letters. */
+  --font-body: 'Tajawal', 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, sans-serif;
+  --font-serif: 'Tajawal', 'Figtree', Georgia, serif;
+  --font-script: 'Aref Ruqaa', 'Tajawal', serif;
+}
+
+html[lang="ar"] body {
+  line-height: 1.75;
+}
+
+/* Letter spacing pulls joined Arabic letters apart, so it is removed everywhere. */
+html[lang="ar"] *,
+html[lang="ar"] *::before,
+html[lang="ar"] *::after {
+  letter-spacing: 0 !important;
+}
+
+/* Headings in Arabic need a little more line height for ascenders and dots. */
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4 {
+  line-height: 1.4;
+}
+
+/* The handwriting accent font runs larger than Caveat's x-height; keep it in proportion. */
+html[lang="ar"] [class*="script-cursive"],
+html[lang="ar"] [class*="script-accent"],
+html[lang="ar"] .script-tag {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Phone numbers, e-mail addresses and other Latin values keep their own order. */
+html[lang="ar"] a[href^="tel:"],
+html[lang="ar"] a[href^="mailto:"],
+html[lang="ar"] input[type="email"],
+html[lang="ar"] input[type="tel"],
+html[lang="ar"] input[type="url"] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+html[lang="ar"] input[type="email"],
+html[lang="ar"] input[type="tel"],
+html[lang="ar"] input[type="url"] {
+  text-align: right;
+}
+html[lang="ar"] input[type="email"]:placeholder-shown,
+html[lang="ar"] input[type="tel"]:placeholder-shown {
+  direction: rtl;
+}
+
+/* Form controls take the page font and right-aligned text. */
+html[lang="ar"] input,
+html[lang="ar"] select,
+html[lang="ar"] textarea,
+html[lang="ar"] button {
+  font-family: var(--font-body);
+}

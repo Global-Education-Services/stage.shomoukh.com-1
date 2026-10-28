@@ -1,3 +1,9 @@
+import {isArabic} from '../site/i18n.js';
+
+const labels = isArabic
+  ? {open: 'فتح مساعد موقع شموخ', opening: 'جارٍ فتح مساعد الموقع', failed: 'تعذّر تحميل المحادثة. أعد محاولة فتح مساعد الموقع'}
+  : {open: 'Open Shomoukh website assistant', opening: 'Opening website assistant', failed: 'Chat could not load. Retry website assistant'};
+
 // Only this small launcher is included in the initial website bundle.
 export function installChatbot() {
   if (document.getElementById('school-chat-launcher')) return;
@@ -21,11 +27,11 @@ export function installChatbot() {
   lines.setAttribute('d', 'M8 9h8M8 13h5');
   icon.append(bubble, lines);
   launcher.append(icon);
-  launcher.setAttribute('aria-label', 'Open Shomoukh website assistant');
+  launcher.setAttribute('aria-label', labels.open);
   launcher.setAttribute('aria-haspopup', 'dialog');
   launcher.setAttribute('aria-expanded', 'false');
   Object.assign(launcher.style, {
-    position: 'fixed', right: 'max(16px, env(safe-area-inset-right))',
+    position: 'fixed', [isArabic ? 'left' : 'right']: `max(16px, env(safe-area-inset-${isArabic ? 'left' : 'right'}))`,
     bottom: 'calc(var(--chat-launcher-bottom, 88px) + env(safe-area-inset-bottom))', zIndex: '1001',
     background: 'var(--shomoukh-primary, #1c3a47)', color: '#fff',
     border: '2px solid #e3d1ba', borderRadius: '50%', padding: '0', width: 'var(--chat-launcher-size, 56px)', height: 'var(--chat-launcher-size, 56px)', display: 'grid', placeItems: 'center',
@@ -40,14 +46,14 @@ export function installChatbot() {
     if (widget) { widget.open(); return; }
     loading = true;
     launcher.setAttribute('aria-busy', 'true');
-    launcher.setAttribute('aria-label', 'Opening website assistant');
+    launcher.setAttribute('aria-label', labels.opening);
     try {
       const { createWidget } = await import('./widget.js');
       widget = createWidget(launcher);
-      launcher.setAttribute('aria-label', 'Open Shomoukh website assistant');
+      launcher.setAttribute('aria-label', labels.open);
       widget.open();
     } catch {
-      launcher.setAttribute('aria-label', 'Chat could not load. Retry website assistant');
+      launcher.setAttribute('aria-label', labels.failed);
     } finally {
       loading = false;
       launcher.removeAttribute('aria-busy');

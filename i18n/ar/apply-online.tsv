@@ -1,0 +1,169 @@
+# Arabic translations: English page text<TAB>Arabic. Built into ar/*.html by scripts/build-arabic.mjs.
+Apply Online | Shomoukh Early Childhood Education	التقديم الإلكتروني | شموخ للتعليم في الطفولة المبكرة
+Complete the online enrollment form to apply for the academic year. Admissions are processed on an ongoing basis for ages 6 months to 6 years across both our Al Mouj and Al Qurm campuses.	أكمل نموذج التسجيل الإلكتروني للتقديم على العام الدراسي. تُعالَج طلبات القبول على مدار العام للأطفال من عمر 6 أشهر حتى 6 سنوات في فرعَي الموج والقرم.
+ENROLMENT FORM	نموذج التسجيل
+APPLYING FOR ACADEMIC YEAR <span class="req">*</span>	التقديم للعام الدراسي <span class="req">*</span>
+Academic Year	العام الدراسي
+Please Choose Your Campus <span class="req">*</span>	يُرجى اختيار الفرع <span class="req">*</span>
+Shomoukh Campus Al Mouj	فرع شموخ في الموج
+Shomoukh Campus Al Qurum	فرع شموخ في القرم
+CHILD INFORMATION	معلومات الطفل
+Child’s Full Name (as per passport) <span class="req">*</span>	اسم الطفل الكامل (كما في جواز السفر) <span class="req">*</span>
+Preferred Name <span class="req">*</span>	الاسم المفضّل <span class="req">*</span>
+Nationality (as per passport) <span class="req">*</span>	الجنسية (كما في جواز السفر) <span class="req">*</span>
+Date of Birth (dd/mm/yy) <span class="req">*</span>	تاريخ الميلاد (يوم/شهر/سنة) <span class="req">*</span>
+Gender <span class="req">*</span>	الجنس <span class="req">*</span>
+Male	ذكر
+Female	أنثى
+Native Language <span class="req">*</span>	اللغة الأم <span class="req">*</span>
+Other Languages	لغات أخرى
+Religion <span class="req">*</span>	الديانة <span class="req">*</span>
+Address <span class="req">*</span>	العنوان <span class="req">*</span>
+PREVIOUS NURSERIES/SCHOOLS INFORMATION	معلومات الحضانات/المدارس السابقة
+Nursery/School Name	اسم الحضانة/المدرسة
+Country	الدولة
+Academic Years	الأعوام الدراسية
+SIBLINGS INFORMATION	معلومات الإخوة
+Name	الاسم
+Class	الصف
+Status	الحالة
+New	جديد
+Enrolled at Shomoukh	مسجّل في شموخ
+ADDITIONAL INFORMATION	معلومات إضافية
+Has your child been identified with or received services in any of the following ?	هل شُخِّص طفلك أو تلقّى خدمات في أيٍّ مما يلي؟
+Gifted and Talented <span class="req">*</span>	الموهبة والتفوّق <span class="req">*</span>
+Yes	نعم
+No	لا
+Medication to Aid the Learning Process <span class="req">*</span>	أدوية للمساعدة في عملية التعلّم <span class="req">*</span>
+Small Group Learning Support <span class="req">*</span>	دعم التعلّم في مجموعات صغيرة <span class="req">*</span>
+ADHD/ADD Interventions <span class="req">*</span>	تدخلات اضطراب فرط الحركة وتشتت الانتباه <span class="req">*</span>
+Individual Learning Support <span class="req">*</span>	دعم التعلّم الفردي <span class="req">*</span>
+Occupational Therapy <span class="req">*</span>	العلاج الوظيفي <span class="req">*</span>
+Speech Language Therapy <span class="req">*</span>	علاج النطق واللغة <span class="req">*</span>
+Physical Disabilities <span class="req">*</span>	الإعاقات الجسدية <span class="req">*</span>
+Behaviour Management <span class="req">*</span>	إدارة السلوك <span class="req">*</span>
+If yes please provide details	إذا كانت الإجابة نعم، يُرجى ذكر التفاصيل
+List other Interventions here (Please provide documents):	اذكر أي تدخلات أخرى هنا (يُرجى إرفاق المستندات):
+For Nursery/School: Full-week attendance (Sunday to Thursday) <span class="req">*</span>	للحضانة/المدرسة: حضور أسبوعي كامل (من الأحد إلى الخميس) <span class="req">*</span>
+Nursery	الحضانة
+KG1	الروضة الأولى (KG1)
+KG2	الروضة الثانية (KG2)
+Grade 1	الصف الأول
+Grade 2	الصف الثاني
+Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery) <span class="req">*</span>	اختر جدول الحضور لطفلك (يُرجى اختيار الخيار الذي ينطبق على برنامج طفلك في الحضانة) <span class="req">*</span>
+3 Days a week	3 أيام في الأسبوع
+4 Days a week	4 أيام في الأسبوع
+5 Days a week	5 أيام في الأسبوع
+Select your preferred days of attendance: days must be consecutive. (The chosen days will be confirmed by the admission team in the final step of enrollment) <span class="req">*</span>	اختر أيام الحضور المفضّلة: يجب أن تكون الأيام متتالية. (سيؤكّد فريق القبول الأيام المختارة في المرحلة الأخيرة من التسجيل) <span class="req">*</span>
+Sunday	الأحد
+Monday	الاثنين
+Tuesday	الثلاثاء
+Wednesday	الأربعاء
+Thursday	الخميس
+Has your child ever been retained or repeated a grade? <span class="req">*</span>	هل سبق أن أعاد طفلك صفًا دراسيًا؟ <span class="req">*</span>
+If yes, which grade?	إذا كانت الإجابة نعم، فأي صف؟
+Has your child ever been asked to leave a nursery/school ? <span class="req">*</span>	هل سبق أن طُلب من طفلك مغادرة حضانة/مدرسة؟ <span class="req">*</span>
+If yes, please indicate the reason	إذا كانت الإجابة نعم، يُرجى ذكر السبب
+PARENTS/GUARDIAN INFORMATION	معلومات أولياء الأمور/الوصي
+Father’s Full Name <span class="req">*</span>	اسم الأب الكامل <span class="req">*</span>
+Mobile No. <span class="req">*</span>	رقم الهاتف المحمول <span class="req">*</span>
+Occupation <span class="req">*</span>	المهنة <span class="req">*</span>
+Email Address <span class="req">*</span>	البريد الإلكتروني <span class="req">*</span>
+Other Phone No.	رقم هاتف آخر
+Office Phone No.	هاتف العمل
+Mother’s Full Name <span class="req">*</span>	اسم الأم الكامل <span class="req">*</span>
+Guardian’s Full Name	اسم الوصي الكامل
+Mobile No.	رقم الهاتف المحمول
+Email Address	البريد الإلكتروني
+Relationship	صلة القرابة
+TRANSPORTATION DETAILS	تفاصيل التوصيل
+Name and phone number of the persons who will drop off and pick up the child:	اسم ورقم هاتف الأشخاص الذين سيوصلون الطفل ويستلمونه:
+Name of the person who will drop off the child <span class="req">*</span>	اسم الشخص الذي سيوصل الطفل <span class="req">*</span>
+Relationship <span class="req">*</span>	صلة القرابة <span class="req">*</span>
+Mobile No <span class="req">*</span>	رقم الهاتف المحمول <span class="req">*</span>
+Name of the person who will pick up the child: <span class="req">*</span>	اسم الشخص الذي سيستلم الطفل: <span class="req">*</span>
+MEDICAL FORM	النموذج الطبي
+To be completed prior to admission. The information will greatly assist us when dealing with any emergencies during nursery/school hours.	يُستكمل قبل القبول. تساعدنا هذه المعلومات كثيرًا في التعامل مع أي حالات طارئة خلال ساعات دوام الحضانة/المدرسة.
+Doctor’s Name	اسم الطبيب
+Clinic/Hospital	العيادة/المستشفى
+Email address	البريد الإلكتروني
+ALLERGIES	الحساسية
+Does your child have any known allergies? <span class="req">*</span>	هل يعاني طفلك من أي حساسية معروفة؟ <span class="req">*</span>
+Please complete the following. Non-completion is taken as indicating no known allergies	يُرجى استكمال ما يلي. ويُعدّ عدم استكماله إشارة إلى عدم وجود حساسية معروفة.
+Allergen	مسبّب الحساسية
+Reaction	رد الفعل
+Treatment	العلاج
+HEALTH HISTORY	التاريخ الصحي
+Please indicate with a ✓ if your child has experienced any of the following:	يُرجى وضع علامة ✓ إذا أُصيب طفلك بأيٍّ مما يلي:
+Chicken Pox <span class="req">*</span>	جدري الماء <span class="req">*</span>
+Asthma <span class="req">*</span>	الربو <span class="req">*</span>
+Measles <span class="req">*</span>	الحصبة <span class="req">*</span>
+Kidney Difficulties <span class="req">*</span>	مشكلات الكلى <span class="req">*</span>
+Eczema/Skin Conditions <span class="req">*</span>	الإكزيما/الأمراض الجلدية <span class="req">*</span>
+Speech Difficulties <span class="req">*</span>	صعوبات النطق <span class="req">*</span>
+Rubella <span class="req">*</span>	الحصبة الألمانية <span class="req">*</span>
+Visual Difficulties <span class="req">*</span>	صعوبات الإبصار <span class="req">*</span>
+Malaria <span class="req">*</span>	الملاريا <span class="req">*</span>
+Epilepsy <span class="req">*</span>	الصرع <span class="req">*</span>
+Orthopaedical Difficulties <span class="req">*</span>	مشكلات العظام <span class="req">*</span>
+Whooping cough <span class="req">*</span>	السعال الديكي <span class="req">*</span>
+Tuberculosis <span class="req">*</span>	السل <span class="req">*</span>
+Hearing Related Difficulties <span class="req">*</span>	صعوبات السمع <span class="req">*</span>
+Diabetes <span class="req">*</span>	السكري <span class="req">*</span>
+Other Health Difficulties <span class="req">*</span>	مشكلات صحية أخرى <span class="req">*</span>
+Please provide details of other health difficulties if any	يُرجى ذكر تفاصيل أي مشكلات صحية أخرى إن وُجدت
+Does the child have any medical conditions? <span class="req">*</span>	هل يعاني الطفل من أي حالات طبية؟ <span class="req">*</span>
+If yes please specify medical conditions?	إذا كانت الإجابة نعم، يُرجى تحديد الحالات الطبية
+Other	أخرى
+Permission to administer non-prescriptive medicines such as lbuprofen, Paracetamol and Insect bite cream. <span class="req">*</span>	الإذن بإعطاء أدوية لا تستلزم وصفة طبية مثل الإيبوبروفين والباراسيتامول وكريم لدغات الحشرات. <span class="req">*</span>
+EMERGENCIES	حالات الطوارئ
+In the event of your child having any illness or an accidental injury whilst at the nursery/school, we reserve the right to administer First Aid and emergency treatment. If the Parent/Guardian cannot be reached, it is at discretion of the nursery/school to take the child to the hospital of their choice if deemed necessary. Parent/Guardian will be asked to pay all costs incurred and take full responsibility for the treatment required. Please list two people that can be contacted in case of emergencies.	في حال تعرّض طفلك لأي مرض أو إصابة عرضية أثناء وجوده في الحضانة/المدرسة، نحتفظ بحق تقديم الإسعافات الأولية والعلاج الطارئ. وإذا تعذّر الوصول إلى ولي الأمر/الوصي، يعود للحضانة/المدرسة تقدير نقل الطفل إلى المستشفى الذي تختاره إذا اقتضت الضرورة. وسيُطلب من ولي الأمر/الوصي دفع جميع التكاليف المترتبة وتحمّل المسؤولية الكاملة عن العلاج اللازم. يُرجى ذكر شخصين يمكن التواصل معهما في حالات الطوارئ.
+Full Name <span class="req">*</span>	الاسم الكامل <span class="req">*</span>
+REQUIRED DOCUMENTS	المستندات المطلوبة
+Kindly submit the following documents to the admission department:	يُرجى تقديم المستندات التالية إلى قسم القبول:
+Copy of child’s valid passport (for Omani & non Omani)	نسخة من جواز سفر الطفل الساري (للعُمانيين وغير العُمانيين)
+Copy of father’s valid passport (for Omani and non-Omani)	نسخة من جواز سفر الأب الساري (للعُمانيين وغير العُمانيين)
+Copy of the parents’ Omani resident cards (both sides)	نسخة من بطاقتي الإقامة العُمانية لولي الأمر (الوجهان)
+Copy of birth certificate, attested and translated into Arabic or English	نسخة من شهادة الميلاد، مصدّقة ومترجمة إلى العربية أو الإنجليزية
+Copies of valid passports or Omani resident cards of the person who will drop off and pickup the child	نسخ من جوازات السفر السارية أو بطاقات الإقامة العُمانية للأشخاص الذين سيوصلون الطفل ويستلمونه
+If the child is coming from outside Oman, the report must be attested by the Ministry of Education, the Ministry of Foreign Affairs, and the Embassy of Oman in that country or relevant ministry for GCC countries.	إذا كان الطفل قادمًا من خارج سلطنة عُمان، فيجب تصديق التقرير من وزارة التربية والتعليم ووزارة الخارجية وسفارة سلطنة عُمان في ذلك البلد، أو من الوزارة المعنية في دول مجلس التعاون الخليجي.
+Copy of the child’s Omani resident card (both sides)	نسخة من بطاقة الإقامة العُمانية للطفل (الوجهان)
+Copy of mother’s valid passport (for Omani and non-Omani)	نسخة من جواز سفر الأم الساري (للعُمانيين وغير العُمانيين)
+Recent passport-size photographs of the child and parents	صور شخصية حديثة بحجم صورة جواز السفر للطفل وولي الأمر
+Copy of the vaccination certificate/records	نسخة من شهادة/سجلات التطعيم
+If the child has any medical or health condition, a copy of the doctor’s report must be submitted.	إذا كان الطفل يعاني من أي حالة طبية أو صحية، فيجب تقديم نسخة من تقرير الطبيب.
+If transferring from another school in Oman, the educational portal transfer number/letter issued by the previous school is required. Registration is considered provisional unitl the transfer is completed.	في حال الانتقال من مدرسة أخرى في سلطنة عُمان، يلزم تقديم رقم/خطاب النقل عبر البوابة التعليمية الصادر من المدرسة السابقة. ويُعدّ التسجيل مبدئيًا حتى اكتمال النقل.
+Acknowledgement <span class="req">*</span>	الإقرار <span class="req">*</span>
+I hereby certify that the information provided on this form is true. I am responsible for any liability arising from any false or missing information. I have read and understood all the information on the Shomoukh enrolment form and I fully agree to be bound by it.	أُقرّ بأن المعلومات الواردة في هذا النموذج صحيحة، وأتحمّل أي مسؤولية تنشأ عن أي معلومات خاطئة أو ناقصة. وقد قرأت جميع المعلومات الواردة في نموذج التسجيل في شموخ وفهمتها، وأوافق تمامًا على الالتزام بها.
+Submit Application	إرسال الطلب
+Complete the online enrollment form for Shomoukh Nursery School. Ongoing admissions for ages 6 months to 6 years in Muscat, Oman.	أكمل نموذج التسجيل الإلكتروني في حضانة شموخ. القبول متاح على مدار العام للأطفال من عمر 6 أشهر حتى 6 سنوات في مسقط، سلطنة عُمان.
+APPLYING FOR ACADEMIC YEAR	التقديم للعام الدراسي
+Child’s Full Name (as per passport)	اسم الطفل الكامل (كما في جواز السفر)
+E.g. Alex	مثال: سارة
+Preferred Name	الاسم المفضّل
+Nationality (as per passport)	الجنسية (كما في جواز السفر)
+E.g. British	مثال: عُماني
+Date of Birth (dd/mm/yy)	تاريخ الميلاد (يوم/شهر/سنة)
+Choose Date	اختر التاريخ
+Native Language	اللغة الأم
+E.g. Native Language	مثال: العربية
+Religion	الديانة
+Address	العنوان
+Nursery Name	اسم الحضانة
+E.g. John Deo	مثال: حضانة الأمل
+Provide details	اذكر التفاصيل
+Other Interventions	تدخلات أخرى
+Father’s Full Name	اسم الأب الكامل
+E.g. John Doe	مثال: محمد سالم البلوشي
+Occupation	المهنة
+Mother’s Full Name	اسم الأم الكامل
+E.g. Emi Deo	مثال: مريم أحمد
+Name of the person who will drop off the child	اسم الشخص الذي سيوصل الطفل
+Mobile No	رقم الهاتف المحمول
+Name of the person who will pick up the child:	اسم الشخص الذي سيستلم الطفل:
+E.g. Dr. Joseph	مثال: د. خالد
+Clinic's Name	اسم العيادة
+Eg. Please specify any other health difficulties	مثال: يُرجى تحديد أي مشكلات صحية أخرى
+Eg. Please specify medical conditions?	مثال: يُرجى تحديد الحالات الطبية
+Full Name	الاسم الكامل
+Eg: Mother/Father	مثال: الأم/الأب
