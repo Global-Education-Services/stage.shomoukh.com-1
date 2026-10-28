@@ -1,13 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://shomoukh.com/</loc></url>
-  <url><loc>https://shomoukh.com/about</loc></url>
-  <url><loc>https://shomoukh.com/programs</loc></url>
-  <url><loc>https://shomoukh.com/enrichments</loc></url>
-  <url><loc>https://shomoukh.com/spaces</loc></url>
-  <url><loc>https://shomoukh.com/admissions</loc></url>
-  <url><loc>https://shomoukh.com/book-a-visit</loc></url>
-  <url><loc>https://shomoukh.com/apply-online</loc></url>
-  <url><loc>https://shomoukh.com/parents</loc></url>
-  <url><loc>https://shomoukh.com/contact</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shomoukh.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/about"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/about"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/programs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/programs"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/programs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/programs"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/programs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/programs"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/programs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/programs"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/enrichments</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/enrichments"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/enrichments"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/enrichments"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/enrichments</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/enrichments"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/enrichments"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/enrichments"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/spaces</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/spaces"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/spaces"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/spaces"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/spaces</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/spaces"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/spaces"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/spaces"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/admissions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/admissions"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/admissions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/admissions"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/admissions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/admissions"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/admissions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/admissions"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/book-a-visit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/book-a-visit"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/book-a-visit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/book-a-visit"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/book-a-visit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/book-a-visit"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/book-a-visit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/book-a-visit"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/apply-online</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/apply-online"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/apply-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/apply-online"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/apply-online</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/apply-online"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/apply-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/apply-online"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/parents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/parents"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/parents"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/parents"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/parents</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/parents"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/parents"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/parents"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/contact"/>
+  </url>
+  <url>
+    <loc>https://shomoukh.com/ar/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shomoukh.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://shomoukh.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shomoukh.com/contact"/>
+  </url>
 </urlset>

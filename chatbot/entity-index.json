@@ -644,16 +644,14 @@
         "enrichments-522872217b",
         "enrichments-c0209ed4ca",
         "index-0006467f3e",
-        "index-bf725c40c8",
-        "main.js-278d99379d"
+        "index-bf725c40c8"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#clay-atelier",
         "/enrichments.html#activities",
         "/#clay-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ],
       "organizationId": "shomoukh"
     },
@@ -670,16 +668,14 @@
         "enrichments-2d32682645",
         "enrichments-2909246643",
         "index-ee595fabf3",
-        "index-bf725c40c8",
-        "main.js-2acebaf277"
+        "index-bf725c40c8"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#art-atelier",
         "/enrichments.html#activities",
         "/#art-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ],
       "organizationId": "shomoukh"
     },
@@ -699,16 +695,14 @@
         "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-bed5a39bd1",
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#digital-atelier",
         "/enrichments.html#activities",
         "/#digital-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ],
       "organizationId": "shomoukh"
     },
@@ -724,8 +718,7 @@
       ],
       "recordIds": [
         "enrichments-d686b01797",
-        "index-e7535199a8",
-        "main.js-70720eb9e8"
+        "index-e7535199a8"
       ],
       "attributes": {},
       "sourceUrls": [
@@ -746,15 +739,13 @@
       "recordIds": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f"
+        "spaces-5e1cd325f0"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#tiny-town",
         "/#tiny-town",
-        "/spaces.html#all-spaces",
-        "/#enrichments"
+        "/spaces.html#all-spaces"
       ],
       "organizationId": "shomoukh"
     },
@@ -768,14 +759,12 @@
       ],
       "recordIds": [
         "enrichments-349bf70301",
-        "index-e55f8abcd0",
-        "main.js-619c618978"
+        "index-e55f8abcd0"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#sensory-play",
-        "/#sensory-play",
-        "/#enrichments"
+        "/#sensory-play"
       ],
       "organizationId": "shomoukh"
     },
@@ -791,14 +780,12 @@
       ],
       "recordIds": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098",
-        "main.js-20f139a472"
+        "index-4de467f098"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#music-drama",
-        "/#music-drama",
-        "/#enrichments"
+        "/#music-drama"
       ],
       "organizationId": "shomoukh"
     },
@@ -817,8 +804,7 @@
       "recordIds": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2",
-        "main.js-ff9c0d0c0f"
+        "index-7de2a41da2"
       ],
       "attributes": {},
       "sourceUrls": [
@@ -1531,15 +1517,13 @@
         "enrichments-522872217b",
         "enrichments-c0209ed4ca",
         "index-0006467f3e",
-        "index-bf725c40c8",
-        "main.js-278d99379d"
+        "index-bf725c40c8"
       ],
       "sourceUrls": [
         "/enrichments.html#clay-atelier",
         "/enrichments.html#activities",
         "/#clay-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ]
     },
     {
@@ -1550,15 +1534,13 @@
         "enrichments-2d32682645",
         "enrichments-2909246643",
         "index-ee595fabf3",
-        "index-bf725c40c8",
-        "main.js-2acebaf277"
+        "index-bf725c40c8"
       ],
       "sourceUrls": [
         "/enrichments.html#art-atelier",
         "/enrichments.html#activities",
         "/#art-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ]
     },
     {
@@ -1569,15 +1551,13 @@
         "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-bed5a39bd1",
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "sourceUrls": [
         "/enrichments.html#digital-atelier",
         "/enrichments.html#activities",
         "/#digital-atelier",
-        "/#facilities",
-        "/#enrichments"
+        "/#facilities"
       ]
     },
     {
@@ -1586,8 +1566,7 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-d686b01797",
-        "index-e7535199a8",
-        "main.js-70720eb9e8"
+        "index-e7535199a8"
       ],
       "sourceUrls": [
         "/enrichments.html#activities",
@@ -1601,14 +1580,12 @@
       "recordIds": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f"
+        "spaces-5e1cd325f0"
       ],
       "sourceUrls": [
         "/enrichments.html#tiny-town",
         "/#tiny-town",
-        "/spaces.html#all-spaces",
-        "/#enrichments"
+        "/spaces.html#all-spaces"
       ]
     },
     {
@@ -1617,13 +1594,11 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-349bf70301",
-        "index-e55f8abcd0",
-        "main.js-619c618978"
+        "index-e55f8abcd0"
       ],
       "sourceUrls": [
         "/enrichments.html#sensory-play",
-        "/#sensory-play",
-        "/#enrichments"
+        "/#sensory-play"
       ]
     },
     {
@@ -1632,13 +1607,11 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098",
-        "main.js-20f139a472"
+        "index-4de467f098"
       ],
       "sourceUrls": [
         "/enrichments.html#music-drama",
-        "/#music-drama",
-        "/#enrichments"
+        "/#music-drama"
       ]
     },
     {
@@ -1648,8 +1621,7 @@
       "recordIds": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2",
-        "main.js-ff9c0d0c0f"
+        "index-7de2a41da2"
       ],
       "sourceUrls": [
         "/enrichments.html#activities",
@@ -2186,7 +2158,7 @@
     "relationships": 46,
     "verifiedAttributeAssertions": 31,
     "uniqueAttributeFacts": 23,
-    "knowledgeRecords": 181
+    "knowledgeRecords": 173
   },
   "scopeNotes": [
     "Relationships are publication/listing relationships, not inferred legal ownership.",

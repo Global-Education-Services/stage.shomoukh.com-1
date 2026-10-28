@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T07:47:53.204Z",
+  "generatedAt": "2026-10-28T09:21:40.928Z",
   "entityIndex": {
     "version": 1,
     "reviewedAt": "2026-10-18",
@@ -647,16 +647,14 @@
           "enrichments-522872217b",
           "enrichments-c0209ed4ca",
           "index-0006467f3e",
-          "index-bf725c40c8",
-          "main.js-278d99379d"
+          "index-bf725c40c8"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#clay-atelier",
           "/enrichments.html#activities",
           "/#clay-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ],
         "organizationId": "shomoukh"
       },
@@ -673,16 +671,14 @@
           "enrichments-2d32682645",
           "enrichments-2909246643",
           "index-ee595fabf3",
-          "index-bf725c40c8",
-          "main.js-2acebaf277"
+          "index-bf725c40c8"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#art-atelier",
           "/enrichments.html#activities",
           "/#art-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ],
         "organizationId": "shomoukh"
       },
@@ -702,16 +698,14 @@
           "enrichments-cafffdebc6",
           "enrichments-51a68964f8",
           "index-bed5a39bd1",
-          "index-99e522992f",
-          "main.js-8f68b0ad3b"
+          "index-99e522992f"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#digital-atelier",
           "/enrichments.html#activities",
           "/#digital-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ],
         "organizationId": "shomoukh"
       },
@@ -727,8 +721,7 @@
         ],
         "recordIds": [
           "enrichments-d686b01797",
-          "index-e7535199a8",
-          "main.js-70720eb9e8"
+          "index-e7535199a8"
         ],
         "attributes": {},
         "sourceUrls": [
@@ -749,15 +742,13 @@
         "recordIds": [
           "enrichments-1d616796bf",
           "index-404b9eae40",
-          "spaces-5e1cd325f0",
-          "main.js-49f7c6d08f"
+          "spaces-5e1cd325f0"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#tiny-town",
           "/#tiny-town",
-          "/spaces.html#all-spaces",
-          "/#enrichments"
+          "/spaces.html#all-spaces"
         ],
         "organizationId": "shomoukh"
       },
@@ -771,14 +762,12 @@
         ],
         "recordIds": [
           "enrichments-349bf70301",
-          "index-e55f8abcd0",
-          "main.js-619c618978"
+          "index-e55f8abcd0"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#sensory-play",
-          "/#sensory-play",
-          "/#enrichments"
+          "/#sensory-play"
         ],
         "organizationId": "shomoukh"
       },
@@ -794,14 +783,12 @@
         ],
         "recordIds": [
           "enrichments-8c79bc0a6c",
-          "index-4de467f098",
-          "main.js-20f139a472"
+          "index-4de467f098"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#music-drama",
-          "/#music-drama",
-          "/#enrichments"
+          "/#music-drama"
         ],
         "organizationId": "shomoukh"
       },
@@ -820,8 +807,7 @@
         "recordIds": [
           "enrichments-b35a5fbd78",
           "index-7148e8e009",
-          "index-7de2a41da2",
-          "main.js-ff9c0d0c0f"
+          "index-7de2a41da2"
         ],
         "attributes": {},
         "sourceUrls": [
@@ -1534,15 +1520,13 @@
           "enrichments-522872217b",
           "enrichments-c0209ed4ca",
           "index-0006467f3e",
-          "index-bf725c40c8",
-          "main.js-278d99379d"
+          "index-bf725c40c8"
         ],
         "sourceUrls": [
           "/enrichments.html#clay-atelier",
           "/enrichments.html#activities",
           "/#clay-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ]
       },
       {
@@ -1553,15 +1537,13 @@
           "enrichments-2d32682645",
           "enrichments-2909246643",
           "index-ee595fabf3",
-          "index-bf725c40c8",
-          "main.js-2acebaf277"
+          "index-bf725c40c8"
         ],
         "sourceUrls": [
           "/enrichments.html#art-atelier",
           "/enrichments.html#activities",
           "/#art-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ]
       },
       {
@@ -1572,15 +1554,13 @@
           "enrichments-cafffdebc6",
           "enrichments-51a68964f8",
           "index-bed5a39bd1",
-          "index-99e522992f",
-          "main.js-8f68b0ad3b"
+          "index-99e522992f"
         ],
         "sourceUrls": [
           "/enrichments.html#digital-atelier",
           "/enrichments.html#activities",
           "/#digital-atelier",
-          "/#facilities",
-          "/#enrichments"
+          "/#facilities"
         ]
       },
       {
@@ -1589,8 +1569,7 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-d686b01797",
-          "index-e7535199a8",
-          "main.js-70720eb9e8"
+          "index-e7535199a8"
         ],
         "sourceUrls": [
           "/enrichments.html#activities",
@@ -1604,14 +1583,12 @@
         "recordIds": [
           "enrichments-1d616796bf",
           "index-404b9eae40",
-          "spaces-5e1cd325f0",
-          "main.js-49f7c6d08f"
+          "spaces-5e1cd325f0"
         ],
         "sourceUrls": [
           "/enrichments.html#tiny-town",
           "/#tiny-town",
-          "/spaces.html#all-spaces",
-          "/#enrichments"
+          "/spaces.html#all-spaces"
         ]
       },
       {
@@ -1620,13 +1597,11 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-349bf70301",
-          "index-e55f8abcd0",
-          "main.js-619c618978"
+          "index-e55f8abcd0"
         ],
         "sourceUrls": [
           "/enrichments.html#sensory-play",
-          "/#sensory-play",
-          "/#enrichments"
+          "/#sensory-play"
         ]
       },
       {
@@ -1635,13 +1610,11 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-8c79bc0a6c",
-          "index-4de467f098",
-          "main.js-20f139a472"
+          "index-4de467f098"
         ],
         "sourceUrls": [
           "/enrichments.html#music-drama",
-          "/#music-drama",
-          "/#enrichments"
+          "/#music-drama"
         ]
       },
       {
@@ -1651,8 +1624,7 @@
         "recordIds": [
           "enrichments-b35a5fbd78",
           "index-7148e8e009",
-          "index-7de2a41da2",
-          "main.js-ff9c0d0c0f"
+          "index-7de2a41da2"
         ],
         "sourceUrls": [
           "/enrichments.html#activities",
@@ -2189,7 +2161,7 @@
       "relationships": 46,
       "verifiedAttributeAssertions": 31,
       "uniqueAttributeFacts": 23,
-      "knowledgeRecords": 181
+      "knowledgeRecords": 173
     },
     "scopeNotes": [
       "Relationships are publication/listing relationships, not inferred legal ownership.",
@@ -3769,7 +3741,7 @@
       "url": "/about.html",
       "sourceReference": {
         "file": "about.html",
-        "line": 289,
+        "line": 294,
         "heading": "About Shomoukh Early Childhood Education",
         "kind": "html"
       },
@@ -3865,7 +3837,7 @@
       "url": "/about.html#welcome",
       "sourceReference": {
         "file": "about.html",
-        "line": 307,
+        "line": 312,
         "heading": "Welcome to Shomoukh Nursery Schools",
         "kind": "html"
       },
@@ -3906,7 +3878,7 @@
       "url": "/about.html#philosophy",
       "sourceReference": {
         "file": "about.html",
-        "line": 349,
+        "line": 354,
         "heading": "Nurturing Mind, Body, and Spirit",
         "kind": "html"
       },
@@ -3975,7 +3947,7 @@
       "url": "/about.html#philosophy",
       "sourceReference": {
         "file": "about.html",
-        "line": 356,
+        "line": 361,
         "heading": "Collaborative Partnerships",
         "kind": "html"
       },
@@ -4021,7 +3993,7 @@
       "url": "/about.html#mission-vision",
       "sourceReference": {
         "file": "about.html",
-        "line": 372,
+        "line": 377,
         "heading": "Our Mission",
         "kind": "html"
       },
@@ -4066,7 +4038,7 @@
       "url": "/about.html#mission-vision",
       "sourceReference": {
         "file": "about.html",
-        "line": 380,
+        "line": 385,
         "heading": "Our Vision",
         "kind": "html"
       },
@@ -4112,7 +4084,7 @@
       "url": "/about.html#mission-vision",
       "sourceReference": {
         "file": "about.html",
-        "line": 388,
+        "line": 393,
         "heading": "Our Values",
         "kind": "html"
       },
@@ -4148,7 +4120,7 @@
       "url": "/about.html#core-principles",
       "sourceReference": {
         "file": "about.html",
-        "line": 407,
+        "line": 412,
         "heading": "Core Principles",
         "kind": "html"
       },
@@ -4197,7 +4169,7 @@
       "url": "/about.html#core-principles",
       "sourceReference": {
         "file": "about.html",
-        "line": 415,
+        "line": 420,
         "heading": "Community",
         "kind": "html"
       },
@@ -4244,7 +4216,7 @@
       "url": "/about.html#core-principles",
       "sourceReference": {
         "file": "about.html",
-        "line": 423,
+        "line": 428,
         "heading": "Giving Back",
         "kind": "html"
       },
@@ -4286,7 +4258,7 @@
       "url": "/about.html#core-principles",
       "sourceReference": {
         "file": "about.html",
-        "line": 431,
+        "line": 436,
         "heading": "Environmental Care",
         "kind": "html"
       },
@@ -4331,7 +4303,7 @@
       "url": "/about.html#health-safety",
       "sourceReference": {
         "file": "about.html",
-        "line": 439,
+        "line": 444,
         "heading": "Health & Safety",
         "kind": "html"
       },
@@ -4374,7 +4346,7 @@
       "url": "/about.html",
       "sourceReference": {
         "file": "about.html",
-        "line": 556,
+        "line": 561,
         "heading": "Public school accreditation and overview",
         "kind": "html"
       },
@@ -4410,7 +4382,7 @@
       "url": "/about.html",
       "sourceReference": {
         "file": "about.html",
-        "line": 559,
+        "line": 564,
         "heading": "Public school accreditation and overview",
         "kind": "html"
       },
@@ -4445,7 +4417,7 @@
       "url": "/about.html",
       "sourceReference": {
         "file": "about.html",
-        "line": 572,
+        "line": 577,
         "heading": "Website copyright holder",
         "kind": "html"
       },
@@ -4483,7 +4455,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 289,
+        "line": 294,
         "heading": "Admissions & Enrollment",
         "kind": "html"
       },
@@ -4536,7 +4508,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 305,
+        "line": 310,
         "heading": "Education for Your Child at Shomoukh",
         "kind": "html"
       },
@@ -4583,7 +4555,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 312,
+        "line": 317,
         "heading": "Join Our Diverse Community of Learners",
         "kind": "html"
       },
@@ -4622,7 +4594,7 @@
       "url": "/admissions.html#steps",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 338,
+        "line": 343,
         "heading": "Three Steps to Enrollment",
         "kind": "html"
       },
@@ -4666,7 +4638,7 @@
       "url": "/admissions.html#step1",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 350,
+        "line": 355,
         "heading": "Book a Tour",
         "kind": "html"
       },
@@ -4711,7 +4683,7 @@
       "url": "/admissions.html#step2",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 363,
+        "line": 368,
         "heading": "Submit Details",
         "kind": "html"
       },
@@ -4758,7 +4730,7 @@
       "url": "/admissions.html#step3",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 376,
+        "line": 381,
         "heading": "Secure Your Place",
         "kind": "html"
       },
@@ -4794,7 +4766,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 398,
+        "line": 403,
         "heading": "Required Documents Checklist",
         "kind": "html"
       },
@@ -4824,7 +4796,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 410,
+        "line": 415,
         "heading": "Birth Certificate",
         "kind": "html"
       },
@@ -4856,7 +4828,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 416,
+        "line": 421,
         "heading": "Health & Vaccine Card",
         "kind": "html"
       },
@@ -4887,7 +4859,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 422,
+        "line": 427,
         "heading": "Passport Copies",
         "kind": "html"
       },
@@ -4918,7 +4890,7 @@
       "url": "/admissions.html",
       "sourceReference": {
         "file": "admissions.html",
-        "line": 428,
+        "line": 433,
         "heading": "4 Photographs",
         "kind": "html"
       },
@@ -4963,7 +4935,7 @@
       "url": "/apply-online.html",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 291,
+        "line": 296,
         "heading": "Apply Online",
         "kind": "html"
       },
@@ -5061,7 +5033,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Apply Online — form requirements",
         "kind": "public-form-labels"
       },
@@ -5103,7 +5075,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "APPLYING FOR ACADEMIC YEAR",
         "kind": "public-form-options"
       },
@@ -5143,7 +5115,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Please Choose Your Campus",
         "kind": "public-form-options"
       },
@@ -5181,7 +5153,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Gender",
         "kind": "public-form-options"
       },
@@ -5219,7 +5191,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Status",
         "kind": "public-form-options"
       },
@@ -5262,7 +5234,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "For Nursery/School: Full-week attendance (Sunday to Thursday)",
         "kind": "public-form-options"
       },
@@ -5307,7 +5279,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Choose the attendance schedule for your child ( Please select the option that applies to your child’s program for nursery)",
         "kind": "public-form-options"
       },
@@ -5361,7 +5333,7 @@
       "url": "/apply-online.html#online-enrollment-form",
       "sourceReference": {
         "file": "apply-online.html",
-        "line": 304,
+        "line": 309,
         "heading": "Select your preferred days of attendance: days must be consecutive. (The chosen days will be confirmed by the admission team in the final step of enrollment)",
         "kind": "public-form-options"
       },
@@ -5397,7 +5369,7 @@
       "url": "/book-a-visit.html",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 289,
+        "line": 294,
         "heading": "Book a visit",
         "kind": "html"
       },
@@ -5434,7 +5406,7 @@
       "url": "/book-a-visit.html",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 310,
+        "line": 315,
         "heading": "What to Expect During Your Campus Tour",
         "kind": "html"
       },
@@ -5474,7 +5446,7 @@
       "url": "/book-a-visit.html",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 321,
+        "line": 326,
         "heading": "45-Minute Guided Tour",
         "kind": "html"
       },
@@ -5512,7 +5484,7 @@
       "url": "/book-a-visit.html",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 329,
+        "line": 334,
         "heading": "Bring Your Child",
         "kind": "html"
       },
@@ -5549,7 +5521,7 @@
       "url": "/book-a-visit.html",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 337,
+        "line": 342,
         "heading": "Q&A With Educators",
         "kind": "html"
       },
@@ -5606,7 +5578,7 @@
       "url": "/book-a-visit.html#tour-booking-form",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 300,
+        "line": 305,
         "heading": "Book a visit — form requirements",
         "kind": "public-form-labels"
       },
@@ -5645,7 +5617,7 @@
       "url": "/book-a-visit.html#tour-booking-form",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 300,
+        "line": 305,
         "heading": "Choose Shomoukh campus",
         "kind": "public-form-options"
       },
@@ -5691,7 +5663,7 @@
       "url": "/book-a-visit.html#tour-booking-form",
       "sourceReference": {
         "file": "book-a-visit.html",
-        "line": 300,
+        "line": 305,
         "heading": "Please choose visit time",
         "kind": "public-form-options"
       },
@@ -5730,7 +5702,7 @@
       "url": "/contact.html",
       "sourceReference": {
         "file": "contact.html",
-        "line": 289,
+        "line": 294,
         "heading": "Contact Us & Our Campuses",
         "kind": "html"
       },
@@ -5769,7 +5741,7 @@
       "url": "/contact.html#contact-us",
       "sourceReference": {
         "file": "contact.html",
-        "line": 304,
+        "line": 309,
         "heading": "Connect with Our Admissions Team",
         "kind": "html"
       },
@@ -5811,7 +5783,7 @@
       "url": "/contact.html#almouj",
       "sourceReference": {
         "file": "contact.html",
-        "line": 318,
+        "line": 323,
         "heading": "Al Mouj Campus",
         "kind": "html"
       },
@@ -5855,7 +5827,7 @@
       "url": "/contact.html#alqurm",
       "sourceReference": {
         "file": "contact.html",
-        "line": 340,
+        "line": 345,
         "heading": "Al Qurm Campus",
         "kind": "html"
       },
@@ -5887,7 +5859,7 @@
       "url": "/contact.html#contact-form",
       "sourceReference": {
         "file": "contact.html",
-        "line": 366,
+        "line": 371,
         "heading": "Contact Form",
         "kind": "html"
       },
@@ -5929,7 +5901,7 @@
       "url": "/contact.html",
       "sourceReference": {
         "file": "contact.html",
-        "line": 385,
+        "line": 390,
         "heading": "Two Campuses in Prime Locations",
         "kind": "html"
       },
@@ -5979,7 +5951,7 @@
       "url": "/contact.html",
       "sourceReference": {
         "file": "contact.html",
-        "line": 400,
+        "line": 405,
         "heading": "Al Mouj Muscat",
         "kind": "html"
       },
@@ -6025,7 +5997,7 @@
       "url": "/contact.html",
       "sourceReference": {
         "file": "contact.html",
-        "line": 412,
+        "line": 417,
         "heading": "Shatti Al Qurm",
         "kind": "html"
       },
@@ -6078,7 +6050,7 @@
       "url": "/contact.html#contact-inquiry-form",
       "sourceReference": {
         "file": "contact.html",
-        "line": 370,
+        "line": 375,
         "heading": "Contact Us & Our Campuses — form requirements",
         "kind": "public-form-labels"
       },
@@ -6117,7 +6089,7 @@
       "url": "/enrichments.html",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 281,
+        "line": 286,
         "heading": "Shomoukh Ateliers & Enrichments",
         "kind": "html"
       },
@@ -6162,7 +6134,7 @@
       "url": "/enrichments.html#overview",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 296,
+        "line": 301,
         "heading": "The Shomoukh Fun Space",
         "kind": "html"
       },
@@ -6209,7 +6181,7 @@
       "url": "/enrichments.html#clay-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 311,
+        "line": 316,
         "heading": "Clay Atelier",
         "kind": "html"
       },
@@ -6257,7 +6229,7 @@
       "url": "/enrichments.html#art-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 328,
+        "line": 333,
         "heading": "Art Atelier",
         "kind": "html"
       },
@@ -6302,7 +6274,7 @@
       "url": "/enrichments.html#digital-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 345,
+        "line": 350,
         "heading": "Digital & Light Atelier",
         "kind": "html"
       },
@@ -6342,7 +6314,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 369,
+        "line": 374,
         "heading": "Enrichment Experiences & Activities",
         "kind": "html"
       },
@@ -6378,7 +6350,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 380,
+        "line": 385,
         "heading": "Clay Atelier",
         "kind": "html"
       },
@@ -6414,7 +6386,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 392,
+        "line": 397,
         "heading": "Art Atelier",
         "kind": "html"
       },
@@ -6449,7 +6421,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 404,
+        "line": 409,
         "heading": "Digital & Light Atelier",
         "kind": "html"
       },
@@ -6485,7 +6457,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 416,
+        "line": 421,
         "heading": "Project-Based Learning",
         "kind": "html"
       },
@@ -6520,7 +6492,7 @@
       "url": "/enrichments.html#tiny-town",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 428,
+        "line": 433,
         "heading": "Tiny Town",
         "kind": "html"
       },
@@ -6556,7 +6528,7 @@
       "url": "/enrichments.html#sensory-play",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 440,
+        "line": 445,
         "heading": "Sensory Play",
         "kind": "html"
       },
@@ -6592,7 +6564,7 @@
       "url": "/enrichments.html#music-drama",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 452,
+        "line": 457,
         "heading": "Music & Movement",
         "kind": "html"
       },
@@ -6627,7 +6599,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 464,
+        "line": 469,
         "heading": "Drama, Puppetry & PE",
         "kind": "html"
       },
@@ -6663,7 +6635,7 @@
       "url": "/#hero",
       "sourceReference": {
         "file": "index.html",
-        "line": 350,
+        "line": 355,
         "heading": "THE FIRST & ONLY Reggio Emilia INSPIRED NURSERY SCHOOL",
         "kind": "html"
       },
@@ -6703,7 +6675,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 392,
+        "line": 397,
         "heading": "Home-like Environment",
         "kind": "html"
       },
@@ -6742,7 +6714,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 398,
+        "line": 403,
         "heading": "Safe & Secure",
         "kind": "html"
       },
@@ -6782,7 +6754,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 404,
+        "line": 409,
         "heading": "Quality Educators",
         "kind": "html"
       },
@@ -6821,7 +6793,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 410,
+        "line": 415,
         "heading": "Play to Learn",
         "kind": "html"
       },
@@ -6863,7 +6835,7 @@
       "url": "/#key-features",
       "sourceReference": {
         "file": "index.html",
-        "line": 416,
+        "line": 421,
         "heading": "Modern & Innovative",
         "kind": "html"
       },
@@ -6925,7 +6897,7 @@
       "url": "/#who-we-are",
       "sourceReference": {
         "file": "index.html",
-        "line": 432,
+        "line": 437,
         "heading": "Welcome to Shomoukh Nursery Schools",
         "kind": "html"
       },
@@ -6971,7 +6943,7 @@
       "url": "/#philosophy",
       "sourceReference": {
         "file": "index.html",
-        "line": 450,
+        "line": 455,
         "heading": "Our School's Philosophy",
         "kind": "html"
       },
@@ -7015,7 +6987,7 @@
       "url": "/#mission",
       "sourceReference": {
         "file": "index.html",
-        "line": 464,
+        "line": 469,
         "heading": "Our Mission",
         "kind": "html"
       },
@@ -7057,7 +7029,7 @@
       "url": "/#vision",
       "sourceReference": {
         "file": "index.html",
-        "line": 478,
+        "line": 483,
         "heading": "Our Vision & Values",
         "kind": "html"
       },
@@ -7101,7 +7073,7 @@
       "url": "/#promise",
       "sourceReference": {
         "file": "index.html",
-        "line": 506,
+        "line": 511,
         "heading": "Our Promise to Families",
         "kind": "html"
       },
@@ -7140,7 +7112,7 @@
       "url": "/#reggio-pillar",
       "sourceReference": {
         "file": "index.html",
-        "line": 519,
+        "line": 524,
         "heading": "Reggio Emilia",
         "kind": "html"
       },
@@ -7182,7 +7154,7 @@
       "url": "/#inspired-teachers",
       "sourceReference": {
         "file": "index.html",
-        "line": 527,
+        "line": 532,
         "heading": "Inspired Teachers",
         "kind": "html"
       },
@@ -7225,7 +7197,7 @@
       "url": "/#programs",
       "sourceReference": {
         "file": "index.html",
-        "line": 535,
+        "line": 540,
         "heading": "Proven Approach to Education",
         "kind": "html"
       },
@@ -7272,7 +7244,7 @@
       "url": "/#enrollment",
       "sourceReference": {
         "file": "index.html",
-        "line": 561,
+        "line": 566,
         "heading": "We Meet Kids Where They Are",
         "kind": "html"
       },
@@ -7310,7 +7282,7 @@
       "url": "/#infants",
       "sourceReference": {
         "file": "index.html",
-        "line": 572,
+        "line": 577,
         "heading": "Infants (3–11 months)",
         "kind": "html"
       },
@@ -7350,7 +7322,7 @@
       "url": "/#toddlers",
       "sourceReference": {
         "file": "index.html",
-        "line": 578,
+        "line": 583,
         "heading": "Toddlers (12–35 months)",
         "kind": "html"
       },
@@ -7390,7 +7362,7 @@
       "url": "/#preschoolers",
       "sourceReference": {
         "file": "index.html",
-        "line": 584,
+        "line": 589,
         "heading": "Preschoolers (36–48 months)",
         "kind": "html"
       },
@@ -7431,7 +7403,7 @@
       "url": "/#flexcare",
       "sourceReference": {
         "file": "index.html",
-        "line": 590,
+        "line": 595,
         "heading": "Flex-Care (6–48 months)",
         "kind": "html"
       },
@@ -7482,7 +7454,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 616,
+        "line": 621,
         "heading": "Shomoukh Fun Space: Enrichments & Ateliers",
         "kind": "html"
       },
@@ -7517,7 +7489,7 @@
       "url": "/#clay-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 633,
+        "line": 638,
         "heading": "Clay Atelier",
         "kind": "html"
       },
@@ -7552,7 +7524,7 @@
       "url": "/#art-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 646,
+        "line": 651,
         "heading": "Art Atelier",
         "kind": "html"
       },
@@ -7586,7 +7558,7 @@
       "url": "/#digital-atelier",
       "sourceReference": {
         "file": "index.html",
-        "line": 659,
+        "line": 664,
         "heading": "Digital & Light Atelier",
         "kind": "html"
       },
@@ -7619,7 +7591,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 672,
+        "line": 677,
         "heading": "Project Approach",
         "kind": "html"
       },
@@ -7655,7 +7627,7 @@
       "url": "/#tiny-town",
       "sourceReference": {
         "file": "index.html",
-        "line": 685,
+        "line": 690,
         "heading": "Tiny Town",
         "kind": "html"
       },
@@ -7690,7 +7662,7 @@
       "url": "/#sensory-play",
       "sourceReference": {
         "file": "index.html",
-        "line": 698,
+        "line": 703,
         "heading": "Sensory Play",
         "kind": "html"
       },
@@ -7726,7 +7698,7 @@
       "url": "/#music-drama",
       "sourceReference": {
         "file": "index.html",
-        "line": 711,
+        "line": 716,
         "heading": "Music & Movement",
         "kind": "html"
       },
@@ -7761,7 +7733,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "index.html",
-        "line": 724,
+        "line": 729,
         "heading": "Drama & ECA / PE",
         "kind": "html"
       },
@@ -7806,7 +7778,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 778,
+        "line": 783,
         "heading": "Our Spaces: Designed for Discovery",
         "kind": "html"
       },
@@ -7844,7 +7816,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 791,
+        "line": 796,
         "heading": "Art and Clay Ateliers",
         "kind": "html"
       },
@@ -7881,7 +7853,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 798,
+        "line": 803,
         "heading": "Digital / Light Atelier",
         "kind": "html"
       },
@@ -7917,7 +7889,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 805,
+        "line": 810,
         "heading": "Drama Room",
         "kind": "html"
       },
@@ -7956,7 +7928,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 812,
+        "line": 817,
         "heading": "Indoor Gymnasium",
         "kind": "html"
       },
@@ -7994,7 +7966,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 819,
+        "line": 824,
         "heading": "Organic Garden",
         "kind": "html"
       },
@@ -8033,7 +8005,7 @@
       "url": "/#facilities",
       "sourceReference": {
         "file": "index.html",
-        "line": 826,
+        "line": 831,
         "heading": "Piazza (Central Square)",
         "kind": "html"
       },
@@ -8097,7 +8069,7 @@
       "url": "/#admissions-overview",
       "sourceReference": {
         "file": "index.html",
-        "line": 849,
+        "line": 854,
         "heading": "Education for Your Child at Shomoukh",
         "kind": "html"
       },
@@ -8133,7 +8105,7 @@
       "url": "/#step1",
       "sourceReference": {
         "file": "index.html",
-        "line": 862,
+        "line": 867,
         "heading": "Book a Tour",
         "kind": "html"
       },
@@ -8171,7 +8143,7 @@
       "url": "/#step2",
       "sourceReference": {
         "file": "index.html",
-        "line": 868,
+        "line": 873,
         "heading": "Submit Details",
         "kind": "html"
       },
@@ -8209,7 +8181,7 @@
       "url": "/#step3",
       "sourceReference": {
         "file": "index.html",
-        "line": 874,
+        "line": 879,
         "heading": "Secure Your Place",
         "kind": "html"
       },
@@ -8247,7 +8219,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 891,
+        "line": 896,
         "heading": "In The Heart Of Muscat",
         "kind": "html"
       },
@@ -8289,7 +8261,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 902,
+        "line": 907,
         "heading": "Al Mouj Campus",
         "kind": "html"
       },
@@ -8333,7 +8305,7 @@
       "url": "/#campuses",
       "sourceReference": {
         "file": "index.html",
-        "line": 910,
+        "line": 915,
         "heading": "Al Qurm Campus",
         "kind": "html"
       },
@@ -8375,7 +8347,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 289,
+        "line": 294,
         "heading": "Shomoukh Parents Portal",
         "kind": "html"
       },
@@ -8418,7 +8390,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 304,
+        "line": 309,
         "heading": "Choose Your Preferred Platform",
         "kind": "html"
       },
@@ -8457,7 +8429,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 317,
+        "line": 322,
         "heading": "Web-App",
         "kind": "html"
       },
@@ -8498,7 +8470,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 330,
+        "line": 335,
         "heading": "iOS App",
         "kind": "html"
       },
@@ -8537,7 +8509,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 343,
+        "line": 348,
         "heading": "Android App",
         "kind": "html"
       },
@@ -8575,7 +8547,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 366,
+        "line": 371,
         "heading": "Everything You Need in One Place",
         "kind": "html"
       },
@@ -8612,7 +8584,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 378,
+        "line": 383,
         "heading": "Learning Stories & Photos",
         "kind": "html"
       },
@@ -8646,7 +8618,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 384,
+        "line": 389,
         "heading": "Direct Messaging",
         "kind": "html"
       },
@@ -8683,7 +8655,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 390,
+        "line": 395,
         "heading": "Academic Calendar",
         "kind": "html"
       },
@@ -8718,7 +8690,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 396,
+        "line": 401,
         "heading": "Attendance & Pick-up",
         "kind": "html"
       },
@@ -8771,7 +8743,7 @@
       "url": "/parents.html",
       "sourceReference": {
         "file": "parents.html",
-        "line": 414,
+        "line": 419,
         "heading": "First Time Logging In?",
         "kind": "html"
       },
@@ -8811,7 +8783,7 @@
       "url": "/programs.html",
       "sourceReference": {
         "file": "programs.html",
-        "line": 281,
+        "line": 286,
         "heading": "Educational Programs & UK EYFS Framework",
         "kind": "html"
       },
@@ -8860,7 +8832,7 @@
       "url": "/programs.html#promise",
       "sourceReference": {
         "file": "programs.html",
-        "line": 298,
+        "line": 303,
         "heading": "Our Promise to Families",
         "kind": "html"
       },
@@ -8911,7 +8883,7 @@
       "url": "/programs.html#promise",
       "sourceReference": {
         "file": "programs.html",
-        "line": 306,
+        "line": 311,
         "heading": "12-Month Continuous Learning",
         "kind": "html"
       },
@@ -8946,7 +8918,7 @@
       "url": "/programs.html#reggio",
       "sourceReference": {
         "file": "programs.html",
-        "line": 334,
+        "line": 339,
         "heading": "The Three Pillars of Shomoukh",
         "kind": "html"
       },
@@ -8988,7 +8960,7 @@
       "url": "/programs.html#reggio",
       "sourceReference": {
         "file": "programs.html",
-        "line": 342,
+        "line": 347,
         "heading": "Reggio Emilia Approach",
         "kind": "html"
       },
@@ -9032,7 +9004,7 @@
       "url": "/programs.html#reggio",
       "sourceReference": {
         "file": "programs.html",
-        "line": 350,
+        "line": 355,
         "heading": "Inspired Teachers",
         "kind": "html"
       },
@@ -9077,7 +9049,7 @@
       "url": "/programs.html#reggio",
       "sourceReference": {
         "file": "programs.html",
-        "line": 358,
+        "line": 363,
         "heading": "Proven Approach",
         "kind": "html"
       },
@@ -9147,7 +9119,7 @@
       "url": "/programs.html#eyfs",
       "sourceReference": {
         "file": "programs.html",
-        "line": 379,
+        "line": 384,
         "heading": "Our Programs & UK EYFS",
         "kind": "html"
       },
@@ -9196,7 +9168,7 @@
       "url": "/programs.html#teachers",
       "sourceReference": {
         "file": "programs.html",
-        "line": 390,
+        "line": 395,
         "heading": "The Teacher as Researcher",
         "kind": "html"
       },
@@ -9242,7 +9214,7 @@
       "url": "/programs.html#environment",
       "sourceReference": {
         "file": "programs.html",
-        "line": 394,
+        "line": 399,
         "heading": "The Environment: \"The Third Teacher\"",
         "kind": "html"
       },
@@ -9280,7 +9252,7 @@
       "url": "/programs.html#focus-areas",
       "sourceReference": {
         "file": "programs.html",
-        "line": 412,
+        "line": 417,
         "heading": "Second Language",
         "kind": "html"
       },
@@ -9319,7 +9291,7 @@
       "url": "/programs.html#focus-areas",
       "sourceReference": {
         "file": "programs.html",
-        "line": 417,
+        "line": 422,
         "heading": "Movement Matters",
         "kind": "html"
       },
@@ -9359,7 +9331,7 @@
       "url": "/programs.html#focus-areas",
       "sourceReference": {
         "file": "programs.html",
-        "line": 422,
+        "line": 427,
         "heading": "Handwriting & Pre-Literacy",
         "kind": "html"
       },
@@ -9397,7 +9369,7 @@
       "url": "/programs.html#ages",
       "sourceReference": {
         "file": "programs.html",
-        "line": 439,
+        "line": 444,
         "heading": "We Meet Kids Where They Are",
         "kind": "html"
       },
@@ -9438,7 +9410,7 @@
       "url": "/programs.html#infants",
       "sourceReference": {
         "file": "programs.html",
-        "line": 448,
+        "line": 453,
         "heading": "Infants (3–11 months)",
         "kind": "html"
       },
@@ -9479,7 +9451,7 @@
       "url": "/programs.html#toddlers",
       "sourceReference": {
         "file": "programs.html",
-        "line": 454,
+        "line": 459,
         "heading": "Toddlers (12–35 months)",
         "kind": "html"
       },
@@ -9523,7 +9495,7 @@
       "url": "/programs.html#preschoolers",
       "sourceReference": {
         "file": "programs.html",
-        "line": 460,
+        "line": 465,
         "heading": "Preschoolers (36–48 months)",
         "kind": "html"
       },
@@ -9566,7 +9538,7 @@
       "url": "/programs.html#flexcare",
       "sourceReference": {
         "file": "programs.html",
-        "line": 466,
+        "line": 471,
         "heading": "Flex-Care (6–48 months)",
         "kind": "html"
       },
@@ -9612,7 +9584,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 289,
+        "line": 294,
         "heading": "Our Purpose-Built Learning Spaces",
         "kind": "html"
       },
@@ -9674,7 +9646,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 305,
+        "line": 310,
         "heading": "The Environment: \"The Third Teacher\"",
         "kind": "html"
       },
@@ -9710,7 +9682,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 317,
+        "line": 322,
         "heading": "Interconnected",
         "kind": "html"
       },
@@ -9746,7 +9718,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 321,
+        "line": 326,
         "heading": "Provocative",
         "kind": "html"
       },
@@ -9786,7 +9758,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 345,
+        "line": 350,
         "heading": "14 Purpose-Built Facilities & Spaces",
         "kind": "html"
       },
@@ -9826,7 +9798,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 395,
+        "line": 400,
         "heading": "Indoor Playground",
         "kind": "html"
       },
@@ -9865,7 +9837,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 404,
+        "line": 409,
         "heading": "Library",
         "kind": "html"
       },
@@ -9905,7 +9877,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 413,
+        "line": 418,
         "heading": "Modern Outdoor Playgrounds",
         "kind": "html"
       },
@@ -9943,7 +9915,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 422,
+        "line": 427,
         "heading": "Nurse's Clinic",
         "kind": "html"
       },
@@ -9980,7 +9952,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 431,
+        "line": 436,
         "heading": "Open Spaces",
         "kind": "html"
       },
@@ -10022,7 +9994,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 449,
+        "line": 454,
         "heading": "Pretend Play Areas – Tiny Towns",
         "kind": "html"
       },
@@ -10060,7 +10032,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 458,
+        "line": 463,
         "heading": "Sand Kitchens",
         "kind": "html"
       },
@@ -10099,7 +10071,7 @@
       "url": "/spaces.html#all-spaces",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 467,
+        "line": 472,
         "heading": "Spacious Classrooms With Natural Light",
         "kind": "html"
       },
@@ -10141,7 +10113,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 494,
+        "line": 499,
         "heading": "Signature Spaces that Inspire Wonder",
         "kind": "html"
       },
@@ -10189,7 +10161,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 506,
+        "line": 511,
         "heading": "The Central Piazza",
         "kind": "html"
       },
@@ -10238,7 +10210,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 514,
+        "line": 519,
         "heading": "The Organic Garden",
         "kind": "html"
       },
@@ -10287,7 +10259,7 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 522,
+        "line": 527,
         "heading": "Sunlit Classrooms",
         "kind": "html"
       },
@@ -10329,493 +10301,9 @@
       "url": "/spaces.html",
       "sourceReference": {
         "file": "spaces.html",
-        "line": 539,
+        "line": 544,
         "heading": "Come See Our Spaces in Person",
         "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-278d99379d",
-      "title": "Clay Atelier",
-      "question": "Tell me about Clay Atelier",
-      "answer": "Children experiment with clay, a soft and natural material with a smooth texture that can be shaped by the gestures of their hands or using various sculpting tools. Hands-on tactile sensory exploration with natural clay Fostering fine motor skills, hand gestures, and tool usage Expressing 3D sculptural concepts and structural thinking Guided supervision by trained Atelierista (artists)",
-      "keywords": [
-        "clay",
-        "atelier",
-        "experiment",
-        "soft",
-        "natural",
-        "material",
-        "smooth",
-        "texture",
-        "shaped",
-        "gestures",
-        "hands",
-        "using",
-        "various",
-        "sculpting",
-        "tools",
-        "tactile",
-        "sensory",
-        "exploration",
-        "fostering",
-        "fine",
-        "motor",
-        "skills",
-        "hand",
-        "tool",
-        "usage",
-        "expressing",
-        "sculptural",
-        "concepts",
-        "structural",
-        "thinking",
-        "guided",
-        "supervision",
-        "trained",
-        "atelierista",
-        "artists"
-      ],
-      "alternativeQuestions": [
-        "What is Clay Atelier?",
-        "Where can I find Clay Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 262,
-        "heading": "Clay Atelier",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-2acebaf277",
-      "title": "Art Atelier",
-      "question": "Tell me about Art Atelier",
-      "answer": "Children have access to stimulating resources and are encouraged to use multiple symbolic languages, tools, and materials to express themselves creatively. Rich variety of paints, pastels, natural dyes, and papers Encouraging individual symbolic expressions and storytelling Open-ended art provocations nurturing curiosity Exhibitions documenting each child's creative process",
-      "keywords": [
-        "art",
-        "atelier",
-        "access",
-        "stimulating",
-        "resources",
-        "encouraged",
-        "use",
-        "multiple",
-        "symbolic",
-        "languages",
-        "tools",
-        "materials",
-        "express",
-        "themselves",
-        "creatively",
-        "rich",
-        "variety",
-        "paints",
-        "pastels",
-        "natural",
-        "dyes",
-        "papers",
-        "encouraging",
-        "individual",
-        "expressions",
-        "storytelling",
-        "open",
-        "ended",
-        "provocations",
-        "nurturing",
-        "curiosity",
-        "exhibitions",
-        "documenting",
-        "creative",
-        "process"
-      ],
-      "alternativeQuestions": [
-        "What is Art Atelier?",
-        "Where can I find Art Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 274,
-        "heading": "Art Atelier",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-8f68b0ad3b",
-      "title": "Digital & Light Atelier",
-      "question": "Tell me about Digital & Light Atelier",
-      "answer": "Children use light in different forms alongside analogical and digital tools to investigate new connections, learning strategies, logic, and imagination. Light tables, projectors, shadows, and color filters Exploration of patterns, reflection, and optical science Integrating digital technology with early childhood logic Interactive group investigations and discovery",
-      "keywords": [
-        "digital",
-        "light",
-        "atelier",
-        "use",
-        "different",
-        "forms",
-        "alongside",
-        "analogical",
-        "tools",
-        "investigate",
-        "new",
-        "connections",
-        "learning",
-        "strategies",
-        "logic",
-        "imagination",
-        "tables",
-        "projectors",
-        "shadows",
-        "color",
-        "filters",
-        "exploration",
-        "patterns",
-        "reflection",
-        "optical",
-        "science",
-        "integrating",
-        "technology",
-        "early",
-        "childhood",
-        "interactive",
-        "group",
-        "investigations",
-        "discovery"
-      ],
-      "alternativeQuestions": [
-        "What is Digital & Light Atelier?",
-        "Where can I find Digital & Light Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 286,
-        "heading": "Digital & Light Atelier",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-70720eb9e8",
-      "title": "Project-Based Learning",
-      "question": "Tell me about Project-Based Learning",
-      "answer": "Following a project approach, children explore their own ideas and make meaningful connections with the world around them generated through brainstorming. Child-led topics generated from everyday observations Deep inquiry spanning weeks of collaborative research Documentation of hypotheses, testing, and discoveries Equal partnership between children, teachers, and parents",
-      "keywords": [
-        "project",
-        "based",
-        "learning",
-        "following",
-        "approach",
-        "explore",
-        "own",
-        "ideas",
-        "make",
-        "meaningful",
-        "connections",
-        "world",
-        "around",
-        "them",
-        "generated",
-        "brainstorming",
-        "led",
-        "topics",
-        "everyday",
-        "observations",
-        "deep",
-        "inquiry",
-        "spanning",
-        "weeks",
-        "collaborative",
-        "research",
-        "documentation",
-        "hypotheses",
-        "testing",
-        "discoveries",
-        "equal",
-        "partnership",
-        "between",
-        "teachers",
-        "parents"
-      ],
-      "alternativeQuestions": [
-        "What is Project-Based Learning?",
-        "Where can I find Project-Based Learning?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 298,
-        "heading": "Project-Based Learning",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-49f7c6d08f",
-      "title": "Tiny Town",
-      "question": "Tell me about Tiny Town",
-      "answer": "A dedicated pretend play area that helps children learn about themselves, balance their own ideas with others, and foster social skills. Miniature town setup for imaginative roleplay Developing social negotiation and empathy with peers Enhancing language acquisition and narrative thinking Safe space for real-world simulation and problem-solving",
-      "keywords": [
-        "tiny",
-        "town",
-        "dedicated",
-        "pretend",
-        "play",
-        "area",
-        "helps",
-        "learn",
-        "about",
-        "themselves",
-        "balance",
-        "own",
-        "ideas",
-        "others",
-        "foster",
-        "social",
-        "skills",
-        "miniature",
-        "setup",
-        "imaginative",
-        "roleplay",
-        "developing",
-        "negotiation",
-        "empathy",
-        "peers",
-        "enhancing",
-        "language",
-        "acquisition",
-        "narrative",
-        "thinking",
-        "safe",
-        "space",
-        "real",
-        "world",
-        "simulation",
-        "problem",
-        "solving"
-      ],
-      "alternativeQuestions": [
-        "What is Tiny Town?",
-        "Where can I find Tiny Town?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 310,
-        "heading": "Tiny Town",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-619c618978",
-      "title": "Sensory Play",
-      "question": "Tell me about Sensory Play",
-      "answer": "Engaging activities that stimulate the senses, supporting brain development, problem-solving strategies, and language acquisition. Water tables, sand kitchens, and organic textures Stimulating neural pathways and cognitive focus Developing descriptive vocabulary and communication Calming, therapeutic, and self-regulating experiences",
-      "keywords": [
-        "sensory",
-        "play",
-        "engaging",
-        "activities",
-        "stimulate",
-        "senses",
-        "supporting",
-        "brain",
-        "development",
-        "problem",
-        "solving",
-        "strategies",
-        "language",
-        "acquisition",
-        "water",
-        "tables",
-        "sand",
-        "kitchens",
-        "organic",
-        "textures",
-        "stimulating",
-        "neural",
-        "pathways",
-        "cognitive",
-        "focus",
-        "developing",
-        "descriptive",
-        "vocabulary",
-        "communication",
-        "calming",
-        "therapeutic",
-        "self",
-        "regulating",
-        "experiences"
-      ],
-      "alternativeQuestions": [
-        "What is Sensory Play?",
-        "Where can I find Sensory Play?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 322,
-        "heading": "Sensory Play",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-20f139a472",
-      "title": "Music & Movement",
-      "question": "Tell me about Music & Movement",
-      "answer": "Music activities balance the body and mind and improve children’s ability to learn. Children are exposed to music from a young age to develop all their potential. Rhythm instruments, singing, and listening games Auditory processing and pattern recognition Gross motor coordination through rhythmic dance Nurturing confidence and musical appreciation",
-      "keywords": [
-        "music",
-        "movement",
-        "activities",
-        "balance",
-        "body",
-        "mind",
-        "improve",
-        "ability",
-        "learn",
-        "exposed",
-        "young",
-        "age",
-        "develop",
-        "potential",
-        "rhythm",
-        "instruments",
-        "singing",
-        "listening",
-        "games",
-        "auditory",
-        "processing",
-        "pattern",
-        "recognition",
-        "gross",
-        "motor",
-        "coordination",
-        "rhythmic",
-        "dance",
-        "nurturing",
-        "confidence",
-        "musical",
-        "appreciation"
-      ],
-      "alternativeQuestions": [
-        "What is Music & Movement?",
-        "Where can I find Music & Movement?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 334,
-        "heading": "Music & Movement",
-        "kind": "public-modal-data"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "main.js-ff9c0d0c0f",
-      "title": "Drama, Puppetry & ECA / PE",
-      "question": "Tell me about Drama, Puppetry & ECA / PE",
-      "answer": "Through roleplay and puppetry, students act out favorite stories. Extracurricular physical education and sports build skills and social bonds. Story dramatization and puppet theater Physical education games building balance and strength Fostering teamwork, sportsmanship, and friendships Building public speaking confidence from an early age",
-      "keywords": [
-        "drama",
-        "puppetry",
-        "eca",
-        "roleplay",
-        "students",
-        "act",
-        "out",
-        "favorite",
-        "stories",
-        "extracurricular",
-        "physical",
-        "education",
-        "sports",
-        "build",
-        "skills",
-        "social",
-        "bonds",
-        "story",
-        "dramatization",
-        "puppet",
-        "theater",
-        "games",
-        "building",
-        "balance",
-        "strength",
-        "fostering",
-        "teamwork",
-        "sportsmanship",
-        "friendships",
-        "public",
-        "speaking",
-        "confidence",
-        "early",
-        "age"
-      ],
-      "alternativeQuestions": [
-        "What is Drama, Puppetry & ECA / PE?",
-        "Where can I find Drama, Puppetry & ECA / PE?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/#enrichments",
-      "sourceReference": {
-        "file": "main.js",
-        "line": 346,
-        "heading": "Drama, Puppetry & ECA / PE",
-        "kind": "public-modal-data"
       },
       "confidence": {
         "verified": true,
@@ -11674,7 +11162,7 @@
     }
   ],
   "searchIndex": {
-    "documentCount": 181,
+    "documentCount": 173,
     "postings": {
       "355": [
         "contact-08ee738f40",
@@ -11720,7 +11208,6 @@
       "about": [
         "about-91c044a4ae",
         "contact-6961fe9399",
-        "main.js-49f7c6d08f",
         "ges-institutions",
         "ges-school-count"
       ],
@@ -11739,8 +11226,6 @@
         "programs-6f73cb9d71",
         "programs-5da978846a",
         "programs-2b1ce89409",
-        "main.js-8f68b0ad3b",
-        "main.js-ff9c0d0c0f",
         "ges-group",
         "ges-shomoukh",
         "ges-mouj"
@@ -11757,7 +11242,6 @@
         "programs-0835cbe4a9",
         "programs-2cd86ebcca",
         "programs-6f73cb9d71",
-        "main.js-8f68b0ad3b",
         "ges-shomoukh",
         "ges-mouj"
       ],
@@ -11774,7 +11258,6 @@
         "index-7148e8e009",
         "index-456495330e",
         "programs-0835cbe4a9",
-        "main.js-ff9c0d0c0f",
         "ges-julanda",
         "ges-group",
         "ges-shomoukh",
@@ -11829,7 +11312,6 @@
         "about-91c044a4ae",
         "about-d2b9c988a5",
         "index-e130d5bc67",
-        "main.js-20f139a472",
         "ges-mission"
       ],
       "welcome": [
@@ -11860,8 +11342,6 @@
         "enrichments-d686b01797",
         "index-94dcf956d9",
         "programs-993217029d",
-        "main.js-70720eb9e8",
-        "main.js-49f7c6d08f",
         "ges-mission"
       ],
       "renowned": [
@@ -11897,8 +11377,7 @@
         "index-50bd0fc610",
         "index-e7535199a8",
         "programs-304dc47874",
-        "programs-5da978846a",
-        "main.js-70720eb9e8"
+        "programs-5da978846a"
       ],
       "italy": [
         "about-d2b9c988a5",
@@ -11982,8 +11461,7 @@
         "index-ee595fabf3",
         "index-99e522992f",
         "programs-4bfaed0eec",
-        "spaces-f9fb773370",
-        "main.js-2acebaf277"
+        "spaces-f9fb773370"
       ],
       "curious": [
         "about-d2b9c988a5",
@@ -12060,8 +11538,7 @@
         "about-371a7d93d7",
         "about-ff3aa40029",
         "index-1efe13bd04",
-        "index-94dcf956d9",
-        "main.js-70720eb9e8"
+        "index-94dcf956d9"
       ],
       "meet": [
         "about-d2b9c988a5",
@@ -12091,7 +11568,6 @@
         "about-d2b9c988a5",
         "index-21578eb142",
         "programs-e64ca3424e",
-        "main.js-ff9c0d0c0f",
         "ges-sips"
       ],
       "active": [
@@ -12128,8 +11604,7 @@
       "safe": [
         "about-d2b9c988a5",
         "index-b1e6874bcc",
-        "spaces-e6331976ba",
-        "main.js-49f7c6d08f"
+        "spaces-e6331976ba"
       ],
       "healthy": [
         "about-d2b9c988a5"
@@ -12142,9 +11617,7 @@
         "index-39715fe92e",
         "programs-0835cbe4a9",
         "programs-8052375dbf",
-        "programs-307787a922",
-        "main.js-2acebaf277",
-        "main.js-20f139a472"
+        "programs-307787a922"
       ],
       "aesthetic": [
         "about-d2b9c988a5",
@@ -12187,8 +11660,7 @@
         "index-ce77eaf736",
         "programs-0835cbe4a9",
         "programs-2b1ce89409",
-        "spaces-7a7691447f",
-        "main.js-70720eb9e8"
+        "spaces-7a7691447f"
       ],
       "needs": [
         "about-d2b9c988a5",
@@ -12233,8 +11705,6 @@
         "programs-e228aa89a2",
         "spaces-d4e37405d5",
         "spaces-7a7691447f",
-        "main.js-8f68b0ad3b",
-        "main.js-70720eb9e8",
         "ges-group",
         "ges-mission"
       ],
@@ -12242,8 +11712,7 @@
         "about-d2b9c988a5",
         "admissions-0dbb68cde9",
         "admissions-1e6b18d56c",
-        "apply-online-64c08035a5",
-        "main.js-2acebaf277"
+        "apply-online-64c08035a5"
       ],
       "receives": [
         "about-d2b9c988a5"
@@ -12253,15 +11722,13 @@
         "enrichments-8c79bc0a6c",
         "index-d2102d67a5",
         "index-4de467f098",
-        "programs-304dc47874",
-        "main.js-20f139a472"
+        "programs-304dc47874"
       ],
       "body": [
         "about-0b1e92c7e8",
         "enrichments-8c79bc0a6c",
         "index-4de467f098",
-        "programs-4950bfd541",
-        "main.js-20f139a472"
+        "programs-4950bfd541"
       ],
       "spirit": [
         "about-0b1e92c7e8"
@@ -12323,8 +11790,7 @@
         "about-4b6aea652e",
         "enrichments-cafffdebc6",
         "spaces-569c0030b9",
-        "spaces-6b3b33a441",
-        "main.js-70720eb9e8"
+        "spaces-6b3b33a441"
       ],
       "partnerships": [
         "about-4b6aea652e"
@@ -12341,8 +11807,7 @@
       "between": [
         "about-4b6aea652e",
         "parents-9a82fafa54",
-        "spaces-7a7691447f",
-        "main.js-70720eb9e8"
+        "spaces-7a7691447f"
       ],
       "parents": [
         "about-4b6aea652e",
@@ -12351,8 +11816,7 @@
         "parents-c452db77e8",
         "programs-304dc47874",
         "programs-2b1ce89409",
-        "spaces-17bffefbf7",
-        "main.js-70720eb9e8"
+        "spaces-17bffefbf7"
       ],
       "wider": [
         "about-4b6aea652e"
@@ -12383,9 +11847,7 @@
         "parents-1adf4c167a",
         "spaces-7a7691447f",
         "spaces-e6331976ba",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f",
-        "main.js-619c618978"
+        "spaces-5e1cd325f0"
       ],
       "important": [
         "about-4b6aea652e"
@@ -12433,9 +11895,7 @@
         "about-d0b0ea2aa1",
         "about-ad6d1493a1",
         "enrichments-5c72910ac6",
-        "programs-8052375dbf",
-        "main.js-619c618978",
-        "main.js-20f139a472"
+        "programs-8052375dbf"
       ],
       "initiate": [
         "about-4b6aea652e"
@@ -12493,9 +11953,7 @@
         "about-4b6aea652e",
         "enrichments-2d32682645",
         "index-ee595fabf3",
-        "index-e55f8abcd0",
-        "main.js-2acebaf277",
-        "main.js-619c618978"
+        "index-e55f8abcd0"
       ],
       "emphasizes": [
         "about-4b6aea652e",
@@ -12508,9 +11966,7 @@
         "index-82ea71f621",
         "index-404b9eae40",
         "spaces-f9fb773370",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f",
-        "main.js-ff9c0d0c0f"
+        "spaces-5e1cd325f0"
       ],
       "emotional": [
         "about-4b6aea652e",
@@ -12528,12 +11984,10 @@
         "index-82ea71f621",
         "index-7148e8e009",
         "index-39715fe92e",
-        "spaces-f9fb773370",
-        "main.js-ff9c0d0c0f"
+        "spaces-f9fb773370"
       ],
       "cognitive": [
-        "about-4b6aea652e",
-        "main.js-619c618978"
+        "about-4b6aea652e"
       ],
       "development": [
         "about-4b6aea652e",
@@ -12546,8 +12000,7 @@
         "programs-2cd86ebcca",
         "programs-2b1ce89409",
         "programs-4950bfd541",
-        "spaces-f9fb773370",
-        "main.js-619c618978"
+        "spaces-f9fb773370"
       ],
       "preparing": [
         "about-4b6aea652e"
@@ -12566,9 +12019,7 @@
         "index-a39f7ce21b",
         "index-3459decd83",
         "index-7de2a41da2",
-        "programs-4bfaed0eec",
-        "main.js-20f139a472",
-        "main.js-ff9c0d0c0f"
+        "programs-4bfaed0eec"
       ],
       "mission": [
         "about-371a7d93d7",
@@ -12609,8 +12060,7 @@
       ],
       "self": [
         "about-371a7d93d7",
-        "index-a39f7ce21b",
-        "main.js-619c618978"
+        "index-a39f7ce21b"
       ],
       "friendly": [
         "about-371a7d93d7",
@@ -12810,12 +12260,10 @@
         "spaces-e6331976ba"
       ],
       "foster": [
-        "about-d0b0ea2aa1",
-        "main.js-49f7c6d08f"
+        "about-d0b0ea2aa1"
       ],
       "deep": [
-        "about-d0b0ea2aa1",
-        "main.js-70720eb9e8"
+        "about-d0b0ea2aa1"
       ],
       "sense": [
         "about-d0b0ea2aa1"
@@ -12843,8 +12291,7 @@
         "about-8e17f1e23a"
       ],
       "meaningful": [
-        "about-8e17f1e23a",
-        "main.js-70720eb9e8"
+        "about-8e17f1e23a"
       ],
       "ties": [
         "about-8e17f1e23a"
@@ -12926,8 +12373,7 @@
       ],
       "hands": [
         "about-ad6d1493a1",
-        "index-bf725c40c8",
-        "main.js-278d99379d"
+        "index-bf725c40c8"
       ],
       "organic": [
         "about-ad6d1493a1",
@@ -12935,8 +12381,7 @@
         "enrichments-c0209ed4ca",
         "index-8d3857c4eb",
         "spaces-c98a8e9e61",
-        "spaces-6355f764bc",
-        "main.js-619c618978"
+        "spaces-6355f764bc"
       ],
       "garden": [
         "about-ad6d1493a1",
@@ -13023,8 +12468,7 @@
         "book-a-visit-811a2f72c9",
         "book-a-visit-ccfce66462",
         "book-a-visit-f15e5545bb",
-        "contact-3be9ed9308",
-        "main.js-ff9c0d0c0f"
+        "contact-3be9ed9308"
       ],
       "accreditation": [
         "about-b5a36608f7",
@@ -13215,8 +12659,7 @@
         "index-456495330e",
         "programs-8052375dbf",
         "programs-641753cddb",
-        "spaces-9931ced3bf",
-        "main.js-2acebaf277"
+        "spaces-9931ced3bf"
       ],
       "long": [
         "admissions-d1b8aef5b1",
@@ -13228,8 +12671,7 @@
         "index-6e202c44dd",
         "index-7de2a41da2",
         "index-21578eb142",
-        "index-456495330e",
-        "main.js-49f7c6d08f"
+        "index-456495330e"
       ],
       "available": [
         "admissions-d1b8aef5b1",
@@ -13547,8 +12989,7 @@
       "documentation": [
         "admissions-595ab5ed21",
         "parents-c452db77e8",
-        "parents-7c8cb09547",
-        "main.js-70720eb9e8"
+        "parents-7c8cb09547"
       ],
       "form": [
         "admissions-595ab5ed21",
@@ -13638,8 +13079,7 @@
         "enrichments-2d32682645",
         "index-6e202c44dd",
         "index-ee595fabf3",
-        "spaces-569c0030b9",
-        "main.js-2acebaf277"
+        "spaces-569c0030b9"
       ],
       "parent": [
         "admissions-8de2430be5",
@@ -13658,8 +13098,7 @@
         "admissions-8de2430be5",
         "contact-38b7147ddc",
         "enrichments-2d32682645",
-        "parents-c452db77e8",
-        "main.js-2acebaf277"
+        "parents-c452db77e8"
       ],
       "documents": [
         "admissions-1e6b18d56c",
@@ -13688,8 +13127,7 @@
         "admissions-1e6b18d56c",
         "index-f377a17d74",
         "parents-581bea356b",
-        "programs-e64ca3424e",
-        "main.js-70720eb9e8"
+        "programs-e64ca3424e"
       ],
       "expedite": [
         "admissions-1e6b18d56c"
@@ -13864,9 +13302,7 @@
         "book-a-visit-afdaaba607",
         "index-e55f8abcd0",
         "programs-307787a922",
-        "programs-4bfaed0eec",
-        "main.js-49f7c6d08f",
-        "main.js-619c618978"
+        "programs-4bfaed0eec"
       ],
       "other": [
         "apply-online-64c08035a5"
@@ -13876,8 +13312,7 @@
         "enrichments-e359ba5685",
         "enrichments-2d32682645",
         "enrichments-2909246643",
-        "index-ee595fabf3",
-        "main.js-2acebaf277"
+        "index-ee595fabf3"
       ],
       "religion": [
         "apply-online-64c08035a5"
@@ -13918,7 +13353,6 @@
       "group": [
         "apply-online-64c08035a5",
         "index-6e202c44dd",
-        "main.js-8f68b0ad3b",
         "ges-group",
         "ges-institutions"
       ],
@@ -13940,7 +13374,6 @@
         "programs-2cd86ebcca",
         "programs-2de3930ed5",
         "programs-0a5a2d0a97",
-        "main.js-2acebaf277",
         "ges-mission"
       ],
       "occupational": [
@@ -14079,8 +13512,7 @@
         "book-a-visit-f15e5545bb"
       ],
       "new": [
-        "apply-online-3008d78fbb",
-        "main.js-8f68b0ad3b"
+        "apply-online-3008d78fbb"
       ],
       "enrolled": [
         "apply-online-3008d78fbb"
@@ -14149,15 +13581,13 @@
       ],
       "engaging": [
         "book-a-visit-f87adb2438",
-        "programs-e64ca3424e",
-        "main.js-619c618978"
+        "programs-e64ca3424e"
       ],
       "minute": [
         "book-a-visit-d46e3ee6fe"
       ],
       "guided": [
-        "book-a-visit-d46e3ee6fe",
-        "main.js-278d99379d"
+        "book-a-visit-d46e3ee6fe"
       ],
       "thorough": [
         "book-a-visit-d46e3ee6fe"
@@ -14196,8 +13626,7 @@
         "book-a-visit-48867e20dd",
         "enrichments-e359ba5685",
         "index-ce77eaf736",
-        "programs-e64ca3424e",
-        "main.js-70720eb9e8"
+        "programs-e64ca3424e"
       ],
       "they": [
         "book-a-visit-48867e20dd",
@@ -14459,8 +13888,7 @@
         "index-8063a55e51",
         "index-7de2a41da2",
         "index-f6aa4cf911",
-        "programs-6f73cb9d71",
-        "main.js-49f7c6d08f"
+        "programs-6f73cb9d71"
       ],
       "drop": [
         "contact-4f85f4c7f8"
@@ -14563,8 +13991,7 @@
         "index-99e522992f",
         "programs-641753cddb",
         "spaces-8341905422",
-        "spaces-1f5f7bb920",
-        "main.js-8f68b0ad3b"
+        "spaces-1f5f7bb920"
       ],
       "shaded": [
         "contact-11dd2afb30"
@@ -14575,8 +14002,7 @@
         "programs-2b1ce89409",
         "spaces-d28a943aaa",
         "spaces-9b1ab856fa",
-        "spaces-c98a8e9e61",
-        "main.js-8f68b0ad3b"
+        "spaces-c98a8e9e61"
       ],
       "courtyards": [
         "contact-11dd2afb30"
@@ -14618,8 +14044,7 @@
         "enrichments-40021358da",
         "index-bf725c40c8",
         "programs-e371f5134b",
-        "programs-5da978846a",
-        "main.js-70720eb9e8"
+        "programs-5da978846a"
       ],
       "sculpt": [
         "enrichments-e359ba5685"
@@ -14645,8 +14070,7 @@
         "enrichments-2909246643",
         "index-2f2a3fffdb",
         "index-ee595fabf3",
-        "index-bf725c40c8",
-        "main.js-2acebaf277"
+        "index-bf725c40c8"
       ],
       "corners": [
         "enrichments-40021358da",
@@ -14664,14 +14088,12 @@
       "experiment": [
         "enrichments-40021358da",
         "enrichments-522872217b",
-        "index-6e202c44dd",
-        "main.js-278d99379d"
+        "index-6e202c44dd"
       ],
       "different": [
         "enrichments-40021358da",
         "enrichments-cafffdebc6",
-        "index-6e202c44dd",
-        "main.js-8f68b0ad3b"
+        "index-6e202c44dd"
       ],
       "media": [
         "enrichments-40021358da"
@@ -14697,18 +14119,14 @@
         "index-0006467f3e",
         "index-ee595fabf3",
         "index-bed5a39bd1",
-        "index-99e522992f",
-        "main.js-278d99379d",
-        "main.js-2acebaf277",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "clay": [
         "enrichments-522872217b",
         "enrichments-c0209ed4ca",
         "index-2f2a3fffdb",
         "index-0006467f3e",
-        "index-bf725c40c8",
-        "main.js-278d99379d"
+        "index-bf725c40c8"
       ],
       "natural": [
         "enrichments-522872217b",
@@ -14720,15 +14138,12 @@
         "programs-8052375dbf",
         "spaces-569c0030b9",
         "spaces-8341905422",
-        "spaces-1f5f7bb920",
-        "main.js-278d99379d",
-        "main.js-2acebaf277"
+        "spaces-1f5f7bb920"
       ],
       "soft": [
         "enrichments-522872217b",
         "index-0006467f3e",
-        "index-39715fe92e",
-        "main.js-278d99379d"
+        "index-39715fe92e"
       ],
       "responsive": [
         "enrichments-522872217b",
@@ -14738,23 +14153,19 @@
         "enrichments-522872217b"
       ],
       "shaped": [
-        "enrichments-522872217b",
-        "main.js-278d99379d"
+        "enrichments-522872217b"
       ],
       "hand": [
         "enrichments-522872217b",
         "programs-06d991e42a",
-        "spaces-4fe9e6c231",
-        "main.js-278d99379d"
+        "spaces-4fe9e6c231"
       ],
       "gestures": [
-        "enrichments-522872217b",
-        "main.js-278d99379d"
+        "enrichments-522872217b"
       ],
       "sculpting": [
         "enrichments-522872217b",
-        "index-0006467f3e",
-        "main.js-278d99379d"
+        "index-0006467f3e"
       ],
       "tools": [
         "enrichments-522872217b",
@@ -14762,44 +14173,31 @@
         "index-6e202c44dd",
         "index-0006467f3e",
         "index-bed5a39bd1",
-        "spaces-569c0030b9",
-        "main.js-278d99379d",
-        "main.js-2acebaf277",
-        "main.js-8f68b0ad3b"
+        "spaces-569c0030b9"
       ],
       "fostering": [
-        "enrichments-522872217b",
-        "main.js-278d99379d",
-        "main.js-ff9c0d0c0f"
+        "enrichments-522872217b"
       ],
       "spatial": [
         "enrichments-522872217b"
       ],
       "thinking": [
-        "enrichments-522872217b",
-        "main.js-278d99379d",
-        "main.js-49f7c6d08f"
+        "enrichments-522872217b"
       ],
       "fine": [
-        "enrichments-522872217b",
-        "main.js-278d99379d"
+        "enrichments-522872217b"
       ],
       "motor": [
         "enrichments-522872217b",
         "index-39715fe92e",
-        "programs-4950bfd541",
-        "main.js-278d99379d",
-        "main.js-20f139a472"
+        "programs-4950bfd541"
       ],
       "skills": [
         "enrichments-522872217b",
         "index-3459decd83",
         "index-404b9eae40",
         "index-7148e8e009",
-        "programs-e64ca3424e",
-        "main.js-278d99379d",
-        "main.js-49f7c6d08f",
-        "main.js-ff9c0d0c0f"
+        "programs-e64ca3424e"
       ],
       "view": [
         "enrichments-522872217b",
@@ -14817,52 +14215,41 @@
         "enrichments-2d32682645"
       ],
       "encouraged": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277"
+        "enrichments-2d32682645"
       ],
       "use": [
         "enrichments-2d32682645",
-        "enrichments-cafffdebc6",
-        "main.js-2acebaf277",
-        "main.js-8f68b0ad3b"
+        "enrichments-cafffdebc6"
       ],
       "multiple": [
         "enrichments-2d32682645",
         "enrichments-2909246643",
         "index-ee595fabf3",
-        "parents-c452db77e8",
-        "main.js-2acebaf277"
+        "parents-c452db77e8"
       ],
       "symbolic": [
         "enrichments-2d32682645",
         "enrichments-2909246643",
         "index-ee595fabf3",
-        "index-bf725c40c8",
-        "main.js-2acebaf277"
+        "index-bf725c40c8"
       ],
       "dyes": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277"
+        "enrichments-2d32682645"
       ],
       "paints": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277"
+        "enrichments-2d32682645"
       ],
       "charcoal": [
         "enrichments-2d32682645"
       ],
       "papers": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277"
+        "enrichments-2d32682645"
       ],
       "express": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277"
+        "enrichments-2d32682645"
       ],
       "themselves": [
-        "enrichments-2d32682645",
-        "main.js-2acebaf277",
-        "main.js-49f7c6d08f"
+        "enrichments-2d32682645"
       ],
       "innovation": [
         "enrichments-2d32682645"
@@ -14873,13 +14260,11 @@
         "index-2f2a3fffdb",
         "index-bed5a39bd1",
         "index-99e522992f",
-        "parents-956725e10b",
-        "main.js-8f68b0ad3b"
+        "parents-956725e10b"
       ],
       "forms": [
         "enrichments-cafffdebc6",
-        "index-dcf349008c",
-        "main.js-8f68b0ad3b"
+        "index-dcf349008c"
       ],
       "alongside": [
         "enrichments-cafffdebc6",
@@ -14887,7 +14272,6 @@
         "programs-2b1ce89409",
         "programs-8052375dbf",
         "programs-307787a922",
-        "main.js-8f68b0ad3b",
         "ges-sips"
       ],
       "analog": [
@@ -14895,22 +14279,19 @@
       ],
       "investigate": [
         "enrichments-cafffdebc6",
-        "spaces-1f5f7bb920",
-        "main.js-8f68b0ad3b"
+        "spaces-1f5f7bb920"
       ],
       "reflections": [
         "enrichments-cafffdebc6"
       ],
       "shadows": [
         "enrichments-cafffdebc6",
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "logic": [
         "enrichments-cafffdebc6",
         "index-bed5a39bd1",
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "literacy": [
         "enrichments-cafffdebc6",
@@ -14920,8 +14301,7 @@
         "enrichments-cafffdebc6",
         "enrichments-c0209ed4ca",
         "index-50bd0fc610",
-        "programs-0835cbe4a9",
-        "main.js-70720eb9e8"
+        "programs-0835cbe4a9"
       ],
       "enrichment": [
         "enrichments-5c72910ac6"
@@ -14930,8 +14310,7 @@
         "enrichments-5c72910ac6",
         "index-67403b45ab",
         "programs-2cd86ebcca",
-        "spaces-7a7691447f",
-        "main.js-619c618978"
+        "spaces-7a7691447f"
       ],
       "click": [
         "enrichments-5c72910ac6",
@@ -14962,8 +14341,7 @@
       "tactile": [
         "enrichments-c0209ed4ca",
         "index-bf725c40c8",
-        "spaces-6b3b33a441",
-        "main.js-278d99379d"
+        "spaces-6b3b33a441"
       ],
       "sensory": [
         "enrichments-c0209ed4ca",
@@ -14972,9 +14350,7 @@
         "programs-641753cddb",
         "programs-993217029d",
         "spaces-ad0057a9ea",
-        "spaces-6b3b33a441",
-        "main.js-278d99379d",
-        "main.js-619c618978"
+        "spaces-6b3b33a441"
       ],
       "exploration": [
         "enrichments-c0209ed4ca",
@@ -14982,26 +14358,21 @@
         "index-bf725c40c8",
         "programs-8052375dbf",
         "programs-641753cddb",
-        "spaces-7a7691447f",
-        "main.js-278d99379d",
-        "main.js-8f68b0ad3b"
+        "spaces-7a7691447f"
       ],
       "sculptural": [
-        "enrichments-c0209ed4ca",
-        "main.js-278d99379d"
+        "enrichments-c0209ed4ca"
       ],
       "using": [
         "enrichments-c0209ed4ca",
-        "index-6e202c44dd",
-        "main.js-278d99379d"
+        "index-6e202c44dd"
       ],
       "pure": [
         "enrichments-c0209ed4ca"
       ],
       "ended": [
         "enrichments-2909246643",
-        "programs-8052375dbf",
-        "main.js-2acebaf277"
+        "programs-8052375dbf"
       ],
       "provocations": [
         "enrichments-2909246643",
@@ -15009,12 +14380,10 @@
         "programs-993217029d",
         "spaces-7a7691447f",
         "spaces-8341905422",
-        "spaces-1f5f7bb920",
-        "main.js-2acebaf277"
+        "spaces-1f5f7bb920"
       ],
       "color": [
-        "enrichments-2909246643",
-        "main.js-8f68b0ad3b"
+        "enrichments-2909246643"
       ],
       "mastery": [
         "enrichments-2909246643",
@@ -15022,9 +14391,7 @@
       ],
       "tables": [
         "enrichments-51a68964f8",
-        "enrichments-349bf70301",
-        "main.js-8f68b0ad3b",
-        "main.js-619c618978"
+        "enrichments-349bf70301"
       ],
       "shadow": [
         "enrichments-51a68964f8"
@@ -15034,7 +14401,6 @@
       ],
       "technology": [
         "enrichments-51a68964f8",
-        "main.js-8f68b0ad3b",
         "ges-values"
       ],
       "integration": [
@@ -15047,112 +14413,91 @@
         "index-e7535199a8",
         "parents-7c8cb09547",
         "programs-0835cbe4a9",
-        "programs-2b1ce89409",
-        "main.js-70720eb9e8"
+        "programs-2b1ce89409"
       ],
       "led": [
-        "enrichments-d686b01797",
-        "main.js-70720eb9e8"
+        "enrichments-d686b01797"
       ],
       "investigations": [
         "enrichments-d686b01797",
-        "index-ce77eaf736",
-        "main.js-8f68b0ad3b"
+        "index-ce77eaf736"
       ],
       "connecting": [
         "enrichments-d686b01797"
       ],
       "hypotheses": [
-        "enrichments-d686b01797",
-        "main.js-70720eb9e8"
+        "enrichments-d686b01797"
       ],
       "real": [
         "enrichments-d686b01797",
         "parents-ddac565352",
-        "parents-ea54a865a5",
-        "main.js-49f7c6d08f"
+        "parents-ea54a865a5"
       ],
       "discoveries": [
-        "enrichments-d686b01797",
-        "main.js-70720eb9e8"
+        "enrichments-d686b01797"
       ],
       "tiny": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f"
+        "spaces-5e1cd325f0"
       ],
       "town": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-17bffefbf7",
-        "main.js-49f7c6d08f"
+        "spaces-17bffefbf7"
       ],
       "imaginative": [
-        "enrichments-1d616796bf",
-        "main.js-49f7c6d08f"
+        "enrichments-1d616796bf"
       ],
       "roleplaying": [
         "enrichments-1d616796bf"
       ],
       "building": [
-        "enrichments-1d616796bf",
-        "main.js-ff9c0d0c0f"
+        "enrichments-1d616796bf"
       ],
       "negotiation": [
-        "enrichments-1d616796bf",
-        "main.js-49f7c6d08f"
+        "enrichments-1d616796bf"
       ],
       "empathy": [
-        "enrichments-1d616796bf",
-        "main.js-49f7c6d08f"
+        "enrichments-1d616796bf"
       ],
       "vocabulary": [
-        "enrichments-1d616796bf",
-        "main.js-619c618978"
+        "enrichments-1d616796bf"
       ],
       "water": [
-        "enrichments-349bf70301",
-        "main.js-619c618978"
+        "enrichments-349bf70301"
       ],
       "grains": [
         "enrichments-349bf70301"
       ],
       "textures": [
         "enrichments-349bf70301",
-        "index-0006467f3e",
-        "main.js-619c618978"
+        "index-0006467f3e"
       ],
       "supporting": [
-        "enrichments-349bf70301",
-        "main.js-619c618978"
+        "enrichments-349bf70301"
       ],
       "brain": [
         "enrichments-349bf70301",
         "index-44d33b6211",
         "index-e55f8abcd0",
-        "programs-e228aa89a2",
-        "main.js-619c618978"
+        "programs-e228aa89a2"
       ],
       "music": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098",
-        "main.js-20f139a472"
+        "index-4de467f098"
       ],
       "movement": [
         "enrichments-8c79bc0a6c",
         "index-4de467f098",
         "programs-4950bfd541",
-        "spaces-e6331976ba",
-        "main.js-20f139a472"
+        "spaces-e6331976ba"
       ],
       "rhythmic": [
-        "enrichments-8c79bc0a6c",
-        "main.js-20f139a472"
+        "enrichments-8c79bc0a6c"
       ],
       "dance": [
-        "enrichments-8c79bc0a6c",
-        "main.js-20f139a472"
+        "enrichments-8c79bc0a6c"
       ],
       "balancing": [
         "enrichments-8c79bc0a6c",
@@ -15160,39 +14505,31 @@
         "index-4de467f098"
       ],
       "focus": [
-        "enrichments-8c79bc0a6c",
-        "main.js-619c618978"
+        "enrichments-8c79bc0a6c"
       ],
       "drama": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2",
-        "main.js-ff9c0d0c0f"
+        "index-7de2a41da2"
       ],
       "puppetry": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2",
-        "main.js-ff9c0d0c0f"
+        "index-7de2a41da2"
       ],
       "puppet": [
-        "enrichments-b35a5fbd78",
-        "main.js-ff9c0d0c0f"
+        "enrichments-b35a5fbd78"
       ],
       "storytelling": [
         "enrichments-b35a5fbd78",
-        "index-7de2a41da2",
-        "main.js-2acebaf277"
+        "index-7de2a41da2"
       ],
       "games": [
         "enrichments-b35a5fbd78",
-        "programs-4950bfd541",
-        "main.js-20f139a472",
-        "main.js-ff9c0d0c0f"
+        "programs-4950bfd541"
       ],
       "sportsmanship": [
-        "enrichments-b35a5fbd78",
-        "main.js-ff9c0d0c0f"
+        "enrichments-b35a5fbd78"
       ],
       "expressive": [
         "enrichments-b35a5fbd78",
@@ -15231,9 +14568,7 @@
         "programs-6f73cb9d71"
       ],
       "learn": [
-        "index-ce77eaf736",
-        "main.js-49f7c6d08f",
-        "main.js-20f139a472"
+        "index-ce77eaf736"
       ],
       "student": [
         "index-ce77eaf736"
@@ -15249,9 +14584,7 @@
       "own": [
         "index-ce77eaf736",
         "index-50bd0fc610",
-        "programs-5da978846a",
-        "main.js-70720eb9e8",
-        "main.js-49f7c6d08f"
+        "programs-5da978846a"
       ],
       "modern": [
         "index-2f2a3fffdb",
@@ -15288,8 +14621,7 @@
       ],
       "resources": [
         "index-2f2a3fffdb",
-        "spaces-7a7691447f",
-        "main.js-2acebaf277"
+        "spaces-7a7691447f"
       ],
       "originated": [
         "index-1efe13bd04"
@@ -15403,8 +14735,7 @@
         "programs-2b1ce89409",
         "programs-8052375dbf",
         "programs-993217029d",
-        "spaces-17bffefbf7",
-        "main.js-70720eb9e8"
+        "spaces-17bffefbf7"
       ],
       "fully": [
         "index-8063a55e51",
@@ -15501,8 +14832,7 @@
       "around": [
         "index-94dcf956d9",
         "index-c0f3c29891",
-        "spaces-d4e37405d5",
-        "main.js-70720eb9e8"
+        "spaces-d4e37405d5"
       ],
       "forming": [
         "index-94dcf956d9",
@@ -15514,8 +14844,7 @@
       ],
       "peers": [
         "index-94dcf956d9",
-        "programs-993217029d",
-        "main.js-49f7c6d08f"
+        "programs-993217029d"
       ],
       "adults": [
         "index-94dcf956d9",
@@ -15529,25 +14858,19 @@
         "index-3459decd83",
         "programs-06d991e42a",
         "programs-4bfaed0eec",
-        "main.js-49f7c6d08f",
-        "main.js-619c618978",
         "ges-vision"
       ],
       "problem": [
         "index-3459decd83",
         "index-e55f8abcd0",
         "programs-4bfaed0eec",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f",
-        "main.js-619c618978"
+        "spaces-5e1cd325f0"
       ],
       "solving": [
         "index-3459decd83",
         "index-e55f8abcd0",
         "programs-4bfaed0eec",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f",
-        "main.js-619c618978"
+        "spaces-5e1cd325f0"
       ],
       "complex": [
         "index-3459decd83",
@@ -15578,8 +14901,7 @@
       ],
       "imagination": [
         "index-6e202c44dd",
-        "index-bed5a39bd1",
-        "main.js-8f68b0ad3b"
+        "index-bed5a39bd1"
       ],
       "knowledge": [
         "index-6e202c44dd"
@@ -15591,19 +14913,16 @@
         "index-6e202c44dd"
       ],
       "supervision": [
-        "index-6e202c44dd",
-        "main.js-278d99379d"
+        "index-6e202c44dd"
       ],
       "atelierista": [
-        "index-6e202c44dd",
-        "main.js-278d99379d"
+        "index-6e202c44dd"
       ],
       "experimenting": [
         "index-0006467f3e"
       ],
       "smooth": [
-        "index-0006467f3e",
-        "main.js-278d99379d"
+        "index-0006467f3e"
       ],
       "colors": [
         "index-ee595fabf3"
@@ -15613,17 +14932,14 @@
         "index-99e522992f"
       ],
       "analogical": [
-        "index-bed5a39bd1",
-        "main.js-8f68b0ad3b"
+        "index-bed5a39bd1"
       ],
       "brainstorming": [
-        "index-e7535199a8",
-        "main.js-70720eb9e8"
+        "index-e7535199a8"
       ],
       "observations": [
         "index-e7535199a8",
-        "parents-7c8cb09547",
-        "main.js-70720eb9e8"
+        "parents-7c8cb09547"
       ],
       "driven": [
         "index-e7535199a8",
@@ -15631,30 +14947,24 @@
       ],
       "interactive": [
         "index-404b9eae40",
-        "spaces-c98a8e9e61",
-        "main.js-8f68b0ad3b"
+        "spaces-c98a8e9e61"
       ],
       "pretend": [
         "index-404b9eae40",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f"
+        "spaces-5e1cd325f0"
       ],
       "personal": [
         "index-404b9eae40",
         "programs-2b1ce89409"
       ],
       "ideas": [
-        "index-404b9eae40",
-        "main.js-70720eb9e8",
-        "main.js-49f7c6d08f"
+        "index-404b9eae40"
       ],
       "senses": [
-        "index-e55f8abcd0",
-        "main.js-619c618978"
+        "index-e55f8abcd0"
       ],
       "rhythm": [
-        "index-4de467f098",
-        "main.js-20f139a472"
+        "index-4de467f098"
       ],
       "latent": [
         "index-4de467f098"
@@ -15663,23 +14973,18 @@
         "index-4de467f098"
       ],
       "eca": [
-        "index-7148e8e009",
-        "main.js-ff9c0d0c0f"
+        "index-7148e8e009"
       ],
       "story": [
-        "index-7148e8e009",
-        "main.js-ff9c0d0c0f"
+        "index-7148e8e009"
       ],
       "roleplay": [
         "index-7148e8e009",
         "index-7de2a41da2",
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f",
-        "main.js-ff9c0d0c0f"
+        "spaces-5e1cd325f0"
       ],
       "sports": [
-        "index-7148e8e009",
-        "main.js-ff9c0d0c0f"
+        "index-7148e8e009"
       ],
       "intention": [
         "index-c0f3c29891",
@@ -15708,21 +15013,16 @@
         "index-bf725c40c8"
       ],
       "expressions": [
-        "index-bf725c40c8",
-        "main.js-2acebaf277"
+        "index-bf725c40c8"
       ],
       "projectors": [
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "optical": [
-        "index-99e522992f",
-        "main.js-8f68b0ad3b"
+        "index-99e522992f"
       ],
       "strategies": [
-        "index-99e522992f",
-        "main.js-8f68b0ad3b",
-        "main.js-619c618978"
+        "index-99e522992f"
       ],
       "room": [
         "index-7de2a41da2"
@@ -15738,10 +15038,7 @@
       ],
       "balance": [
         "index-39715fe92e",
-        "programs-4950bfd541",
-        "main.js-49f7c6d08f",
-        "main.js-20f139a472",
-        "main.js-ff9c0d0c0f"
+        "programs-4950bfd541"
       ],
       "tracks": [
         "index-39715fe92e"
@@ -15756,8 +15053,7 @@
         "index-39715fe92e"
       ],
       "coordination": [
-        "index-39715fe92e",
-        "main.js-20f139a472"
+        "index-39715fe92e"
       ],
       "plant": [
         "index-8d3857c4eb",
@@ -15926,13 +15222,11 @@
         "parents-9a82fafa54"
       ],
       "make": [
-        "parents-9a82fafa54",
-        "main.js-70720eb9e8"
+        "parents-9a82fafa54"
       ],
       "communication": [
         "parents-9a82fafa54",
-        "spaces-7a7691447f",
-        "main.js-619c618978"
+        "spaces-7a7691447f"
       ],
       "seamless": [
         "parents-9a82fafa54"
@@ -15941,8 +15235,7 @@
         "parents-9a82fafa54"
       ],
       "stories": [
-        "parents-7c8cb09547",
-        "main.js-ff9c0d0c0f"
+        "parents-7c8cb09547"
       ],
       "artwork": [
         "parents-7c8cb09547"
@@ -16054,7 +15347,6 @@
         "spaces-7a7691447f",
         "spaces-9931ced3bf",
         "spaces-6b3b33a441",
-        "main.js-2acebaf277",
         "ges-mission"
       ],
       "independent": [
@@ -16129,9 +15421,7 @@
       ],
       "age": [
         "programs-2b1ce89409",
-        "spaces-9b1ab856fa",
-        "main.js-20f139a472",
-        "main.js-ff9c0d0c0f"
+        "spaces-9b1ab856fa"
       ],
       "establishes": [
         "programs-2b1ce89409"
@@ -16150,8 +15440,7 @@
         "programs-2b1ce89409"
       ],
       "equal": [
-        "programs-2b1ce89409",
-        "main.js-70720eb9e8"
+        "programs-2b1ce89409"
       ],
       "partners": [
         "programs-2b1ce89409"
@@ -16189,8 +15478,7 @@
         "programs-641753cddb"
       ],
       "act": [
-        "programs-641753cddb",
-        "main.js-ff9c0d0c0f"
+        "programs-641753cddb"
       ],
       "dialogue": [
         "programs-641753cddb",
@@ -16232,8 +15520,7 @@
         "programs-4950bfd541"
       ],
       "gross": [
-        "programs-4950bfd541",
-        "main.js-20f139a472"
+        "programs-4950bfd541"
       ],
       "yoga": [
         "programs-4950bfd541"
@@ -16254,8 +15541,7 @@
         "programs-06d991e42a"
       ],
       "strength": [
-        "programs-06d991e42a",
-        "main.js-ff9c0d0c0f"
+        "programs-06d991e42a"
       ],
       "finger": [
         "programs-06d991e42a"
@@ -16306,8 +15592,7 @@
       ],
       "rich": [
         "spaces-7a7691447f",
-        "spaces-9b1ab856fa",
-        "main.js-2acebaf277"
+        "spaces-9b1ab856fa"
       ],
       "modified": [
         "spaces-7a7691447f"
@@ -16348,8 +15633,7 @@
         "spaces-569c0030b9"
       ],
       "testing": [
-        "spaces-569c0030b9",
-        "main.js-70720eb9e8"
+        "spaces-569c0030b9"
       ],
       "facilities": [
         "spaces-f9fb773370"
@@ -16461,8 +15745,7 @@
         "spaces-5e1cd325f0"
       ],
       "miniature": [
-        "spaces-5e1cd325f0",
-        "main.js-49f7c6d08f"
+        "spaces-5e1cd325f0"
       ],
       "civic": [
         "spaces-5e1cd325f0"
@@ -16477,12 +15760,10 @@
         "spaces-5e1cd325f0"
       ],
       "sand": [
-        "spaces-6b3b33a441",
-        "main.js-619c618978"
+        "spaces-6b3b33a441"
       ],
       "kitchens": [
-        "spaces-6b3b33a441",
-        "main.js-619c618978"
+        "spaces-6b3b33a441"
       ],
       "wet": [
         "spaces-6b3b33a441"
@@ -16576,8 +15857,7 @@
         "spaces-6355f764bc"
       ],
       "science": [
-        "spaces-6355f764bc",
-        "main.js-8f68b0ad3b"
+        "spaces-6355f764bc"
       ],
       "laboratory": [
         "spaces-6355f764bc"
@@ -16629,206 +15909,6 @@
       ],
       "gyms": [
         "spaces-4fe9e6c231"
-      ],
-      "material": [
-        "main.js-278d99379d"
-      ],
-      "texture": [
-        "main.js-278d99379d"
-      ],
-      "various": [
-        "main.js-278d99379d"
-      ],
-      "tool": [
-        "main.js-278d99379d"
-      ],
-      "usage": [
-        "main.js-278d99379d"
-      ],
-      "expressing": [
-        "main.js-278d99379d"
-      ],
-      "concepts": [
-        "main.js-278d99379d"
-      ],
-      "structural": [
-        "main.js-278d99379d"
-      ],
-      "trained": [
-        "main.js-278d99379d"
-      ],
-      "artists": [
-        "main.js-278d99379d"
-      ],
-      "creatively": [
-        "main.js-2acebaf277"
-      ],
-      "variety": [
-        "main.js-2acebaf277"
-      ],
-      "pastels": [
-        "main.js-2acebaf277"
-      ],
-      "encouraging": [
-        "main.js-2acebaf277"
-      ],
-      "exhibitions": [
-        "main.js-2acebaf277"
-      ],
-      "documenting": [
-        "main.js-2acebaf277"
-      ],
-      "connections": [
-        "main.js-8f68b0ad3b",
-        "main.js-70720eb9e8"
-      ],
-      "filters": [
-        "main.js-8f68b0ad3b"
-      ],
-      "patterns": [
-        "main.js-8f68b0ad3b"
-      ],
-      "reflection": [
-        "main.js-8f68b0ad3b"
-      ],
-      "integrating": [
-        "main.js-8f68b0ad3b"
-      ],
-      "generated": [
-        "main.js-70720eb9e8"
-      ],
-      "topics": [
-        "main.js-70720eb9e8"
-      ],
-      "everyday": [
-        "main.js-70720eb9e8"
-      ],
-      "spanning": [
-        "main.js-70720eb9e8"
-      ],
-      "weeks": [
-        "main.js-70720eb9e8"
-      ],
-      "partnership": [
-        "main.js-70720eb9e8"
-      ],
-      "area": [
-        "main.js-49f7c6d08f"
-      ],
-      "helps": [
-        "main.js-49f7c6d08f"
-      ],
-      "others": [
-        "main.js-49f7c6d08f"
-      ],
-      "setup": [
-        "main.js-49f7c6d08f"
-      ],
-      "enhancing": [
-        "main.js-49f7c6d08f"
-      ],
-      "acquisition": [
-        "main.js-49f7c6d08f",
-        "main.js-619c618978"
-      ],
-      "narrative": [
-        "main.js-49f7c6d08f"
-      ],
-      "simulation": [
-        "main.js-49f7c6d08f"
-      ],
-      "stimulate": [
-        "main.js-619c618978"
-      ],
-      "neural": [
-        "main.js-619c618978"
-      ],
-      "pathways": [
-        "main.js-619c618978"
-      ],
-      "descriptive": [
-        "main.js-619c618978"
-      ],
-      "calming": [
-        "main.js-619c618978"
-      ],
-      "therapeutic": [
-        "main.js-619c618978"
-      ],
-      "regulating": [
-        "main.js-619c618978"
-      ],
-      "improve": [
-        "main.js-20f139a472"
-      ],
-      "ability": [
-        "main.js-20f139a472"
-      ],
-      "exposed": [
-        "main.js-20f139a472"
-      ],
-      "young": [
-        "main.js-20f139a472"
-      ],
-      "develop": [
-        "main.js-20f139a472"
-      ],
-      "instruments": [
-        "main.js-20f139a472"
-      ],
-      "singing": [
-        "main.js-20f139a472"
-      ],
-      "listening": [
-        "main.js-20f139a472"
-      ],
-      "auditory": [
-        "main.js-20f139a472"
-      ],
-      "processing": [
-        "main.js-20f139a472"
-      ],
-      "pattern": [
-        "main.js-20f139a472"
-      ],
-      "recognition": [
-        "main.js-20f139a472"
-      ],
-      "musical": [
-        "main.js-20f139a472"
-      ],
-      "appreciation": [
-        "main.js-20f139a472"
-      ],
-      "out": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "favorite": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "extracurricular": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "build": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "bonds": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "dramatization": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "theater": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "teamwork": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "friendships": [
-        "main.js-ff9c0d0c0f"
-      ],
-      "speaking": [
-        "main.js-ff9c0d0c0f"
       ],
       "sheikh": [
         "ges-julanda",

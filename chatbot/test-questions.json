@@ -1092,62 +1092,6 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Clay Atelier",
-    "expectedRecordId": "main.js-278d99379d",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Art Atelier",
-    "expectedRecordId": "main.js-2acebaf277",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Digital & Light Atelier",
-    "expectedRecordId": "main.js-8f68b0ad3b",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Project-Based Learning",
-    "expectedRecordId": "main.js-70720eb9e8",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Tiny Town",
-    "expectedRecordId": "main.js-49f7c6d08f",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Sensory Play",
-    "expectedRecordId": "main.js-619c618978",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Music & Movement",
-    "expectedRecordId": "main.js-20f139a472",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Drama, Puppetry & ECA / PE",
-    "expectedRecordId": "main.js-ff9c0d0c0f",
-    "expectedSourceUrl": "/#enrichments",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
     "question": "Tell me about Sheikh Julanda Salim Hamood Al Hashmi",
     "expectedRecordId": "ges-julanda",
     "expectedSourceUrl": "https://www.ges.om/about.php",
