@@ -641,17 +641,17 @@
         "sculpting"
       ],
       "recordIds": [
-        "enrichments-522872217b",
         "enrichments-c0209ed4ca",
         "index-0006467f3e",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-278d99379d"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#clay-atelier",
-        "/enrichments.html#activities",
         "/#clay-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -665,17 +665,17 @@
         "painting"
       ],
       "recordIds": [
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
+        "enrichments-7263b30076",
         "index-ee595fabf3",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-2acebaf277"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#art-atelier",
-        "/enrichments.html#activities",
         "/#art-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -692,17 +692,17 @@
         "shadows"
       ],
       "recordIds": [
-        "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-bed5a39bd1",
-        "index-99e522992f"
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#digital-atelier",
-        "/enrichments.html#activities",
         "/#digital-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -718,7 +718,8 @@
       ],
       "recordIds": [
         "enrichments-d686b01797",
-        "index-e7535199a8"
+        "index-e7535199a8",
+        "main.js-70720eb9e8"
       ],
       "attributes": {},
       "sourceUrls": [
@@ -739,13 +740,15 @@
       "recordIds": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#tiny-town",
         "/#tiny-town",
-        "/spaces.html#all-spaces"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -759,12 +762,14 @@
       ],
       "recordIds": [
         "enrichments-349bf70301",
-        "index-e55f8abcd0"
+        "index-e55f8abcd0",
+        "main.js-619c618978"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#sensory-play",
-        "/#sensory-play"
+        "/#sensory-play",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -780,12 +785,14 @@
       ],
       "recordIds": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098"
+        "index-4de467f098",
+        "main.js-20f139a472"
       ],
       "attributes": {},
       "sourceUrls": [
         "/enrichments.html#music-drama",
-        "/#music-drama"
+        "/#music-drama",
+        "/#enrichments"
       ],
       "organizationId": "shomoukh"
     },
@@ -804,7 +811,8 @@
       "recordIds": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2"
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
       ],
       "attributes": {},
       "sourceUrls": [
@@ -862,11 +870,11 @@
         "books"
       ],
       "recordIds": [
-        "spaces-9b1ab856fa"
+        "index-9b1ab856fa"
       ],
       "attributes": {},
       "sourceUrls": [
-        "/spaces.html#all-spaces"
+        "/#facilities"
       ],
       "organizationId": "shomoukh"
     },
@@ -881,11 +889,11 @@
         "medical"
       ],
       "recordIds": [
-        "spaces-002f1385fc"
+        "index-002f1385fc"
       ],
       "attributes": {},
       "sourceUrls": [
-        "/spaces.html#all-spaces"
+        "/#facilities"
       ],
       "organizationId": "shomoukh"
     },
@@ -915,7 +923,7 @@
         "classroom"
       ],
       "recordIds": [
-        "spaces-8341905422",
+        "spaces-2a4e7e50a8",
         "spaces-1f5f7bb920"
       ],
       "attributes": {},
@@ -1514,16 +1522,16 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "enrichments-522872217b",
         "enrichments-c0209ed4ca",
         "index-0006467f3e",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-278d99379d"
       ],
       "sourceUrls": [
         "/enrichments.html#clay-atelier",
-        "/enrichments.html#activities",
         "/#clay-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ]
     },
     {
@@ -1531,16 +1539,16 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
+        "enrichments-7263b30076",
         "index-ee595fabf3",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-2acebaf277"
       ],
       "sourceUrls": [
         "/enrichments.html#art-atelier",
-        "/enrichments.html#activities",
         "/#art-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ]
     },
     {
@@ -1548,16 +1556,16 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-bed5a39bd1",
-        "index-99e522992f"
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
       ],
       "sourceUrls": [
         "/enrichments.html#digital-atelier",
-        "/enrichments.html#activities",
         "/#digital-atelier",
-        "/#facilities"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ]
     },
     {
@@ -1566,7 +1574,8 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-d686b01797",
-        "index-e7535199a8"
+        "index-e7535199a8",
+        "main.js-70720eb9e8"
       ],
       "sourceUrls": [
         "/enrichments.html#activities",
@@ -1580,12 +1589,14 @@
       "recordIds": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
       ],
       "sourceUrls": [
         "/enrichments.html#tiny-town",
         "/#tiny-town",
-        "/spaces.html#all-spaces"
+        "/spaces.html#all-spaces",
+        "/#enrichments"
       ]
     },
     {
@@ -1594,11 +1605,13 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-349bf70301",
-        "index-e55f8abcd0"
+        "index-e55f8abcd0",
+        "main.js-619c618978"
       ],
       "sourceUrls": [
         "/enrichments.html#sensory-play",
-        "/#sensory-play"
+        "/#sensory-play",
+        "/#enrichments"
       ]
     },
     {
@@ -1607,11 +1620,13 @@
       "to": "shomoukh",
       "recordIds": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098"
+        "index-4de467f098",
+        "main.js-20f139a472"
       ],
       "sourceUrls": [
         "/enrichments.html#music-drama",
-        "/#music-drama"
+        "/#music-drama",
+        "/#enrichments"
       ]
     },
     {
@@ -1621,7 +1636,8 @@
       "recordIds": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2"
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
       ],
       "sourceUrls": [
         "/enrichments.html#activities",
@@ -1657,10 +1673,10 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "spaces-9b1ab856fa"
+        "index-9b1ab856fa"
       ],
       "sourceUrls": [
-        "/spaces.html#all-spaces"
+        "/#facilities"
       ]
     },
     {
@@ -1668,10 +1684,10 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "spaces-002f1385fc"
+        "index-002f1385fc"
       ],
       "sourceUrls": [
-        "/spaces.html#all-spaces"
+        "/#facilities"
       ]
     },
     {
@@ -1690,7 +1706,7 @@
       "type": "publishedBy",
       "to": "shomoukh",
       "recordIds": [
-        "spaces-8341905422",
+        "spaces-2a4e7e50a8",
         "spaces-1f5f7bb920"
       ],
       "sourceUrls": [
@@ -2158,7 +2174,7 @@
     "relationships": 46,
     "verifiedAttributeAssertions": 31,
     "uniqueAttributeFacts": 23,
-    "knowledgeRecords": 173
+    "knowledgeRecords": 177
   },
   "scopeNotes": [
     "Relationships are publication/listing relationships, not inferred legal ownership.",

@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ============================================================
      6. SHOMOUKH ENRICHMENTS & ATELIERS DETAIL MODAL
      ============================================================ */
-  const studentLifeData = isArabic ? arabicStudentLifeData : {
+  const studentLifeData = {
     'modal-arts': {
       category: 'RESEARCH ATELIER',
       title: 'Clay Atelier',
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const detailModalBullets = document.getElementById('detail-modal-bullets');
 
   function openDetailModal(dataKey) {
-    const data = studentLifeData[dataKey];
+    const data = (isArabic ? arabicStudentLifeData : studentLifeData)[dataKey];
     if (!data || !detailModal) return;
 
     if (detailModalCategory) detailModalCategory.textContent = data.category;

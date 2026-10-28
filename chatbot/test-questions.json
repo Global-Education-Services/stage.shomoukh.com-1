@@ -379,57 +379,29 @@
   },
   {
     "question": "Tell me about The Shomoukh Fun Space",
-    "expectedRecordId": "enrichments-40021358da",
+    "expectedRecordId": "enrichments-381f9be7a4",
     "expectedSourceUrl": "/enrichments.html#overview",
     "language": "en",
     "requiresQualification": false
   },
   {
     "question": "Tell me about Clay Atelier",
-    "expectedRecordId": "enrichments-522872217b",
+    "expectedRecordId": "enrichments-c0209ed4ca",
     "expectedSourceUrl": "/enrichments.html#clay-atelier",
     "language": "en",
     "requiresQualification": false
   },
   {
     "question": "Tell me about Art Atelier",
-    "expectedRecordId": "enrichments-2d32682645",
+    "expectedRecordId": "enrichments-7263b30076",
     "expectedSourceUrl": "/enrichments.html#art-atelier",
     "language": "en",
     "requiresQualification": false
   },
   {
     "question": "Tell me about Digital & Light Atelier",
-    "expectedRecordId": "enrichments-cafffdebc6",
-    "expectedSourceUrl": "/enrichments.html#digital-atelier",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Enrichment Experiences & Activities",
-    "expectedRecordId": "enrichments-5c72910ac6",
-    "expectedSourceUrl": "/enrichments.html#activities",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Clay Atelier",
-    "expectedRecordId": "enrichments-c0209ed4ca",
-    "expectedSourceUrl": "/enrichments.html#activities",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Art Atelier",
-    "expectedRecordId": "enrichments-2909246643",
-    "expectedSourceUrl": "/enrichments.html#activities",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Digital & Light Atelier",
     "expectedRecordId": "enrichments-51a68964f8",
-    "expectedSourceUrl": "/enrichments.html#activities",
+    "expectedSourceUrl": "/enrichments.html#digital-atelier",
     "language": "en",
     "requiresQualification": false
   },
@@ -554,7 +526,7 @@
   },
   {
     "question": "Tell me about Inspired Teachers",
-    "expectedRecordId": "index-8063a55e51",
+    "expectedRecordId": "index-21429dc4f9",
     "expectedSourceUrl": "/#inspired-teachers",
     "language": "en",
     "requiresQualification": false
@@ -672,15 +644,15 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Art and Clay Ateliers",
-    "expectedRecordId": "index-bf725c40c8",
+    "question": "Tell me about Library",
+    "expectedRecordId": "index-9b1ab856fa",
     "expectedSourceUrl": "/#facilities",
     "language": "en",
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Digital / Light Atelier",
-    "expectedRecordId": "index-99e522992f",
+    "question": "Tell me about Nurse's Clinic",
+    "expectedRecordId": "index-002f1385fc",
     "expectedSourceUrl": "/#facilities",
     "language": "en",
     "requiresQualification": false
@@ -1001,6 +973,20 @@
     "requiresQualification": false
   },
   {
+    "question": "Tell me about Art and Clay Ateliers",
+    "expectedRecordId": "spaces-bf725c40c8",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital / Light Atelier",
+    "expectedRecordId": "spaces-99e522992f",
+    "expectedSourceUrl": "/spaces.html#all-spaces",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
     "question": "Tell me about Indoor Playground",
     "expectedRecordId": "spaces-e6331976ba",
     "expectedSourceUrl": "/spaces.html#all-spaces",
@@ -1008,22 +994,8 @@
     "requiresQualification": false
   },
   {
-    "question": "Tell me about Library",
-    "expectedRecordId": "spaces-9b1ab856fa",
-    "expectedSourceUrl": "/spaces.html#all-spaces",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
     "question": "Tell me about Modern Outdoor Playgrounds",
     "expectedRecordId": "spaces-ad0057a9ea",
-    "expectedSourceUrl": "/spaces.html#all-spaces",
-    "language": "en",
-    "requiresQualification": false
-  },
-  {
-    "question": "Tell me about Nurse's Clinic",
-    "expectedRecordId": "spaces-002f1385fc",
     "expectedSourceUrl": "/spaces.html#all-spaces",
     "language": "en",
     "requiresQualification": false
@@ -1051,7 +1023,7 @@
   },
   {
     "question": "Tell me about Spacious Classrooms With Natural Light",
-    "expectedRecordId": "spaces-8341905422",
+    "expectedRecordId": "spaces-2a4e7e50a8",
     "expectedSourceUrl": "/spaces.html#all-spaces",
     "language": "en",
     "requiresQualification": false
@@ -1088,6 +1060,62 @@
     "question": "Tell me about Come See Our Spaces in Person",
     "expectedRecordId": "spaces-4fe9e6c231",
     "expectedSourceUrl": "/spaces.html",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Clay Atelier",
+    "expectedRecordId": "main.js-278d99379d",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Art Atelier",
+    "expectedRecordId": "main.js-2acebaf277",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Digital & Light Atelier",
+    "expectedRecordId": "main.js-8f68b0ad3b",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Project-Based Learning",
+    "expectedRecordId": "main.js-70720eb9e8",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Tiny Town",
+    "expectedRecordId": "main.js-49f7c6d08f",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Sensory Play",
+    "expectedRecordId": "main.js-619c618978",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Music & Movement",
+    "expectedRecordId": "main.js-20f139a472",
+    "expectedSourceUrl": "/#enrichments",
+    "language": "en",
+    "requiresQualification": false
+  },
+  {
+    "question": "Tell me about Drama, Puppetry & ECA / PE",
+    "expectedRecordId": "main.js-ff9c0d0c0f",
+    "expectedSourceUrl": "/#enrichments",
     "language": "en",
     "requiresQualification": false
   },

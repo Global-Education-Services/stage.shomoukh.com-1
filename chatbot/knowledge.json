@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T09:21:40.928Z",
+  "generatedAt": "2026-10-28T10:55:11.372Z",
   "entityIndex": {
     "version": 1,
     "reviewedAt": "2026-10-18",
@@ -644,17 +644,17 @@
           "sculpting"
         ],
         "recordIds": [
-          "enrichments-522872217b",
           "enrichments-c0209ed4ca",
           "index-0006467f3e",
-          "index-bf725c40c8"
+          "spaces-bf725c40c8",
+          "main.js-278d99379d"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#clay-atelier",
-          "/enrichments.html#activities",
           "/#clay-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -668,17 +668,17 @@
           "painting"
         ],
         "recordIds": [
-          "enrichments-2d32682645",
-          "enrichments-2909246643",
+          "enrichments-7263b30076",
           "index-ee595fabf3",
-          "index-bf725c40c8"
+          "spaces-bf725c40c8",
+          "main.js-2acebaf277"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#art-atelier",
-          "/enrichments.html#activities",
           "/#art-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -695,17 +695,17 @@
           "shadows"
         ],
         "recordIds": [
-          "enrichments-cafffdebc6",
           "enrichments-51a68964f8",
           "index-bed5a39bd1",
-          "index-99e522992f"
+          "spaces-99e522992f",
+          "main.js-8f68b0ad3b"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#digital-atelier",
-          "/enrichments.html#activities",
           "/#digital-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -721,7 +721,8 @@
         ],
         "recordIds": [
           "enrichments-d686b01797",
-          "index-e7535199a8"
+          "index-e7535199a8",
+          "main.js-70720eb9e8"
         ],
         "attributes": {},
         "sourceUrls": [
@@ -742,13 +743,15 @@
         "recordIds": [
           "enrichments-1d616796bf",
           "index-404b9eae40",
-          "spaces-5e1cd325f0"
+          "spaces-5e1cd325f0",
+          "main.js-49f7c6d08f"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#tiny-town",
           "/#tiny-town",
-          "/spaces.html#all-spaces"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -762,12 +765,14 @@
         ],
         "recordIds": [
           "enrichments-349bf70301",
-          "index-e55f8abcd0"
+          "index-e55f8abcd0",
+          "main.js-619c618978"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#sensory-play",
-          "/#sensory-play"
+          "/#sensory-play",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -783,12 +788,14 @@
         ],
         "recordIds": [
           "enrichments-8c79bc0a6c",
-          "index-4de467f098"
+          "index-4de467f098",
+          "main.js-20f139a472"
         ],
         "attributes": {},
         "sourceUrls": [
           "/enrichments.html#music-drama",
-          "/#music-drama"
+          "/#music-drama",
+          "/#enrichments"
         ],
         "organizationId": "shomoukh"
       },
@@ -807,7 +814,8 @@
         "recordIds": [
           "enrichments-b35a5fbd78",
           "index-7148e8e009",
-          "index-7de2a41da2"
+          "index-7de2a41da2",
+          "main.js-ff9c0d0c0f"
         ],
         "attributes": {},
         "sourceUrls": [
@@ -865,11 +873,11 @@
           "books"
         ],
         "recordIds": [
-          "spaces-9b1ab856fa"
+          "index-9b1ab856fa"
         ],
         "attributes": {},
         "sourceUrls": [
-          "/spaces.html#all-spaces"
+          "/#facilities"
         ],
         "organizationId": "shomoukh"
       },
@@ -884,11 +892,11 @@
           "medical"
         ],
         "recordIds": [
-          "spaces-002f1385fc"
+          "index-002f1385fc"
         ],
         "attributes": {},
         "sourceUrls": [
-          "/spaces.html#all-spaces"
+          "/#facilities"
         ],
         "organizationId": "shomoukh"
       },
@@ -918,7 +926,7 @@
           "classroom"
         ],
         "recordIds": [
-          "spaces-8341905422",
+          "spaces-2a4e7e50a8",
           "spaces-1f5f7bb920"
         ],
         "attributes": {},
@@ -1517,16 +1525,16 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "enrichments-522872217b",
           "enrichments-c0209ed4ca",
           "index-0006467f3e",
-          "index-bf725c40c8"
+          "spaces-bf725c40c8",
+          "main.js-278d99379d"
         ],
         "sourceUrls": [
           "/enrichments.html#clay-atelier",
-          "/enrichments.html#activities",
           "/#clay-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ]
       },
       {
@@ -1534,16 +1542,16 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "enrichments-2d32682645",
-          "enrichments-2909246643",
+          "enrichments-7263b30076",
           "index-ee595fabf3",
-          "index-bf725c40c8"
+          "spaces-bf725c40c8",
+          "main.js-2acebaf277"
         ],
         "sourceUrls": [
           "/enrichments.html#art-atelier",
-          "/enrichments.html#activities",
           "/#art-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ]
       },
       {
@@ -1551,16 +1559,16 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "enrichments-cafffdebc6",
           "enrichments-51a68964f8",
           "index-bed5a39bd1",
-          "index-99e522992f"
+          "spaces-99e522992f",
+          "main.js-8f68b0ad3b"
         ],
         "sourceUrls": [
           "/enrichments.html#digital-atelier",
-          "/enrichments.html#activities",
           "/#digital-atelier",
-          "/#facilities"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ]
       },
       {
@@ -1569,7 +1577,8 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-d686b01797",
-          "index-e7535199a8"
+          "index-e7535199a8",
+          "main.js-70720eb9e8"
         ],
         "sourceUrls": [
           "/enrichments.html#activities",
@@ -1583,12 +1592,14 @@
         "recordIds": [
           "enrichments-1d616796bf",
           "index-404b9eae40",
-          "spaces-5e1cd325f0"
+          "spaces-5e1cd325f0",
+          "main.js-49f7c6d08f"
         ],
         "sourceUrls": [
           "/enrichments.html#tiny-town",
           "/#tiny-town",
-          "/spaces.html#all-spaces"
+          "/spaces.html#all-spaces",
+          "/#enrichments"
         ]
       },
       {
@@ -1597,11 +1608,13 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-349bf70301",
-          "index-e55f8abcd0"
+          "index-e55f8abcd0",
+          "main.js-619c618978"
         ],
         "sourceUrls": [
           "/enrichments.html#sensory-play",
-          "/#sensory-play"
+          "/#sensory-play",
+          "/#enrichments"
         ]
       },
       {
@@ -1610,11 +1623,13 @@
         "to": "shomoukh",
         "recordIds": [
           "enrichments-8c79bc0a6c",
-          "index-4de467f098"
+          "index-4de467f098",
+          "main.js-20f139a472"
         ],
         "sourceUrls": [
           "/enrichments.html#music-drama",
-          "/#music-drama"
+          "/#music-drama",
+          "/#enrichments"
         ]
       },
       {
@@ -1624,7 +1639,8 @@
         "recordIds": [
           "enrichments-b35a5fbd78",
           "index-7148e8e009",
-          "index-7de2a41da2"
+          "index-7de2a41da2",
+          "main.js-ff9c0d0c0f"
         ],
         "sourceUrls": [
           "/enrichments.html#activities",
@@ -1660,10 +1676,10 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "spaces-9b1ab856fa"
+          "index-9b1ab856fa"
         ],
         "sourceUrls": [
-          "/spaces.html#all-spaces"
+          "/#facilities"
         ]
       },
       {
@@ -1671,10 +1687,10 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "spaces-002f1385fc"
+          "index-002f1385fc"
         ],
         "sourceUrls": [
-          "/spaces.html#all-spaces"
+          "/#facilities"
         ]
       },
       {
@@ -1693,7 +1709,7 @@
         "type": "publishedBy",
         "to": "shomoukh",
         "recordIds": [
-          "spaces-8341905422",
+          "spaces-2a4e7e50a8",
           "spaces-1f5f7bb920"
         ],
         "sourceUrls": [
@@ -2161,7 +2177,7 @@
       "relationships": 46,
       "verifiedAttributeAssertions": 31,
       "uniqueAttributeFacts": 23,
-      "knowledgeRecords": 173
+      "knowledgeRecords": 177
     },
     "scopeNotes": [
       "Relationships are publication/listing relationships, not inferred legal ownership.",
@@ -2900,7 +2916,6 @@
         "Clay Atelier",
         "Art Atelier",
         "Digital & Light Atelier",
-        "Enrichment Experiences & Activities",
         "Project-Based Learning",
         "Tiny Town",
         "Sensory Play",
@@ -2909,7 +2924,7 @@
         "Public school accreditation and overview",
         "Website copyright holder"
       ],
-      "text": "Smart & innovative learning environments where children research, sculpt, paint, and explore their hundred languages.\n\nShomoukh ateliers are not just art corners, but laboratories of research where children experiment with different media under the mentorship of our specialized Atelieristas. RESEARCH ATELIER\n\nChildren experiment with natural clay—a soft, responsive medium that can be shaped by hand gestures or sculpting tools, fostering 3D spatial thinking and fine motor skills. View Atelier Details EXPRESSION ATELIER\n\nChildren have access to stimulating artistic materials and are encouraged to use multiple symbolic languages—natural dyes, paints, charcoal, and organic papers—to express themselves. View Atelier Details INNOVATION ATELIER\n\nChildren use light in different forms alongside analog and digital tools to investigate reflections, shadows, logic, and early digital literacy through collaborative inquiry. View Atelier Details\n\nClick any card below to view detailed curriculum highlights, learning objectives, and imagery.\n\nTactile sensory exploration and sculptural inquiry using pure organic clay.\n\nMultiple symbolic languages, open-ended provocations, and color mastery.\n\nLight tables, shadow projection, and early technology integration.\n\nChild-led investigations connecting hypotheses with real-world discoveries.\n\nImaginative roleplaying building social negotiation, empathy, and vocabulary.\n\nWater tables, sensory grains, and natural textures supporting brain development.\n\nRhythmic exploration and joyful dance balancing body, focus, and mind.\n\nPuppet storytelling, physical games, sportsmanship, and expressive confidence.\n\nThe first and only Reggio Emilia inspired nursery school in the Sultanate of Oman, combining UK EYFS curriculum excellence with authentic Omani values.\n\nReggio Emilia Inspired UK EYFS Standards Ministry Approved\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
+      "text": "Smart & innovative learning environments where children research, sculpt, paint, and explore their hundred languages.\n\nShomoukh ateliers are not just art corners, but laboratories of research where children experiment with different media under the mentorship of our specialized Atelieristas. Click any card below to view detailed curriculum highlights, learning objectives, and imagery.\n\nTactile sensory exploration and sculptural inquiry using pure organic clay.\n\nPainting, drawing and natural dyes for creative expression in many symbolic languages.\n\nLight tables, shadow projection, and early technology integration.\n\nChild-led investigations connecting hypotheses with real-world discoveries.\n\nImaginative roleplaying building social negotiation, empathy, and vocabulary.\n\nWater tables, sensory grains, and natural textures supporting brain development.\n\nRhythmic exploration and joyful dance balancing body, focus, and mind.\n\nPuppet storytelling, physical games, sportsmanship, and expressive confidence.\n\nThe first and only Reggio Emilia inspired nursery school in the Sultanate of Oman, combining UK EYFS curriculum excellence with authentic Omani values.\n\nReggio Emilia Inspired UK EYFS Standards Ministry Approved\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
       "keywords": [
         "ateliers",
         "enrichments",
@@ -2937,50 +2952,50 @@
         "mentorship",
         "specialized",
         "atelieristas",
-        "atelier",
-        "natural",
-        "clay",
-        "soft",
-        "responsive",
-        "medium",
-        "shaped",
-        "hand",
-        "gestures",
-        "sculpting",
-        "tools",
-        "fostering",
-        "spatial",
-        "thinking",
-        "fine",
-        "motor",
-        "skills",
+        "click",
+        "any",
+        "card",
+        "below",
         "view",
-        "details",
-        "expression",
-        "access",
-        "stimulating",
-        "artistic",
-        "materials",
-        "encouraged",
-        "use",
-        "multiple",
-        "symbolic",
-        "dyes",
-        "paints",
-        "charcoal",
+        "detailed",
+        "curriculum",
+        "highlights",
+        "objectives",
+        "imagery",
+        "tactile",
+        "sensory",
+        "exploration",
+        "sculptural",
+        "inquiry",
+        "using",
+        "pure",
         "organic",
-        "papers",
-        "express",
-        "themselves",
-        "innovation",
+        "clay",
+        "painting",
+        "drawing",
+        "natural",
+        "dyes",
+        "creative",
+        "expression",
+        "many",
+        "symbolic",
         "light",
-        "forms",
-        "alongside",
-        "analog",
-        "digital",
-        "investigate",
-        "reflections",
-        "shadows"
+        "tables",
+        "shadow",
+        "projection",
+        "early",
+        "technology",
+        "integration",
+        "led",
+        "investigations",
+        "connecting",
+        "hypotheses",
+        "real",
+        "world",
+        "discoveries",
+        "imaginative",
+        "roleplaying",
+        "building"
       ],
       "relatedPages": [
         "/enrichments.html#main-content",
@@ -3024,8 +3039,7 @@
         "/admissions#step3",
         "/contact#almouj",
         "/contact#alqurm",
-        "/contact#contact-form",
-        "/enrichments.html#activities"
+        "/contact#contact-form"
       ],
       "lastUpdated": null,
       "category": "enrichments",
@@ -3070,8 +3084,8 @@
         "Music & Movement",
         "Drama & ECA / PE",
         "Our Spaces: Designed for Discovery",
-        "Art and Clay Ateliers",
-        "Digital / Light Atelier",
+        "Library",
+        "Nurse's Clinic",
         "Drama Room",
         "Indoor Gymnasium",
         "Organic Garden",
@@ -3085,7 +3099,7 @@
         "Al Qurm Campus",
         "Website copyright holder"
       ],
-      "text": "In the Sultanate of Oman, education is a right and all children have potential.\n\n01 / FEATURE\n\nWarm, nurturing, and aesthetic spaces designed to feel like a natural, joyful second home for every child. 02 / FEATURE\n\nOur standards are the highest in the industry, meeting and exceeding all local and international health & safety guidelines. 03 / FEATURE\n\nDedicated early childhood professionals and researchers benefiting from continuous professional training and ongoing support. 04 / FEATURE\n\nStudent-centered, project-based investigations where children explore their interests and think on their own. 05 / FEATURE\n\nPurpose-built ateliers (clay, art, digital & light), interconnected outdoor/indoor spaces, and cutting-edge resources.\n\nShomoukh Early Childhood Education is an International Early Years Nursery School, inspired by the Reggio Emilia approach, originated in Italy. In our school, children are viewed as unique, capable, resilient, creative, curious, and intelligent. We embrace everyone's culture while offering children a wide range of opportunities to become confident and prepare them to meet future challenges. ETHOS & CULTURE\n\nOur school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE\n\nTo provide high-quality childcare services and promote creativity and self-confidence in a positive, respectful learning environment that prepares children for lifelong learning. VISION & VALUES\n\nCreating a happy environment that celebrates excellence in caring and development for every child as an individual, with optimistic community involvement and expert educators.\n\nAt Shomoukh, we know childhood is a treasured time. We provide environments and experiences that capture the joys of childhood, nurture each child's individual growth, and pave the way for success in school and life.\n\nThoughtfully and carefully designed nursery schools, programs, and schedules – all created with the needs of both children and parents in mind.\n\nDedicated early childhood professionals fully engaged in teaching careers, who benefit from our continuous training and ongoing support.\n\nUK Early Years Foundation Stage (EYFS) integrated with Reggio Emilia project inquiry, inspiring children to think critically on their own.\n\nShomoukh Early Childhood Education accommodates children aged 6 months to 4 years. Operating 12 months per year following a 3-term academic year and a fun-filled summer camp.\n\nProviding your baby's brain with a strong foundation for learning and growing. Hours: 8:30 AM – 1:30 PM\n\nExploring the world around them and forming positive relationships with peers and adults. Hours: 8:30 AM – 1:30 PM\n\nDeveloping confidence and problem-solving skills to meet complex future challenges. Hours: 8:30 AM – 1:30 PM\n\nPre-Care & After-Care services to meet individual working family schedules. Extended Hours: 7:00 AM – 4:00 PM\n\nShomoukh ateliers are viewed as spaces where a group of children work together, using their imagination, creativity, and knowledge to experiment with different materials, technologies, and tools, under the encouragement and supervision of the Atelierista.\n\nExperimenting with natural clay, soft and smooth textures, and sculpting tools.\n\nMultiple symbolic languages, stimulating colors, and creative materials.\n\nInvestigating light, analogical and digital tools, logic, and imagination.\n\nBrainstorming and observations driven by children's individual interests.\n\nInteractive pretend play balancing personal ideas and social skills.\n\nStimulating senses for brain growth, problem-solving, and language.\n\nBalancing body and mind while nurturing rhythm and latent talents.\n\nPuppetry, story roleplay, physical education, and sports skills.\n\nShomoukh nursery school is full of life. Spaces, areas, and corners around the school are designed with intention and purpose. They promote happiness, creativity, collaboration, and learning in the best way possible.\n\nHands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.\n\nInvestigating light, shadows, projectors, optical logic, and creative digital learning strategies.\n\nA dedicated space for puppetry, dramatic roleplay, storytelling, and expressive confidence.\n\nClimbers, balance tracks, and soft gym apparatus nurturing physical fitness and motor coordination.\n\nChildren plant seeds, care for herbs, and discover natural life cycles and environmental sustainability.\n\nA central, open space where students, educators, and families can get together, interact, and collaborate.\n\nAdmissions to Shomoukh Nursery School are offered on an ongoing basis, preferably at the start of the academic year. While most families complete registration during the fall and winter months, we continue to keep our programs open as long as space is available. Join Our Diverse Community of Learners: Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. We offer quality education from ages 6 months to 6 years.\n\nBook a tour and visit Shomoukh nursery school together with your child during working hours. Book a Visit Now\n\nUpon confirmation, submit your details including your child's information and any required forms. Apply Online Form\n\nProceed to term fee payments within the given time frame to secure your child's place. Admissions Details\n\nTwo dedicated purpose-built nursery campuses serving Al Mouj and Shatti Al Qurm families.\n\nAl Mouj Main Street, Main Community Hub, Muscat Phone: +968 24555515 Email: info.almouj@shomoukh.com View Campus Details →\n\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat Phone: +968 24600610 Email: info.alqurum@shomoukh.com View Campus Details →\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
+      "text": "In the Sultanate of Oman, education is a right and all children have potential.\n\n01 / FEATURE\n\nWarm, nurturing, and aesthetic spaces designed to feel like a natural, joyful second home for every child. 02 / FEATURE\n\nOur standards are the highest in the industry, meeting and exceeding all local and international health & safety guidelines. 03 / FEATURE\n\nDedicated early childhood professionals and researchers benefiting from continuous professional training and ongoing support. 04 / FEATURE\n\nStudent-centered, project-based investigations where children explore their interests and think on their own. 05 / FEATURE\n\nPurpose-built ateliers (clay, art, digital & light), interconnected outdoor/indoor spaces, and cutting-edge resources.\n\nShomoukh Early Childhood Education is an International Early Years Nursery School, inspired by the Reggio Emilia approach, originated in Italy. In our school, children are viewed as unique, capable, resilient, creative, curious, and intelligent. We embrace everyone's culture while offering children a wide range of opportunities to become confident and prepare them to meet future challenges. ETHOS & CULTURE\n\nOur school's ethos and culture promote positive relations among its members and provides opportunities so that each child feels fulfilled, emphasizing social, emotional, and physical development. PURPOSE & PROMISE\n\nTo provide high-quality childcare services and promote creativity and self-confidence in a positive, respectful learning environment that prepares children for lifelong learning. VISION & VALUES\n\nCreating a happy environment that celebrates excellence in caring and development for every child as an individual, with optimistic community involvement and expert educators.\n\nAt Shomoukh, we know childhood is a treasured time. We provide environments and experiences that capture the joys of childhood, nurture each child's individual growth, and pave the way for success in school and life.\n\nThoughtfully and carefully designed nursery schools, programs, and schedules – all created with the needs of both children and parents in mind.\n\nTeachers work as researchers alongside the children, observing, documenting and building on each child's ideas.\n\nUK Early Years Foundation Stage (EYFS) integrated with Reggio Emilia project inquiry, inspiring children to think critically on their own.\n\nShomoukh Early Childhood Education accommodates children aged 6 months to 4 years. Operating 12 months per year following a 3-term academic year and a fun-filled summer camp.\n\nProviding your baby's brain with a strong foundation for learning and growing. Hours: 8:30 AM – 1:30 PM\n\nExploring the world around them and forming positive relationships with peers and adults. Hours: 8:30 AM – 1:30 PM\n\nDeveloping confidence and problem-solving skills to meet complex future challenges. Hours: 8:30 AM – 1:30 PM\n\nPre-Care & After-Care services to meet individual working family schedules. Extended Hours: 7:00 AM – 4:00 PM\n\nShomoukh ateliers are viewed as spaces where a group of children work together, using their imagination, creativity, and knowledge to experiment with different materials, technologies, and tools, under the encouragement and supervision of the Atelierista.\n\nExperimenting with natural clay, soft and smooth textures, and sculpting tools.\n\nMultiple symbolic languages, stimulating colors, and creative materials.\n\nInvestigating light, analogical and digital tools, logic, and imagination.\n\nBrainstorming and observations driven by children's individual interests.\n\nInteractive pretend play balancing personal ideas and social skills.\n\nStimulating senses for brain growth, problem-solving, and language.\n\nBalancing body and mind while nurturing rhythm and latent talents.\n\nPuppetry, story roleplay, physical education, and sports skills.\n\nShomoukh nursery school is full of life. Spaces, areas, and corners around the school are designed with intention and purpose. They promote happiness, creativity, collaboration, and learning in the best way possible.\n\nRich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.\n\nFully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.\n\nA dedicated space for puppetry, dramatic roleplay, storytelling, and expressive confidence.\n\nClimbers, balance tracks, and soft gym apparatus nurturing physical fitness and motor coordination.\n\nChildren plant seeds, care for herbs, and discover natural life cycles and environmental sustainability.\n\nA central, open space where students, educators, and families can get together, interact, and collaborate.\n\nAdmissions to Shomoukh Nursery School are offered on an ongoing basis, preferably at the start of the academic year. While most families complete registration during the fall and winter months, we continue to keep our programs open as long as space is available. Join Our Diverse Community of Learners: Our admissions team at Shomoukh is looking forward to welcoming you and your child to our Shomoukh family. We offer quality education from ages 6 months to 6 years.\n\nBook a tour and visit Shomoukh nursery school together with your child during working hours. Book a Visit Now\n\nUpon confirmation, submit your details including your child's information and any required forms. Apply Online Form\n\nProceed to term fee payments within the given time frame to secure your child's place. Admissions Details\n\nTwo dedicated purpose-built nursery campuses serving Al Mouj and Shatti Al Qurm families.\n\nAl Mouj Main Street, Main Community Hub, Muscat Phone: +968 24555515 Email: info.almouj@shomoukh.com View Campus Details →\n\nAl Suraj St, Shatti Al Qurm Way 3046, Bldg 355, Muscat Phone: +968 24600610 Email: info.alqurum@shomoukh.com View Campus Details →\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
       "keywords": [
         "first",
         "only",
@@ -3537,7 +3551,7 @@
         "Come See Our Spaces in Person",
         "Website copyright holder"
       ],
-      "text": "Shomoukh nursery school is full of life. Spaces, areas, and corners around the school are designed with intention and purpose to promote happiness, creativity, collaboration, and learning in the best way possible.\n\nThe classrooms and outdoor areas are spaces that offer provocations for learning, exploration, and play. Spaces are interconnected to support communication, curiosity, and interaction between children and adults. The environment is rich in opportunities and is modified dynamically based on ongoing projects and learning experiences. Care for spaces and resources is viewed as an essential educational component, and safety is our top priority.\n\nCorridors, piazzas, and ateliers seamlessly link indoor discovery with outdoor nature.\n\nNatural materials and tools evoke questions, hypothesis testing, and collaborative work.\n\nEvery corner of Shomoukh is thoughtfully curated to empower each child's physical, creative, intellectual, and social development.\n\nHands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.\n\nInvestigating light, shadows, projectors, optical logic, and creative digital learning strategies.\n\nA dedicated space for puppetry, dramatic roleplay, storytelling, and expressive confidence.\n\nClimbers, balance tracks, and soft gym apparatus nurturing physical fitness and motor coordination.\n\nSafe, climate-controlled dynamic play zone designed for active movement throughout the entire year.\n\nRich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.\n\nCustom-built outdoor equipment, green areas, and sensory trails meeting European safety standards.\n\nFully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.\n\nInterconnected corridors and wide breakout areas facilitating spontaneous interaction and curiosity.\n\nChildren plant seeds, care for herbs, and discover natural life cycles and environmental sustainability.\n\nMiniature civic community zones for roleplay, shopping, health center, and social problem-solving.\n\nSensory wet and dry sand workstations where tactile curiosity and collaborative recipes flourish.\n\nExpansive rooms flooded with sunlight, ergonomic furniture, and flexible layout provocations.\n\nA central, open space where students, educators, and families can get together, interact, and collaborate.\n\nFrom the heart of the Italian piazza model to interactive organic gardens, our spaces invite joyful discovery every morning.\n\nModeled after Italian town squares, the Piazza is the beating heart of our school where all classrooms converge. Children, teachers, and parents meet, share dialogue, present work, and celebrate community milestones.\n\nA living outdoor science laboratory. Children plant seeds, nurture herbs and vegetables, observe pollinators, and discover the wonder of seasonal growth, embedding sustainability and respect for nature from their earliest years.\n\nExpansive windows flood our rooms with natural light. Flexible modular furniture, natural wood finishes, and dynamic provocations invite children to choose how and where they investigate, create, and concentrate.\n\nSchedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
+      "text": "Shomoukh nursery school is full of life. Spaces, areas, and corners around the school are designed with intention and purpose to promote happiness, creativity, collaboration, and learning in the best way possible.\n\nThe classrooms and outdoor areas are spaces that offer provocations for learning, exploration, and play. Spaces are interconnected to support communication, curiosity, and interaction between children and adults. The environment is rich in opportunities and is modified dynamically based on ongoing projects and learning experiences. Care for spaces and resources is viewed as an essential educational component, and safety is our top priority.\n\nCorridors, piazzas, and ateliers seamlessly link indoor discovery with outdoor nature.\n\nNatural materials and tools evoke questions, hypothesis testing, and collaborative work.\n\nEvery corner of Shomoukh is thoughtfully curated to empower each child's physical, creative, intellectual, and social development.\n\nHands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.\n\nInvestigating light, shadows, projectors, optical logic, and creative digital learning strategies.\n\nA dedicated space for puppetry, dramatic roleplay, storytelling, and expressive confidence.\n\nClimbers, balance tracks, and soft gym apparatus nurturing physical fitness and motor coordination.\n\nSafe, climate-controlled dynamic play zone designed for active movement throughout the entire year.\n\nRich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.\n\nCustom-built outdoor equipment, green areas, and sensory trails meeting European safety standards.\n\nFully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.\n\nInterconnected corridors and wide breakout areas facilitating spontaneous interaction and curiosity.\n\nChildren plant seeds, care for herbs, and discover natural life cycles and environmental sustainability.\n\nMiniature civic community zones for roleplay, shopping, health center, and social problem-solving.\n\nSensory wet and dry sand workstations where tactile curiosity and collaborative recipes flourish.\n\nCalm, well-organised homerooms sized for small-group work, with child-height furniture and easy access to outdoor play.\n\nA central, open space where students, educators, and families can get together, interact, and collaborate.\n\nFrom the heart of the Italian piazza model to interactive organic gardens, our spaces invite joyful discovery every morning.\n\nModeled after Italian town squares, the Piazza is the beating heart of our school where all classrooms converge. Children, teachers, and parents meet, share dialogue, present work, and celebrate community milestones.\n\nA living outdoor science laboratory. Children plant seeds, nurture herbs and vegetables, observe pollinators, and discover the wonder of seasonal growth, embedding sustainability and respect for nature from their earliest years.\n\nExpansive windows flood our rooms with natural light. Flexible modular furniture, natural wood finishes, and dynamic provocations invite children to choose how and where they investigate, create, and concentrate.\n\nSchedule a personalized tour of our Al Mouj or Al Qurm campuses to experience our ateliers, gyms, and classrooms first-hand.\n\nCopyright © 2026, Global Education Services L.L.C. All Rights Reserved.",
       "keywords": [
         "purpose",
         "built",
@@ -6100,10 +6114,10 @@
       "language": "en"
     },
     {
-      "id": "enrichments-40021358da",
+      "id": "enrichments-381f9be7a4",
       "title": "The Shomoukh Fun Space",
       "question": "Tell me about The Shomoukh Fun Space",
-      "answer": "Shomoukh ateliers are not just art corners, but laboratories of research where children experiment with different media under the mentorship of our specialized Atelieristas. RESEARCH ATELIER",
+      "answer": "Shomoukh ateliers are not just art corners, but laboratories of research where children experiment with different media under the mentorship of our specialized Atelieristas. Click any card below to view detailed curriculum highlights, learning objectives, and imagery.",
       "keywords": [
         "fun",
         "space",
@@ -6123,176 +6137,6 @@
         "mentorship",
         "specialized",
         "atelieristas",
-        "atelier"
-      ],
-      "alternativeQuestions": [
-        "What is The Shomoukh Fun Space?",
-        "Where can I find The Shomoukh Fun Space?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/enrichments.html#overview",
-      "sourceReference": {
-        "file": "enrichments.html",
-        "line": 301,
-        "heading": "The Shomoukh Fun Space",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "enrichments-522872217b",
-      "title": "Clay Atelier",
-      "question": "Tell me about Clay Atelier",
-      "answer": "Children experiment with natural clay—a soft, responsive medium that can be shaped by hand gestures or sculpting tools, fostering 3D spatial thinking and fine motor skills. View Atelier Details EXPRESSION ATELIER",
-      "keywords": [
-        "clay",
-        "atelier",
-        "experiment",
-        "natural",
-        "soft",
-        "responsive",
-        "medium",
-        "shaped",
-        "hand",
-        "gestures",
-        "sculpting",
-        "tools",
-        "fostering",
-        "spatial",
-        "thinking",
-        "fine",
-        "motor",
-        "skills",
-        "view",
-        "details",
-        "expression"
-      ],
-      "alternativeQuestions": [
-        "What is Clay Atelier?",
-        "Where can I find Clay Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/enrichments.html#clay-atelier",
-      "sourceReference": {
-        "file": "enrichments.html",
-        "line": 316,
-        "heading": "Clay Atelier",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "enrichments-2d32682645",
-      "title": "Art Atelier",
-      "question": "Tell me about Art Atelier",
-      "answer": "Children have access to stimulating artistic materials and are encouraged to use multiple symbolic languages—natural dyes, paints, charcoal, and organic papers—to express themselves. View Atelier Details INNOVATION ATELIER",
-      "keywords": [
-        "art",
-        "atelier",
-        "access",
-        "stimulating",
-        "artistic",
-        "materials",
-        "encouraged",
-        "use",
-        "multiple",
-        "symbolic",
-        "languages",
-        "natural",
-        "dyes",
-        "paints",
-        "charcoal",
-        "organic",
-        "papers",
-        "express",
-        "themselves",
-        "view",
-        "details",
-        "innovation"
-      ],
-      "alternativeQuestions": [
-        "What is Art Atelier?",
-        "Where can I find Art Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/enrichments.html#art-atelier",
-      "sourceReference": {
-        "file": "enrichments.html",
-        "line": 333,
-        "heading": "Art Atelier",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "enrichments-cafffdebc6",
-      "title": "Digital & Light Atelier",
-      "question": "Tell me about Digital & Light Atelier",
-      "answer": "Children use light in different forms alongside analog and digital tools to investigate reflections, shadows, logic, and early digital literacy through collaborative inquiry. View Atelier Details",
-      "keywords": [
-        "digital",
-        "light",
-        "atelier",
-        "use",
-        "different",
-        "forms",
-        "alongside",
-        "analog",
-        "tools",
-        "investigate",
-        "reflections",
-        "shadows",
-        "logic",
-        "early",
-        "literacy",
-        "collaborative",
-        "inquiry",
-        "view",
-        "details"
-      ],
-      "alternativeQuestions": [
-        "What is Digital & Light Atelier?",
-        "Where can I find Digital & Light Atelier?"
-      ],
-      "intent": "enrichments",
-      "category": "enrichments",
-      "url": "/enrichments.html#digital-atelier",
-      "sourceReference": {
-        "file": "enrichments.html",
-        "line": 350,
-        "heading": "Digital & Light Atelier",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "enrichments-5c72910ac6",
-      "title": "Enrichment Experiences & Activities",
-      "question": "Tell me about Enrichment Experiences & Activities",
-      "answer": "Click any card below to view detailed curriculum highlights, learning objectives, and imagery.",
-      "keywords": [
-        "enrichment",
-        "experiences",
-        "activities",
         "click",
         "any",
         "card",
@@ -6306,16 +6150,16 @@
         "imagery"
       ],
       "alternativeQuestions": [
-        "What is Enrichment Experiences & Activities?",
-        "Where can I find Enrichment Experiences & Activities?"
+        "What is The Shomoukh Fun Space?",
+        "Where can I find The Shomoukh Fun Space?"
       ],
       "intent": "enrichments",
       "category": "enrichments",
-      "url": "/enrichments.html#activities",
+      "url": "/enrichments.html#overview",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 374,
-        "heading": "Enrichment Experiences & Activities",
+        "line": 301,
+        "heading": "The Shomoukh Fun Space",
         "kind": "html"
       },
       "confidence": {
@@ -6347,10 +6191,10 @@
       ],
       "intent": "enrichments",
       "category": "enrichments",
-      "url": "/enrichments.html#activities",
+      "url": "/enrichments.html#clay-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 385,
+        "line": 315,
         "heading": "Clay Atelier",
         "kind": "html"
       },
@@ -6361,21 +6205,22 @@
       "language": "en"
     },
     {
-      "id": "enrichments-2909246643",
+      "id": "enrichments-7263b30076",
       "title": "Art Atelier",
       "question": "Tell me about Art Atelier",
-      "answer": "Multiple symbolic languages, open-ended provocations, and color mastery.",
+      "answer": "Painting, drawing and natural dyes for creative expression in many symbolic languages.",
       "keywords": [
         "art",
         "atelier",
-        "multiple",
+        "painting",
+        "drawing",
+        "natural",
+        "dyes",
+        "creative",
+        "expression",
+        "many",
         "symbolic",
-        "languages",
-        "open",
-        "ended",
-        "provocations",
-        "color",
-        "mastery"
+        "languages"
       ],
       "alternativeQuestions": [
         "What is Art Atelier?",
@@ -6383,10 +6228,10 @@
       ],
       "intent": "enrichments",
       "category": "enrichments",
-      "url": "/enrichments.html#activities",
+      "url": "/enrichments.html#art-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 397,
+        "line": 327,
         "heading": "Art Atelier",
         "kind": "html"
       },
@@ -6418,10 +6263,10 @@
       ],
       "intent": "enrichments",
       "category": "enrichments",
-      "url": "/enrichments.html#activities",
+      "url": "/enrichments.html#digital-atelier",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 409,
+        "line": 339,
         "heading": "Digital & Light Atelier",
         "kind": "html"
       },
@@ -6457,7 +6302,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 421,
+        "line": 351,
         "heading": "Project-Based Learning",
         "kind": "html"
       },
@@ -6492,7 +6337,7 @@
       "url": "/enrichments.html#tiny-town",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 433,
+        "line": 363,
         "heading": "Tiny Town",
         "kind": "html"
       },
@@ -6528,7 +6373,7 @@
       "url": "/enrichments.html#sensory-play",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 445,
+        "line": 375,
         "heading": "Sensory Play",
         "kind": "html"
       },
@@ -6564,7 +6409,7 @@
       "url": "/enrichments.html#music-drama",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 457,
+        "line": 387,
         "heading": "Music & Movement",
         "kind": "html"
       },
@@ -6599,7 +6444,7 @@
       "url": "/enrichments.html#activities",
       "sourceReference": {
         "file": "enrichments.html",
-        "line": 469,
+        "line": 399,
         "heading": "Drama, Puppetry & PE",
         "kind": "html"
       },
@@ -7123,27 +6968,20 @@
       "language": "en"
     },
     {
-      "id": "index-8063a55e51",
+      "id": "index-21429dc4f9",
       "title": "Inspired Teachers",
       "question": "Tell me about Inspired Teachers",
-      "answer": "Dedicated early childhood professionals fully engaged in teaching careers, who benefit from our continuous training and ongoing support.",
+      "answer": "Teachers work as researchers alongside the children, observing, documenting and building on each child's ideas.",
       "keywords": [
         "inspired",
         "teachers",
-        "dedicated",
-        "early",
-        "childhood",
-        "professionals",
-        "fully",
-        "engaged",
-        "teaching",
-        "careers",
-        "who",
-        "benefit",
-        "continuous",
-        "training",
-        "ongoing",
-        "support"
+        "work",
+        "researchers",
+        "alongside",
+        "observing",
+        "documenting",
+        "building",
+        "ideas"
       ],
       "alternativeQuestions": [
         "What is Inspired Teachers?",
@@ -7789,27 +7627,28 @@
       "language": "en"
     },
     {
-      "id": "index-bf725c40c8",
-      "title": "Art and Clay Ateliers",
-      "question": "Tell me about Art and Clay Ateliers",
-      "answer": "Hands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.",
+      "id": "index-9b1ab856fa",
+      "title": "Library",
+      "question": "Tell me about Library",
+      "answer": "Rich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.",
       "keywords": [
-        "art",
-        "clay",
-        "ateliers",
-        "hands",
-        "research",
-        "tactile",
-        "exploration",
-        "shaping",
-        "painting",
-        "diverse",
-        "symbolic",
-        "expressions"
+        "library",
+        "rich",
+        "collection",
+        "age",
+        "appropriate",
+        "multilingual",
+        "books",
+        "cozy",
+        "reading",
+        "corners",
+        "quiet",
+        "discovery",
+        "pods"
       ],
       "alternativeQuestions": [
-        "What is Art and Clay Ateliers?",
-        "Where can I find Art and Clay Ateliers?"
+        "What is Library?",
+        "Where can I find Library?"
       ],
       "intent": "overview",
       "category": "overview",
@@ -7817,7 +7656,7 @@
       "sourceReference": {
         "file": "index.html",
         "line": 796,
-        "heading": "Art and Clay Ateliers",
+        "heading": "Library",
         "kind": "html"
       },
       "confidence": {
@@ -7827,26 +7666,27 @@
       "language": "en"
     },
     {
-      "id": "index-99e522992f",
-      "title": "Digital / Light Atelier",
-      "question": "Tell me about Digital / Light Atelier",
-      "answer": "Investigating light, shadows, projectors, optical logic, and creative digital learning strategies.",
+      "id": "index-002f1385fc",
+      "title": "Nurse's Clinic",
+      "question": "Tell me about Nurse's Clinic",
+      "answer": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
       "keywords": [
-        "digital",
-        "light",
-        "atelier",
-        "investigating",
-        "shadows",
-        "projectors",
-        "optical",
-        "logic",
-        "creative",
-        "learning",
-        "strategies"
+        "nurse",
+        "clinic",
+        "fully",
+        "equipped",
+        "medical",
+        "staffed",
+        "licensed",
+        "healthcare",
+        "professionals",
+        "daily",
+        "safety",
+        "care"
       ],
       "alternativeQuestions": [
-        "What is Digital / Light Atelier?",
-        "Where can I find Digital / Light Atelier?"
+        "What is Nurse's Clinic?",
+        "Where can I find Nurse's Clinic?"
       ],
       "intent": "overview",
       "category": "overview",
@@ -7854,7 +7694,7 @@
       "sourceReference": {
         "file": "index.html",
         "line": 803,
-        "heading": "Digital / Light Atelier",
+        "heading": "Nurse's Clinic",
         "kind": "html"
       },
       "confidence": {
@@ -9769,6 +9609,81 @@
       "language": "en"
     },
     {
+      "id": "spaces-bf725c40c8",
+      "title": "Art and Clay Ateliers",
+      "question": "Tell me about Art and Clay Ateliers",
+      "answer": "Hands-on research ateliers for tactile exploration, clay shaping, painting, and diverse symbolic expressions.",
+      "keywords": [
+        "art",
+        "clay",
+        "ateliers",
+        "hands",
+        "research",
+        "tactile",
+        "exploration",
+        "shaping",
+        "painting",
+        "diverse",
+        "symbolic",
+        "expressions"
+      ],
+      "alternativeQuestions": [
+        "What is Art and Clay Ateliers?",
+        "Where can I find Art and Clay Ateliers?"
+      ],
+      "intent": "facilities",
+      "category": "facilities",
+      "url": "/spaces.html#all-spaces",
+      "sourceReference": {
+        "file": "spaces.html",
+        "line": 364,
+        "heading": "Art and Clay Ateliers",
+        "kind": "html"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "spaces-99e522992f",
+      "title": "Digital / Light Atelier",
+      "question": "Tell me about Digital / Light Atelier",
+      "answer": "Investigating light, shadows, projectors, optical logic, and creative digital learning strategies.",
+      "keywords": [
+        "digital",
+        "light",
+        "atelier",
+        "investigating",
+        "shadows",
+        "projectors",
+        "optical",
+        "logic",
+        "creative",
+        "learning",
+        "strategies"
+      ],
+      "alternativeQuestions": [
+        "What is Digital / Light Atelier?",
+        "Where can I find Digital / Light Atelier?"
+      ],
+      "intent": "facilities",
+      "category": "facilities",
+      "url": "/spaces.html#all-spaces",
+      "sourceReference": {
+        "file": "spaces.html",
+        "line": 373,
+        "heading": "Digital / Light Atelier",
+        "kind": "html"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
       "id": "spaces-e6331976ba",
       "title": "Indoor Playground",
       "question": "Tell me about Indoor Playground",
@@ -9809,45 +9724,6 @@
       "language": "en"
     },
     {
-      "id": "spaces-9b1ab856fa",
-      "title": "Library",
-      "question": "Tell me about Library",
-      "answer": "Rich collection of age-appropriate multilingual books, cozy reading corners, and quiet discovery pods.",
-      "keywords": [
-        "library",
-        "rich",
-        "collection",
-        "age",
-        "appropriate",
-        "multilingual",
-        "books",
-        "cozy",
-        "reading",
-        "corners",
-        "quiet",
-        "discovery",
-        "pods"
-      ],
-      "alternativeQuestions": [
-        "What is Library?",
-        "Where can I find Library?"
-      ],
-      "intent": "facilities",
-      "category": "facilities",
-      "url": "/spaces.html#all-spaces",
-      "sourceReference": {
-        "file": "spaces.html",
-        "line": 409,
-        "heading": "Library",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
       "id": "spaces-ad0057a9ea",
       "title": "Modern Outdoor Playgrounds",
       "question": "Tell me about Modern Outdoor Playgrounds",
@@ -9879,44 +9755,6 @@
         "file": "spaces.html",
         "line": 418,
         "heading": "Modern Outdoor Playgrounds",
-        "kind": "html"
-      },
-      "confidence": {
-        "verified": true,
-        "conflicts": []
-      },
-      "language": "en"
-    },
-    {
-      "id": "spaces-002f1385fc",
-      "title": "Nurse's Clinic",
-      "question": "Tell me about Nurse's Clinic",
-      "answer": "Fully equipped medical clinic staffed by licensed healthcare professionals for daily safety and care.",
-      "keywords": [
-        "nurse",
-        "clinic",
-        "fully",
-        "equipped",
-        "medical",
-        "staffed",
-        "licensed",
-        "healthcare",
-        "professionals",
-        "daily",
-        "safety",
-        "care"
-      ],
-      "alternativeQuestions": [
-        "What is Nurse's Clinic?",
-        "Where can I find Nurse's Clinic?"
-      ],
-      "intent": "facilities",
-      "category": "facilities",
-      "url": "/spaces.html#all-spaces",
-      "sourceReference": {
-        "file": "spaces.html",
-        "line": 427,
-        "heading": "Nurse's Clinic",
         "kind": "html"
       },
       "confidence": {
@@ -10043,24 +9881,29 @@
       "language": "en"
     },
     {
-      "id": "spaces-8341905422",
+      "id": "spaces-2a4e7e50a8",
       "title": "Spacious Classrooms With Natural Light",
       "question": "Tell me about Spacious Classrooms With Natural Light",
-      "answer": "Expansive rooms flooded with sunlight, ergonomic furniture, and flexible layout provocations.",
+      "answer": "Calm, well-organised homerooms sized for small-group work, with child-height furniture and easy access to outdoor play.",
       "keywords": [
         "spacious",
         "classrooms",
         "natural",
         "light",
-        "expansive",
-        "rooms",
-        "flooded",
-        "sunlight",
-        "ergonomic",
+        "calm",
+        "well",
+        "organised",
+        "homerooms",
+        "sized",
+        "small",
+        "group",
+        "work",
+        "height",
         "furniture",
-        "flexible",
-        "layout",
-        "provocations"
+        "easy",
+        "access",
+        "outdoor",
+        "play"
       ],
       "alternativeQuestions": [
         "What is Spacious Classrooms With Natural Light?",
@@ -10304,6 +10147,490 @@
         "line": 544,
         "heading": "Come See Our Spaces in Person",
         "kind": "html"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-278d99379d",
+      "title": "Clay Atelier",
+      "question": "Tell me about Clay Atelier",
+      "answer": "Children experiment with clay, a soft and natural material with a smooth texture that can be shaped by the gestures of their hands or using various sculpting tools. Hands-on tactile sensory exploration with natural clay Fostering fine motor skills, hand gestures, and tool usage Expressing 3D sculptural concepts and structural thinking Guided supervision by trained Atelierista (artists)",
+      "keywords": [
+        "clay",
+        "atelier",
+        "experiment",
+        "soft",
+        "natural",
+        "material",
+        "smooth",
+        "texture",
+        "shaped",
+        "gestures",
+        "hands",
+        "using",
+        "various",
+        "sculpting",
+        "tools",
+        "tactile",
+        "sensory",
+        "exploration",
+        "fostering",
+        "fine",
+        "motor",
+        "skills",
+        "hand",
+        "tool",
+        "usage",
+        "expressing",
+        "sculptural",
+        "concepts",
+        "structural",
+        "thinking",
+        "guided",
+        "supervision",
+        "trained",
+        "atelierista",
+        "artists"
+      ],
+      "alternativeQuestions": [
+        "What is Clay Atelier?",
+        "Where can I find Clay Atelier?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 264,
+        "heading": "Clay Atelier",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-2acebaf277",
+      "title": "Art Atelier",
+      "question": "Tell me about Art Atelier",
+      "answer": "Children have access to stimulating resources and are encouraged to use multiple symbolic languages, tools, and materials to express themselves creatively. Rich variety of paints, pastels, natural dyes, and papers Encouraging individual symbolic expressions and storytelling Open-ended art provocations nurturing curiosity Exhibitions documenting each child's creative process",
+      "keywords": [
+        "art",
+        "atelier",
+        "access",
+        "stimulating",
+        "resources",
+        "encouraged",
+        "use",
+        "multiple",
+        "symbolic",
+        "languages",
+        "tools",
+        "materials",
+        "express",
+        "themselves",
+        "creatively",
+        "rich",
+        "variety",
+        "paints",
+        "pastels",
+        "natural",
+        "dyes",
+        "papers",
+        "encouraging",
+        "individual",
+        "expressions",
+        "storytelling",
+        "open",
+        "ended",
+        "provocations",
+        "nurturing",
+        "curiosity",
+        "exhibitions",
+        "documenting",
+        "creative",
+        "process"
+      ],
+      "alternativeQuestions": [
+        "What is Art Atelier?",
+        "Where can I find Art Atelier?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 276,
+        "heading": "Art Atelier",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-8f68b0ad3b",
+      "title": "Digital & Light Atelier",
+      "question": "Tell me about Digital & Light Atelier",
+      "answer": "Children use light in different forms alongside analogical and digital tools to investigate new connections, learning strategies, logic, and imagination. Light tables, projectors, shadows, and color filters Exploration of patterns, reflection, and optical science Integrating digital technology with early childhood logic Interactive group investigations and discovery",
+      "keywords": [
+        "digital",
+        "light",
+        "atelier",
+        "use",
+        "different",
+        "forms",
+        "alongside",
+        "analogical",
+        "tools",
+        "investigate",
+        "new",
+        "connections",
+        "learning",
+        "strategies",
+        "logic",
+        "imagination",
+        "tables",
+        "projectors",
+        "shadows",
+        "color",
+        "filters",
+        "exploration",
+        "patterns",
+        "reflection",
+        "optical",
+        "science",
+        "integrating",
+        "technology",
+        "early",
+        "childhood",
+        "interactive",
+        "group",
+        "investigations",
+        "discovery"
+      ],
+      "alternativeQuestions": [
+        "What is Digital & Light Atelier?",
+        "Where can I find Digital & Light Atelier?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 288,
+        "heading": "Digital & Light Atelier",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-70720eb9e8",
+      "title": "Project-Based Learning",
+      "question": "Tell me about Project-Based Learning",
+      "answer": "Following a project approach, children explore their own ideas and make meaningful connections with the world around them generated through brainstorming. Child-led topics generated from everyday observations Deep inquiry spanning weeks of collaborative research Documentation of hypotheses, testing, and discoveries Equal partnership between children, teachers, and parents",
+      "keywords": [
+        "project",
+        "based",
+        "learning",
+        "following",
+        "approach",
+        "explore",
+        "own",
+        "ideas",
+        "make",
+        "meaningful",
+        "connections",
+        "world",
+        "around",
+        "them",
+        "generated",
+        "brainstorming",
+        "led",
+        "topics",
+        "everyday",
+        "observations",
+        "deep",
+        "inquiry",
+        "spanning",
+        "weeks",
+        "collaborative",
+        "research",
+        "documentation",
+        "hypotheses",
+        "testing",
+        "discoveries",
+        "equal",
+        "partnership",
+        "between",
+        "teachers",
+        "parents"
+      ],
+      "alternativeQuestions": [
+        "What is Project-Based Learning?",
+        "Where can I find Project-Based Learning?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 300,
+        "heading": "Project-Based Learning",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-49f7c6d08f",
+      "title": "Tiny Town",
+      "question": "Tell me about Tiny Town",
+      "answer": "A dedicated pretend play area that helps children learn about themselves, balance their own ideas with others, and foster social skills. Miniature town setup for imaginative roleplay Developing social negotiation and empathy with peers Enhancing language acquisition and narrative thinking Safe space for real-world simulation and problem-solving",
+      "keywords": [
+        "tiny",
+        "town",
+        "dedicated",
+        "pretend",
+        "play",
+        "area",
+        "helps",
+        "learn",
+        "about",
+        "themselves",
+        "balance",
+        "own",
+        "ideas",
+        "others",
+        "foster",
+        "social",
+        "skills",
+        "miniature",
+        "setup",
+        "imaginative",
+        "roleplay",
+        "developing",
+        "negotiation",
+        "empathy",
+        "peers",
+        "enhancing",
+        "language",
+        "acquisition",
+        "narrative",
+        "thinking",
+        "safe",
+        "space",
+        "real",
+        "world",
+        "simulation",
+        "problem",
+        "solving"
+      ],
+      "alternativeQuestions": [
+        "What is Tiny Town?",
+        "Where can I find Tiny Town?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 312,
+        "heading": "Tiny Town",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-619c618978",
+      "title": "Sensory Play",
+      "question": "Tell me about Sensory Play",
+      "answer": "Engaging activities that stimulate the senses, supporting brain development, problem-solving strategies, and language acquisition. Water tables, sand kitchens, and organic textures Stimulating neural pathways and cognitive focus Developing descriptive vocabulary and communication Calming, therapeutic, and self-regulating experiences",
+      "keywords": [
+        "sensory",
+        "play",
+        "engaging",
+        "activities",
+        "stimulate",
+        "senses",
+        "supporting",
+        "brain",
+        "development",
+        "problem",
+        "solving",
+        "strategies",
+        "language",
+        "acquisition",
+        "water",
+        "tables",
+        "sand",
+        "kitchens",
+        "organic",
+        "textures",
+        "stimulating",
+        "neural",
+        "pathways",
+        "cognitive",
+        "focus",
+        "developing",
+        "descriptive",
+        "vocabulary",
+        "communication",
+        "calming",
+        "therapeutic",
+        "self",
+        "regulating",
+        "experiences"
+      ],
+      "alternativeQuestions": [
+        "What is Sensory Play?",
+        "Where can I find Sensory Play?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 324,
+        "heading": "Sensory Play",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-20f139a472",
+      "title": "Music & Movement",
+      "question": "Tell me about Music & Movement",
+      "answer": "Music activities balance the body and mind and improve children’s ability to learn. Children are exposed to music from a young age to develop all their potential. Rhythm instruments, singing, and listening games Auditory processing and pattern recognition Gross motor coordination through rhythmic dance Nurturing confidence and musical appreciation",
+      "keywords": [
+        "music",
+        "movement",
+        "activities",
+        "balance",
+        "body",
+        "mind",
+        "improve",
+        "ability",
+        "learn",
+        "exposed",
+        "young",
+        "age",
+        "develop",
+        "potential",
+        "rhythm",
+        "instruments",
+        "singing",
+        "listening",
+        "games",
+        "auditory",
+        "processing",
+        "pattern",
+        "recognition",
+        "gross",
+        "motor",
+        "coordination",
+        "rhythmic",
+        "dance",
+        "nurturing",
+        "confidence",
+        "musical",
+        "appreciation"
+      ],
+      "alternativeQuestions": [
+        "What is Music & Movement?",
+        "Where can I find Music & Movement?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 336,
+        "heading": "Music & Movement",
+        "kind": "public-modal-data"
+      },
+      "confidence": {
+        "verified": true,
+        "conflicts": []
+      },
+      "language": "en"
+    },
+    {
+      "id": "main.js-ff9c0d0c0f",
+      "title": "Drama, Puppetry & ECA / PE",
+      "question": "Tell me about Drama, Puppetry & ECA / PE",
+      "answer": "Through roleplay and puppetry, students act out favorite stories. Extracurricular physical education and sports build skills and social bonds. Story dramatization and puppet theater Physical education games building balance and strength Fostering teamwork, sportsmanship, and friendships Building public speaking confidence from an early age",
+      "keywords": [
+        "drama",
+        "puppetry",
+        "eca",
+        "roleplay",
+        "students",
+        "act",
+        "out",
+        "favorite",
+        "stories",
+        "extracurricular",
+        "physical",
+        "education",
+        "sports",
+        "build",
+        "skills",
+        "social",
+        "bonds",
+        "story",
+        "dramatization",
+        "puppet",
+        "theater",
+        "games",
+        "building",
+        "balance",
+        "strength",
+        "fostering",
+        "teamwork",
+        "sportsmanship",
+        "friendships",
+        "public",
+        "speaking",
+        "confidence",
+        "early",
+        "age"
+      ],
+      "alternativeQuestions": [
+        "What is Drama, Puppetry & ECA / PE?",
+        "Where can I find Drama, Puppetry & ECA / PE?"
+      ],
+      "intent": "enrichments",
+      "category": "enrichments",
+      "url": "/#enrichments",
+      "sourceReference": {
+        "file": "main.js",
+        "line": 348,
+        "heading": "Drama, Puppetry & ECA / PE",
+        "kind": "public-modal-data"
       },
       "confidence": {
         "verified": true,
@@ -11162,7 +11489,7 @@
     }
   ],
   "searchIndex": {
-    "documentCount": 173,
+    "documentCount": 177,
     "postings": {
       "355": [
         "contact-08ee738f40",
@@ -11208,6 +11535,7 @@
       "about": [
         "about-91c044a4ae",
         "contact-6961fe9399",
+        "main.js-49f7c6d08f",
         "ges-institutions",
         "ges-school-count"
       ],
@@ -11215,17 +11543,17 @@
         "about-91c044a4ae",
         "about-d2b9c988a5",
         "about-378140f21b",
-        "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-0bc53bcb6f",
         "index-1efe13bd04",
-        "index-8063a55e51",
         "index-50bd0fc610",
         "index-f377a17d74",
         "programs-0835cbe4a9",
         "programs-6f73cb9d71",
         "programs-5da978846a",
         "programs-2b1ce89409",
+        "main.js-8f68b0ad3b",
+        "main.js-ff9c0d0c0f",
         "ges-group",
         "ges-shomoukh",
         "ges-mouj"
@@ -11237,11 +11565,11 @@
         "index-0bc53bcb6f",
         "index-1efe13bd04",
         "index-67403b45ab",
-        "index-8063a55e51",
         "index-f377a17d74",
         "programs-0835cbe4a9",
         "programs-2cd86ebcca",
         "programs-6f73cb9d71",
+        "main.js-8f68b0ad3b",
         "ges-shomoukh",
         "ges-mouj"
       ],
@@ -11258,6 +11586,7 @@
         "index-7148e8e009",
         "index-456495330e",
         "programs-0835cbe4a9",
+        "main.js-ff9c0d0c0f",
         "ges-julanda",
         "ges-group",
         "ges-shomoukh",
@@ -11312,6 +11641,7 @@
         "about-91c044a4ae",
         "about-d2b9c988a5",
         "index-e130d5bc67",
+        "main.js-20f139a472",
         "ges-mission"
       ],
       "welcome": [
@@ -11333,7 +11663,7 @@
         "about-adac1fa59c",
         "index-e130d5bc67",
         "index-1efe13bd04",
-        "index-8063a55e51",
+        "index-21429dc4f9",
         "programs-6f73cb9d71",
         "ges-qurum"
       ],
@@ -11342,6 +11672,8 @@
         "enrichments-d686b01797",
         "index-94dcf956d9",
         "programs-993217029d",
+        "main.js-70720eb9e8",
+        "main.js-49f7c6d08f",
         "ges-mission"
       ],
       "renowned": [
@@ -11377,7 +11709,8 @@
         "index-50bd0fc610",
         "index-e7535199a8",
         "programs-304dc47874",
-        "programs-5da978846a"
+        "programs-5da978846a",
+        "main.js-70720eb9e8"
       ],
       "italy": [
         "about-d2b9c988a5",
@@ -11457,11 +11790,13 @@
       ],
       "creative": [
         "about-d2b9c988a5",
+        "enrichments-7263b30076",
         "index-1efe13bd04",
         "index-ee595fabf3",
-        "index-99e522992f",
         "programs-4bfaed0eec",
-        "spaces-f9fb773370"
+        "spaces-f9fb773370",
+        "spaces-99e522992f",
+        "main.js-2acebaf277"
       ],
       "curious": [
         "about-d2b9c988a5",
@@ -11538,7 +11873,8 @@
         "about-371a7d93d7",
         "about-ff3aa40029",
         "index-1efe13bd04",
-        "index-94dcf956d9"
+        "index-94dcf956d9",
+        "main.js-70720eb9e8"
       ],
       "meet": [
         "about-d2b9c988a5",
@@ -11568,6 +11904,7 @@
         "about-d2b9c988a5",
         "index-21578eb142",
         "programs-e64ca3424e",
+        "main.js-ff9c0d0c0f",
         "ges-sips"
       ],
       "active": [
@@ -11581,7 +11918,6 @@
       ],
       "who": [
         "about-d2b9c988a5",
-        "index-8063a55e51",
         "programs-6f73cb9d71",
         "ges-vision"
       ],
@@ -11604,7 +11940,8 @@
       "safe": [
         "about-d2b9c988a5",
         "index-b1e6874bcc",
-        "spaces-e6331976ba"
+        "spaces-e6331976ba",
+        "main.js-49f7c6d08f"
       ],
       "healthy": [
         "about-d2b9c988a5"
@@ -11617,7 +11954,9 @@
         "index-39715fe92e",
         "programs-0835cbe4a9",
         "programs-8052375dbf",
-        "programs-307787a922"
+        "programs-307787a922",
+        "main.js-2acebaf277",
+        "main.js-20f139a472"
       ],
       "aesthetic": [
         "about-d2b9c988a5",
@@ -11647,7 +11986,6 @@
       "teaching": [
         "about-d2b9c988a5",
         "about-ad6d1493a1",
-        "index-8063a55e51",
         "programs-e371f5134b",
         "programs-6f73cb9d71"
       ],
@@ -11660,7 +11998,8 @@
         "index-ce77eaf736",
         "programs-0835cbe4a9",
         "programs-2b1ce89409",
-        "spaces-7a7691447f"
+        "spaces-7a7691447f",
+        "main.js-70720eb9e8"
       ],
       "needs": [
         "about-d2b9c988a5",
@@ -11691,12 +12030,11 @@
         "book-a-visit-d46e3ee6fe",
         "book-a-visit-afdaaba607",
         "enrichments-e359ba5685",
-        "enrichments-5c72910ac6",
+        "enrichments-381f9be7a4",
         "enrichments-d686b01797",
         "index-a39f7ce21b",
         "index-44d33b6211",
         "index-c0f3c29891",
-        "index-99e522992f",
         "parents-7c8cb09547",
         "programs-e64ca3424e",
         "programs-2b1ce89409",
@@ -11705,6 +12043,9 @@
         "programs-e228aa89a2",
         "spaces-d4e37405d5",
         "spaces-7a7691447f",
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b",
+        "main.js-70720eb9e8",
         "ges-group",
         "ges-mission"
       ],
@@ -11712,7 +12053,8 @@
         "about-d2b9c988a5",
         "admissions-0dbb68cde9",
         "admissions-1e6b18d56c",
-        "apply-online-64c08035a5"
+        "apply-online-64c08035a5",
+        "main.js-2acebaf277"
       ],
       "receives": [
         "about-d2b9c988a5"
@@ -11722,13 +12064,15 @@
         "enrichments-8c79bc0a6c",
         "index-d2102d67a5",
         "index-4de467f098",
-        "programs-304dc47874"
+        "programs-304dc47874",
+        "main.js-20f139a472"
       ],
       "body": [
         "about-0b1e92c7e8",
         "enrichments-8c79bc0a6c",
         "index-4de467f098",
-        "programs-4950bfd541"
+        "programs-4950bfd541",
+        "main.js-20f139a472"
       ],
       "spirit": [
         "about-0b1e92c7e8"
@@ -11788,9 +12132,9 @@
       ],
       "collaborative": [
         "about-4b6aea652e",
-        "enrichments-cafffdebc6",
         "spaces-569c0030b9",
-        "spaces-6b3b33a441"
+        "spaces-6b3b33a441",
+        "main.js-70720eb9e8"
       ],
       "partnerships": [
         "about-4b6aea652e"
@@ -11807,7 +12151,8 @@
       "between": [
         "about-4b6aea652e",
         "parents-9a82fafa54",
-        "spaces-7a7691447f"
+        "spaces-7a7691447f",
+        "main.js-70720eb9e8"
       ],
       "parents": [
         "about-4b6aea652e",
@@ -11816,7 +12161,8 @@
         "parents-c452db77e8",
         "programs-304dc47874",
         "programs-2b1ce89409",
-        "spaces-17bffefbf7"
+        "spaces-17bffefbf7",
+        "main.js-70720eb9e8"
       ],
       "wider": [
         "about-4b6aea652e"
@@ -11847,7 +12193,10 @@
         "parents-1adf4c167a",
         "spaces-7a7691447f",
         "spaces-e6331976ba",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "spaces-2a4e7e50a8",
+        "main.js-49f7c6d08f",
+        "main.js-619c618978"
       ],
       "important": [
         "about-4b6aea652e"
@@ -11894,8 +12243,9 @@
         "about-4b6aea652e",
         "about-d0b0ea2aa1",
         "about-ad6d1493a1",
-        "enrichments-5c72910ac6",
-        "programs-8052375dbf"
+        "programs-8052375dbf",
+        "main.js-619c618978",
+        "main.js-20f139a472"
       ],
       "initiate": [
         "about-4b6aea652e"
@@ -11912,7 +12262,6 @@
         "about-8e17f1e23a",
         "apply-online-64c08035a5",
         "index-0bc53bcb6f",
-        "index-8063a55e51",
         "parents-8b0ba02629",
         "programs-641753cddb",
         "spaces-7a7691447f"
@@ -11951,9 +12300,10 @@
       ],
       "stimulating": [
         "about-4b6aea652e",
-        "enrichments-2d32682645",
         "index-ee595fabf3",
-        "index-e55f8abcd0"
+        "index-e55f8abcd0",
+        "main.js-2acebaf277",
+        "main.js-619c618978"
       ],
       "emphasizes": [
         "about-4b6aea652e",
@@ -11966,7 +12316,9 @@
         "index-82ea71f621",
         "index-404b9eae40",
         "spaces-f9fb773370",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f",
+        "main.js-ff9c0d0c0f"
       ],
       "emotional": [
         "about-4b6aea652e",
@@ -11984,10 +12336,12 @@
         "index-82ea71f621",
         "index-7148e8e009",
         "index-39715fe92e",
-        "spaces-f9fb773370"
+        "spaces-f9fb773370",
+        "main.js-ff9c0d0c0f"
       ],
       "cognitive": [
-        "about-4b6aea652e"
+        "about-4b6aea652e",
+        "main.js-619c618978"
       ],
       "development": [
         "about-4b6aea652e",
@@ -12000,7 +12354,8 @@
         "programs-2cd86ebcca",
         "programs-2b1ce89409",
         "programs-4950bfd541",
-        "spaces-f9fb773370"
+        "spaces-f9fb773370",
+        "main.js-619c618978"
       ],
       "preparing": [
         "about-4b6aea652e"
@@ -12019,7 +12374,9 @@
         "index-a39f7ce21b",
         "index-3459decd83",
         "index-7de2a41da2",
-        "programs-4bfaed0eec"
+        "programs-4bfaed0eec",
+        "main.js-20f139a472",
+        "main.js-ff9c0d0c0f"
       ],
       "mission": [
         "about-371a7d93d7",
@@ -12060,7 +12417,8 @@
       ],
       "self": [
         "about-371a7d93d7",
-        "index-a39f7ce21b"
+        "index-a39f7ce21b",
+        "main.js-619c618978"
       ],
       "friendly": [
         "about-371a7d93d7",
@@ -12096,7 +12454,7 @@
       ],
       "fun": [
         "about-ff3aa40029",
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-f377a17d74",
         "index-6e202c44dd"
       ],
@@ -12142,7 +12500,6 @@
       "continuous": [
         "about-763ac25046",
         "index-0bc53bcb6f",
-        "index-8063a55e51",
         "programs-e64ca3424e",
         "programs-6f73cb9d71"
       ],
@@ -12184,10 +12541,10 @@
       ],
       "daily": [
         "about-31444bea90",
+        "index-002f1385fc",
         "parents-c452db77e8",
         "parents-ea54a865a5",
-        "parents-7c8cb09547",
-        "spaces-002f1385fc"
+        "parents-7c8cb09547"
       ],
       "interactions": [
         "about-31444bea90"
@@ -12260,10 +12617,12 @@
         "spaces-e6331976ba"
       ],
       "foster": [
-        "about-d0b0ea2aa1"
+        "about-d0b0ea2aa1",
+        "main.js-49f7c6d08f"
       ],
       "deep": [
-        "about-d0b0ea2aa1"
+        "about-d0b0ea2aa1",
+        "main.js-70720eb9e8"
       ],
       "sense": [
         "about-d0b0ea2aa1"
@@ -12291,7 +12650,8 @@
         "about-8e17f1e23a"
       ],
       "meaningful": [
-        "about-8e17f1e23a"
+        "about-8e17f1e23a",
+        "main.js-70720eb9e8"
       ],
       "ties": [
         "about-8e17f1e23a"
@@ -12342,10 +12702,10 @@
       "care": [
         "about-ad6d1493a1",
         "index-5290f6b045",
+        "index-002f1385fc",
         "index-8d3857c4eb",
         "programs-0a5a2d0a97",
-        "spaces-7a7691447f",
-        "spaces-002f1385fc"
+        "spaces-7a7691447f"
       ],
       "continuously": [
         "about-ad6d1493a1",
@@ -12373,15 +12733,16 @@
       ],
       "hands": [
         "about-ad6d1493a1",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-278d99379d"
       ],
       "organic": [
         "about-ad6d1493a1",
-        "enrichments-2d32682645",
         "enrichments-c0209ed4ca",
         "index-8d3857c4eb",
         "spaces-c98a8e9e61",
-        "spaces-6355f764bc"
+        "spaces-6355f764bc",
+        "main.js-619c618978"
       ],
       "garden": [
         "about-ad6d1493a1",
@@ -12399,13 +12760,14 @@
       "safety": [
         "about-378140f21b",
         "index-b1e6874bcc",
+        "index-002f1385fc",
         "programs-2b1ce89409",
         "spaces-7a7691447f",
-        "spaces-ad0057a9ea",
-        "spaces-002f1385fc"
+        "spaces-ad0057a9ea"
       ],
       "well": [
-        "about-378140f21b"
+        "about-378140f21b",
+        "spaces-2a4e7e50a8"
       ],
       "being": [
         "about-378140f21b"
@@ -12468,7 +12830,8 @@
         "book-a-visit-811a2f72c9",
         "book-a-visit-ccfce66462",
         "book-a-visit-f15e5545bb",
-        "contact-3be9ed9308"
+        "contact-3be9ed9308",
+        "main.js-ff9c0d0c0f"
       ],
       "accreditation": [
         "about-b5a36608f7",
@@ -12500,7 +12863,7 @@
       ],
       "curriculum": [
         "about-b5a36608f7",
-        "enrichments-5c72910ac6",
+        "enrichments-381f9be7a4",
         "programs-5da978846a",
         "programs-2b1ce89409",
         "ges-sips",
@@ -12559,8 +12922,8 @@
       "diverse": [
         "admissions-f447d96292",
         "admissions-81cb00a43a",
-        "index-bf725c40c8",
-        "index-456495330e"
+        "index-456495330e",
+        "spaces-bf725c40c8"
       ],
       "learners": [
         "admissions-f447d96292",
@@ -12578,7 +12941,6 @@
         "admissions-8de2430be5",
         "apply-online-35634ee997",
         "index-0bc53bcb6f",
-        "index-8063a55e51",
         "index-456495330e",
         "programs-6f73cb9d71",
         "spaces-7a7691447f"
@@ -12654,12 +13016,12 @@
       ],
       "open": [
         "admissions-d1b8aef5b1",
-        "enrichments-2909246643",
         "index-21578eb142",
         "index-456495330e",
         "programs-8052375dbf",
         "programs-641753cddb",
-        "spaces-9931ced3bf"
+        "spaces-9931ced3bf",
+        "main.js-2acebaf277"
       ],
       "long": [
         "admissions-d1b8aef5b1",
@@ -12667,11 +13029,12 @@
       ],
       "space": [
         "admissions-d1b8aef5b1",
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-6e202c44dd",
         "index-7de2a41da2",
         "index-21578eb142",
-        "index-456495330e"
+        "index-456495330e",
+        "main.js-49f7c6d08f"
       ],
       "available": [
         "admissions-d1b8aef5b1",
@@ -12875,11 +13238,11 @@
         "contact-38b7147ddc",
         "contact-11dd2afb30",
         "enrichments-e359ba5685",
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-2f2a3fffdb",
         "index-6e202c44dd",
-        "index-bf725c40c8",
         "spaces-d28a943aaa",
+        "spaces-bf725c40c8",
         "spaces-4fe9e6c231"
       ],
       "action": [
@@ -12935,9 +13298,6 @@
         "apply-online-3d9ed8fa84",
         "apply-online-039d4112d4",
         "book-a-visit-f15e5545bb",
-        "enrichments-522872217b",
-        "enrichments-2d32682645",
-        "enrichments-cafffdebc6",
         "index-dcf349008c",
         "index-380eba86b8",
         "index-7ac7a5007f",
@@ -12989,7 +13349,8 @@
       "documentation": [
         "admissions-595ab5ed21",
         "parents-c452db77e8",
-        "parents-7c8cb09547"
+        "parents-7c8cb09547",
+        "main.js-70720eb9e8"
       ],
       "form": [
         "admissions-595ab5ed21",
@@ -13060,7 +13421,7 @@
         "admissions-8de2430be5",
         "programs-641753cddb",
         "spaces-7a7691447f",
-        "spaces-8341905422",
+        "spaces-2a4e7e50a8",
         "spaces-17bffefbf7",
         "spaces-1f5f7bb920",
         "spaces-4fe9e6c231"
@@ -13076,10 +13437,10 @@
       "materials": [
         "admissions-8de2430be5",
         "book-a-visit-48867e20dd",
-        "enrichments-2d32682645",
         "index-6e202c44dd",
         "index-ee595fabf3",
-        "spaces-569c0030b9"
+        "spaces-569c0030b9",
+        "main.js-2acebaf277"
       ],
       "parent": [
         "admissions-8de2430be5",
@@ -13097,8 +13458,9 @@
       "access": [
         "admissions-8de2430be5",
         "contact-38b7147ddc",
-        "enrichments-2d32682645",
-        "parents-c452db77e8"
+        "parents-c452db77e8",
+        "spaces-2a4e7e50a8",
+        "main.js-2acebaf277"
       ],
       "documents": [
         "admissions-1e6b18d56c",
@@ -13127,7 +13489,8 @@
         "admissions-1e6b18d56c",
         "index-f377a17d74",
         "parents-581bea356b",
-        "programs-e64ca3424e"
+        "programs-e64ca3424e",
+        "main.js-70720eb9e8"
       ],
       "expedite": [
         "admissions-1e6b18d56c"
@@ -13150,7 +13513,7 @@
       ],
       "card": [
         "admissions-4e4a9e38ee",
-        "enrichments-5c72910ac6"
+        "enrichments-381f9be7a4"
       ],
       "updated": [
         "admissions-4e4a9e38ee",
@@ -13181,7 +13544,8 @@
         "admissions-5f6ae52425"
       ],
       "sized": [
-        "admissions-5f6ae52425"
+        "admissions-5f6ae52425",
+        "spaces-2a4e7e50a8"
       ],
       "photos": [
         "admissions-5f6ae52425",
@@ -13302,7 +13666,9 @@
         "book-a-visit-afdaaba607",
         "index-e55f8abcd0",
         "programs-307787a922",
-        "programs-4bfaed0eec"
+        "programs-4bfaed0eec",
+        "main.js-49f7c6d08f",
+        "main.js-619c618978"
       ],
       "other": [
         "apply-online-64c08035a5"
@@ -13310,9 +13676,9 @@
       "languages": [
         "apply-online-64c08035a5",
         "enrichments-e359ba5685",
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
-        "index-ee595fabf3"
+        "enrichments-7263b30076",
+        "index-ee595fabf3",
+        "main.js-2acebaf277"
       ],
       "religion": [
         "apply-online-64c08035a5"
@@ -13348,11 +13714,14 @@
       ],
       "small": [
         "apply-online-64c08035a5",
-        "programs-e64ca3424e"
+        "programs-e64ca3424e",
+        "spaces-2a4e7e50a8"
       ],
       "group": [
         "apply-online-64c08035a5",
         "index-6e202c44dd",
+        "spaces-2a4e7e50a8",
+        "main.js-8f68b0ad3b",
         "ges-group",
         "ges-institutions"
       ],
@@ -13374,6 +13743,7 @@
         "programs-2cd86ebcca",
         "programs-2de3930ed5",
         "programs-0a5a2d0a97",
+        "main.js-2acebaf277",
         "ges-mission"
       ],
       "occupational": [
@@ -13512,7 +13882,8 @@
         "book-a-visit-f15e5545bb"
       ],
       "new": [
-        "apply-online-3008d78fbb"
+        "apply-online-3008d78fbb",
+        "main.js-8f68b0ad3b"
       ],
       "enrolled": [
         "apply-online-3008d78fbb"
@@ -13581,13 +13952,15 @@
       ],
       "engaging": [
         "book-a-visit-f87adb2438",
-        "programs-e64ca3424e"
+        "programs-e64ca3424e",
+        "main.js-619c618978"
       ],
       "minute": [
         "book-a-visit-d46e3ee6fe"
       ],
       "guided": [
-        "book-a-visit-d46e3ee6fe"
+        "book-a-visit-d46e3ee6fe",
+        "main.js-278d99379d"
       ],
       "thorough": [
         "book-a-visit-d46e3ee6fe"
@@ -13626,7 +13999,8 @@
         "book-a-visit-48867e20dd",
         "enrichments-e359ba5685",
         "index-ce77eaf736",
-        "programs-e64ca3424e"
+        "programs-e64ca3424e",
+        "main.js-70720eb9e8"
       ],
       "they": [
         "book-a-visit-48867e20dd",
@@ -13885,10 +14259,10 @@
       "dedicated": [
         "contact-4f85f4c7f8",
         "index-0bc53bcb6f",
-        "index-8063a55e51",
         "index-7de2a41da2",
         "index-f6aa4cf911",
-        "programs-6f73cb9d71"
+        "programs-6f73cb9d71",
+        "main.js-49f7c6d08f"
       ],
       "drop": [
         "contact-4f85f4c7f8"
@@ -13909,7 +14283,8 @@
         "contact-38b7147ddc"
       ],
       "easy": [
-        "contact-38b7147ddc"
+        "contact-38b7147ddc",
+        "spaces-2a4e7e50a8"
       ],
       "residing": [
         "contact-38b7147ddc"
@@ -13933,6 +14308,7 @@
         "spaces-7a7691447f",
         "spaces-d28a943aaa",
         "spaces-ad0057a9ea",
+        "spaces-2a4e7e50a8",
         "spaces-6355f764bc"
       ],
       "gardens": [
@@ -13941,7 +14317,7 @@
       ],
       "specialized": [
         "contact-38b7147ddc",
-        "enrichments-40021358da"
+        "enrichments-381f9be7a4"
       ],
       "ample": [
         "contact-38b7147ddc"
@@ -13954,7 +14330,7 @@
       ],
       "quiet": [
         "contact-11dd2afb30",
-        "spaces-9b1ab856fa"
+        "index-9b1ab856fa"
       ],
       "adjacent": [
         "contact-11dd2afb30"
@@ -13984,14 +14360,14 @@
       ],
       "light": [
         "contact-11dd2afb30",
-        "enrichments-cafffdebc6",
         "enrichments-51a68964f8",
         "index-2f2a3fffdb",
         "index-bed5a39bd1",
-        "index-99e522992f",
         "programs-641753cddb",
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
+        "spaces-99e522992f",
+        "spaces-2a4e7e50a8",
+        "spaces-1f5f7bb920",
+        "main.js-8f68b0ad3b"
       ],
       "shaded": [
         "contact-11dd2afb30"
@@ -13999,10 +14375,11 @@
       "discovery": [
         "contact-11dd2afb30",
         "index-c0f3c29891",
+        "index-9b1ab856fa",
         "programs-2b1ce89409",
         "spaces-d28a943aaa",
-        "spaces-9b1ab856fa",
-        "spaces-c98a8e9e61"
+        "spaces-c98a8e9e61",
+        "main.js-8f68b0ad3b"
       ],
       "courtyards": [
         "contact-11dd2afb30"
@@ -14028,7 +14405,7 @@
       ],
       "where": [
         "enrichments-e359ba5685",
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-ce77eaf736",
         "index-f377a17d74",
         "index-6e202c44dd",
@@ -14041,10 +14418,11 @@
       ],
       "research": [
         "enrichments-e359ba5685",
-        "enrichments-40021358da",
-        "index-bf725c40c8",
+        "enrichments-381f9be7a4",
         "programs-e371f5134b",
-        "programs-5da978846a"
+        "programs-5da978846a",
+        "spaces-bf725c40c8",
+        "main.js-70720eb9e8"
       ],
       "sculpt": [
         "enrichments-e359ba5685"
@@ -14056,292 +14434,114 @@
         "enrichments-e359ba5685"
       ],
       "not": [
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "programs-5da978846a",
         "ges-institutions",
         "ges-school-count"
       ],
       "just": [
-        "enrichments-40021358da"
+        "enrichments-381f9be7a4"
       ],
       "art": [
-        "enrichments-40021358da",
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
+        "enrichments-381f9be7a4",
+        "enrichments-7263b30076",
         "index-2f2a3fffdb",
         "index-ee595fabf3",
-        "index-bf725c40c8"
+        "spaces-bf725c40c8",
+        "main.js-2acebaf277"
       ],
       "corners": [
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-c0f3c29891",
-        "spaces-d4e37405d5",
-        "spaces-9b1ab856fa"
+        "index-9b1ab856fa",
+        "spaces-d4e37405d5"
       ],
       "but": [
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "programs-5da978846a"
       ],
       "laboratories": [
-        "enrichments-40021358da"
+        "enrichments-381f9be7a4"
       ],
       "experiment": [
-        "enrichments-40021358da",
-        "enrichments-522872217b",
-        "index-6e202c44dd"
+        "enrichments-381f9be7a4",
+        "index-6e202c44dd",
+        "main.js-278d99379d"
       ],
       "different": [
-        "enrichments-40021358da",
-        "enrichments-cafffdebc6",
-        "index-6e202c44dd"
+        "enrichments-381f9be7a4",
+        "index-6e202c44dd",
+        "main.js-8f68b0ad3b"
       ],
       "media": [
-        "enrichments-40021358da"
+        "enrichments-381f9be7a4"
       ],
       "under": [
-        "enrichments-40021358da",
+        "enrichments-381f9be7a4",
         "index-6e202c44dd"
       ],
       "mentorship": [
-        "enrichments-40021358da"
+        "enrichments-381f9be7a4"
       ],
       "atelieristas": [
-        "enrichments-40021358da"
-      ],
-      "atelier": [
-        "enrichments-40021358da",
-        "enrichments-522872217b",
-        "enrichments-2d32682645",
-        "enrichments-cafffdebc6",
-        "enrichments-c0209ed4ca",
-        "enrichments-2909246643",
-        "enrichments-51a68964f8",
-        "index-0006467f3e",
-        "index-ee595fabf3",
-        "index-bed5a39bd1",
-        "index-99e522992f"
-      ],
-      "clay": [
-        "enrichments-522872217b",
-        "enrichments-c0209ed4ca",
-        "index-2f2a3fffdb",
-        "index-0006467f3e",
-        "index-bf725c40c8"
-      ],
-      "natural": [
-        "enrichments-522872217b",
-        "enrichments-2d32682645",
-        "enrichments-349bf70301",
-        "index-bd9a06382d",
-        "index-0006467f3e",
-        "index-8d3857c4eb",
-        "programs-8052375dbf",
-        "spaces-569c0030b9",
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
-      ],
-      "soft": [
-        "enrichments-522872217b",
-        "index-0006467f3e",
-        "index-39715fe92e"
-      ],
-      "responsive": [
-        "enrichments-522872217b",
-        "programs-e371f5134b"
-      ],
-      "medium": [
-        "enrichments-522872217b"
-      ],
-      "shaped": [
-        "enrichments-522872217b"
-      ],
-      "hand": [
-        "enrichments-522872217b",
-        "programs-06d991e42a",
-        "spaces-4fe9e6c231"
-      ],
-      "gestures": [
-        "enrichments-522872217b"
-      ],
-      "sculpting": [
-        "enrichments-522872217b",
-        "index-0006467f3e"
-      ],
-      "tools": [
-        "enrichments-522872217b",
-        "enrichments-cafffdebc6",
-        "index-6e202c44dd",
-        "index-0006467f3e",
-        "index-bed5a39bd1",
-        "spaces-569c0030b9"
-      ],
-      "fostering": [
-        "enrichments-522872217b"
-      ],
-      "spatial": [
-        "enrichments-522872217b"
-      ],
-      "thinking": [
-        "enrichments-522872217b"
-      ],
-      "fine": [
-        "enrichments-522872217b"
-      ],
-      "motor": [
-        "enrichments-522872217b",
-        "index-39715fe92e",
-        "programs-4950bfd541"
-      ],
-      "skills": [
-        "enrichments-522872217b",
-        "index-3459decd83",
-        "index-404b9eae40",
-        "index-7148e8e009",
-        "programs-e64ca3424e"
-      ],
-      "view": [
-        "enrichments-522872217b",
-        "enrichments-2d32682645",
-        "enrichments-cafffdebc6",
-        "enrichments-5c72910ac6",
-        "index-7ac7a5007f",
-        "index-cc46ee02ea",
-        "parents-1adf4c167a"
-      ],
-      "expression": [
-        "enrichments-522872217b"
-      ],
-      "artistic": [
-        "enrichments-2d32682645"
-      ],
-      "encouraged": [
-        "enrichments-2d32682645"
-      ],
-      "use": [
-        "enrichments-2d32682645",
-        "enrichments-cafffdebc6"
-      ],
-      "multiple": [
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
-        "index-ee595fabf3",
-        "parents-c452db77e8"
-      ],
-      "symbolic": [
-        "enrichments-2d32682645",
-        "enrichments-2909246643",
-        "index-ee595fabf3",
-        "index-bf725c40c8"
-      ],
-      "dyes": [
-        "enrichments-2d32682645"
-      ],
-      "paints": [
-        "enrichments-2d32682645"
-      ],
-      "charcoal": [
-        "enrichments-2d32682645"
-      ],
-      "papers": [
-        "enrichments-2d32682645"
-      ],
-      "express": [
-        "enrichments-2d32682645"
-      ],
-      "themselves": [
-        "enrichments-2d32682645"
-      ],
-      "innovation": [
-        "enrichments-2d32682645"
-      ],
-      "digital": [
-        "enrichments-cafffdebc6",
-        "enrichments-51a68964f8",
-        "index-2f2a3fffdb",
-        "index-bed5a39bd1",
-        "index-99e522992f",
-        "parents-956725e10b"
-      ],
-      "forms": [
-        "enrichments-cafffdebc6",
-        "index-dcf349008c"
-      ],
-      "alongside": [
-        "enrichments-cafffdebc6",
-        "programs-e64ca3424e",
-        "programs-2b1ce89409",
-        "programs-8052375dbf",
-        "programs-307787a922",
-        "ges-sips"
-      ],
-      "analog": [
-        "enrichments-cafffdebc6"
-      ],
-      "investigate": [
-        "enrichments-cafffdebc6",
-        "spaces-1f5f7bb920"
-      ],
-      "reflections": [
-        "enrichments-cafffdebc6"
-      ],
-      "shadows": [
-        "enrichments-cafffdebc6",
-        "index-99e522992f"
-      ],
-      "logic": [
-        "enrichments-cafffdebc6",
-        "index-bed5a39bd1",
-        "index-99e522992f"
-      ],
-      "literacy": [
-        "enrichments-cafffdebc6",
-        "programs-06d991e42a"
-      ],
-      "inquiry": [
-        "enrichments-cafffdebc6",
-        "enrichments-c0209ed4ca",
-        "index-50bd0fc610",
-        "programs-0835cbe4a9"
-      ],
-      "enrichment": [
-        "enrichments-5c72910ac6"
-      ],
-      "experiences": [
-        "enrichments-5c72910ac6",
-        "index-67403b45ab",
-        "programs-2cd86ebcca",
-        "spaces-7a7691447f"
+        "enrichments-381f9be7a4"
       ],
       "click": [
-        "enrichments-5c72910ac6",
+        "enrichments-381f9be7a4",
         "parents-581bea356b"
       ],
       "any": [
-        "enrichments-5c72910ac6",
+        "enrichments-381f9be7a4",
         "index-dcf349008c",
         "parents-581bea356b",
         "parents-8b0ba02629"
       ],
       "below": [
-        "enrichments-5c72910ac6"
+        "enrichments-381f9be7a4"
+      ],
+      "view": [
+        "enrichments-381f9be7a4",
+        "index-7ac7a5007f",
+        "index-cc46ee02ea",
+        "parents-1adf4c167a"
       ],
       "detailed": [
-        "enrichments-5c72910ac6",
+        "enrichments-381f9be7a4",
         "ges-qurum"
       ],
       "highlights": [
-        "enrichments-5c72910ac6"
+        "enrichments-381f9be7a4"
       ],
       "objectives": [
-        "enrichments-5c72910ac6"
+        "enrichments-381f9be7a4"
       ],
       "imagery": [
-        "enrichments-5c72910ac6"
+        "enrichments-381f9be7a4"
+      ],
+      "clay": [
+        "enrichments-c0209ed4ca",
+        "index-2f2a3fffdb",
+        "index-0006467f3e",
+        "spaces-bf725c40c8",
+        "main.js-278d99379d"
+      ],
+      "atelier": [
+        "enrichments-c0209ed4ca",
+        "enrichments-7263b30076",
+        "enrichments-51a68964f8",
+        "index-0006467f3e",
+        "index-ee595fabf3",
+        "index-bed5a39bd1",
+        "spaces-99e522992f",
+        "main.js-278d99379d",
+        "main.js-2acebaf277",
+        "main.js-8f68b0ad3b"
       ],
       "tactile": [
         "enrichments-c0209ed4ca",
-        "index-bf725c40c8",
-        "spaces-6b3b33a441"
+        "spaces-bf725c40c8",
+        "spaces-6b3b33a441",
+        "main.js-278d99379d"
       ],
       "sensory": [
         "enrichments-c0209ed4ca",
@@ -14350,48 +14550,87 @@
         "programs-641753cddb",
         "programs-993217029d",
         "spaces-ad0057a9ea",
-        "spaces-6b3b33a441"
+        "spaces-6b3b33a441",
+        "main.js-278d99379d",
+        "main.js-619c618978"
       ],
       "exploration": [
         "enrichments-c0209ed4ca",
         "enrichments-8c79bc0a6c",
-        "index-bf725c40c8",
         "programs-8052375dbf",
         "programs-641753cddb",
-        "spaces-7a7691447f"
+        "spaces-7a7691447f",
+        "spaces-bf725c40c8",
+        "main.js-278d99379d",
+        "main.js-8f68b0ad3b"
       ],
       "sculptural": [
-        "enrichments-c0209ed4ca"
+        "enrichments-c0209ed4ca",
+        "main.js-278d99379d"
+      ],
+      "inquiry": [
+        "enrichments-c0209ed4ca",
+        "index-50bd0fc610",
+        "programs-0835cbe4a9",
+        "main.js-70720eb9e8"
       ],
       "using": [
         "enrichments-c0209ed4ca",
-        "index-6e202c44dd"
+        "index-6e202c44dd",
+        "main.js-278d99379d"
       ],
       "pure": [
         "enrichments-c0209ed4ca"
       ],
-      "ended": [
-        "enrichments-2909246643",
-        "programs-8052375dbf"
+      "painting": [
+        "enrichments-7263b30076",
+        "spaces-bf725c40c8"
       ],
-      "provocations": [
-        "enrichments-2909246643",
-        "programs-641753cddb",
-        "programs-993217029d",
-        "spaces-7a7691447f",
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
+      "drawing": [
+        "enrichments-7263b30076"
       ],
-      "color": [
-        "enrichments-2909246643"
+      "natural": [
+        "enrichments-7263b30076",
+        "enrichments-349bf70301",
+        "index-bd9a06382d",
+        "index-0006467f3e",
+        "index-8d3857c4eb",
+        "programs-8052375dbf",
+        "spaces-569c0030b9",
+        "spaces-2a4e7e50a8",
+        "spaces-1f5f7bb920",
+        "main.js-278d99379d",
+        "main.js-2acebaf277"
       ],
-      "mastery": [
-        "enrichments-2909246643",
-        "programs-4bfaed0eec"
+      "dyes": [
+        "enrichments-7263b30076",
+        "main.js-2acebaf277"
+      ],
+      "expression": [
+        "enrichments-7263b30076"
+      ],
+      "many": [
+        "enrichments-7263b30076"
+      ],
+      "symbolic": [
+        "enrichments-7263b30076",
+        "index-ee595fabf3",
+        "spaces-bf725c40c8",
+        "main.js-2acebaf277"
+      ],
+      "digital": [
+        "enrichments-51a68964f8",
+        "index-2f2a3fffdb",
+        "index-bed5a39bd1",
+        "parents-956725e10b",
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
       ],
       "tables": [
         "enrichments-51a68964f8",
-        "enrichments-349bf70301"
+        "enrichments-349bf70301",
+        "main.js-8f68b0ad3b",
+        "main.js-619c618978"
       ],
       "shadow": [
         "enrichments-51a68964f8"
@@ -14401,6 +14640,7 @@
       ],
       "technology": [
         "enrichments-51a68964f8",
+        "main.js-8f68b0ad3b",
         "ges-values"
       ],
       "integration": [
@@ -14413,91 +14653,113 @@
         "index-e7535199a8",
         "parents-7c8cb09547",
         "programs-0835cbe4a9",
-        "programs-2b1ce89409"
+        "programs-2b1ce89409",
+        "main.js-70720eb9e8"
       ],
       "led": [
-        "enrichments-d686b01797"
+        "enrichments-d686b01797",
+        "main.js-70720eb9e8"
       ],
       "investigations": [
         "enrichments-d686b01797",
-        "index-ce77eaf736"
+        "index-ce77eaf736",
+        "main.js-8f68b0ad3b"
       ],
       "connecting": [
         "enrichments-d686b01797"
       ],
       "hypotheses": [
-        "enrichments-d686b01797"
+        "enrichments-d686b01797",
+        "main.js-70720eb9e8"
       ],
       "real": [
         "enrichments-d686b01797",
         "parents-ddac565352",
-        "parents-ea54a865a5"
+        "parents-ea54a865a5",
+        "main.js-49f7c6d08f"
       ],
       "discoveries": [
-        "enrichments-d686b01797"
+        "enrichments-d686b01797",
+        "main.js-70720eb9e8"
       ],
       "tiny": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
       ],
       "town": [
         "enrichments-1d616796bf",
         "index-404b9eae40",
-        "spaces-17bffefbf7"
+        "spaces-17bffefbf7",
+        "main.js-49f7c6d08f"
       ],
       "imaginative": [
-        "enrichments-1d616796bf"
+        "enrichments-1d616796bf",
+        "main.js-49f7c6d08f"
       ],
       "roleplaying": [
         "enrichments-1d616796bf"
       ],
       "building": [
-        "enrichments-1d616796bf"
+        "enrichments-1d616796bf",
+        "index-21429dc4f9",
+        "main.js-ff9c0d0c0f"
       ],
       "negotiation": [
-        "enrichments-1d616796bf"
+        "enrichments-1d616796bf",
+        "main.js-49f7c6d08f"
       ],
       "empathy": [
-        "enrichments-1d616796bf"
+        "enrichments-1d616796bf",
+        "main.js-49f7c6d08f"
       ],
       "vocabulary": [
-        "enrichments-1d616796bf"
+        "enrichments-1d616796bf",
+        "main.js-619c618978"
       ],
       "water": [
-        "enrichments-349bf70301"
+        "enrichments-349bf70301",
+        "main.js-619c618978"
       ],
       "grains": [
         "enrichments-349bf70301"
       ],
       "textures": [
         "enrichments-349bf70301",
-        "index-0006467f3e"
+        "index-0006467f3e",
+        "main.js-619c618978"
       ],
       "supporting": [
-        "enrichments-349bf70301"
+        "enrichments-349bf70301",
+        "main.js-619c618978"
       ],
       "brain": [
         "enrichments-349bf70301",
         "index-44d33b6211",
         "index-e55f8abcd0",
-        "programs-e228aa89a2"
+        "programs-e228aa89a2",
+        "main.js-619c618978"
       ],
       "music": [
         "enrichments-8c79bc0a6c",
-        "index-4de467f098"
+        "index-4de467f098",
+        "main.js-20f139a472"
       ],
       "movement": [
         "enrichments-8c79bc0a6c",
         "index-4de467f098",
         "programs-4950bfd541",
-        "spaces-e6331976ba"
+        "spaces-e6331976ba",
+        "main.js-20f139a472"
       ],
       "rhythmic": [
-        "enrichments-8c79bc0a6c"
+        "enrichments-8c79bc0a6c",
+        "main.js-20f139a472"
       ],
       "dance": [
-        "enrichments-8c79bc0a6c"
+        "enrichments-8c79bc0a6c",
+        "main.js-20f139a472"
       ],
       "balancing": [
         "enrichments-8c79bc0a6c",
@@ -14505,31 +14767,39 @@
         "index-4de467f098"
       ],
       "focus": [
-        "enrichments-8c79bc0a6c"
+        "enrichments-8c79bc0a6c",
+        "main.js-619c618978"
       ],
       "drama": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2"
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
       ],
       "puppetry": [
         "enrichments-b35a5fbd78",
         "index-7148e8e009",
-        "index-7de2a41da2"
+        "index-7de2a41da2",
+        "main.js-ff9c0d0c0f"
       ],
       "puppet": [
-        "enrichments-b35a5fbd78"
+        "enrichments-b35a5fbd78",
+        "main.js-ff9c0d0c0f"
       ],
       "storytelling": [
         "enrichments-b35a5fbd78",
-        "index-7de2a41da2"
+        "index-7de2a41da2",
+        "main.js-2acebaf277"
       ],
       "games": [
         "enrichments-b35a5fbd78",
-        "programs-4950bfd541"
+        "programs-4950bfd541",
+        "main.js-20f139a472",
+        "main.js-ff9c0d0c0f"
       ],
       "sportsmanship": [
-        "enrichments-b35a5fbd78"
+        "enrichments-b35a5fbd78",
+        "main.js-ff9c0d0c0f"
       ],
       "expressive": [
         "enrichments-b35a5fbd78",
@@ -14551,12 +14821,12 @@
       ],
       "professionals": [
         "index-0bc53bcb6f",
-        "index-8063a55e51",
-        "programs-6f73cb9d71",
-        "spaces-002f1385fc"
+        "index-002f1385fc",
+        "programs-6f73cb9d71"
       ],
       "researchers": [
         "index-0bc53bcb6f",
+        "index-21429dc4f9",
         "programs-8052375dbf"
       ],
       "benefiting": [
@@ -14564,11 +14834,12 @@
       ],
       "training": [
         "index-0bc53bcb6f",
-        "index-8063a55e51",
         "programs-6f73cb9d71"
       ],
       "learn": [
-        "index-ce77eaf736"
+        "index-ce77eaf736",
+        "main.js-49f7c6d08f",
+        "main.js-20f139a472"
       ],
       "student": [
         "index-ce77eaf736"
@@ -14584,7 +14855,9 @@
       "own": [
         "index-ce77eaf736",
         "index-50bd0fc610",
-        "programs-5da978846a"
+        "programs-5da978846a",
+        "main.js-70720eb9e8",
+        "main.js-49f7c6d08f"
       ],
       "modern": [
         "index-2f2a3fffdb",
@@ -14621,7 +14894,8 @@
       ],
       "resources": [
         "index-2f2a3fffdb",
-        "spaces-7a7691447f"
+        "spaces-7a7691447f",
+        "main.js-2acebaf277"
       ],
       "originated": [
         "index-1efe13bd04"
@@ -14674,6 +14948,12 @@
       "treasured": [
         "index-67403b45ab",
         "programs-2cd86ebcca"
+      ],
+      "experiences": [
+        "index-67403b45ab",
+        "programs-2cd86ebcca",
+        "spaces-7a7691447f",
+        "main.js-619c618978"
       ],
       "capture": [
         "index-67403b45ab",
@@ -14729,30 +15009,43 @@
         "programs-304dc47874"
       ],
       "teachers": [
-        "index-8063a55e51",
+        "index-21429dc4f9",
         "parents-7c8cb09547",
         "programs-6f73cb9d71",
         "programs-2b1ce89409",
         "programs-8052375dbf",
         "programs-993217029d",
+        "spaces-17bffefbf7",
+        "main.js-70720eb9e8"
+      ],
+      "work": [
+        "index-21429dc4f9",
+        "index-6e202c44dd",
+        "spaces-569c0030b9",
+        "spaces-2a4e7e50a8",
         "spaces-17bffefbf7"
       ],
-      "fully": [
-        "index-8063a55e51",
-        "programs-6f73cb9d71",
-        "spaces-002f1385fc"
+      "alongside": [
+        "index-21429dc4f9",
+        "programs-e64ca3424e",
+        "programs-2b1ce89409",
+        "programs-8052375dbf",
+        "programs-307787a922",
+        "main.js-8f68b0ad3b",
+        "ges-sips"
       ],
-      "engaged": [
-        "index-8063a55e51",
-        "programs-6f73cb9d71"
+      "observing": [
+        "index-21429dc4f9"
       ],
-      "careers": [
-        "index-8063a55e51",
-        "programs-6f73cb9d71"
+      "documenting": [
+        "index-21429dc4f9",
+        "main.js-2acebaf277"
       ],
-      "benefit": [
-        "index-8063a55e51",
-        "programs-6f73cb9d71"
+      "ideas": [
+        "index-21429dc4f9",
+        "index-404b9eae40",
+        "main.js-70720eb9e8",
+        "main.js-49f7c6d08f"
       ],
       "proven": [
         "index-50bd0fc610",
@@ -14832,7 +15125,8 @@
       "around": [
         "index-94dcf956d9",
         "index-c0f3c29891",
-        "spaces-d4e37405d5"
+        "spaces-d4e37405d5",
+        "main.js-70720eb9e8"
       ],
       "forming": [
         "index-94dcf956d9",
@@ -14844,7 +15138,8 @@
       ],
       "peers": [
         "index-94dcf956d9",
-        "programs-993217029d"
+        "programs-993217029d",
+        "main.js-49f7c6d08f"
       ],
       "adults": [
         "index-94dcf956d9",
@@ -14858,19 +15153,34 @@
         "index-3459decd83",
         "programs-06d991e42a",
         "programs-4bfaed0eec",
+        "main.js-49f7c6d08f",
+        "main.js-619c618978",
         "ges-vision"
       ],
       "problem": [
         "index-3459decd83",
         "index-e55f8abcd0",
         "programs-4bfaed0eec",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f",
+        "main.js-619c618978"
       ],
       "solving": [
         "index-3459decd83",
         "index-e55f8abcd0",
         "programs-4bfaed0eec",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f",
+        "main.js-619c618978"
+      ],
+      "skills": [
+        "index-3459decd83",
+        "index-404b9eae40",
+        "index-7148e8e009",
+        "programs-e64ca3424e",
+        "main.js-278d99379d",
+        "main.js-49f7c6d08f",
+        "main.js-ff9c0d0c0f"
       ],
       "complex": [
         "index-3459decd83",
@@ -14894,14 +15204,10 @@
         "index-5290f6b045",
         "programs-0a5a2d0a97"
       ],
-      "work": [
-        "index-6e202c44dd",
-        "spaces-569c0030b9",
-        "spaces-17bffefbf7"
-      ],
       "imagination": [
         "index-6e202c44dd",
-        "index-bed5a39bd1"
+        "index-bed5a39bd1",
+        "main.js-8f68b0ad3b"
       ],
       "knowledge": [
         "index-6e202c44dd"
@@ -14909,37 +15215,71 @@
       "technologies": [
         "index-6e202c44dd"
       ],
+      "tools": [
+        "index-6e202c44dd",
+        "index-0006467f3e",
+        "index-bed5a39bd1",
+        "spaces-569c0030b9",
+        "main.js-278d99379d",
+        "main.js-2acebaf277",
+        "main.js-8f68b0ad3b"
+      ],
       "encouragement": [
         "index-6e202c44dd"
       ],
       "supervision": [
-        "index-6e202c44dd"
+        "index-6e202c44dd",
+        "main.js-278d99379d"
       ],
       "atelierista": [
-        "index-6e202c44dd"
+        "index-6e202c44dd",
+        "main.js-278d99379d"
       ],
       "experimenting": [
         "index-0006467f3e"
       ],
+      "soft": [
+        "index-0006467f3e",
+        "index-39715fe92e",
+        "main.js-278d99379d"
+      ],
       "smooth": [
-        "index-0006467f3e"
+        "index-0006467f3e",
+        "main.js-278d99379d"
+      ],
+      "sculpting": [
+        "index-0006467f3e",
+        "main.js-278d99379d"
+      ],
+      "multiple": [
+        "index-ee595fabf3",
+        "parents-c452db77e8",
+        "main.js-2acebaf277"
       ],
       "colors": [
         "index-ee595fabf3"
       ],
       "investigating": [
         "index-bed5a39bd1",
-        "index-99e522992f"
+        "spaces-99e522992f"
       ],
       "analogical": [
-        "index-bed5a39bd1"
+        "index-bed5a39bd1",
+        "main.js-8f68b0ad3b"
+      ],
+      "logic": [
+        "index-bed5a39bd1",
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
       ],
       "brainstorming": [
-        "index-e7535199a8"
+        "index-e7535199a8",
+        "main.js-70720eb9e8"
       ],
       "observations": [
         "index-e7535199a8",
-        "parents-7c8cb09547"
+        "parents-7c8cb09547",
+        "main.js-70720eb9e8"
       ],
       "driven": [
         "index-e7535199a8",
@@ -14947,24 +15287,25 @@
       ],
       "interactive": [
         "index-404b9eae40",
-        "spaces-c98a8e9e61"
+        "spaces-c98a8e9e61",
+        "main.js-8f68b0ad3b"
       ],
       "pretend": [
         "index-404b9eae40",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
       ],
       "personal": [
         "index-404b9eae40",
         "programs-2b1ce89409"
       ],
-      "ideas": [
-        "index-404b9eae40"
-      ],
       "senses": [
-        "index-e55f8abcd0"
+        "index-e55f8abcd0",
+        "main.js-619c618978"
       ],
       "rhythm": [
-        "index-4de467f098"
+        "index-4de467f098",
+        "main.js-20f139a472"
       ],
       "latent": [
         "index-4de467f098"
@@ -14973,18 +15314,23 @@
         "index-4de467f098"
       ],
       "eca": [
-        "index-7148e8e009"
+        "index-7148e8e009",
+        "main.js-ff9c0d0c0f"
       ],
       "story": [
-        "index-7148e8e009"
+        "index-7148e8e009",
+        "main.js-ff9c0d0c0f"
       ],
       "roleplay": [
         "index-7148e8e009",
         "index-7de2a41da2",
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f",
+        "main.js-ff9c0d0c0f"
       ],
       "sports": [
-        "index-7148e8e009"
+        "index-7148e8e009",
+        "main.js-ff9c0d0c0f"
       ],
       "intention": [
         "index-c0f3c29891",
@@ -15006,23 +15352,65 @@
         "index-c0f3c29891",
         "spaces-d4e37405d5"
       ],
-      "shaping": [
-        "index-bf725c40c8"
+      "library": [
+        "index-9b1ab856fa"
       ],
-      "painting": [
-        "index-bf725c40c8"
+      "rich": [
+        "index-9b1ab856fa",
+        "spaces-7a7691447f",
+        "main.js-2acebaf277"
       ],
-      "expressions": [
-        "index-bf725c40c8"
+      "collection": [
+        "index-9b1ab856fa"
       ],
-      "projectors": [
-        "index-99e522992f"
+      "age": [
+        "index-9b1ab856fa",
+        "programs-2b1ce89409",
+        "main.js-20f139a472",
+        "main.js-ff9c0d0c0f"
       ],
-      "optical": [
-        "index-99e522992f"
+      "appropriate": [
+        "index-9b1ab856fa"
       ],
-      "strategies": [
-        "index-99e522992f"
+      "multilingual": [
+        "index-9b1ab856fa"
+      ],
+      "books": [
+        "index-9b1ab856fa"
+      ],
+      "cozy": [
+        "index-9b1ab856fa"
+      ],
+      "reading": [
+        "index-9b1ab856fa"
+      ],
+      "pods": [
+        "index-9b1ab856fa"
+      ],
+      "nurse": [
+        "index-002f1385fc"
+      ],
+      "clinic": [
+        "index-002f1385fc"
+      ],
+      "fully": [
+        "index-002f1385fc",
+        "programs-6f73cb9d71"
+      ],
+      "equipped": [
+        "index-002f1385fc"
+      ],
+      "medical": [
+        "index-002f1385fc"
+      ],
+      "staffed": [
+        "index-002f1385fc"
+      ],
+      "licensed": [
+        "index-002f1385fc"
+      ],
+      "healthcare": [
+        "index-002f1385fc"
       ],
       "room": [
         "index-7de2a41da2"
@@ -15038,7 +15426,10 @@
       ],
       "balance": [
         "index-39715fe92e",
-        "programs-4950bfd541"
+        "programs-4950bfd541",
+        "main.js-49f7c6d08f",
+        "main.js-20f139a472",
+        "main.js-ff9c0d0c0f"
       ],
       "tracks": [
         "index-39715fe92e"
@@ -15052,8 +15443,15 @@
       "fitness": [
         "index-39715fe92e"
       ],
+      "motor": [
+        "index-39715fe92e",
+        "programs-4950bfd541",
+        "main.js-278d99379d",
+        "main.js-20f139a472"
+      ],
       "coordination": [
-        "index-39715fe92e"
+        "index-39715fe92e",
+        "main.js-20f139a472"
       ],
       "plant": [
         "index-8d3857c4eb",
@@ -15094,6 +15492,10 @@
       ],
       "including": [
         "index-dcf349008c"
+      ],
+      "forms": [
+        "index-dcf349008c",
+        "main.js-8f68b0ad3b"
       ],
       "serving": [
         "index-f6aa4cf911"
@@ -15222,11 +15624,13 @@
         "parents-9a82fafa54"
       ],
       "make": [
-        "parents-9a82fafa54"
+        "parents-9a82fafa54",
+        "main.js-70720eb9e8"
       ],
       "communication": [
         "parents-9a82fafa54",
-        "spaces-7a7691447f"
+        "spaces-7a7691447f",
+        "main.js-619c618978"
       ],
       "seamless": [
         "parents-9a82fafa54"
@@ -15235,7 +15639,8 @@
         "parents-9a82fafa54"
       ],
       "stories": [
-        "parents-7c8cb09547"
+        "parents-7c8cb09547",
+        "main.js-ff9c0d0c0f"
       ],
       "artwork": [
         "parents-7c8cb09547"
@@ -15347,6 +15752,7 @@
         "spaces-7a7691447f",
         "spaces-9931ced3bf",
         "spaces-6b3b33a441",
+        "main.js-2acebaf277",
         "ges-mission"
       ],
       "independent": [
@@ -15378,6 +15784,18 @@
       ],
       "pillars": [
         "programs-e371f5134b"
+      ],
+      "responsive": [
+        "programs-e371f5134b"
+      ],
+      "engaged": [
+        "programs-6f73cb9d71"
+      ],
+      "careers": [
+        "programs-6f73cb9d71"
+      ],
+      "benefit": [
+        "programs-6f73cb9d71"
       ],
       "mentoring": [
         "programs-6f73cb9d71"
@@ -15419,10 +15837,6 @@
       "five": [
         "programs-2b1ce89409"
       ],
-      "age": [
-        "programs-2b1ce89409",
-        "spaces-9b1ab856fa"
-      ],
       "establishes": [
         "programs-2b1ce89409"
       ],
@@ -15440,7 +15854,8 @@
         "programs-2b1ce89409"
       ],
       "equal": [
-        "programs-2b1ce89409"
+        "programs-2b1ce89409",
+        "main.js-70720eb9e8"
       ],
       "partners": [
         "programs-2b1ce89409"
@@ -15454,6 +15869,10 @@
       ],
       "interpret": [
         "programs-8052375dbf"
+      ],
+      "ended": [
+        "programs-8052375dbf",
+        "main.js-2acebaf277"
       ],
       "rather": [
         "programs-8052375dbf"
@@ -15478,7 +15897,15 @@
         "programs-641753cddb"
       ],
       "act": [
-        "programs-641753cddb"
+        "programs-641753cddb",
+        "main.js-ff9c0d0c0f"
+      ],
+      "provocations": [
+        "programs-641753cddb",
+        "programs-993217029d",
+        "spaces-7a7691447f",
+        "spaces-1f5f7bb920",
+        "main.js-2acebaf277"
       ],
       "dialogue": [
         "programs-641753cddb",
@@ -15520,7 +15947,8 @@
         "programs-4950bfd541"
       ],
       "gross": [
-        "programs-4950bfd541"
+        "programs-4950bfd541",
+        "main.js-20f139a472"
       ],
       "yoga": [
         "programs-4950bfd541"
@@ -15540,8 +15968,17 @@
       "handwriting": [
         "programs-06d991e42a"
       ],
-      "strength": [
+      "literacy": [
         "programs-06d991e42a"
+      ],
+      "hand": [
+        "programs-06d991e42a",
+        "spaces-4fe9e6c231",
+        "main.js-278d99379d"
+      ],
+      "strength": [
+        "programs-06d991e42a",
+        "main.js-ff9c0d0c0f"
       ],
       "finger": [
         "programs-06d991e42a"
@@ -15583,16 +16020,15 @@
       "autonomy": [
         "programs-4bfaed0eec"
       ],
+      "mastery": [
+        "programs-4bfaed0eec"
+      ],
       "specifically": [
         "programs-0a5a2d0a97"
       ],
       "interaction": [
         "spaces-7a7691447f",
         "spaces-9931ced3bf"
-      ],
-      "rich": [
-        "spaces-7a7691447f",
-        "spaces-9b1ab856fa"
       ],
       "modified": [
         "spaces-7a7691447f"
@@ -15633,7 +16069,8 @@
         "spaces-569c0030b9"
       ],
       "testing": [
-        "spaces-569c0030b9"
+        "spaces-569c0030b9",
+        "main.js-70720eb9e8"
       ],
       "facilities": [
         "spaces-f9fb773370"
@@ -15649,6 +16086,30 @@
       ],
       "intellectual": [
         "spaces-f9fb773370"
+      ],
+      "shaping": [
+        "spaces-bf725c40c8"
+      ],
+      "expressions": [
+        "spaces-bf725c40c8",
+        "main.js-2acebaf277"
+      ],
+      "shadows": [
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
+      ],
+      "projectors": [
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
+      ],
+      "optical": [
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b"
+      ],
+      "strategies": [
+        "spaces-99e522992f",
+        "main.js-8f68b0ad3b",
+        "main.js-619c618978"
       ],
       "playground": [
         "spaces-e6331976ba"
@@ -15669,30 +16130,6 @@
       "entire": [
         "spaces-e6331976ba"
       ],
-      "library": [
-        "spaces-9b1ab856fa"
-      ],
-      "collection": [
-        "spaces-9b1ab856fa"
-      ],
-      "appropriate": [
-        "spaces-9b1ab856fa"
-      ],
-      "multilingual": [
-        "spaces-9b1ab856fa"
-      ],
-      "books": [
-        "spaces-9b1ab856fa"
-      ],
-      "cozy": [
-        "spaces-9b1ab856fa"
-      ],
-      "reading": [
-        "spaces-9b1ab856fa"
-      ],
-      "pods": [
-        "spaces-9b1ab856fa"
-      ],
       "playgrounds": [
         "spaces-ad0057a9ea"
       ],
@@ -15711,27 +16148,6 @@
       "european": [
         "spaces-ad0057a9ea"
       ],
-      "nurse": [
-        "spaces-002f1385fc"
-      ],
-      "clinic": [
-        "spaces-002f1385fc"
-      ],
-      "equipped": [
-        "spaces-002f1385fc"
-      ],
-      "medical": [
-        "spaces-002f1385fc"
-      ],
-      "staffed": [
-        "spaces-002f1385fc"
-      ],
-      "licensed": [
-        "spaces-002f1385fc"
-      ],
-      "healthcare": [
-        "spaces-002f1385fc"
-      ],
       "breakout": [
         "spaces-9931ced3bf"
       ],
@@ -15745,7 +16161,8 @@
         "spaces-5e1cd325f0"
       ],
       "miniature": [
-        "spaces-5e1cd325f0"
+        "spaces-5e1cd325f0",
+        "main.js-49f7c6d08f"
       ],
       "civic": [
         "spaces-5e1cd325f0"
@@ -15760,10 +16177,12 @@
         "spaces-5e1cd325f0"
       ],
       "sand": [
-        "spaces-6b3b33a441"
+        "spaces-6b3b33a441",
+        "main.js-619c618978"
       ],
       "kitchens": [
-        "spaces-6b3b33a441"
+        "spaces-6b3b33a441",
+        "main.js-619c618978"
       ],
       "wet": [
         "spaces-6b3b33a441"
@@ -15781,35 +16200,23 @@
         "spaces-6b3b33a441"
       ],
       "spacious": [
-        "spaces-8341905422"
+        "spaces-2a4e7e50a8"
       ],
-      "expansive": [
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
+      "calm": [
+        "spaces-2a4e7e50a8"
       ],
-      "rooms": [
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
+      "organised": [
+        "spaces-2a4e7e50a8"
       ],
-      "flooded": [
-        "spaces-8341905422"
+      "homerooms": [
+        "spaces-2a4e7e50a8"
       ],
-      "sunlight": [
-        "spaces-8341905422"
-      ],
-      "ergonomic": [
-        "spaces-8341905422"
+      "height": [
+        "spaces-2a4e7e50a8"
       ],
       "furniture": [
-        "spaces-8341905422",
+        "spaces-2a4e7e50a8",
         "spaces-1f5f7bb920"
-      ],
-      "flexible": [
-        "spaces-8341905422",
-        "spaces-1f5f7bb920"
-      ],
-      "layout": [
-        "spaces-8341905422"
       ],
       "signature": [
         "spaces-c98a8e9e61"
@@ -15857,7 +16264,8 @@
         "spaces-6355f764bc"
       ],
       "science": [
-        "spaces-6355f764bc"
+        "spaces-6355f764bc",
+        "main.js-8f68b0ad3b"
       ],
       "laboratory": [
         "spaces-6355f764bc"
@@ -15880,10 +16288,19 @@
       "sunlit": [
         "spaces-1f5f7bb920"
       ],
+      "expansive": [
+        "spaces-1f5f7bb920"
+      ],
       "windows": [
         "spaces-1f5f7bb920"
       ],
       "flood": [
+        "spaces-1f5f7bb920"
+      ],
+      "rooms": [
+        "spaces-1f5f7bb920"
+      ],
+      "flexible": [
         "spaces-1f5f7bb920"
       ],
       "modular": [
@@ -15898,6 +16315,10 @@
       "how": [
         "spaces-1f5f7bb920"
       ],
+      "investigate": [
+        "spaces-1f5f7bb920",
+        "main.js-8f68b0ad3b"
+      ],
       "concentrate": [
         "spaces-1f5f7bb920"
       ],
@@ -15909,6 +16330,243 @@
       ],
       "gyms": [
         "spaces-4fe9e6c231"
+      ],
+      "material": [
+        "main.js-278d99379d"
+      ],
+      "texture": [
+        "main.js-278d99379d"
+      ],
+      "shaped": [
+        "main.js-278d99379d"
+      ],
+      "gestures": [
+        "main.js-278d99379d"
+      ],
+      "various": [
+        "main.js-278d99379d"
+      ],
+      "fostering": [
+        "main.js-278d99379d",
+        "main.js-ff9c0d0c0f"
+      ],
+      "fine": [
+        "main.js-278d99379d"
+      ],
+      "tool": [
+        "main.js-278d99379d"
+      ],
+      "usage": [
+        "main.js-278d99379d"
+      ],
+      "expressing": [
+        "main.js-278d99379d"
+      ],
+      "concepts": [
+        "main.js-278d99379d"
+      ],
+      "structural": [
+        "main.js-278d99379d"
+      ],
+      "thinking": [
+        "main.js-278d99379d",
+        "main.js-49f7c6d08f"
+      ],
+      "trained": [
+        "main.js-278d99379d"
+      ],
+      "artists": [
+        "main.js-278d99379d"
+      ],
+      "encouraged": [
+        "main.js-2acebaf277"
+      ],
+      "use": [
+        "main.js-2acebaf277",
+        "main.js-8f68b0ad3b"
+      ],
+      "express": [
+        "main.js-2acebaf277"
+      ],
+      "themselves": [
+        "main.js-2acebaf277",
+        "main.js-49f7c6d08f"
+      ],
+      "creatively": [
+        "main.js-2acebaf277"
+      ],
+      "variety": [
+        "main.js-2acebaf277"
+      ],
+      "paints": [
+        "main.js-2acebaf277"
+      ],
+      "pastels": [
+        "main.js-2acebaf277"
+      ],
+      "papers": [
+        "main.js-2acebaf277"
+      ],
+      "encouraging": [
+        "main.js-2acebaf277"
+      ],
+      "exhibitions": [
+        "main.js-2acebaf277"
+      ],
+      "connections": [
+        "main.js-8f68b0ad3b",
+        "main.js-70720eb9e8"
+      ],
+      "color": [
+        "main.js-8f68b0ad3b"
+      ],
+      "filters": [
+        "main.js-8f68b0ad3b"
+      ],
+      "patterns": [
+        "main.js-8f68b0ad3b"
+      ],
+      "reflection": [
+        "main.js-8f68b0ad3b"
+      ],
+      "integrating": [
+        "main.js-8f68b0ad3b"
+      ],
+      "generated": [
+        "main.js-70720eb9e8"
+      ],
+      "topics": [
+        "main.js-70720eb9e8"
+      ],
+      "everyday": [
+        "main.js-70720eb9e8"
+      ],
+      "spanning": [
+        "main.js-70720eb9e8"
+      ],
+      "weeks": [
+        "main.js-70720eb9e8"
+      ],
+      "partnership": [
+        "main.js-70720eb9e8"
+      ],
+      "area": [
+        "main.js-49f7c6d08f"
+      ],
+      "helps": [
+        "main.js-49f7c6d08f"
+      ],
+      "others": [
+        "main.js-49f7c6d08f"
+      ],
+      "setup": [
+        "main.js-49f7c6d08f"
+      ],
+      "enhancing": [
+        "main.js-49f7c6d08f"
+      ],
+      "acquisition": [
+        "main.js-49f7c6d08f",
+        "main.js-619c618978"
+      ],
+      "narrative": [
+        "main.js-49f7c6d08f"
+      ],
+      "simulation": [
+        "main.js-49f7c6d08f"
+      ],
+      "stimulate": [
+        "main.js-619c618978"
+      ],
+      "neural": [
+        "main.js-619c618978"
+      ],
+      "pathways": [
+        "main.js-619c618978"
+      ],
+      "descriptive": [
+        "main.js-619c618978"
+      ],
+      "calming": [
+        "main.js-619c618978"
+      ],
+      "therapeutic": [
+        "main.js-619c618978"
+      ],
+      "regulating": [
+        "main.js-619c618978"
+      ],
+      "improve": [
+        "main.js-20f139a472"
+      ],
+      "ability": [
+        "main.js-20f139a472"
+      ],
+      "exposed": [
+        "main.js-20f139a472"
+      ],
+      "young": [
+        "main.js-20f139a472"
+      ],
+      "develop": [
+        "main.js-20f139a472"
+      ],
+      "instruments": [
+        "main.js-20f139a472"
+      ],
+      "singing": [
+        "main.js-20f139a472"
+      ],
+      "listening": [
+        "main.js-20f139a472"
+      ],
+      "auditory": [
+        "main.js-20f139a472"
+      ],
+      "processing": [
+        "main.js-20f139a472"
+      ],
+      "pattern": [
+        "main.js-20f139a472"
+      ],
+      "recognition": [
+        "main.js-20f139a472"
+      ],
+      "musical": [
+        "main.js-20f139a472"
+      ],
+      "appreciation": [
+        "main.js-20f139a472"
+      ],
+      "out": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "favorite": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "extracurricular": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "build": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "bonds": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "dramatization": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "theater": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "teamwork": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "friendships": [
+        "main.js-ff9c0d0c0f"
+      ],
+      "speaking": [
+        "main.js-ff9c0d0c0f"
       ],
       "sheikh": [
         "ges-julanda",

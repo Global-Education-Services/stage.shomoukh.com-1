@@ -22,7 +22,7 @@ try {
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
       page.on('response', response => { if (new URL(response.url()).origin === new URL(base).origin && response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
-      await page.goto(`${base}/ar/${name}`, {waitUntil: 'networkidle'});
+      await page.goto(`${base}/ar/${name}`, {waitUntil: 'load'});
       const report = await page.evaluate(allowed => {
         const allowedLatin = new RegExp(allowed);
         const visible = element => { const style = getComputedStyle(element); const box = element.getBoundingClientRect(); return style.visibility !== 'hidden' && style.display !== 'none' && box.width > 0 && box.height > 0 && !element.closest('[aria-hidden="true"], [hidden]'); };
