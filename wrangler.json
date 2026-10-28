@@ -20,6 +20,12 @@
       }
     }
   ],
+  "services": [
+    {
+      "binding": "SHOMOUKH_FORMS",
+      "service": "shomoukh-com"
+    }
+  ],
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1

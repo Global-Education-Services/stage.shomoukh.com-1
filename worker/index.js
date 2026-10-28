@@ -10,7 +10,9 @@ export default {
       url.protocol = 'https:';
       response = ['GET', 'HEAD'].includes(request.method) ? Response.redirect(url, 308) : json({error: 'HTTPS is required.'}, 403);
     } else if (path === '/api/form-submission') {
-      response = await submitForm(request, env);
+      // The shomoukh-com Worker holds the Resend and Turnstile secrets. Until this Worker
+      // has its own, hand submissions to it unchanged so its form handler sends the email.
+      response = !env.RESEND_API_KEY && env.SHOMOUKH_FORMS ? await env.SHOMOUKH_FORMS.fetch(request) : await submitForm(request, env);
     } else if (path === '/api/form-config') {
       response = request.method === 'GET' ? json({siteKey: env.TURNSTILE_SITE_KEY || null}) : json({error: 'Method not allowed.'}, 405, {Allow: 'GET'});
     } else {

@@ -122,3 +122,18 @@ test('Worker enforces HTTPS, serves form config and applies security headers to 
     assert.equal(r.headers.get('x-content-type-options'), 'nosniff');
   }
 });
+
+test('Worker forwards submissions to the shomoukh-com Worker only while it has no Resend key', async () => {
+  const forwarded = [];
+  const SHOMOUKH_FORMS = {fetch: async request => { forwarded.push(request); return Response.json({ok: true, requestId: 'remote'}); }};
+  const base = {...env, RESEND_API_KEY: undefined, SHOMOUKH_FORMS, ASSETS: {fetch: async () => new Response('page')}};
+  const r = await worker.fetch(request(), base);
+  assert.equal(r.status, 200);
+  assert.equal(forwarded.length, 1);
+  assert.equal(forwarded[0].headers.get('origin'), 'https://shomoukh.com');
+  assert.equal(r.headers.get('x-frame-options'), 'DENY');
+  // With its own key it handles the submission itself (here: rejected for the missing rate limiter IP)
+  const own = await worker.fetch(request(payload, {'cf-connecting-ip': ''}), {...base, RESEND_API_KEY: 'test-secret'});
+  assert.equal(own.status, 503);
+  assert.equal(forwarded.length, 1);
+});
