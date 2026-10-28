@@ -56,7 +56,7 @@ try {
     assert.match(await ask('qurm programs'), /general program/);
     assert.match(await ask('email?'), /info.alqurum/);
     let campusLinks = await page.locator('.school-chat-assistant').last().locator('a').evaluateAll(links=>links.map(link=>link.getAttribute('href')));
-    assert.deepEqual(campusLinks, ['/contact.html#alqurm']);
+    assert.deepEqual(campusLinks, ['/contact#alqurm']);
     assert.match(await ask('hrs?'), /7:00 AM/);
     if(viewport.width===390) await page.screenshot({path:'test-results/short-campus-questions-mobile.png'});
     assert.match(await ask('whr is alqurm'), /Al Suraj/);
@@ -102,7 +102,7 @@ try {
   // Every existing public entry point gets the launcher.
   for (const name of ['about','admissions','apply-online','book-a-visit','contact','enrichments','parents','programs','spaces']) {
     const page=await browser.newPage();
-    await page.goto(`${base}/${name}.html`,{waitUntil:'domcontentloaded'});
+    await page.goto(`${base}/${name}`,{waitUntil:'domcontentloaded'});
     await page.locator('#school-chat-launcher').waitFor();
     await page.close();
   }

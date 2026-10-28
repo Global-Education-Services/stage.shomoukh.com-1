@@ -9,7 +9,7 @@ for(const [file,source]of html){
  for(const [,raw]of source.matchAll(/\b(?:href|src)="([^"]+)"/g)){
   if(/^(?:https?:|mailto:|tel:|data:|javascript:)/.test(raw))continue;
   const url=new URL(raw,'https://local.invalid/'+file),base=decodeURIComponent(url.pathname);
-  const target=base==='/'?'index.html':base.slice(1);
+  const target=base==='/'?'index.html':base.slice(1).replace(/^([^.]+)$/,'$1.html');
   if(!fs.existsSync(target)&&!fs.existsSync(path.join('public',target)))failures.push({file,url:raw,issue:'missing local asset/page'});
   if(url.hash&&html.has(target)&&!html.get(target).includes(`id="${decodeURIComponent(url.hash.slice(1))}"`))failures.push({file,url:raw,issue:'missing fragment'});
  }

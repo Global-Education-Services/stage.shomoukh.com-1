@@ -15,7 +15,7 @@ try{
   const context=await browser.newContext({viewport:{width,height:900},hasTouch:width<600,isMobile:width<600,reducedMotion:'reduce'});
   await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(base).origin?route.continue():route.abort());
   for(const name of ['index','about','programs','enrichments','spaces','admissions','book-a-visit','apply-online','parents','contact']){
-   const page=await context.newPage();await page.goto(base+(name==='index'?'/':`/${name}.html`),{waitUntil:'domcontentloaded'});await page.locator('#school-chat-launcher').waitFor();await page.addScriptTag({path:process.env.AXE_SCRIPT});await scan(page,name,width);
+   const page=await context.newPage();await page.goto(base+(name==='index'?'/':`/${name}`),{waitUntil:'domcontentloaded'});await page.locator('#school-chat-launcher').waitFor();await page.addScriptTag({path:process.env.AXE_SCRIPT});await scan(page,name,width);
    if(name==='index'){
     for(const [button,dialog,label]of [['#menu-toggle-btn','#offcanvas-drawer','navigation'],['#search-open-btn','#search-modal','search'],['#school-chat-launcher','.school-chat','chat']]){
      await page.goto(base,{waitUntil:'domcontentloaded'});await page.locator('#school-chat-launcher').waitFor();await page.addScriptTag({path:process.env.AXE_SCRIPT});

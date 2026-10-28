@@ -2,7 +2,7 @@
   "version": 2,
   "seed": 20261018,
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "b43f68e81350bef67396b3da7ee31ac77e0b58aad75cd9bc58b349e74be5121c",
+  "sourceFingerprint": "e1430ee62d15a5422aec097cf2c588f1f20aadd043c534f59fc08e938e613a98",
   "description": "Source-derived robustness cases. Generated expectations are not independently human reviewed. Whole-conversation normalized uniqueness; no punctuation/case variants. Expected facts, sources and statuses are authored from public knowledge, never observed engine replies.",
   "minima": {
     "short": 1500,

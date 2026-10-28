@@ -1,9 +1,9 @@
 {
-  "evaluatedAt": "2026-10-28T05:59:39.598Z",
+  "evaluatedAt": "2026-10-28T06:13:44.366Z",
   "seed": 20261018,
-  "corpusFingerprint": "a089f7bdabe7a02dbb1a6ebe8a5d45cce028f4346a03a553fa25a17e1b3af75e",
+  "corpusFingerprint": "18acf7328bda5d295660e232ef60b4a763f2da57126051924662bf857e3d649f",
   "generatorHash": "67d37fc892754ba6941df3416a6cfde6c6949ba8d7f9a6de3aeb09f1b2cb85c7",
-  "sourceFingerprint": "8132821a6401863d557ca005e2a0ac6955d1e8be30fec4c15200b80950559453",
+  "sourceFingerprint": "e1430ee62d15a5422aec097cf2c588f1f20aadd043c534f59fc08e938e613a98",
   "definitions": {
     "pass": "Expected status, source-derived multiword factual assertions, supporting source and expected record selection when annotated; generated context cases additionally require every annotated preceding turn. Intent/entity/correction measured separately.",
     "intent": "Expected externally annotated intent versus response intent; null annotations are unmeasured.",
@@ -13,7 +13,7 @@
     "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
     "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
   },
-  "initializationMs": 23.546999999999997,
+  "initializationMs": 21.224209000000002,
   "summary": {
     "cases": 10000,
     "passed": 9993,
@@ -70,8 +70,8 @@
     },
     "unsupportedCases": 1126,
     "falsePositiveAnswers": 1,
-    "meanResponseMs": 1.1101436376999954,
-    "p95ResponseMs": 2.3432080000002316
+    "meanResponseMs": 0.9388154402999951,
+    "p95ResponseMs": 1.8404170000003433
   },
   "byCategory": {
     "short": {
@@ -130,8 +130,8 @@
       },
       "unsupportedCases": 100,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8420330839999995,
-      "p95ResponseMs": 1.5242920000000026
+      "meanResponseMs": 0.7661022986666678,
+      "p95ResponseMs": 1.365000000000009
     },
     "typo": {
       "cases": 1500,
@@ -189,8 +189,8 @@
       },
       "unsupportedCases": 80,
       "falsePositiveAnswers": 1,
-      "meanResponseMs": 0.8800699260000026,
-      "p95ResponseMs": 1.740542000000005
+      "meanResponseMs": 0.8617303699999947,
+      "p95ResponseMs": 1.7178749999998217
     },
     "natural": {
       "cases": 1500,
@@ -248,8 +248,8 @@
       },
       "unsupportedCases": 101,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9297504506666662,
-      "p95ResponseMs": 1.6206670000001395
+      "meanResponseMs": 0.8787295560000048,
+      "p95ResponseMs": 1.5054590000004282
     },
     "campus": {
       "cases": 1200,
@@ -307,8 +307,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.428671860000001,
-      "p95ResponseMs": 2.7484999999996944
+      "meanResponseMs": 1.1416180316666706,
+      "p95ResponseMs": 2.036583999999948
     },
     "leadership": {
       "cases": 800,
@@ -366,8 +366,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.436149368750024,
-      "p95ResponseMs": 2.9041669999996884
+      "meanResponseMs": 1.0717665812499775,
+      "p95ResponseMs": 1.9628339999999298
     },
     "admissions": {
       "cases": 1000,
@@ -425,8 +425,8 @@
       },
       "unsupportedCases": 99,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.167037473999976,
-      "p95ResponseMs": 2.86462500000016
+      "meanResponseMs": 0.7160327999999972,
+      "p95ResponseMs": 1.3664580000004207
     },
     "context": {
       "cases": 1000,
@@ -484,8 +484,8 @@
       },
       "unsupportedCases": 0,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9696949070000228,
-      "p95ResponseMs": 1.4238329999989219
+      "meanResponseMs": 0.82208861599999,
+      "p95ResponseMs": 0.9631250000002183
     },
     "informal": {
       "cases": 800,
@@ -543,8 +543,8 @@
       },
       "unsupportedCases": 46,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.8871741499999757,
-      "p95ResponseMs": 1.6092090000001917
+      "meanResponseMs": 0.8138496787500117,
+      "p95ResponseMs": 1.4585839999999735
     },
     "negative": {
       "cases": 700,
@@ -602,8 +602,8 @@
       },
       "unsupportedCases": 700,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 2.0197982257142577,
-      "p95ResponseMs": 3.444083000000319
+      "meanResponseMs": 1.7310785771428396,
+      "p95ResponseMs": 2.9179999999996653
     }
   },
   "context": {
@@ -662,8 +662,8 @@
     },
     "unsupportedCases": 0,
     "falsePositiveAnswers": 0,
-    "meanResponseMs": 0.9696949070000228,
-    "p95ResponseMs": 1.4238329999989219
+    "meanResponseMs": 0.82208861599999,
+    "p95ResponseMs": 0.9631250000002183
   },
   "failures": [
     {
@@ -682,7 +682,7 @@
       "entity": null,
       "correction": null,
       "confidence": true,
-      "durationMs": 2.4880410000000666,
+      "durationMs": 2.05275000000006,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -775,7 +775,7 @@
       "entity": null,
       "correction": true,
       "confidence": true,
-      "durationMs": 1.4139169999998558,
+      "durationMs": 1.3492499999999836,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -888,7 +888,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.6992079999999987,
+      "durationMs": 1.6445830000000115,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -985,7 +985,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.5260840000000826,
+      "durationMs": 1.9106249999999818,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1083,7 +1083,7 @@
       "entity": false,
       "correction": true,
       "confidence": true,
-      "durationMs": 1.3005000000002838,
+      "durationMs": 1.2359590000000935,
       "unsupported": true,
       "falsePositive": true,
       "context": false,
@@ -1184,7 +1184,7 @@
       "entity": null,
       "correction": null,
       "confidence": true,
-      "durationMs": 2.736167000000023,
+      "durationMs": 1.9700419999999212,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1277,7 +1277,7 @@
       "entity": null,
       "correction": null,
       "confidence": true,
-      "durationMs": 3.936333999999988,
+      "durationMs": 1.894458000000668,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1372,7 +1372,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8761250000000018,
+      "durationMs": 0.6970409999998992,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1431,7 +1431,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.1399579999999787,
+      "durationMs": 2.0113749999998163,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1492,7 +1492,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.7428330000000187,
+      "durationMs": 0.7315839999998843,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1548,7 +1548,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6584159999999883,
+      "durationMs": 0.7896250000001146,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1604,7 +1604,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.5675830000000133,
+      "durationMs": 1.6139169999999012,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1657,7 +1657,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8997090000000298,
+      "durationMs": 0.911916999999903,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1718,7 +1718,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9722090000000208,
+      "durationMs": 2.1016250000000127,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1779,7 +1779,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.8460410000000138,
+      "durationMs": 0.7291250000000673,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1838,7 +1838,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6926249999999072,
+      "durationMs": 0.6494580000000951,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1894,7 +1894,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.015875000000051,
+      "durationMs": 0.899791999999934,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -1955,7 +1955,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6934579999999642,
+      "durationMs": 0.6896249999999782,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2014,7 +2014,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.0466250000001764,
+      "durationMs": 1.9925829999999678,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2075,7 +2075,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.9205830000000788,
+      "durationMs": 0.9051660000000084,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2136,7 +2136,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9669589999998607,
+      "durationMs": 1.9461249999999382,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2197,7 +2197,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9484170000000631,
+      "durationMs": 2.072291999999834,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2258,7 +2258,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6556670000002214,
+      "durationMs": 0.5997919999999795,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2314,7 +2314,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.47591699999998127,
+      "durationMs": 0.6085000000000491,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2370,7 +2370,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.150624999999991,
+      "durationMs": 0.8923749999999018,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2431,7 +2431,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9786249999999654,
+      "durationMs": 1.9270420000000286,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2492,7 +2492,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.9301249999998618,
+      "durationMs": 0.872333000000026,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2553,7 +2553,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.1725410000001375,
+      "durationMs": 1.9615410000001248,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2614,7 +2614,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.7176670000001195,
+      "durationMs": 0.7194160000001375,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2673,7 +2673,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.7193749999999,
+      "durationMs": 1.612999999999829,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2723,7 +2723,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.1755420000001777,
+      "durationMs": 1.1552080000001297,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2787,7 +2787,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.4580000000000837,
+      "durationMs": 0.45899999999983265,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2843,7 +2843,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.7311670000003687,
+      "durationMs": 0.6947079999999914,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2902,7 +2902,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6918329999998605,
+      "durationMs": 0.616207999999915,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -2958,7 +2958,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.730916999999863,
+      "durationMs": 0.6352499999998145,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3014,7 +3014,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.709957999999915,
+      "durationMs": 0.69399999999996,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3073,7 +3073,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.3337500000002365,
+      "durationMs": 1.9502089999996315,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3134,7 +3134,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.9177500000000691,
+      "durationMs": 0.9989580000001297,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3195,7 +3195,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.49195899999995163,
+      "durationMs": 0.4490000000000691,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3251,7 +3251,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.070083000000068,
+      "durationMs": 1.8988750000003165,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3312,7 +3312,7 @@
       "entity": true,
       "correction": false,
       "confidence": true,
-      "durationMs": 2.7224160000000666,
+      "durationMs": 2.694500000000062,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3365,7 +3365,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 1.9909159999997428,
+      "durationMs": 1.9385409999999865,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3426,7 +3426,7 @@
       "entity": null,
       "correction": false,
       "confidence": true,
-      "durationMs": 0.6564579999999296,
+      "durationMs": 0.6452909999998155,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3482,7 +3482,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 1.1390830000000278,
+      "durationMs": 0.9611250000002656,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3534,7 +3534,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9739999999992506,
+      "durationMs": 0.9678750000002765,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3586,7 +3586,7 @@
       "entity": true,
       "correction": null,
       "confidence": true,
-      "durationMs": 0.9305000000003929,
+      "durationMs": 0.9313340000007884,
       "unsupported": false,
       "falsePositive": false,
       "context": false,
@@ -3629,9 +3629,9 @@
       }
     }
   ],
-  "datasetSha256": "5958e96c31320a09221d8052bffa276aa4e2852041f07026486287f849db7f5b",
+  "datasetSha256": "ee6c7de4cc27633aa2b0e9d5a9fc11efb22372f88b446cbcc4a41595a06e1cc2",
   "holdout": {
-    "evaluatedAt": "2026-10-28T05:59:39.837Z",
+    "evaluatedAt": "2026-10-28T06:13:44.582Z",
     "corpusFingerprint": "cc5b9df82275df6ced34c753c6189e7e77ee76a639d686082b7d0e39c7768db4",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -3644,7 +3644,7 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 20.555167000000438,
+    "initializationMs": 18.72870800000055,
     "summary": {
       "cases": 100,
       "passed": 93,
@@ -3701,8 +3701,8 @@
       },
       "unsupportedCases": 30,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.3586549499999092,
-      "p95ResponseMs": 2.575249999999869
+      "meanResponseMs": 1.2310746299999482,
+      "p95ResponseMs": 1.9190419999995356
     },
     "byCategory": {
       "holdout-campus-contact": {
@@ -3761,8 +3761,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2490998999997829,
-        "p95ResponseMs": 2.618457999999009
+        "meanResponseMs": 1.1767501000000267,
+        "p95ResponseMs": 1.9193340000001626
       },
       "holdout-leadership": {
         "cases": 10,
@@ -3820,8 +3820,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2521957999999358,
-        "p95ResponseMs": 2.575249999999869
+        "meanResponseMs": 1.1258793000000877,
+        "p95ResponseMs": 2.441791999999623
       },
       "holdout-unsupported-leadership": {
         "cases": 10,
@@ -3879,8 +3879,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.2741666000001715,
-        "p95ResponseMs": 1.8585000000002765
+        "meanResponseMs": 1.1456583999999566,
+        "p95ResponseMs": 1.8706249999995634
       },
       "holdout-organization": {
         "cases": 10,
@@ -3938,8 +3938,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.0230292000005647,
-        "p95ResponseMs": 1.5886250000003201
+        "meanResponseMs": 1.0295083999999406,
+        "p95ResponseMs": 1.5225829999999405
       },
       "holdout-admission": {
         "cases": 10,
@@ -3997,8 +3997,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.7200123000000531,
-        "p95ResponseMs": 3.1317500000004657
+        "meanResponseMs": 1.4621040999996695,
+        "p95ResponseMs": 1.791124999999738
       },
       "holdout-program-services": {
         "cases": 10,
@@ -4056,8 +4056,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.8205166999996436,
-        "p95ResponseMs": 3.460124999999607
+        "meanResponseMs": 1.5022832999997262,
+        "p95ResponseMs": 2.8475839999991877
       },
       "holdout-visit-parents": {
         "cases": 10,
@@ -4115,8 +4115,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.3951665999997203,
-        "p95ResponseMs": 2.4027919999989535
+        "meanResponseMs": 1.2053834000000279,
+        "p95ResponseMs": 1.358208999999988
       },
       "holdout-context": {
         "cases": 10,
@@ -4174,8 +4174,8 @@
         },
         "unsupportedCases": 0,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.8919497999999294,
-        "p95ResponseMs": 1.483790999998746
+        "meanResponseMs": 0.9075792999996338,
+        "p95ResponseMs": 1.4994169999990845
       },
       "holdout-context-unknown": {
         "cases": 10,
@@ -4233,8 +4233,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.1842957999995634,
-        "p95ResponseMs": 1.6993750000001455
+        "meanResponseMs": 1.112958300000173,
+        "p95ResponseMs": 1.4696659999990516
       },
       "holdout-unknown-conflicting": {
         "cases": 10,
@@ -4292,8 +4292,8 @@
         },
         "unsupportedCases": 10,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 1.776116799999727,
-        "p95ResponseMs": 2.3768749999999272
+        "meanResponseMs": 1.6426417000002402,
+        "p95ResponseMs": 2.536167000000205
       }
     },
     "context": {
@@ -4352,8 +4352,8 @@
       },
       "unsupportedCases": 10,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 1.0381227999997464,
-      "p95ResponseMs": 1.6993750000001455
+      "meanResponseMs": 1.0102687999999034,
+      "p95ResponseMs": 1.4994169999990845
     },
     "failures": [
       {
@@ -4372,7 +4372,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 3.1317500000004657,
+        "durationMs": 1.6595839999990858,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4447,7 +4447,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 2.178250000000844,
+        "durationMs": 1.791124999999738,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4520,7 +4520,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.761916999999812,
+        "durationMs": 1.5918330000004062,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4593,7 +4593,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.300959000000148,
+        "durationMs": 1.2143749999995634,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4671,7 +4671,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.1423339999983,
+        "durationMs": 1.0767500000001746,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4754,7 +4754,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.8869579999991402,
+        "durationMs": 1.8300419999995938,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4827,7 +4827,7 @@
         "entity": null,
         "correction": null,
         "confidence": true,
-        "durationMs": 1.3921659999996336,
+        "durationMs": 1.15166599999975,
         "unsupported": false,
         "falsePositive": false,
         "context": false,
@@ -4892,7 +4892,7 @@
     "metricFailures": []
   },
   "ambiguity": {
-    "evaluatedAt": "2026-10-28T05:59:39.859Z",
+    "evaluatedAt": "2026-10-28T06:13:44.603Z",
     "corpusFingerprint": "70324a8b9cb5886f3308296c714f78919c9dde803b9f372404a39aa3587ad0a5",
     "generatorHash": null,
     "sourceFingerprint": null,
@@ -4905,7 +4905,7 @@
       "hallucination": "Not independently measurable by lexical tests. Grounding assertion failures and unsupported-answer counts are reported as proxies, never as a semantic hallucination rate.",
       "annotation": "Generated/source-reviewed agent fixtures, not independent human-reviewed accuracy. Holdout wording authored separately from runtime templates; after inspection/fixes it is a disclosed regression set."
     },
-    "initializationMs": 18.610791999999492,
+    "initializationMs": 17.515667000001486,
     "summary": {
       "cases": 2,
       "passed": 2,
@@ -4962,8 +4962,8 @@
       },
       "unsupportedCases": 2,
       "falsePositiveAnswers": 0,
-      "meanResponseMs": 0.9910415000003923,
-      "p95ResponseMs": 1.067666000000827
+      "meanResponseMs": 0.8293125000000146,
+      "p95ResponseMs": 0.8908750000009604
     },
     "byCategory": {
       "ambiguous-role": {
@@ -5022,8 +5022,8 @@
         },
         "unsupportedCases": 2,
         "falsePositiveAnswers": 0,
-        "meanResponseMs": 0.9910415000003923,
-        "p95ResponseMs": 1.067666000000827
+        "meanResponseMs": 0.8293125000000146,
+        "p95ResponseMs": 0.8908750000009604
       }
     },
     "context": {

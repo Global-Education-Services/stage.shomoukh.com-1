@@ -40,7 +40,8 @@ const categories = {'index.html':'overview','about.html':'about','programs.html'
 const files=(await readdir(root)).filter(f=>f.endsWith('.html')&&f!=='404.html').sort();
 const sources=new Map();
 for(const file of files) { const html=await readFile(resolve(root,file),'utf8');const tree=parse(html);sources.set(file,{html,tree,ids:new Set([...walk(tree)].map(n=>n.attrs?.id).filter(Boolean))}); }
-function validUrl(url) { const parsed=new URL(url,'https://local.invalid'); const file=parsed.pathname==='/'?'index.html':parsed.pathname.slice(1);return sources.has(file)&&(!parsed.hash||sources.get(file).ids.has(decodeURIComponent(parsed.hash.slice(1)))); }
+function validUrl(url) { const parsed=new URL(url,'https://local.invalid'); // Page links use clean URLs (/about); sources are keyed by file (about.html)
+  const file=parsed.pathname==='/'?'index.html':parsed.pathname.slice(1).replace(/^([^.]+)$/,'$1.html');return sources.has(file)&&(!parsed.hash||sources.get(file).ids.has(decodeURIComponent(parsed.hash.slice(1)))); }
 function anchor(node,file) { for(let p=node;p;p=p.parent) if(p.attrs?.id&&p.tag!=='main') return `${file==='index.html'?'/':`/${file}`}#${encodeURIComponent(p.attrs.id)}`;return file==='index.html'?'/':`/${file}`; }
 const pages=[];const records=[];const seen=new Set();const brokenLinks=[];
 function addRecord({title,answer,url,file,line,category,language='en',sourceKind='html'}) {

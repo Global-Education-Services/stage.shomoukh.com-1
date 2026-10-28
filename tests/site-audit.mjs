@@ -15,7 +15,7 @@ try {
    const page=await context.newPage(),errors=[];
    page.on('pageerror',error=>errors.push(error.message));
    const missingAssets=[];page.on('response',response=>{if(new URL(response.url()).origin===new URL(base).origin&&response.status()>=400)missingAssets.push(response.url());});
-   await page.goto(base+(name?`/${name}.html`:'/'),{waitUntil:'domcontentloaded'});
+   await page.goto(base+(name?`/${name}`:'/'),{waitUntil:'domcontentloaded'});
    const launcher=page.locator('#school-chat-launcher');await launcher.waitFor();
    assert.equal(await page.getByRole('main').count(),1);assert.equal(await page.getByRole('link',{name:'Skip to content'}).getAttribute('href'),'#main-content');
    const language=page.getByLabel('Select language'),search=page.getByRole('button',{name:'Open search modal'});
@@ -54,11 +54,18 @@ try {
   }
   await context.close();checks.push({check:'ten-page responsive header, native validation and keyboard dialogs',width,passed:true});
  }
+ // Pages are served at clean URLs; the old .html addresses redirect to them.
+ {const api=await browser.newContext();
+  for(const name of ['about','book-a-visit','apply-online','contact']){
+   const page=await api.request.get(`${base}/${name}`,{maxRedirects:0});assert.equal(page.status(),200,name);assert.match(await page.text(),/<main/);
+   const old=await api.request.get(`${base}/${name}.html`,{maxRedirects:0});assert.equal(old.status(),308,name);assert.equal(new URL(old.headers().location,base).pathname,`/${name}`);
+  }
+  await api.close();checks.push({check:'clean page URLs and .html redirects',passed:true});}
  const context=await browser.newContext();
  await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(base).origin?route.continue():route.abort());
  const page=await context.newPage();await page.goto(base,{waitUntil:'domcontentloaded'});
  await page.getByRole('button',{name:'Open search modal'}).click();
- for(const [query,href]of [['contact page','/contact.html'],['registration','/admissions.html'],['facilities','/spaces.html']]){
+ for(const [query,href]of [['contact page','/contact'],['registration','/admissions'],['facilities','/spaces']]){
   await page.getByLabel('Search this website').fill(query);await page.getByLabel('Search this website').press('Enter');
   await page.waitForFunction(()=>document.querySelector('.site-search-results [role=status]').textContent.includes('matching'));
   assert.ok((await page.locator('.site-search-results a').evaluateAll(links=>links.map(link=>link.getAttribute('href')))).some(url=>url.startsWith(href)),query);
@@ -75,7 +82,7 @@ try {
  const submissions=[];let failNext=false;
  await context.route('**/api/form-submission',route=>{submissions.push(route.request().postDataJSON());if(failNext){failNext=false;return route.fulfill({status:503,json:{error:'We could not deliver your submission. Please try again later or contact the campus.'}});}return route.fulfill({json:{ok:true,requestId:'audit'}});});
  for(const [name,type,button,thanks] of [['book-a-visit','Book a Visit','Send Message',/Thank you for booking a visit/],['apply-online','Enrolment application','Submit Application',/Thank you for applying/],['contact','Contact enquiry','Send Message',/Thank you for contacting us/]]){
-  await page.goto(base+`/${name}.html`,{waitUntil:'domcontentloaded'});
+  await page.goto(base+`/${name}`,{waitUntil:'domcontentloaded'});
   const form=page.locator('form[data-form-type]');
   assert.equal(await form.getAttribute('data-form-type'),type);
   assert.equal(await form.evaluate(element=>element.checkValidity()),false);
@@ -113,7 +120,7 @@ try {
   if(type==='Enrolment application'){assert.ok(body.entries.some(entry=>entry.section==='CHILD INFORMATION'&&/Full Name/.test(entry.label)));assert.ok(body.entries.some(entry=>/preferred days/.test(entry.label)&&entry.value==='Sunday'));}
   else assert.ok(body.entries.some(entry=>entry.label==='Email Address'&&entry.value==='audit@example.com'));
  }
- await page.goto(base+'/enrichments.html',{waitUntil:'domcontentloaded'});
+ await page.goto(base+'/enrichments',{waitUntil:'domcontentloaded'});
  for(const hash of ['tiny-town','sensory-play','music-drama'])assert.equal(await page.locator('#'+hash).count(),1);
  const detail=page.getByRole('button',{name:'Open Tiny Town details'});await detail.focus();await page.keyboard.press('Enter');
  await page.locator('#detail-modal.open').waitFor();await page.waitForFunction(()=>document.activeElement?.id==='detail-modal-close');
@@ -125,7 +132,7 @@ try {
  assert.equal(await reducedPage.locator('#hero-bg-video').getAttribute('src'),null);assert.equal(videoRequests.length,0,'Reduced motion does not download or autoplay background video');
  await reduced.close();checks.push({check:'reduced-motion video loading',passed:true});
  const noScript=await browser.newContext({javaScriptEnabled:false});const noScriptPage=await noScript.newPage();
- await noScriptPage.goto(base+'/contact.html',{waitUntil:'domcontentloaded'});
+ await noScriptPage.goto(base+'/contact',{waitUntil:'domcontentloaded'});
  assert.equal(await noScriptPage.locator('#contact-inquiry-form button').isDisabled(),true,'Forms cannot submit without the JavaScript security check');
  await noScript.close();checks.push({check:'no-script form submission guard',passed:true});
  await fs.writeFile('test-results/site-audit.json',JSON.stringify({checkedAt:new Date().toISOString(),checks},null,2)+'\n');

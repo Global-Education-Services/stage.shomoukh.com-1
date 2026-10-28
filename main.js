@@ -1,6 +1,7 @@
 import {focusDialog, releaseDialog} from './site/dialog-focus.js';
 import { installChatbot } from './chatbot/loader.js';
 import {installForms} from './site/form-submission.js';
+import {publicPath} from './site/public-path.js';
 
 installChatbot();
 
@@ -150,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const match of matches) {
           const item = document.createElement('li');
           const link = document.createElement('a');
-          link.href = match.url;
+          link.href = match.url.startsWith('/') ? publicPath(match.url) : match.url;
           link.textContent = match.title;
           if (match.url.startsWith('https://')) { link.target = '_blank'; link.rel = 'noopener noreferrer'; link.append(' · Official GES source'); }
           else link.addEventListener('click', closeSearch);

@@ -2,6 +2,7 @@ import './chatbot.css';
 import knowledge from './knowledge.json';
 import { createChatEngine } from './engine.js';
 import { isApprovedExternalSource } from './source-policy.js';
+import { publicPath } from '../site/public-path.js';
 
 const node = (tag, className, text) => {
   const element = document.createElement(tag);
@@ -82,7 +83,7 @@ export function createWidget(launcher) {
         const external = isApprovedExternalSource(source.url, knowledge);
         if (!external && (url.origin !== location.origin || !knownPages.has(url.pathname))) continue;
         const link = node('a', '', source.title || 'View website source');
-        link.href = external ? source.url : url.pathname + url.hash;
+        link.href = external ? source.url : publicPath(url.pathname) + url.hash;
         if (external) { link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent += ' · GES official website (new tab)'; }
         links.append(link);
       } catch { /* Ignore invalid or unapproved source URLs. */ }
