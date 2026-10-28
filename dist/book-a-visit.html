@@ -30,8 +30,8 @@
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <script type="module" crossorigin src="/assets/main-BxoIafuQ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-C08mLjKj.css">
+  <script type="module" crossorigin src="/assets/main-B6D8pdQp.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-DECfi-4K.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -329,72 +329,10 @@
         <div class="form-panel-card">
           <div class="form-panel-header">
             <h3 class="form-panel-title">Book Your Visit</h3>
-            <p class="form-panel-sub">Choose a time below, then call or email your preferred campus to confirm your appointment.</p>
+            <p class="form-panel-sub">Fill in the form below to request an appointment. Our team will be in touch to confirm your visit.</p>
           </div>
 
-          <form id="tour-booking-form" method="post">
-            <p class="form-delivery-note">Online delivery is unavailable on this website. Your details will not be sent. Please <a href="/contact.html#almouj">contact a campus</a> to complete your request.</p>
-            <div class="form-grid-two">
-
-              <div class="form-group">
-                <label for="tour-parent-name" class="form-label">Please enter your name <span class="required">*</span></label>
-                <input type="text" id="tour-parent-name" name="name" class="form-control" placeholder="E.g. John" autocomplete="name" required>
-              </div>
-
-              <div class="form-group">
-                <label for="tour-email" class="form-label">Email Address <span class="required">*</span></label>
-                <input type="email" id="tour-email" name="email" class="form-control" placeholder="E.g. john@doe.com" autocomplete="email" required>
-              </div>
-
-              <div class="form-group">
-                <label for="tour-child-dob" class="form-label">Your child’s date of birth <span class="required">*</span></label>
-                <input type="date" id="tour-child-dob" name="child_dob" class="form-control" required>
-              </div>
-
-              <div class="form-group">
-                <label for="tour-visit-date" class="form-label">When would you like to visit? <span class="required">*</span></label>
-                <input type="date" id="tour-visit-date" name="visit_date" class="form-control" required>
-              </div>
-
-              <div class="form-group">
-                <label for="tour-phone" class="form-label">Phone Number <span class="required">*</span></label>
-                <input type="tel" id="tour-phone" name="phone" class="form-control" placeholder="E.g. +968 9123 4567" autocomplete="tel" required>
-              </div>
-
-              <div class="form-group">
-                <label for="tour-campus" class="form-label">Choose Shomoukh campus <span class="required">*</span></label>
-                <select id="tour-campus" name="campus" class="form-select" required>
-                  <option value="" disabled selected>Select a campus</option>
-                  <option value="Al Qurum Campus">Al Qurum Campus</option>
-                  <option value="Al Mouj Campus">Al Mouj Campus</option>
-                </select>
-              </div>
-
-              <div class="form-group full-width">
-                <label for="tour-visit-time" class="form-label">Please choose visit time <span class="required">*</span></label>
-                <select id="tour-visit-time" name="visit_time" class="form-select" required>
-                  <option value="" disabled selected>Select a time</option>
-                  <option value="09AM - 10AM">09AM - 10AM</option>
-                  <option value="10AM - 11AM">10AM - 11AM</option>
-                  <option value="11AM - 12PM">11AM - 12PM</option>
-                  <option value="12PM - 01PM">12PM - 01PM</option>
-                  <option value="01PM - 02PM">01PM - 02PM</option>
-                  <option value="02PM - 03PM">02PM - 03PM</option>
-                </select>
-              </div>
-
-              <div class="form-group full-width">
-                <label for="tour-message" class="form-label">Message <span class="required">*</span></label>
-                <textarea id="tour-message" name="message" class="form-textarea" required></textarea>
-              </div>
-
-            </div>
-
-            <button type="submit" disabled class="btn-form-submit">
-              <i class="fa-solid fa-calendar-check"></i>
-              <span>SEND MESSAGE</span>
-            </button>
-          </form>
+          <form id="tour-booking-form" data-form-type="Book a Visit" class="reference-form tour-form"><input class="form-honeypot" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" name="website"/><label>Please enter your name *<input placeholder="E.g. John" required="" name="Please enter your name"/></label><label>Email Address *<input type="email" placeholder="E.g. john@doe.com" required="" name="Email Address"/></label><label>Your child&#x27;s date of birth<input type="date" required="" name="Your child&#x27;s date of birth"/></label><label>When would you like to visit? *<input type="date" required="" name="When would you like to visit?"/></label><label>Phone Number *<input placeholder="E.g. +1 3004005000" required="" name="Phone Number"/></label><label>Choose Shomoukh campus *<select name="Choose Shomoukh campus" required=""><option value="" disabled="" selected="">Select a campus</option><option value="Al Qurum">Al Qurum Campus</option><option value="Al Mouj">Al Mouj Campus</option></select></label><label>Please choose visit time *<select name="Please choose visit time" required=""><option value="" disabled="" selected="">Select a time</option><option>09AM - 10AM</option><option>10AM - 11AM</option><option>11AM - 12PM</option><option>12PM - 01PM</option><option>01PM - 02PM</option><option>02PM - 03PM</option></select></label><label class="wide">Message<textarea name="Message" maxlength="180" required=""></textarea></label><div class="wide form-security"><div data-turnstile></div><p role="alert" class="form-security-error" hidden>Security check could not load. Please refresh the page or contact the campus.</p></div><button disabled="">Send Message</button><p role="alert" class="form-error" hidden></p></form>
         </div>
 
       </div>

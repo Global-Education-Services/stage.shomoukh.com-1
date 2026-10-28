@@ -364,55 +364,10 @@
         <div class="form-panel-card" id="contact-form">
           <div class="form-panel-header">
             <h3 class="form-panel-title">Contact Form</h3>
-            <p class="form-panel-sub">Prepare your enquiry below, then call or email your preferred campus:</p>
+            <p class="form-panel-sub">Contact us now and our team will be in touch.</p>
           </div>
 
-          <form id="contact-inquiry-form" method="post">
-            <p class="form-delivery-note">Online delivery is unavailable on this website. Your details will not be sent. Please <a href="/contact.html#almouj">contact a campus</a> to complete your request.</p>
-            <div class="form-group">
-              <label for="contact-name" class="form-label">Name <span class="required">*</span></label>
-              <input type="text" id="contact-name" name="name" class="form-control" placeholder="Your full name" required>
-            </div>
-
-            <div class="form-grid-two">
-              <div class="form-group">
-                <label for="contact-email" class="form-label">Email Address <span class="required">*</span></label>
-                <input type="email" id="contact-email" name="email" class="form-control" placeholder="name@example.com" required>
-              </div>
-
-              <div class="form-group">
-                <label for="contact-phone" class="form-label">Phone Number <span class="required">*</span></label>
-                <input type="tel" id="contact-phone" name="phone" class="form-control" placeholder="+968 9XXXXXXX" required>
-              </div>
-            </div>
-
-            <div class="form-grid-two">
-              <div class="form-group">
-                <label for="contact-dob" class="form-label">Child's Date of Birth <span class="required">*</span></label>
-                <input type="date" id="contact-dob" name="dob" class="form-control" required>
-              </div>
-
-              <div class="form-group">
-                <label for="contact-campus" class="form-label">Campus Selection <span class="required">*</span></label>
-                <select id="contact-campus" name="campus" class="form-select" required>
-                  <option value="" disabled selected>Select campus</option>
-                  <option value="Al Mouj Campus">Al Mouj Campus</option>
-                  <option value="Al Qurm Campus">Al Qurm Campus</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-message" class="form-label">Message (up to 180 characters) <span class="required">*</span></label>
-              <textarea id="contact-message" name="message" class="form-textarea" maxlength="180" placeholder="How can we assist you?" required></textarea>
-              <div class="form-char-count"><span id="contact-char-count">0</span> / 180 characters</div>
-            </div>
-
-            <button type="submit" disabled class="btn-form-submit">
-              <i class="fa-solid fa-paper-plane"></i>
-              <span>SEND MESSAGE</span>
-            </button>
-          </form>
+          <form id="contact-inquiry-form" data-form-type="Contact enquiry" class="reference-form"><input class="form-honeypot" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" name="website"/><label>Please enter your name *<input placeholder="" required="" name="Name"/></label><label>Email Address *<input type="email" placeholder="" required="" name="Email Address"/></label><label>Your child&#x27;s date of birth<input type="date" required="" name="Your child&#x27;s date of birth"/></label><label>Phone Number *<input placeholder="" required="" name="Phone Number"/></label><label>Choose Shomoukh campus *<select name="Choose Shomoukh campus" required=""><option value="" disabled="" selected="">Select a campus</option><option value="Al Qurum">Al Qurum Campus</option><option value="Al Mouj">Al Mouj Campus</option></select></label><label class="wide">Message<textarea name="Message" maxlength="180" required=""></textarea></label><div class="wide form-security"><div data-turnstile></div><p role="alert" class="form-security-error" hidden>Security check could not load. Please refresh the page or contact the campus.</p></div><button disabled="">Send Message</button><p role="alert" class="form-error" hidden></p></form>
         </div>
 
       </div>

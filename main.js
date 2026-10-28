@@ -1,5 +1,6 @@
 import {focusDialog, releaseDialog} from './site/dialog-focus.js';
 import { installChatbot } from './chatbot/loader.js';
+import {installForms} from './site/form-submission.js';
 
 installChatbot();
 
@@ -412,28 +413,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 4500);
   }
 
-  // There is no submission endpoint in this static website. Never claim
-  // delivery or erase a family's entered details without a confirmed response.
-  for (const id of ['tour-booking-form', 'online-enrollment-form', 'contact-inquiry-form']) {
-    const form = document.getElementById(id);
-    if (!form) continue;
-    const submit = form.querySelector('[type="submit"]');
-    if (submit) submit.textContent = 'Check request details';
-    form.addEventListener('submit', event => {
-      event.preventDefault();
-      if (!form.reportValidity()) return;
-      showToast('Your details have not been sent. Online delivery is unavailable; please contact a campus to complete your request. Your entries are still here.');
-    });
-    if (submit) submit.disabled = false;
-  }
+  installForms();
   const localNow = new Date();
   const localDate = `${localNow.getFullYear()}-${String(localNow.getMonth()+1).padStart(2,'0')}-${String(localNow.getDate()).padStart(2,'0')}`;
-  document.querySelectorAll('input[type=date][id*=dob]').forEach(field => { field.max = localDate; });
-  const visitDate = document.getElementById('tour-visit-date');
-  if (visitDate) visitDate.min = localDate;
-  const contactMsgInput = document.getElementById('contact-message');
-  const contactCharCount = document.getElementById('contact-char-count');
-  if (contactMsgInput && contactCharCount) contactMsgInput.addEventListener('input', () => { contactCharCount.textContent = contactMsgInput.value.length; });
+  document.querySelectorAll('input[type=date][name*="date of birth"]').forEach(field => { field.max = localDate; });
+  document.querySelectorAll('input[type=date][name="When would you like to visit?"]').forEach(field => { field.min = localDate; });
 
   document.querySelectorAll('.header-language-selector select').forEach(select => {
     select.addEventListener('change', () => {

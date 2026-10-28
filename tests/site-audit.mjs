@@ -69,31 +69,56 @@ try {
  assert.equal(await page.evaluate(()=>window.auditXss),undefined);assert.equal(await page.locator('.site-search-results img').count(),0);
  await page.keyboard.press('Escape');await page.getByLabel('Select language').selectOption('ar');
  assert.equal(await page.getByLabel('Select language').inputValue(),'en');await page.locator('#toast-feedback.show').waitFor();assert.match(await page.locator('#toast-message').innerText(),/Arabic content is not available/);
- for(const name of ['book-a-visit','apply-online','contact']){
+ // Stand in for Turnstile and the Worker so the real client flow runs without sending email.
+ await context.addInitScript(()=>{window.turnstile={render:(element,options)=>{setTimeout(()=>options.callback('audit-token'),0);return 'audit-widget';},remove:()=>{}};});
+ await context.route('**/api/form-config',route=>route.fulfill({json:{siteKey:'audit-site-key'}}));
+ const submissions=[];let failNext=false;
+ await context.route('**/api/form-submission',route=>{submissions.push(route.request().postDataJSON());if(failNext){failNext=false;return route.fulfill({status:503,json:{error:'We could not deliver your submission. Please try again later or contact the campus.'}});}return route.fulfill({json:{ok:true,requestId:'audit'}});});
+ for(const [name,type,button,thanks] of [['book-a-visit','Book a Visit','Send Message',/Thank you for booking a visit/],['apply-online','Enrolment application','Submit Application',/Thank you for applying/],['contact','Contact enquiry','Send Message',/Thank you for contacting us/]]){
   await page.goto(base+`/${name}.html`,{waitUntil:'domcontentloaded'});
-  const form=page.locator('form:not(#search-form)').first();
+  const form=page.locator('form[data-form-type]');
+  assert.equal(await form.getAttribute('data-form-type'),type);
   assert.equal(await form.evaluate(element=>element.checkValidity()),false);
   for(const field of await form.locator('[required]').all()){
    const type=await field.getAttribute('type'),tag=await field.evaluate(element=>element.tagName);
    if(type==='radio'||type==='checkbox'){if(!await field.isChecked())await field.check();}
-   else if(tag==='SELECT')await field.selectOption(await field.locator('option').evaluateAll(options=>options.find(option=>option.value&&!option.disabled).value));
-   else await field.fill(type==='email'?'audit@example.com':type==='date'?'2024-01-01':type==='datetime-local'?'2027-01-05T10:00':type==='tel'?'+968 90000000':'Audit sample');
+   else if(tag==='SELECT')await field.selectOption(await field.locator('option').evaluateAll(options=>{const option=options.find(option=>option.value&&!option.disabled);return option.value;}));
+   else await field.fill(type==='email'?'audit@example.com':type==='date'?'2024-01-01':'Audit sample');
   }
-  const dob=form.locator('input[type=date][id*=dob]');
+  const dob=form.locator('input[type=date][name*="date of birth"]');
   if(await dob.count()){await dob.fill('2099-01-01');assert.equal(await dob.evaluate(element=>element.validity.rangeOverflow),true);await dob.fill('2024-01-01');}
-  const visit=form.locator('input[type=date][id*=visit]');
+  const visit=form.locator('input[type=date][name="When would you like to visit?"]');
   if(await visit.count()){await visit.fill('2000-01-01');assert.equal(await visit.evaluate(element=>element.validity.rangeUnderflow),true);await visit.fill('2099-01-05');}
-  let submissions=0;const onRequest=request=>{if(request.method()==='POST')submissions++;};page.on('request',onRequest);
-  await form.getByRole('button',{name:'Check request details'}).click();
-  await page.waitForSelector('#toast-feedback.show');assert.match(await page.locator('#toast-message').innerText(),/not been sent/);
-  assert.equal(await form.locator('input[type=text]').first().inputValue(),'Audit sample');assert.equal(submissions,0);page.off('request',onRequest);
+  const submit=form.getByRole('button',{name:button});
+  await page.waitForFunction(()=>!document.querySelector('form[data-form-type] button').disabled);
+  const before=submissions.length;
+  if(type==='Enrolment application'){
+   await submit.click();
+   assert.match(await form.locator('.form-error').innerText(),/at least one preferred attendance day/);assert.equal(submissions.length,before);
+   await form.locator('input[name=preferred_days][value=Sunday]').check();
+  }
+  if(type==='Contact enquiry'){
+   // A failed delivery keeps the family's entries and shows the Worker's message.
+   failNext=true;await submit.click();
+   await form.locator('.form-error').filter({hasText:'could not deliver'}).waitFor();
+   assert.equal(await form.locator('input[name=Name]').inputValue(),'Audit sample');
+   await page.waitForFunction(()=>!document.querySelector('form[data-form-type] button').disabled);
+  }
+  await submit.click();
+  await page.locator('.submission-success[role=status]').waitFor();
+  assert.match(await page.locator('.submission-success').innerText(),thanks);
+  const body=submissions.at(-1);
+  assert.equal(body.type,type);assert.ok(['Al Mouj','Al Qurum'].includes(body.campus));assert.equal(body.website,'');assert.equal(body.turnstileToken,'audit-token');
+  assert.ok(body.entries.length>3&&body.entries.every(entry=>[entry.section,entry.label,entry.value].every(value=>typeof value==='string'&&value)));
+  if(type==='Enrolment application'){assert.ok(body.entries.some(entry=>entry.section==='CHILD INFORMATION'&&/Full Name/.test(entry.label)));assert.ok(body.entries.some(entry=>/preferred days/.test(entry.label)&&entry.value==='Sunday'));}
+  else assert.ok(body.entries.some(entry=>entry.label==='Email Address'&&entry.value==='audit@example.com'));
  }
  await page.goto(base+'/enrichments.html',{waitUntil:'domcontentloaded'});
  for(const hash of ['tiny-town','sensory-play','music-drama'])assert.equal(await page.locator('#'+hash).count(),1);
  const detail=page.getByRole('button',{name:'Open Tiny Town details'});await detail.focus();await page.keyboard.press('Enter');
  await page.locator('#detail-modal.open').waitFor();await page.waitForFunction(()=>document.activeElement?.id==='detail-modal-close');
  await page.keyboard.press('Escape');assert.equal(await detail.evaluate(element=>document.activeElement===element),true);
- await context.close();checks.push({check:'search, unavailable language, truthful forms, anchors and detail focus',passed:true});
+ await context.close();checks.push({check:'search, unavailable language, form submission flow, anchors and detail focus',passed:true});
  const reduced=await browser.newContext({reducedMotion:'reduce'});const reducedPage=await reduced.newPage();const videoRequests=[];
  reducedPage.on('request',request=>{if(/\.mp4(?:$|\?)/.test(request.url()))videoRequests.push(request.url());});
  await reducedPage.goto(base,{waitUntil:'domcontentloaded'});await reducedPage.locator('#school-chat-launcher').waitFor();
@@ -101,7 +126,7 @@ try {
  await reduced.close();checks.push({check:'reduced-motion video loading',passed:true});
  const noScript=await browser.newContext({javaScriptEnabled:false});const noScriptPage=await noScript.newPage();
  await noScriptPage.goto(base+'/contact.html',{waitUntil:'domcontentloaded'});
- assert.equal(await noScriptPage.locator('#contact-inquiry-form button[type=submit]').isDisabled(),true,'Forms cannot accidentally submit without their JavaScript guard');
+ assert.equal(await noScriptPage.locator('#contact-inquiry-form button').isDisabled(),true,'Forms cannot submit without the JavaScript security check');
  await noScript.close();checks.push({check:'no-script form submission guard',passed:true});
  await fs.writeFile('test-results/site-audit.json',JSON.stringify({checkedAt:new Date().toISOString(),checks},null,2)+'\n');
  console.log('PASS website audit: 10 pages × 3 viewports; search, forms, language, anchors and keyboard dialogs.');

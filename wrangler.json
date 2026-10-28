@@ -2,8 +2,33 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "stage-shomoukh-com-1",
   "compatibility_date": "2026-10-24",
+  "main": "worker/index.js",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  },
+  "ratelimits": [
+    {
+      "name": "FORM_RATE_LIMITER",
+      "namespace_id": "1004",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "FORM_FROM_EMAIL": "Shomoukh Website <forms@shomoukh.com>",
+    "FORM_IT_RECIPIENT": "it@ges.om",
+    "FORM_AL_MOUJ_RECIPIENT": "info.almouj@shomoukh.com",
+    "FORM_AL_QURUM_RECIPIENT": "info.alqurum@shomoukh.com",
+    "FORM_ALLOWED_ORIGIN": "https://shomoukh.com,https://www.shomoukh.com,https://stage.shomoukh.com",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAEq6Zc01zEj-lz_Q"
   }
 }

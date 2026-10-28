@@ -71,29 +71,33 @@ for(const [file,{html,tree}] of sources) {
   // Static public form labels/options only: never input attributes, values, or placeholders.
   for(const form of nodes.filter(n=>n.tag==='form'&&!/search/.test(n.attrs?.id??''))) {
     const hasClass=(n,name)=>new RegExp(`\\b${name}\\b`).test(n.attrs?.class??'');
-    // Field names come from labels and from the legends of radio/checkbox groups, not from each choice
-    const fields=[...walk(form)].filter(n=>(n.tag==='label'&&!hasClass(n,'choice-pill'))||(n.tag==='legend'&&hasClass(n,'form-label')));
+    // Field names come from field labels (shomoukh.com markup: label.form-label, or a label
+    // wrapping its control in .reference-form), never from each radio/checkbox choice.
+    const choiceLabel=n=>hasClass(n,'radio-item')||hasClass(n,'checkbox-item');
+    const fields=[...walk(form)].filter(n=>n.tag==='label'&&!choiceLabel(n)&&!hasClass(n,'acknowledgement-checkbox')||n.tag==='li');
+    const labelText=n=>clean((n.children??[]).filter(c=>!['select','option','textarea','input'].includes(c.tag)&&!hasClass(c,'req')).map(visible).join(' ')).replace(/\s*\*$/, '');
     if(!fields.length)continue;
-    const fieldText=fields.map(n=>clean(visible(n)).replace(/\s*\*$/, '')).filter(Boolean);
+    const fieldText=fields.map(labelText).filter(Boolean);
     const formTitle=`${title} — form requirements`;
     const answer=`The public form lists these fields and document checklist items: ${fieldText.join('; ')}. Asterisks on the page identify required fields.`;
     pageText.push(answer);topics.push(formTitle);
     addRecord({title:formTitle,answer,url:anchor(form,file),file,line:html.slice(0,form.start).split('\n').length,category,language,sourceKind:'public-form-labels'});
     const optionGroups=[...walk(form)].flatMap(n=>{
-      if(n.tag==='select'){
-        const label=fields.find(field=>field.attrs.for===n.attrs.id);
-        return [{node:n,label,options:(n.children??[]).filter(o=>o.tag==='option'&&o.attrs.value).map(o=>clean(visible(o)))}];
-      }
-      if(n.tag!=='fieldset'||!hasClass(n,'choice-group'))return [];
-      const options=[...walk(n)].filter(o=>o.tag==='label'&&hasClass(o,'choice-pill')).map(o=>clean(visible(o)));
+      const group=n.tag==='label'&&!choiceLabel(n)&&(n.children??[]).some(c=>c.tag==='select')||n.tag==='div'&&/\b(form-group|yes-no-group|health-item)\b/.test(n.attrs?.class??'');
+      if(!group)return [];
+      const label=n.tag==='label'?n:(n.children??[]).find(c=>c.tag==='label'&&hasClass(c,'form-label'));
+      // Only the group's own controls: nested groups are visited separately
+      const own=[...(n.children??[])].flatMap(function mine(c){return c.tag==='div'&&/\b(form-group|yes-no-group|health-item)\b/.test(c.attrs?.class??'')?[]:[c,...(c.children??[]).flatMap(mine)];});
+      const select=own.find(c=>c.tag==='select');
+      const options=select?(select.children??[]).filter(o=>o.tag==='option'&&o.attrs.value!=='').map(o=>clean(visible(o))):own.filter(choiceLabel).map(o=>clean(visible(o)));
       // Yes/No questions describe the family, not options the school offers
-      if(options.every(option=>/^(yes|no)$/i.test(option)))return [];
-      return [{node:n,label:[...walk(n)].find(o=>o.tag==='legend'),options}];
+      if(!label||!options.length||options.every(option=>/^(yes|no)$/i.test(option)))return [];
+      return [{node:n,label,options}];
     });
     for(const {node:select,label,options:allOptions} of optionGroups) {
       const options=allOptions.filter(Boolean);
       if(!options.length)continue;
-      const optionTitle=label?clean(visible(label)).replace(/\s*\*$/, ''):'Public form options';
+      const optionTitle=label?labelText(label):'Public form options';
       const qualification=/year|schedule|transportation|campus/i.test(optionTitle)?'Confirm current availability with admissions.':'See the linked form for details.';
       const optionAnswer=`The public page lists these ${optionTitle.toLowerCase()} options: ${options.join('; ')}. ${qualification}`;
       pageText.push(optionAnswer);topics.push(optionTitle);
