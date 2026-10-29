@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T11:34:03.461Z",
+  "generatedAt": "2026-10-28T12:21:16.791Z",
   "entityIndex": {
     "version": 1,
     "reviewedAt": "2026-10-18",
@@ -10205,7 +10205,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 264,
+        "line": 269,
         "heading": "Clay Atelier",
         "kind": "public-modal-data"
       },
@@ -10266,7 +10266,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 276,
+        "line": 281,
         "heading": "Art Atelier",
         "kind": "public-modal-data"
       },
@@ -10326,7 +10326,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 288,
+        "line": 293,
         "heading": "Digital & Light Atelier",
         "kind": "public-modal-data"
       },
@@ -10387,7 +10387,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 300,
+        "line": 305,
         "heading": "Project-Based Learning",
         "kind": "public-modal-data"
       },
@@ -10450,7 +10450,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 312,
+        "line": 317,
         "heading": "Tiny Town",
         "kind": "public-modal-data"
       },
@@ -10510,7 +10510,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 324,
+        "line": 329,
         "heading": "Sensory Play",
         "kind": "public-modal-data"
       },
@@ -10568,7 +10568,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 336,
+        "line": 341,
         "heading": "Music & Movement",
         "kind": "public-modal-data"
       },
@@ -10628,7 +10628,7 @@
       "url": "/#enrichments",
       "sourceReference": {
         "file": "main.js",
-        "line": 348,
+        "line": 353,
         "heading": "Drama, Puppetry & ECA / PE",
         "kind": "public-modal-data"
       },

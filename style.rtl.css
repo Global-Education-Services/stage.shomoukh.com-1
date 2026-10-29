@@ -4840,6 +4840,8 @@ a { color: var(--shomoukh-coral-ink); }
 .step-link { color: var(--shomoukh-coral-ink); }
 .campus-preview-card a { color: var(--shomoukh-coral-ink); }
 .form-char-count { color: var(--shomoukh-body); }
+.drawer-art-tagline .script-tag { color: var(--shomoukh-coral-ink); }
+.audience-pills .pill-btn:first-child { color: var(--shomoukh-primary); }
 
 .stat-box .stat-detail { color: var(--shomoukh-body); }
 .menu-toggle-btn:hover { color: var(--shomoukh-primary); }
@@ -4981,7 +4983,7 @@ section.contact-form > .submission-success {
   border-bottom: 1px solid var(--shomoukh-border-light);
   font-size: 0.85rem;
   font-weight: 800;
-  color: var(--shomoukh-coral);
+  color: var(--shomoukh-coral-ink);
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }

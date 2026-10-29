@@ -208,11 +208,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroVideoToggleBtn = document.getElementById('hero-video-toggle-btn');
   let heroPausedByUser = false;
 
-  // Phones and data-saver connections get the lighter 960px file; larger screens get
-  // 1280px, as HEVC where the browser can decode it (smaller file, same sharpness).
+  // The hero covers the screen, so on a portrait phone the video is drawn at the hero's full
+  // height (650px or more), taller than the 960×506 file. Data-saver and slow connections get
+  // that lighter file; everyone else gets 1280×676, as HEVC where the browser can decode it
+  // (smaller file, same sharpness).
   function heroVideoSource(video) {
     const {backgroundSrc, backgroundHevc, backgroundSmall} = video.dataset;
-    if (backgroundSmall && (window.matchMedia('(max-width: 767px)').matches || navigator.connection?.saveData)) return backgroundSmall;
+    const connection = navigator.connection;
+    const box = video.getBoundingClientRect();
+    const drawnHeight = Math.max(box.height, box.width * 676 / 1280);
+    if (backgroundSmall && (connection?.saveData || /2g|3g/.test(connection?.effectiveType || '') || drawnHeight <= 506)) return backgroundSmall;
     if (backgroundHevc && video.canPlayType('video/mp4; codecs="hvc1.1.6.L120.90"') === 'probably') return backgroundHevc;
     return backgroundSrc;
   }

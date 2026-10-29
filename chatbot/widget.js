@@ -22,6 +22,14 @@ const ui = isArabic ? {
 const ARABIC_SUGGESTIONS = ['ما الأعمار التي تقبلونها؟', 'كيف أحجز زيارة؟', 'ما هي المستندات المطلوبة للتسجيل؟', 'أين تقع الفروع؟', 'ما هي ساعات الدوام؟', 'ما هي المشاغل؟'];
 // Arabic questions are answered from the Arabic pages; the English knowledge base answers the rest.
 function respondInArabic(text) {
+  // Same answer as the English engine: the website publishes no fee amounts.
+  if (/رسوم(?!ات)|[اأ]سعار|سعر(?!ات)|تكلف|تكاليف|مصاريف/.test(text)) {
+    return {text: 'لم أجد مبالغ رسوم موثّقة في محتوى الموقع العام. يُرجى التواصل مع الحضانة للتأكد.', sources: [{url: '/ar/contact', title: 'اتصل بنا'}], suggestions: ARABIC_SUGGESTIONS.slice(0, 3)};
+  }
+  // The opening hours on the contact page read "الأحد – الخميس: 7:00 صباحًا" with no word a visitor would search for.
+  if (/ساعات|الدوام|دوام|أوقات|اوقات|متى تفتح|متى تغلق|متى يفتح|متى يغلق/.test(text)) {
+    return {text: 'ساعات الدوام في فرعَي الموج والقرم: الأحد – الخميس، 7:00 صباحًا – 4:00 عصرًا.', sources: [{url: '/ar/contact', title: 'اتصل بنا'}], suggestions: ARABIC_SUGGESTIONS.filter(question => question !== text).slice(0, 3)};
+  }
   const matches = searchArabic(text, 3);
   if (!matches.length) {
     return {text: 'لم أجد إجابة لهذا السؤال في الموقع. جرّب صياغة أخرى، أو تواصل مع الفرع مباشرةً عبر صفحة «اتصل بنا».', sources: [{url: '/ar/contact', title: 'اتصل بنا'}], suggestions: ARABIC_SUGGESTIONS.slice(0, 3)};

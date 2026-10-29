@@ -50,3 +50,19 @@ test('unknown addresses under /ar/ get the Arabic not-found page', async () => {
   const english = await worker.fetch(new Request('https://shomoukh.com/missing'), env);
   assert.equal(await english.text(), 'english 404');
 });
+
+test('Arabic search answers the suggested chatbot questions and shows the matching sentence', async () => {
+  const {searchWebsite} = await import('../site/search-ar.js');
+  for (const [question, expected] of [
+    ['ما الأعمار التي تقبلونها؟', /عمر 6 أشهر/],
+    ['أين تقع الفروع؟', /فرع/],
+    ['ما هي المستندات المطلوبة للتسجيل؟', /المستندات المطلوبة/],
+    ['كيف أحجز زيارة؟', /احجز/],
+    ['ما هي المشاغل؟', /مشاغل/],
+  ]) {
+    const [best] = searchWebsite(question, 3);
+    assert.ok(best, `no result for ${question}`);
+    assert.match(best.excerpt, expected, question);
+  }
+  assert.match(searchWebsite('ما هي الرسوم؟', 1)[0].excerpt, /رسوم/);
+});

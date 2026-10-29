@@ -82,7 +82,8 @@ try {
     await ask('<img src=x onerror="window.chatbotXSS=true">');
     assert.equal(await page.evaluate(()=>window.chatbotXSS),undefined);
     assert.equal(await dialog.locator('img,script').count(),0,'query rendered as text');
-    assert.match(await ask('ما هي الرسوم؟'),/English|Arabic|available/i);
+    assert.match(await ask('ما هي الرسوم؟'),/لم أجد مبالغ رسوم/);
+    assert.match(await ask('ما هي ساعات الدوام؟'),/7:00 صباحًا – 4:00 عصرًا/);
     await context.setOffline(true);
     assert.match(await ask('Who is Sheikh Julanda?'), /Vice President/);
     assert.match(await ask('whr r u'),/Muscat|Mouj|Qurm|campus/i);

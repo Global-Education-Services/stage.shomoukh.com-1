@@ -35,6 +35,22 @@ Browser evidence and screenshots: `test-results/site-audit.json`, `test-results/
 
 Inspected all ten pages at 320×568, 360×800, 390×844, 600×960, 768×1024, 1024×768, 1440×900 and 844×390: 80 page/viewport combinations, with no horizontal page overflow, out-of-bounds visible controls or header-control overlaps. Visually inspected phone, tablet and landscape homepage/chat captures. Fixed the missing flex layout on the homepage action group so its existing 12px gap separates the visit/application buttons. Rechecked the gap, page width and chat bounds at all eight sizes; production build and 89 unit tests pass. Short screens can scroll to content below the fold. This is browser emulation, not physical-device testing. Evidence: `test-results/responsiveness.json`, `test-results/responsive-fixes.json`, `test-results/responsive-home-*.png` and `test-results/responsive-chat-*.png`.
 
+## Final English/Arabic audit, 28 October 2026
+
+Clean `npm run build` (no warnings) of all 22 pages, served with `vite preview` and checked in Chromium.
+
+| Finding | Fix |
+| --- | --- |
+| Arabic chatbot answered "ما هي الرسوم؟" (fees) with an unrelated admissions paragraph | Fee questions get the same answer as English (no published amounts; contact the nursery). Opening-hours questions answer with the contact page hours. |
+| Two of the six Arabic suggested chatbot questions (ages, campus locations) returned no answer | `site/search-ar.js` no longer strips the ف of "الفروع" after the article, and maps a few broken plurals/verb forms (الأعمار، الفروع، تقع، تقبلون) to their singular. Excerpts start at the sentence that matched. |
+| Colour contrast 2.33:1 on the Apply Online section headings, the menu's "Book a visit" pill and its script tagline | Text uses the existing `--shomoukh-coral-ink` / primary shades; coral fills are unchanged. |
+| Phones got the 960×506 hero video stretched to the 650–844px-tall hero (soft image) | The rendition is chosen by the size it is drawn at: 1280×676 (HEVC where supported) normally, 960 only on data-saver or 2G/3G. |
+| Accessibility audit covered English only | `tests/accessibility-audit.mjs` also scans the ten Arabic pages. |
+
+Results: 105/105 unit tests; link audit 0 failures; site audit (10 pages × 3 widths), Arabic audit (10 pages × 4 widths, switching, memory, search, chatbot, validation) and chatbot browser test (4 viewports) pass; axe WCAG 2.1 AA: 48 scans, 0 violations. Language switching checked on all 20 pages (equivalent page, query and hash kept, lang/dir correct). All five videos are fast-start MP4s at the source's native 1280×676; the source on disk ("Final 2 .mp4") is no larger, so no higher-quality master exists to encode from.
+
+Open: the film lightbox (`#video-modal`) has had no button to open it since September; the film is not captioned; the Apply Online page says ages 6 months–6 years while other pages say 6 months–4 years; `npm audit` reports advisories in `undici` via `wrangler` (development only; `--omit=dev` reports none).
+
 ## Remaining setup and content confirmation
 
 1. **Real form delivery is not configured.** This repository is a static Vite site with no submission endpoint, mail transport or database. Validation now works honestly, but requests are not delivered. A production delivery endpoint must be supplied and verified before restoring a send/confirmation workflow. Campus phone/email links remain available.
