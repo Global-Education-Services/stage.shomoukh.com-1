@@ -53,11 +53,12 @@ export async function submitForm(request, env, production = true, send = fetch) 
     if (!env.RESEND_API_KEY || !recipient || !env.FORM_IT_RECIPIENT || !env.FORM_FROM_EMAIL || (production && (!env.TURNSTILE_SECRET_KEY || !env.TURNSTILE_SITE_KEY))) {
       log('form_configuration_missing'); return fail('Submissions are temporarily unavailable. Please contact the campus.', 503);
     }
+    // A secret pasted into the dashboard with a trailing space or line break is rejected as invalid-input-secret.
     if (env.TURNSTILE_SECRET_KEY) {
       if (typeof body.turnstileToken !== 'string' || !body.turnstileToken || body.turnstileToken.length > 2048) return fail('Please complete the security check.', 400);
       const verification = await send('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
         method: 'POST', headers: {'Content-Type': 'application/json'}, signal: AbortSignal.timeout(10000),
-        body: JSON.stringify({secret: env.TURNSTILE_SECRET_KEY, response: body.turnstileToken, ...(ip ? {remoteip: ip} : {})}),
+        body: JSON.stringify({secret: env.TURNSTILE_SECRET_KEY.trim(), response: body.turnstileToken, ...(ip ? {remoteip: ip} : {})}),
       });
       if (!verification.ok) { log('turnstile_unavailable', {status: verification.status}); return fail('Security check is temporarily unavailable. Please try again.', 503); }
       const check = await verification.json();

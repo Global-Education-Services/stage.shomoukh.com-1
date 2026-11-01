@@ -151,3 +151,8 @@ test('a rejected security check returns Turnstile\'s reason and sends no email',
   r = await submitForm(request(), env, true, provider({action: 'other'}).send);
   assert.equal((await r.json()).reason, 'action-mismatch');
 });
+test('the Turnstile secret is sent without surrounding whitespace', async () => {
+  const p = provider();
+  assert.equal((await submitForm(request(), {...env, TURNSTILE_SECRET_KEY: ' secret-key\n'}, true, p.send)).status, 200);
+  assert.equal(JSON.parse(p.calls[0].options.body).secret, 'secret-key');
+});
