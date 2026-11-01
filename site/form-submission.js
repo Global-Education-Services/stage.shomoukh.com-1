@@ -134,7 +134,11 @@ export function installForms(root = document) {
           body: JSON.stringify({type, campus: data.get(enrolment ? 'campus' : 'Choose Shomoukh campus'), entries, website: data.get('website'), turnstileToken: token}),
         });
         const result = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(localizeServerError(result.error) || t(enrolment ? 'applyFailed' : 'submitFailed'));
+        if (!response.ok) {
+          const message = localizeServerError(result.error) || t(enrolment ? 'applyFailed' : 'submitFailed');
+          // The security check's reason code lets the site owner tell a key problem from an expired check.
+          throw new Error(typeof result.reason === 'string' ? `${message} ${t('securityCode', result.reason.slice(0, 40))}` : message);
+        }
         form.reset();
         form.replaceWith(successScreen(type));
       } catch (problem) {

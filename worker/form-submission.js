@@ -62,7 +62,14 @@ export async function submitForm(request, env, production = true, send = fetch) 
       if (!verification.ok) { log('turnstile_unavailable', {status: verification.status}); return fail('Security check is temporarily unavailable. Please try again.', 503); }
       const check = await verification.json();
       const hostname = new URL(request.headers.get('origin') || request.url).hostname;
-      if (!record(check) || check.success !== true || check.hostname !== hostname || check.action !== 'form_submission') return fail('Security check expired or failed. Please try again.', 400);
+      if (!record(check) || check.success !== true || check.hostname !== hostname || check.action !== 'form_submission') {
+        // Turnstile's error codes (e.g. invalid-input-secret, timeout-or-duplicate) are not secret and
+        // are the only way to tell a wrong secret key from an expired token, so log and return them.
+        const codes = Array.isArray(check?.['error-codes']) ? check['error-codes'].filter(code => typeof code === 'string').slice(0, 3) : [];
+        const reason = codes[0] || (check?.success !== true ? 'not-successful' : check.hostname !== hostname ? 'hostname-mismatch' : 'action-mismatch');
+        log('turnstile_failed', {reason, codes, hostname: check?.hostname, expectedHostname: hostname, action: check?.action});
+        return json({error: 'Security check expired or failed. Please try again.', reason, requestId}, 400);
+      }
     }
     const formatValue = value => /^\d{4}-\d{2}-\d{2}$/.test(value) ? value.split('-').reverse().join('-') : value;
     const sections = new Map();

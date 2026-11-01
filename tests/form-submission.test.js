@@ -140,3 +140,14 @@ test('Worker forwards submissions to the shomoukh-com Worker until it has both s
   assert.equal(own.status, 503);
   assert.equal(forwarded.length, 2);
 });
+test('a rejected security check returns Turnstile\'s reason and sends no email', async () => {
+  const codes = {calls: [], send: async (url, options) => { codes.calls.push(url); return Response.json({success: false, 'error-codes': ['invalid-input-secret']}); }};
+  let r = await submitForm(request(), env, true, codes.send);
+  assert.equal(r.status, 400);
+  assert.deepEqual(await r.json().then(({error, reason}) => ({error, reason})), {error: 'Security check expired or failed. Please try again.', reason: 'invalid-input-secret'});
+  assert.equal(codes.calls.length, 1);
+  r = await submitForm(request(payload, {origin: 'https://www.shomoukh.com'}), env, true, provider({hostname: 'shomoukh.com'}).send);
+  assert.equal((await r.json()).reason, 'hostname-mismatch');
+  r = await submitForm(request(), env, true, provider({action: 'other'}).send);
+  assert.equal((await r.json()).reason, 'action-mismatch');
+});
