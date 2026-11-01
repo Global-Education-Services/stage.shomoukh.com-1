@@ -26,14 +26,18 @@ function createSecurity(form, onToken) {
   let run = 0;
   const message = error?.textContent || t('securityError');
   // Turnstile's error code (e.g. 110200, 200500, 600010) identifies the cause in Cloudflare's docs.
+  // 300xxx and 600xxx mean the check loaded but this browser failed it, not that it could not load.
+  const failedInBrowser = code => /^[36]\d{5}$/.test(String(code));
   const showError = (visible, code) => {
     if (!error) return;
     error.hidden = !visible;
-    error.textContent = code ? `${message} ${t('securityCode', code)}` : message;
+    const text = failedInBrowser(code) ? t('securityFailed') : message;
+    error.textContent = code ? `${text} ${t('securityCode', code)}` : text;
     if (visible && code) console.warn('Turnstile error', code);
   };
   return async function start() {
     const current = ++run;
+    let retried = false;
     if (widget && window.turnstile) window.turnstile.remove(widget);
     widget = undefined;
     onToken('');
@@ -48,7 +52,13 @@ function createSecurity(form, onToken) {
         sitekey: config.siteKey, action: 'form_submission', language: lang,
         callback: token => { onToken(token); showError(false); },
         'expired-callback': () => onToken(''),
-        'error-callback': code => { onToken(''); showError(true, code); },
+        'error-callback': code => {
+          onToken('');
+          // Cloudflare advises retrying failed challenges; try once more before showing the error.
+          if (failedInBrowser(code) && !retried && widget !== undefined) { retried = true; window.turnstile.reset(widget); return true; }
+          showError(true, code);
+          return true;
+        },
       });
     } catch (problem) {
       if (current === run) showError(true, problem?.message === 'Security check unavailable' ? 'script-blocked' : 'config');
